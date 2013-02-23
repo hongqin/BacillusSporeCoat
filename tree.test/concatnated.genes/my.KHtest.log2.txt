@@ -1,0 +1,173 @@
+
+P A U P *
+Portable version 4.0b10 for Unix
+Fri Jan 14 12:23:51 2011
+
+      -----------------------------NOTICE-----------------------------
+        This is a beta-test version.  Please report any crashes,
+        apparent calculation errors, or other anomalous results.
+        There are no restrictions on publication of results obtained
+        with this version, but you should check the WWW site
+        frequently for bug announcements and/or updated versions.  
+        See the README file on the distribution media for details.
+      ----------------------------------------------------------------
+
+Processing of file "~/projects/coat.protein07/ortholog.analysis/essetial.mcl.rbh.090208/concatenated.tree/paup/cc.cds.nexus" begins...
+
+Data read in DNA format
+
+Data matrix has 11 taxa, 38073 characters
+Valid character-state symbols: ATCGACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of file "~/projects/coat.protein07/ortholog.analysis/essetial.mcl.rbh.090208/concatenated.tree/paup/cc.cds.nexus" completed.
+
+Processing TREES block from file "tree1.nexus":
+   Keeping: trees from file (replacing trees in memory)
+   1 tree read from file
+   Time used = <1 sec (CPU time = 0.00 sec)
+
+Processing TREES block from file "tree2.nexus":
+   Keeping: trees either currently in memory or in file (but not both)
+   1 tree originally in memory
+   1 tree read from file
+   1 tree from file kept
+   0 trees originally in memory deleted
+   Time used = <1 sec (CPU time = 0.00 sec)
+   2 trees now in memory
+
+Processing TREES block from file "tree3.nexus":
+   Keeping: trees either currently in memory or in file (but not both)
+   2 trees originally in memory
+   2 trees read from file
+   2 trees from file kept
+   0 trees originally in memory deleted
+   Time used = <1 sec (CPU time = 0.00 sec)
+   4 trees now in memory
+
+Optimality criterion set to likelihood.
+
+Likelihood scores of tree(s) in memory:
+  Likelihood settings:
+    Number of substitution types  = 6
+    Substitution rate-matrix parameters estimated via ML
+    Nucleotide frequencies estimated via ML
+    Among-site rate variation:
+      Assumed proportion of invariable sites  = estimated
+      Distribution of rates at variable sites = gamma (discrete approximation)
+        Shape parameter (alpha)   = estimated
+        Number of rate categories = 4
+        Representation of average rate for each category = mean
+    These settings correspond to the GTR+G+I model
+    Number of distinct data patterns under this model = 20873
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+    -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Tree               1             2             3             4
+--------------------------------------------------------------
+-ln L   398280.18010  398698.95328  384022.49731  398261.55756
+Base frequencies:
+  A         0.324427      0.324603      0.324961      0.324383
+  C         0.190450      0.190663      0.188670      0.190412
+  G         0.238548      0.238435      0.238622      0.238591
+  T         0.246575      0.246299      0.247748      0.246615
+Rate matrix R:
+  AC         2.48447       2.60901       2.46412       2.47731
+  AG         3.17732       3.35005       3.11556       3.16547
+  AT         1.31077       1.31186       1.21653       1.30984
+  CG         1.77040       1.81348       1.73557       1.76526
+  CT         4.56952       4.90174       4.60676       4.54694
+  GT         1.00000       1.00000       1.00000       1.00000
+P_inv      0.0235252     0.0254766     0.0200338     0.0233610
+Shape       0.805252      0.732810      0.898587      0.809139
+
+Time used to compute likelihoods = 01:18:51 (CPU time = 00:41:34.5)
+
+Kishino-Hasegawa test:
+  KH test using RELL bootstrap, two-tailed test
+  Number of bootstrap replicates = 1000
+
+                                      KH-test
+    Tree         -ln L    Diff -ln L       P 
+---------------------------------------------
+       1  398280.18010   14257.68279   0.000*
+       2  398698.95328   14676.45597   0.000*
+       3  384022.49731        (best)
+       4  398261.55756   14239.06025   0.000*
+  * P < 0.05
+
+Tree description:
+
+  Unrooted tree(s) rooted using outgroup method
+  Optimality criterion = likelihood
+    Likelihood settings:
+      Number of substitution types  = 6
+      Substitution rate-matrix parameters estimated via ML
+      Nucleotide frequencies estimated via ML
+      Among-site rate variation:
+        Assumed proportion of invariable sites  = estimated
+        Distribution of rates at variable sites = gamma (discrete approximation)
+          Shape parameter (alpha)   = estimated
+          Number of rate categories = 4
+          Representation of average rate for each category = mean
+      These settings correspond to the GTR+G+I model
+      Number of distinct data patterns under this model = 20873
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+      -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+
+Tree number 1 (rooted using default outgroup)
+
+-Ln likelihood = 398280.18010
+  Estimated base frequencies = A:0.324427 C:0.190450 G:0.238548 T:0.246575
+  Estimated value of proportion of invariable sites = 0.023525
+  Estimated value of gamma shape parameter = 0.805252
+
+/------------------------------ Bam
++-- Bli
++-------------------------------- Bpu
+|/- Bmo
+++----------------------------------------------------------------------------------------------------------------------------------------------- Bsu
+|   /---- Bcl
+| /-+--- Bha
+| |  /------------------------------------------------- Bwe
+\-+  + Ban
+  \--+- Bce
+     \ Bth
+
+Tree number 2 (rooted using default outgroup)
+
+-Ln likelihood = 398698.95328
+  Estimated base frequencies = A:0.324603 C:0.190663 G:0.238435 T:0.246299
+  Estimated value of proportion of invariable sites = 0.025477
+  Estimated value of gamma shape parameter = 0.732810
+
+/--------------------------- Bam
++- Bmo
++------------------------------------------------------------------------------------------------------------------------------------------------ Bsu
+|/- Bli
+|+----------------------------------------------------- Bwe
+||  /--- Bcl
+\+/-+-- Bha
+ |+------------------------------ Bpu
+ \+  / Ban
+  \--+ Bce
+     \ Bth
+
+Tree number 3 (rooted using default outgroup)

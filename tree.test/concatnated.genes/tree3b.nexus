@@ -1,0 +1,30 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Jan 12 01:04:06 2011]
+[!
+>Data file = /Users/hongqin/projects/coat.protein07/16srRNA/paup.11genes.11Jan2011/11.16s.nexus
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = uncorrected ("p")
+>  (Tree is unrooted)
+]
+	Translate
+		1 Bam,
+		2 Ban,
+		3 Bce,
+		4 Bcl,
+		5 Bha,
+		6 Bli,
+		7 Bmo,
+		8 Bpu,
+		9 Bsu,
+		10 Bth,
+		11 Bwe
+		;
+tree PAUP_1 = [&U] ( (2,3,10,11),(4,5),(1, 8,6,7,9) );
+tree PAUP_1 = [&U] ( (2,3,11,10),(4,5),(1, 8,6,7,9) );
+tree PAUP_1 = [&U] ( (2,10,3,11),(4,5),(1, 8,6,7,9) );
+tree PAUP_1 = [&U] ( (2,10,11,3),(4,5),(1, 8,6,7,9) );
+tree PAUP_1 = [&U] ( (2,11,10,3),(4,5),(1, 8,6,7,9) );
+tree PAUP_1 = [&U] ( (2,11,3,10),(4,5),(1, 8,6,7,9) );
+End;

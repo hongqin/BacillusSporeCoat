@@ -1,0 +1,10 @@
+((Bha,Bcl), (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe,(Bce,(Ban,Bth))));
+((Bha,Bcl), (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  ((Bwe,Bce),(Ban,Bth)));
+((Bha,Bcl), (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe,(Bth,(Bce,Ban))));
+((Bha,Bcl), ((Bpu,Bli),(Bam,(Bmo,Bsu))),  (Bwe,(Bth,(Bce,Ban))));
+((Bha,Bcl), ((Bpu,Bli),(Bam,(Bmo,Bsu))),  ((Bwe,Bth),(Bce,Ban)));
+((Bha,Bcl), (Bli,(Bpu,(Bam,(Bmo,Bsu)))),  (Bwe,(Bce,(Ban,Bth))));
+((Bha,Bcl), (Bli,(Bpu,(Bam,(Bmo,Bsu)))),  ((Bwe,Bce),(Ban,Bth)));
+((Bha,Bcl), (Bam,(Bli,(Bpu,(Bmo,Bsu)))),  (Bwe,(Bce,(Ban,Bth))));
+((Bha,Bcl), (Bam,(Bpu,(Bli,(Bmo,Bsu)))),  (Bwe,(Bce,(Ban,Bth))));
+((Bha,Bcl), (Bwe,(Bli,(Bam,(Bmo,Bsu)))),  (Bpu,(Bce,(Ban,Bth))));

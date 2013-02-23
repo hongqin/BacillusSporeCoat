@@ -1,0 +1,172 @@
+
+# LRT use 2 *(loglikelihood1 - loglikelihood2)
+
+rm(list=ls());
+ debug = 1;
+ cutoff=0.05; # for both p and q
+
+#### first, do lnL  
+ tb = read.table( "grep.lnL.txt", header=F, fill=T);
+ tb[,1] = as.character( tb[,1] );
+
+for( i in 1: (length( tb[,1] )/2) ) {
+  j = i * 2;
+  sub = tb[ c(j-1,j), ]
+  del = sub[2,5] - sub[1, 5];
+  #p = pchisq( 2* del, df=1, lower.tail=F); #062010, wrong, df should be 2
+  p = pchisq( 2* del, df=2, lower.tail=F); #062010, correct this error
+  tb$p[j] = round( p, 4)
+  tb$p[j-1] = NA;
+}
+
+
+q("no");
+
+#############
+
+tb$pos = 1:length(tb[,1]);
+tb$p = NA;
+for( i in 1:length(bgs) ) {
+  sub = tb[ tb$bg==bgs[i], ]
+
+  subH1 = sub[grep('H1', sub$model), ]
+  dels = subH1$lnL - sub$lnL[1];
+  ps = pchisq( 2* dels, df=1, lower.tail=F);
+  n = length(ps);
+  y0 = subH1$pos[1]
+  tb$p[y0:(y0+length(ps) -1)] = ps[1:length(ps)]
+
+  subH1 = sub[grep('H2', sub$model), ]
+  dels = subH1$lnL - sub$lnL[1];
+  ps = pchisq( 2* dels, df=2, lower.tail=F);
+  n = length(ps);
+  y0 = subH1$pos[1]
+  tb$p[y0:(y0+length(ps) -1)] = ps[1:length(ps)]
+}
+
+tb[10:20,]
+tb[grep("BG13000",tb$bg),]
+
+
+q('yes');
+
+ #qobj = qvalue( tbHprime$p);
+ #tbHprime$q = qobj$qvalues; 
+ #tbHprime$sig = ifelse( tbHprime$q < qcutoff, tag, '' );
+
+
+ tbHprime = tbH1w;
+ tbHA = tbH0;
+ tbH1w = myLRT( 1, 0.05, '1b' );
+
+ tbHprime = tbH2C2w;
+ tbHA = tbH0;
+ tbH2C2w = myLRT( 2, 0.05, '2b');
+
+ table( tbH1w$sig );
+ table( tbH2C2w$sig );
+
+  out = tbH1w[-c(2:8)]
+ 
+
+q("yes");
+
+#####################
+
+###Thirdaly, partition coat, noncoat, essential genes
+ ###essential bg
+ tbe = read.table( "BG.essential.Kobayashi03.tab", header=F  );
+ tbe[,1] = as.character( tbe[,1] );
+ bge = tbe[,1];
+ tbe$type = "essential";
+ rownames(tbe) = tbe[,1];
+
+ ###coat bg
+ tbc = read.csv( "_coat.profile.122908.csv", sep="\t");
+ tbc$id = as.character(tbc$id);
+ tbc$type = "coat";
+ rownames(tbc) = tbc$id;
+
+ omega$coatflag  = tbc$type[match(omega$bg, tbc$id)]
+ omega$essenflag = tbe$type[match(omega$bg, tbe[,1])]
+
+ tbH1bwe$coatflag  = tbc$type[match(tbH1bwe$bg, tbc$id)]
+ tbH1bwe$essenflag = tbe$type[match(tbH1bwe$bg, tbe[,1])]
+
+ ## report for publications
+ table(tbH1bwe$summary)
+
+
+####test by parition
+ wcoat    = omega[!is.na(omega$coatflag),  ] 
+ wessen   = omega[!is.na(omega$essenflag), ] 
+ wnoncoat = omega[ is.na(omega$coatflag),  ] 
+
+ #wbsu 
+ summary(wcoat$wbsu); 
+ summary(wessen$wbsu); 
+ summary(wnoncoat$wbsu);
+ dn = density( wnoncoat$wbsu );
+ dc = density( wcoat$wbsu );
+ de = density( wessen$wbsu );
+ myY = max( dc$y, de$y, dn$y );
+ plot( dn, xlim=c(0,0.5), ylim=c(0,myY) );
+ lines( dc, col="red" );
+ lines( de, col="blue");
+ wilcox.test( wcoat$wbsu, wnoncoat$wbsu, alt="gr");
+
+
+ #wbwe 
+ summary(wcoat$wbwe); 
+ summary(wessen$wbwe); 
+ summary(wnoncoat$wbwe);
+ dn = density( wnoncoat$wbwe );
+ dc = density( wcoat$wbwe );
+ de = density( wessen$wbwe );
+ myY = max( dc$y, de$y, dn$y );
+ plot( dn, xlim=c(0,0.5), ylim=c(0,myY) );
+ lines( dc, col="red" );
+ lines( de, col="blue");
+ wilcox.test( wcoat$wbwe, wnoncoat$wbwe, alt="gr");
+
+
+ #wban 
+ summary(wcoat$wban); 
+ summary(wessen$wban); 
+ summary(wnoncoat$wban);
+ dn = density( wnoncoat$wban );
+ dc = density( wcoat$wban );
+ de = density( wessen$wban );
+ myY = max( dc$y, de$y, dn$y );
+ plot( dn, xlim=c(0,0.5), ylim=c(0,myY) );
+ lines( dc, col="red" );
+ lines( de, col="blue");
+ wilcox.test( wcoat$wban, wnoncoat$wban, alt="gr");
+
+
+
+
+quit("yes");
+
+#
+ 
+###second merge with omega
+ tbomega = read.table("__omega.all.Bha4sub4cereus.010509.csv",header=F,fill=T,sep="\t");
+ for( i in c(1:3,5,7) ) {
+  tbomega[,i] = as.character(tbomega[,i])
+ }
+ 
+ omega = tbomega[grep(my.model, tbomega$V2), ]
+ labels= c("bg","model",NA,"wbsu",NA,"wbwe",NA,"wban");
+ names(omega) = labels;
+
+ omega$lnL = tbHprime$deltalnL[match(omega$bg, tbHprime$bg)]
+ omega$p   = tbHprime$p[match(omega$bg, tbHprime$bg)]
+ omega$q   = tbHprime$q[match(omega$bg, tbHprime$bg)]
+
+ omega.original = omega; #keep a copy 
+
+
+q("yes");
+### END
+###############################

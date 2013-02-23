@@ -1,0 +1,16 @@
+#nexus
+
+begin data;
+	dimensions ntax = 0 nchar = 0;
+	format  datatype = DNA interleave=yes gap = - missing = ?;
+
+	matrix
+
+[Source of sequence data: cc.cdsaligned]
+
+	;
+end;
+
+begin paup;
+	charset cc.cdsaligned = 1 - 0;
+end;

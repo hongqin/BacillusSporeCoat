@@ -1,0 +1,58 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Jan 12 01:04:17 2011]
+[!
+>Data file = /Users/hongqin/projects/coat.protein07/16srRNA/paup.11genes.11Jan2011/11.16s.nexus
+>Heuristic search settings:
+>  Optimality criterion = likelihood
+>    Likelihood settings:
+>      Transition/transversion ratio = 1.70016 (kappa = 3.3190192)
+>      Assumed nucleotide frequencies (empirical frequencies):
+>        A=0.25169  C=0.23253  G=0.31285  T=0.20294
+>      Among-site rate variation:
+>        Assumed proportion of invariable sites  = none
+>        Distribution of rates at variable sites = gamma (discrete approximation)
+>          Shape parameter (alpha)   = 0.0136475
+>          Number of rate categories = 4
+>          Representation of average rate for each category = mean
+>      These settings correspond to the HKY85+G model
+>      Number of distinct data patterns under this model = 212
+>      Molecular clock not enforced
+>      Starting branch lengths obtained using Rogers-Swofford approximation method
+>      Trees with approximate likelihoods 5% or further from the target score are rejected without additional iteration
+>      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, delta=1e-06
+>      -ln L (unconstrained) = unavailable due to missing-data and/or ambiguities
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: random
+>    Number of replicates = 5
+>    Starting seed = 349599864
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>Heuristic search completed
+>   Total number of rearrangements tried = 876
+>   Score of best tree(s) found = 3814.70670
+>   Number of trees retained = 1
+>   Time used = 6 sec (CPU time = 6.38 sec)
+]
+	Translate
+		1 Bam,
+		2 Ban,
+		3 Bce,
+		4 Bcl,
+		5 Bha,
+		6 Bli,
+		7 Bmo,
+		8 Bpu,
+		9 Bsu,
+		10 Bth,
+		11 Bwe
+		;
+tree PAUP_1 = [&U] (1,((((((2,(3,11),10),(4,5)),6),7),9),8));
+End;

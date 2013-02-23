@@ -1,0 +1,51 @@
+#nexus
+
+[begins PAUP*]
+begin paup;
+	
+set 
+autoclose     [closes the status window automatically]
+nowarntree    [turns off the feature that prompts you to save trees in memory]
+nowarnreset   [turns off feature that asks "do you really want to reset the data file"]
+torder=right  [specifies the tree order to be ladderized to the right]
+flush         [flushes the file buffer]
+tcompress=yes [prints trees in a compressed format, which allows you to view large trees in a single page]
+defaultmode;  [tells paup to use the default option when a dialog box is opened]
+
+	[start writing to log file; replace "your_log" with your log file name]
+	log file=my.KHtest.log2.txt;
+	
+	[execute your data file; replace "your_data" with your data file name]
+	[exec your_data.nex;]
+	exec cc.cds.nexus; 
+
+	[nj;] 
+	[savetrees brlens file=tree1.tre; ]
+
+	[get first tree(s); replace "your_tree1" with your first tree file name]
+	gettrees file=tree1.nexus;
+
+	[get second file tree(s), and keep all trees that are different; replace "your_tree2" with your second tree file name]
+	gettrees file=tree2.nexus mode= 5;
+	gettrees file=tree3.nexus mode= 5;
+
+	[set criterion to maximum likelihood]
+	set criterion=likelihood;
+
+	[set likelihood model and estimate all parameters; this is GTR+I+G]
+	lset nst=6 rmatrix=estimate basefreq=estimate pinv=estimate rates=gamma shape=estimate;
+
+	[calculate likelihood parameters for all trees and test for significant differences between trees using Kishino-Hasegawa test]
+	[lscores all /khtest;]
+	lscores all /khtest=rell;
+
+	[display trees]
+	describe all/plot=phylogram labelnode=no;
+
+	[stop writing to log file]
+	log stop;
+
+	[quit paup]
+	[quit;]
+
+end;
