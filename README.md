@@ -1,4 +1,4 @@
-BacillusSporeCoat
+BacillusSporeCoat, by Hong Qin, 2013 Fe 22
 =================
 Supporting data and information for Bacillus spore coat project
 All files are provided 'as is'. 
@@ -7,9 +7,9 @@ Working folders are simple 'dump' into this repository. Many links and path shou
 in order for the scripts to run. 
 
 
-File bacillus.species.tree.tar.gz contains the workfing files for 16s rDNA and 34 essential genes. k
+Folder bacillus.species.tree  contains the workfing files for 16s rDNA and 34 essential genes. 
 
-File tree.test.tar.gz contains the topology test using the highly conserved essential genes. 
+Folder tree.test  contains the topology test using the highly conserved essential genes. 
 
 File genomes.tar.gz contain the genomes used in the spore coat projects. Some additional genomes were also dumped here for future studies. 
 
