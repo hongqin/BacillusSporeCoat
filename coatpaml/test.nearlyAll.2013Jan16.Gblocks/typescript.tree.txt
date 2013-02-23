@@ -1,0 +1,325 @@
+Script started on Thu Jan 20 15:49:31 2011
+bash-3.2$ perl _1.2.pickBG.and.tree.Jan18,2011.pl 
+Bsu:Bpu:Bha:Bam => ( Bha,       (Bpu,     (Bam,Bsu)));	Bsu:Bpu:Bli:Bam => (Bpu, Bli,(Bam,Bsu));	Bsu:Bpu:Bli:Bcl:Bce:Bam =>  (Bcl, (Bpu,(Bli,(Bam, Bsu), Bce #1)));	Bsu:Bpu:Bmo:Bam => (Bpu, Bam, (Bmo, Bsu));	Bsu:Bpu:Bmo:Bli => (Bpu,(Bli,(Bmo,Bsu)));	Bsu:Bpu:Bmo:Bli:Bam => (Bpu, (Bli, (Bam, (Bsu, Bmo)))); 	Bsu:Bpu:Bmo:Bli:Bha:Bam => (Bha, (Bpu,(Bli,(Bam,(Bmo,Bsu)))) );	Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bam => ((Bha,Bcl), (Bpu,(Bli,(Bam,(Bmo,Bsu))))                         );	Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Bam =>  ((Bha,Bcl), (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  Bce #1);	Bth:Bsu:Bpu:Bli:Bce:Ban:Bam =>  ((Bpu,(Bli,(Bam,Bsu))),  (Bce #1,(Ban #1,Bth #1)#1)#1);	Bth:Bsu:Bpu:Bmo:Bha:Ban:Bam =>  ( Bha, (Bpu, (Bam,(Bmo,Bsu))),  (Ban #1,Bth #1)#1);	Bwe:Bsu:Bha:Ban => (Bsu, (Ban #1, Bwe #1)#1, Bha);	Bwe:Bth:Bsu:Bce:Ban:Bam =>  (   (Bam,     Bsu ) ,  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bli:Bce:Ban:Bam =>  (    Bli,(Bam,Bsu),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bli:Bcl:Bce:Ban:Bam =>  (( Bcl,  (Bli,(Bam, Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bli:Bha:Bce:Ban:Bam => (Bha,(Bli,(Bam, Bsu)),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bmo:Bli:Bce:Ban => ((Bli,(Bmo,Bsu)),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bmo:Bli:Bce:Ban:Bam =>  ( (Bli,(Bam,(Bmo,Bsu))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bmo:Bli:Bha:Bce:Ban =>  ( Bha, (Bli,(Bmo,Bsu)),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam =>  ((Bha,Bcl),       (Bli,(Bam,(Bmo,Bsu))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bpu:Bha:Bcl:Bce:Ban:Bam =>  ((Bha,Bcl),(Bpu,(Bam,Bsu )),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bpu:Bli:Bcl:Bce:Ban:Bam =>  (Bcl, (Bpu,(Bli,(Bam,     Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban =>  ((Bha,Bcl), (Bpu,(Bli,Bsu)),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban:Bam =>  ((Bha,Bcl), (Bpu,(Bli,(Bam,Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bce:Ban:Bam =>  ((Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bce:Ban:Bam => (Bha, (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);	Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam => ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 	
+(Util.showHashTable)There are 27 pairs in the above hash table.
+1-----BG10012:(BG10012 BG11595 BG13779 BG13780  Bmo3201  RBAM_005880 RBAM_009440 RBAM_037610  NT03BL2052 NT03BL4618  BPUM_0868  BA_3121 NA NT02BT3082 NA NA BH3888 )
+BG10012 hits:(Bsu Bmo Bam Bli Bpu Ban Bth Bha)
+BG10012 hits:(Bth Bsu Bpu Bmo Bli Bha Ban Bam)
+2-----BG10022:(BG10022  NA NA NA NA NA NA NA NA NA NA)
+BG10022 hits:(Bsu)
+BG10022 hits:(Bsu)
+3-----BG10106:(BG10106  Bmo2616  RBAM_000520  NT03BL0059  BPUM_0027  BA_0040 BC_0047 NT02BT0050 BcerKBAB4_0037 NT03BC0085  BH0058 )
+BG10106 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG10106 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:3 I am now working on [wkdir/BG10106]::
+BG10106->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+4-----BG10275:(BG10275  Bmo2839  RBAM_020960  NT03BL2566  BPUM_2011  BA_1530 BC_1509 NT02BT1543 BcerKBAB4_1433 NT03BC2159  BH1645 )
+BG10275 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG10275 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:4 I am now working on [wkdir/BG10275]::
+BG10275->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+5-----BG10346:(BG10346  NA RBAM_025170  NT03BL3125  BPUM_2452  BA_4692 BC_4467 NT02BT4452 BcerKBAB4_4305 NT03BC2990  BH3042 )
+BG10346 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG10346 hits:(Bwe Bth Bsu Bpu Bli Bha Bcl Bce Ban Bam)
+Cluster:5 I am now working on [wkdir/BG10346]::
+BG10346->Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+6-----BG10347:(BG10347  Bmo2699  RBAM_025160  NT03BL3124  BPUM_2451  BA_4691 BC_4466 NT02BT4451 BcerKBAB4_4304 NT03BC2987  BH3040 )
+BG10347 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG10347 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:6 I am now working on [wkdir/BG10347]::
+BG10347->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+7-----BG10490:(BG10490  Bmo15  RBAM_006700  NT03BL0713  BPUM_0542  BA_1902 BC_1830 NT02BT1906 BcerKBAB4_1765 NT03BC3017 BH2082 )
+BG10490 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG10490 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:7 I am now working on [wkdir/BG10490]::
+BG10490->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+8-----BG10491:(BG10491  NA RBAM_033200 RBAM_033210  NA NA BA_0357 BC_0390 NT02BT0408 BcerKBAB4_0335 NA NA)
+BG10491 hits:(Bsu Bam Ban Bce Bth Bwe)
+BG10491 hits:(Bwe Bth Bsu Bce Ban Bam)
+Cluster:8 I am now working on [wkdir/BG10491]::
+BG10491->Bwe:Bth:Bsu:Bce:Ban:Bam ->  (   (Bam,     Bsu ) ,  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+9-----BG10492:(BG10492 Bmo2091 NA NT03BL2492  NA NA NA NA NA NA NA)
+BG10492 hits:(Bsu Bmo Bli)
+BG10492 hits:(Bsu Bmo Bli)
+10-----BG10493:(BG10493  Bmo2896  RBAM_020350  NT03BL2496  NA BA_1581 BC_1560 NT02BT1591 BcerKBAB4_1481 NT03BC2311 BH1767 )
+BG10493 hits:(Bsu Bmo Bam Bli Ban Bce Bth Bwe Bcl Bha)
+BG10493 hits:(Bwe Bth Bsu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:10 I am now working on [wkdir/BG10493]::
+BG10493->Bwe:Bth:Bsu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl),       (Bli,(Bam,(Bmo,Bsu))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+11-----BG10494:(BG10494  Bmo3297  RBAM_016870  NT03BL2026  BPUM_1607  BA_3906 BC_3770 NT02BT3754 BcerKBAB4_3541 NT03BC2506  BH2370 )
+BG10494 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG10494 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:11 I am now working on [wkdir/BG10494]::
+BG10494->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+12-----BG10495:(BG10495  NA NA NA NA NA NA NA NA NA NA)
+BG10495 hits:(Bsu)
+BG10495 hits:(Bsu)
+13-----BG10496:(BG10496  Bmo2056  RBAM_011790  NT03BL1349  BPUM_1108  NA NA NA NA NA NA)
+BG10496 hits:(Bsu Bmo Bam Bli Bpu)
+BG10496 hits:(Bsu Bpu Bmo Bli Bam)
+Cluster:13 I am now working on [wkdir/BG10496]::
+BG10496->Bsu:Bpu:Bmo:Bli:Bam -> (Bpu, (Bli, (Bam, (Bsu, Bmo)))); 
+14-----BG10497:(BG10497  Bmo2055  RBAM_011780  NT03BL1348  BPUM_1107  NA BC_2873 NA NA NT03BC2860  BH2191 )
+BG10497 hits:(Bsu Bmo Bam Bli Bpu Bce Bcl Bha)
+BG10497 hits:(Bsu Bpu Bmo Bli Bha Bcl Bce Bam)
+Cluster:14 I am now working on [wkdir/BG10497]::
+BG10497->Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  Bce #1);
+15-----BG10498:(BG10498 NA RBAM_011760  NT03BL1345  BPUM_1105  BA_1234 BC_1222 NT02BT1268 BcerKBAB4_1132 NA NA)
+BG10498 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe)
+BG10498 hits:(Bwe Bth Bsu Bpu Bli Bce Ban Bam)
+16-----BG10499:(BG10499  NA RBAM_011750 NT03BL1343 BPUM_1103 BA_1238 BC_1218 NT02BT1272 BcerKBAB4_1128 NA NA)
+BG10499 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe)
+BG10499 hits:(Bwe Bth Bsu Bpu Bli Bce Ban Bam)
+17-----BG10500:(BG10500  Bmo2054  RBAM_011770  NT03BL1346  BPUM_1106  NA BC_2874 NA NA NT03BC2859  BH2192 )
+BG10500 hits:(Bsu Bmo Bam Bli Bpu Bce Bcl Bha)
+BG10500 hits:(Bsu Bpu Bmo Bli Bha Bcl Bce Bam)
+Cluster:17 I am now working on [wkdir/BG10500]::
+BG10500->Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  Bce #1);
+18-----BG10608:(BG10608  NA RBAM_035170  NT03BL4247  BPUM_3438  BA_5641 BC_5391 NT02BT5378 BcerKBAB4_5184 NT03BC4431  BH3827 )
+BG10608 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG10608 hits:(Bwe Bth Bsu Bpu Bli Bha Bcl Bce Ban Bam)
+Cluster:18 I am now working on [wkdir/BG10608]::
+BG10608->Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+19-----BG10776:(BG10776  NA RBAM_015640  NA BPUM_1480  NA NA NA NA NA BH2501 )
+BG10776 hits:(Bsu Bam Bpu Bha)
+BG10776 hits:(Bsu Bpu Bha Bam)
+20-----BG10946:(BG10946  Bmo66  RBAM_028330  NT03BL3496  BPUM_2792  BA_4173 BC_3963 NT02BT3948 BcerKBAB4_3789 NT03BC2509  BH3970 )
+BG10946 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG10946 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:20 I am now working on [wkdir/BG10946]::
+BG10946->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+21-----BG11017:(BG11017  NA RBAM_033230  NT03BL1236  NA NA NA NA NA NA NA)
+BG11017 hits:(Bsu Bam Bli)
+BG11017 hits:(Bsu Bli Bam)
+22-----BG11172:(BG11172  NA RBAM_002920  NT03BL0347  BPUM_0256  BA_5640 BC_5390 NT02BT5377 BcerKBAB4_5183 NT03BC4429  BH3826 )
+BG11172 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG11172 hits:(Bwe Bth Bsu Bpu Bli Bha Bcl Bce Ban Bam)
+Cluster:22 I am now working on [wkdir/BG11172]::
+BG11172->Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+23-----BG11187:(BG11187  Bmo1520  RBAM_003780  NT03BL0429  BPUM_0340  BA_0855 BC_0872 NT02BT0896  BcerKBAB4_0759 NA BH0170 )
+BG11187 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bha)
+BG11187 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bce Ban Bam)
+Cluster:23 I am now working on [wkdir/BG11187]::
+BG11187->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bce:Ban:Bam -> (Bha, (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+24-----BG11193:(BG11193  Bmo2951  RBAM_019620  NA BPUM_1896  NA NA NA NA NA NA)
+BG11193 hits:(Bsu Bmo Bam Bpu)
+BG11193 hits:(Bsu Bpu Bmo Bam)
+Cluster:24 I am now working on [wkdir/BG11193]::
+BG11193->Bsu:Bpu:Bmo:Bam -> (Bpu, Bam, (Bmo, Bsu));
+25-----BG11194:(BG11194  Bmo2950  RBAM_019630  NA BPUM_1897  BA_5516 NA NT02BT3171 NA NA BH2839 )
+BG11194 hits:(Bsu Bmo Bam Bpu Ban Bth Bha)
+BG11194 hits:(Bth Bsu Bpu Bmo Bha Ban Bam)
+Cluster:25 I am now working on [wkdir/BG11194]::
+BG11194->Bth:Bsu:Bpu:Bmo:Bha:Ban:Bam ->  ( Bha, (Bpu, (Bam,(Bmo,Bsu))),  (Ban #1,Bth #1)#1);
+26-----BG11195:(BG11195  Bmo2952  RBAM_019610  NA BPUM_1895  NA NA NA NA NA NA)
+BG11195 hits:(Bsu Bmo Bam Bpu)
+BG11195 hits:(Bsu Bpu Bmo Bam)
+Cluster:26 I am now working on [wkdir/BG11195]::
+BG11195->Bsu:Bpu:Bmo:Bam -> (Bpu, Bam, (Bmo, Bsu));
+27-----BG11196:(BG11196  Bmo2953  RBAM_019600  NT03BL0848  BPUM_1894  NA NA NA NA NA BH3373 )
+BG11196 hits:(Bsu Bmo Bam Bli Bpu Bha)
+BG11196 hits:(Bsu Bpu Bmo Bli Bha Bam)
+28-----BG11197:(BG10027 BG11197  Bmo2955  RBAM_019590  NT03BL2432  NA BA_2935 BC_2920 NT02BT2067 BcerKBAB4_0497 NT03BC0337  NA)
+BG11197 hits:(Bsu Bmo Bam Bli Ban Bce Bth Bwe Bcl)
+BG11197 hits:(Bwe Bth Bsu Bmo Bli Bcl Bce Ban Bam)
+29-----BG11380:(BG11380  NA NA NA NA NA NA NA NA NA NA)
+BG11380 hits:(Bsu)
+BG11380 hits:(Bsu)
+30-----BG11381:(BG11381  NA NA NA NA BA_5012 NA NA BcerKBAB4_4589 NA BH2305 )
+BG11381 hits:(Bsu Ban Bwe Bha)
+BG11381 hits:(Bwe Bsu Bha Ban)
+31-----BG11382:(BG11382  NA NA NA NA NA NA NA NA NA NA)
+BG11382 hits:(Bsu)
+BG11382 hits:(Bsu)
+32-----BG11448:(BG11448  NA RBAM_020400  NT03BL2502  BPUM_1958  BA_1580 BC_1559 NT02BT1590 BcerKBAB4_1480 NT03BC2454  BH2273 )
+BG11448 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG11448 hits:(Bwe Bth Bsu Bpu Bli Bha Bcl Bce Ban Bam)
+Cluster:32 I am now working on [wkdir/BG11448]::
+BG11448->Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+33-----BG11609:(BG11609  Bmo2921  RBAM_020110  NT03BL2472  BPUM_1933  BA_1626 BC_1600 NT02BT1636 BcerKBAB4_1514 NA BH2282 )
+BG11609 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bha)
+BG11609 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bce Ban Bam)
+Cluster:33 I am now working on [wkdir/BG11609]::
+BG11609->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bce:Ban:Bam -> (Bha, (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+34-----BG11666:(BG11666  Bmo1156  RBAM_023430  NT03BL2857  BPUM_2245  BA_4507 BC_4281 NT02BT4279 BcerKBAB4_4136 NT03BC1953  BH1387 )
+BG11666 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG11666 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:34 I am now working on [wkdir/BG11666]::
+BG11666->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+35-----BG11791:(BG11791 Bmo514  RBAM_033220  NA NA BA_2046 BC_2031 NT02BT2030 BcerKBAB4_1896 NA NA)
+BG11791 hits:(Bsu Bmo Bam Ban Bce Bth Bwe)
+BG11791 hits:(Bwe Bth Bsu Bmo Bce Ban Bam)
+36-----BG11799:(BG11799  NA RBAM_007240  NT03BL1213  NA BA_0805 BC_0823 NT02BT0851 BcerKBAB4_0718 NA NA)
+BG11799 hits:(Bsu Bam Bli Ban Bce Bth Bwe)
+BG11799 hits:(Bwe Bth Bsu Bli Bce Ban Bam)
+37-----BG11800:(BG11800  NA RBAM_007250  NT03BL1214  NA BA_0804 BC_0822 NT02BT0850 BcerKBAB4_0717 NA NA)
+BG11800 hits:(Bsu Bam Bli Ban Bce Bth Bwe)
+BG11800 hits:(Bwe Bth Bsu Bli Bce Ban Bam)
+Cluster:37 I am now working on [wkdir/BG11800]::
+BG11800->Bwe:Bth:Bsu:Bli:Bce:Ban:Bam ->  (    Bli,(Bam,Bsu),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+38-----BG11801:(BG11801  NA RBAM_007260  NT03BL1215  BPUM_1305  BA_0803 BC_0821 NT02BT0849 BcerKBAB4_0716 NT03BC1364 BH1069 )
+BG11801 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG11801 hits:(Bwe Bth Bsu Bpu Bli Bha Bcl Bce Ban Bam)
+Cluster:38 I am now working on [wkdir/BG11801]::
+BG11801->Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+39-----BG11811:(BG11811  Bmo1795  RBAM_009200  NT03BL1007  BPUM_0844  BA_0546 BC_0545 NT02BT0566 BcerKBAB4_0461 NT03BC1685  BH1022 )
+BG11811 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG11811 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:39 I am now working on [wkdir/BG11811]::
+BG11811->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+40-----BG11822:(BG11822  Bmo3184  RBAM_017770  NT03BL2146  NA BA_3681 BC_3621 NT02BT3609 BcerKBAB4_3307 NT03BC2453  BH2272)
+BG11822 hits:(Bsu Bmo Bam Bli Ban Bce Bth Bwe Bcl Bha)
+BG11822 hits:(Bwe Bth Bsu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:40 I am now working on [wkdir/BG11822]::
+BG11822->Bwe:Bth:Bsu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl),       (Bli,(Bam,(Bmo,Bsu))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+41-----BG11881:(BG11881  NA RBAM_036530 RBAM_036540  NT03BL3317  NA BA_3589 BC_3534 NT02BT3522 BcerKBAB4_3237 NT03BC0453  NA)
+BG11881 hits:(Bsu Bam Bli Ban Bce Bth Bwe Bcl)
+BG11881 hits:(Bwe Bth Bsu Bli Bcl Bce Ban Bam)
+42-----BG12167:(BG12167 BG13526  NA RBAM_007940  NA BPU1957 BA_2250 BC_2203 NT02BT2207 BcerKBAB4_2073 NT03BL2632 BH0480)
+BG12167 hits:(Bsu Bam Bpu Ban Bce Bth Bwe Bcl Bha)
+BG12167 hits:(Bwe Bth Bsu Bpu Bha Bcl Bce Ban Bam)
+Cluster:42 I am now working on [wkdir/BG12167]::
+BG12167->Bwe:Bth:Bsu:Bpu:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl),(Bpu,(Bam,Bsu )),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+43-----BG12181:(BG12181  Bmo1338  RBAM_013100  NT03BL2053  NA BA_0385 BC_0429 NT02BT0445 BcerKBAB4_0366 NA NA)
+BG12181 hits:(Bsu Bmo Bam Bli Ban Bce Bth Bwe)
+BG12181 hits:(Bwe Bth Bsu Bmo Bli Bce Ban Bam)
+Cluster:43 I am now working on [wkdir/BG12181]::
+BG12181->Bwe:Bth:Bsu:Bmo:Bli:Bce:Ban:Bam ->  ( (Bli,(Bam,(Bmo,Bsu))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+44-----BG12231:(BG12231  Bmo726  RBAM_009070  NA NA BA_1309 BC_0412 NT02BT1332 BcerKBAB4_0351 NA NA)
+BG12231 hits:(Bsu Bmo Bam Ban Bce Bth Bwe)
+BG12231 hits:(Bwe Bth Bsu Bmo Bce Ban Bam)
+45-----BG12236:(BG12236  Bmo1794  RBAM_009190  NT03BL1006  BPUM_0845  BA_0545 BC_0544 NT02BT0565 BcerKBAB4_0460 NT03BC1682  BH1020 )
+BG12236 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG12236 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:45 I am now working on [wkdir/BG12236]::
+BG12236->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+46-----BG12251:(BG12251  Bmo2321  RBAM_014010  NT03BL1720  BPUM_1322  BA_1663 BC_1630 NT02BT1676 BcerKBAB4_1549 NA NA)
+BG12251 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe)
+BG12251 hits:(Bwe Bth Bsu Bpu Bmo Bli Bce Ban Bam)
+Cluster:46 I am now working on [wkdir/BG12251]::
+BG12251->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bce:Ban:Bam ->  ((Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+47-----BG12335:(BG12335  NA NA NA NA NA NA NA NA NA NA)
+BG12335 hits:(Bsu)
+BG12335 hits:(Bsu)
+48-----BG12423:(BG12423  NA RBAM_005540  NA NA NA NA NA NA NA NA)
+BG12423 hits:(Bsu Bam)
+BG12423 hits:(Bsu Bam)
+49-----BG12424:(BG12424  NA RBAM_005580  NA NA NA NA NA BcerKBAB4_1637 NA NA)
+BG12424 hits:(Bsu Bam Bwe)
+BG12424 hits:(Bwe Bsu Bam)
+50-----BG12512:(BG12512  Bmo533  RBAM_033430  NT03BL4304  BPUM_3545  NA NA NA NA NA BH2346 )
+BG12512 hits:(Bsu Bmo Bam Bli Bpu Bha)
+BG12512 hits:(Bsu Bpu Bmo Bli Bha Bam)
+Cluster:50 I am now working on [wkdir/BG12512]::
+BG12512->Bsu:Bpu:Bmo:Bli:Bha:Bam -> (Bha, (Bpu,(Bli,(Bam,(Bmo,Bsu)))) );
+51-----BG13000:(BG13000  Bmo1879  RBAM_010060  NT03BL1125  BPUM_0929  BA_0870 BC_0886 NT02BT0910 BcerKBAB4_0775 NT03BC1743  BH1151 )
+BG13000 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG13000 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:51 I am now working on [wkdir/BG13000]::
+BG13000->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+52-----BG13035:(BG13035  Bmo1874  RBAM_010010  NT03BL1121  BPUM_0926  BA_0861 BC_0878 NT02BT0902 BcerKBAB4_0765 NA BH1147 )
+BG13035 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bha)
+BG13035 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bce Ban Bam)
+Cluster:52 I am now working on [wkdir/BG13035]::
+BG13035->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bce:Ban:Bam -> (Bha, (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+53-----BG13036:(BG13036  Bmo1873  RBAM_010000  NT03BL1120  BPUM_0925  BA_0860 BC_0877 NT02BT0901 BcerKBAB4_0764 NA BH1146 )
+BG13036 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bha)
+BG13036 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bce Ban Bam)
+Cluster:53 I am now working on [wkdir/BG13036]::
+BG13036->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bce:Ban:Bam -> (Bha, (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+54-----BG13084:(BG13084  Bmo1951  RBAM_010770  NT03BL1221 NA BA_3113 BC_3081 NT02BT3073 BcerKBAB4_2891 NT03BC0223 BH1034)
+BG13084 hits:(Bsu Bmo Bam Bli Ban Bce Bth Bwe Bcl Bha)
+BG13084 hits:(Bwe Bth Bsu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:54 I am now working on [wkdir/BG13084]::
+BG13084->Bwe:Bth:Bsu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl),       (Bli,(Bam,(Bmo,Bsu))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+55-----BG13088:(BG13088  Bmo1955  RBAM_010820  NT03BL1227  BPUM_0996  BA_2360 BC_2296 NT02BT2309 BcerKBAB4_2167 NA BH2776 )
+BG13088 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bha)
+BG13088 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bce Ban Bam)
+Cluster:55 I am now working on [wkdir/BG13088]::
+BG13088->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bce:Ban:Bam -> (Bha, (Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+56-----BG13097:(BG13097  Bmo1958 NA NT03BL1235  BPUM_1005  NA NA NA NA NA NA)
+BG13097 hits:(Bsu Bmo Bli Bpu)
+BG13097 hits:(Bsu Bpu Bmo Bli)
+Cluster:56 I am now working on [wkdir/BG13097]::
+BG13097->Bsu:Bpu:Bmo:Bli -> (Bpu,(Bli,(Bmo,Bsu)));
+57-----BG13104:(BG13104  Bmo1973  NA NT03BL2355  NA BA_5030 BC_4774 NT02BT4777 BcerKBAB4_4606 NA BH3908 )
+BG13104 hits:(Bsu Bmo Bli Ban Bce Bth Bwe Bha)
+BG13104 hits:(Bwe Bth Bsu Bmo Bli Bha Bce Ban)
+Cluster:57 I am now working on [wkdir/BG13104]::
+BG13104->Bwe:Bth:Bsu:Bmo:Bli:Bha:Bce:Ban ->  ( Bha, (Bli,(Bmo,Bsu)),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+58-----BG13153:(BG13153  Bmo2053  RBAM_011740  NT03BL1342  BPUM_1102  BA_1233 BC_1217 NT02BT1267 BcerKBAB4_1127 NA NA)
+BG13153 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe)
+BG13153 hits:(Bwe Bth Bsu Bpu Bmo Bli Bce Ban Bam)
+Cluster:58 I am now working on [wkdir/BG13153]::
+BG13153->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bce:Ban:Bam ->  ((Bpu,(Bli,(Bam,(Bmo,Bsu)))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+59-----BG13180:(BG13180  Bmo2095  NA NA NA NA NA NA NA NA NA)
+BG13180 hits:(Bsu Bmo)
+BG13180 hits:(Bsu Bmo)
+60-----BG13288:(BG13288  NA RBAM_013830  NT03BL1698  BPUM_1301  BA_5274 BC_5027 NT02BT5037 BcerKBAB4_4858 NT03BC4002  BH0811 )
+BG13288 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG13288 hits:(Bwe Bth Bsu Bpu Bli Bha Bcl Bce Ban Bam)
+Cluster:60 I am now working on [wkdir/BG13288]::
+BG13288->Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+61-----BG13318:(BG13318  NA NA NT03BL1568 BPUM_1158 NA NA NA NA NA NA)
+BG13318 hits:(Bsu Bli Bpu)
+BG13318 hits:(Bsu Bpu Bli)
+62-----BG13356:(BG13356  Bmo2388  RBAM_014830  NT03BL1804  BPUM_1389  BA_4146 BC_3936 NT02BT3919 BcerKBAB4_3763 NT03BC2710  BH2601 )
+BG13356 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG13356 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:62 I am now working on [wkdir/BG13356]::
+BG13356->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+63-----BG13415:(BG13415  NA NA NT03BL2062  BPUM_1622  BA_0626 BC_3992 NT02BT0648 BcerKBAB4_3821 NT03BC1076 BH1451 )
+BG13415 hits:(Bsu Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG13415 hits:(Bwe Bth Bsu Bpu Bli Bha Bcl Bce Ban)
+Cluster:63 I am now working on [wkdir/BG13415]::
+BG13415->Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban ->  ((Bha,Bcl), (Bpu,(Bli,Bsu)),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+64-----BG13471:(BG13471  Bmo3214 NA NT03BL1166 NA NA NA NA NA NA NA)
+BG13471 hits:(Bsu Bmo Bli)
+BG13471 hits:(Bsu Bmo Bli)
+65-----BG13484:(BG13484 NA RBAM_020670  NT03BL3468  BPUM_2904  NA BC_1031 NA NA NT03BC0960  NA)
+BG13484 hits:(Bsu Bam Bli Bpu Bce Bcl)
+BG13484 hits:(Bsu Bpu Bli Bcl Bce Bam)
+Cluster:65 I am now working on [wkdir/BG13484]::
+BG13484->Bsu:Bpu:Bli:Bcl:Bce:Bam ->  (Bcl, (Bpu,(Bli,(Bam, Bsu), Bce #1)));
+66-----BG13506:(BG13506  Bmo3096  NA NT03BL2036  NA BA_1924 BC_1925 NT02BT1930 BcerKBAB4_1799 NA NA)
+BG13506 hits:(Bsu Bmo Bli Ban Bce Bth Bwe)
+BG13506 hits:(Bwe Bth Bsu Bmo Bli Bce Ban)
+Cluster:66 I am now working on [wkdir/BG13506]::
+BG13506->Bwe:Bth:Bsu:Bmo:Bli:Bce:Ban -> ((Bli,(Bmo,Bsu)),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+67-----BG13537:(BG13537  NA RBAM_019400  NT03BL2411  BPUM_1882  BA_3640 BC_3582 NT02BT3570 BcerKBAB4_3268 NT03BC1795  NA)
+BG13537 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe Bcl)
+BG13537 hits:(Bwe Bth Bsu Bpu Bli Bcl Bce Ban Bam)
+Cluster:67 I am now working on [wkdir/BG13537]::
+BG13537->Bwe:Bth:Bsu:Bpu:Bli:Bcl:Bce:Ban:Bam ->  (Bcl, (Bpu,(Bli,(Bam,     Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+68-----BG13781:(BG13781  Bmo2673  RBAM_024890  NT03BL3093  BPUM_2424  BA_4659 BC_4420 NT02BT4420 BcerKBAB4_4273 NT03BC1781  BH1221 )
+BG13781 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG13781 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:68 I am now working on [wkdir/BG13781]::
+BG13781->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+69-----BG13821:(BG13821  NA NA NA NA NA NA NA NA NA BH2306 )
+BG13821 hits:(Bsu Bha)
+BG13821 hits:(Bsu Bha)
+70-----BG13822:(BG13822  NA RBAM_027830  NT03BL3511  BPUM_2723  BA_3179 BC_3136 NT02BT3151 NA NA NA)
+BG13822 hits:(Bsu Bam Bli Bpu Ban Bce Bth)
+BG13822 hits:(Bth Bsu Bpu Bli Bce Ban Bam)
+Cluster:70 I am now working on [wkdir/BG13822]::
+BG13822->Bth:Bsu:Bpu:Bli:Bce:Ban:Bam ->  ((Bpu,(Bli,(Bam,Bsu))),  (Bce #1,(Ban #1,Bth #1)#1)#1);
+71-----BG14013:(BG14013  NA RBAM_029810  NT03BL3661  BPUM_2930  BA_5219 BC_4984 NT02BT4982 BcerKBAB4_4806 NT03BC3379  BH3479 )
+BG14013 hits:(Bsu Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG14013 hits:(Bwe Bth Bsu Bpu Bli Bha Bcl Bce Ban Bam)
+Cluster:71 I am now working on [wkdir/BG14013]::
+BG14013->Bwe:Bth:Bsu:Bpu:Bli:Bha:Bcl:Bce:Ban:Bam ->  ((Bha,Bcl), (Bpu,(Bli,(Bam,Bsu ))),  (Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);
+72-----BG14044:(BG14044  Bmo153  RBAM_029380  NT03BL3617  BPUM_2890  BA_5188 BC_4954 NT02BT4949 BcerKBAB4_4773 NT03BC3335  BH3423 )
+BG14044 hits:(Bsu Bmo Bam Bli Bpu Ban Bce Bth Bwe Bcl Bha)
+BG14044 hits:(Bwe Bth Bsu Bpu Bmo Bli Bha Bcl Bce Ban Bam)
+Cluster:72 I am now working on [wkdir/BG14044]::
+BG14044->Bwe:Bth:Bsu:Bpu:Bmo:Bli:Bha:Bcl:Bce:Ban:Bam -> ((Bha, Bcl),(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1); 
+73-----BG14052:(BG14052  NA RBAM_028810  NT03BL3561  BPUM_2842  NA NA NA NA NA NA)
+BG14052 hits:(Bsu Bam Bli Bpu)
+BG14052 hits:(Bsu Bpu Bli Bam)
+Cluster:73 I am now working on [wkdir/BG14052]::
+BG14052->Bsu:Bpu:Bli:Bam -> (Bpu, Bli,(Bam,Bsu));
+bash-3.2$ exit
+exit
+
+Script done on Thu Jan 20 15:49:41 2011

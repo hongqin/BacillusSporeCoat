@@ -1,0 +1,3660 @@
+Script started on Thu Jan 20 14:45:35 2011
+bash-3.2$ perl _2.1.prepCodemlTest.pl 
+Cluster:1 I am now working on [BG10106]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qjKDvWjGCn/n8g77VVMSM -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qjKDvWjGCn/v60lCUpWYP 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             291 aa
+Sequence 2: Ban             287 aa
+Sequence 3: Bce             287 aa
+Sequence 4: Bcl             292 aa
+Sequence 5: Bha             291 aa
+Sequence 6: Bli             293 aa
+Sequence 7: Bmo             296 aa
+Sequence 8: Bpu             294 aa
+Sequence 9: Bsu             290 aa
+Sequence 10: Bth             287 aa
+Sequence 11: Bwe             287 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  59
+Sequences (1:3) Aligned. Score:  59
+Sequences (1:4) Aligned. Score:  53
+Sequences (1:5) Aligned. Score:  54
+Sequences (1:6) Aligned. Score:  78
+Sequences (1:7) Aligned. Score:  91
+Sequences (1:8) Aligned. Score:  80
+Sequences (1:9) Aligned. Score:  92
+Sequences (1:10) Aligned. Score:  59
+Sequences (1:11) Aligned. Score:  58
+Sequences (2:3) Aligned. Score:  98
+Sequences (2:4) Aligned. Score:  53
+Sequences (2:5) Aligned. Score:  56
+Sequences (2:6) Aligned. Score:  59
+Sequences (2:7) Aligned. Score:  59
+Sequences (2:8) Aligned. Score:  58
+Sequences (2:9) Aligned. Score:  58
+Sequences (2:10) Aligned. Score:  100
+Sequences (2:11) Aligned. Score:  96
+Sequences (3:4) Aligned. Score:  53
+Sequences (3:5) Aligned. Score:  56
+Sequences (3:6) Aligned. Score:  59
+Sequences (3:7) Aligned. Score:  59
+Sequences (3:8) Aligned. Score:  58
+Sequences (3:9) Aligned. Score:  58
+Sequences (3:10) Aligned. Score:  98
+Sequences (3:11) Aligned. Score:  96
+Sequences (4:5) Aligned. Score:  64
+Sequences (4:6) Aligned. Score:  52
+Sequences (4:7) Aligned. Score:  53
+Sequences (4:8) Aligned. Score:  51
+Sequences (4:9) Aligned. Score:  53
+Sequences (4:10) Aligned. Score:  53
+Sequences (4:11) Aligned. Score:  54
+Sequences (5:6) Aligned. Score:  53
+Sequences (5:7) Aligned. Score:  56
+Sequences (5:8) Aligned. Score:  54
+Sequences (5:9) Aligned. Score:  54
+Sequences (5:10) Aligned. Score:  56
+Sequences (5:11) Aligned. Score:  56
+Sequences (6:7) Aligned. Score:  77
+Sequences (6:8) Aligned. Score:  74
+Sequences (6:9) Aligned. Score:  77
+Sequences (6:10) Aligned. Score:  59
+Sequences (6:11) Aligned. Score:  59
+Sequences (7:8) Aligned. Score:  78
+Sequences (7:9) Aligned. Score:  95
+Sequences (7:10) Aligned. Score:  59
+Sequences (7:11) Aligned. Score:  59
+Sequences (8:9) Aligned. Score:  78
+Sequences (8:10) Aligned. Score:  58
+Sequences (8:11) Aligned. Score:  58
+Sequences (9:10) Aligned. Score:  58
+Sequences (9:11) Aligned. Score:  58
+Sequences (10:11) Aligned. Score:  96
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qjKDvWjGCn/n8g77VVMSM.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:6253
+Group 2: Sequences:   3      Score:6227
+Group 3: Sequences:   4      Score:6170
+Group 4: Sequences:   2      Score:6197
+Group 5: Sequences:   3      Score:6120
+Group 6: Sequences:   4      Score:5816
+Group 7: Sequences:   5      Score:5733
+Group 8: Sequences:   9      Score:5080
+Group 9: Sequences:   2      Score:5285
+Group 10: Sequences:  11      Score:4779
+Alignment Score 67929
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qjKDvWjGCn/v60lCUpWYP]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qjKDvWjGCn/n8g77VVMSM,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qjKDvWjGCn/v60lCUpWYP
+Cluster:2 I am now working on [BG10275]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/EawxRcbLtY/664i92SqdW -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/EawxRcbLtY/TvKArirAsS 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             504 aa
+Sequence 2: Ban             492 aa
+Sequence 3: Bce             492 aa
+Sequence 4: Bcl             492 aa
+Sequence 5: Bha             492 aa
+Sequence 6: Bli             455 aa
+Sequence 7: Bmo             503 aa
+Sequence 8: Bpu             493 aa
+Sequence 9: Bsu             492 aa
+Sequence 10: Bth             492 aa
+Sequence 11: Bwe             492 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  87
+Sequences (1:3) Aligned. Score:  87
+Sequences (1:4) Aligned. Score:  87
+Sequences (1:5) Aligned. Score:  87
+Sequences (1:6) Aligned. Score:  94
+Sequences (1:7) Aligned. Score:  96
+Sequences (1:8) Aligned. Score:  94
+Sequences (1:9) Aligned. Score:  96
+Sequences (1:10) Aligned. Score:  87
+Sequences (1:11) Aligned. Score:  87
+Sequences (2:3) Aligned. Score:  100
+Sequences (2:4) Aligned. Score:  85
+Sequences (2:5) Aligned. Score:  85
+Sequences (2:6) Aligned. Score:  86
+Sequences (2:7) Aligned. Score:  88
+Sequences (2:8) Aligned. Score:  87
+Sequences (2:9) Aligned. Score:  88
+Sequences (2:10) Aligned. Score:  100
+Sequences (2:11) Aligned. Score:  99
+Sequences (3:4) Aligned. Score:  85
+Sequences (3:5) Aligned. Score:  85
+Sequences (3:6) Aligned. Score:  86
+Sequences (3:7) Aligned. Score:  88
+Sequences (3:8) Aligned. Score:  87
+Sequences (3:9) Aligned. Score:  88
+Sequences (3:10) Aligned. Score:  100
+Sequences (3:11) Aligned. Score:  99
+Sequences (4:5) Aligned. Score:  91
+Sequences (4:6) Aligned. Score:  85
+Sequences (4:7) Aligned. Score:  86
+Sequences (4:8) Aligned. Score:  86
+Sequences (4:9) Aligned. Score:  87
+Sequences (4:10) Aligned. Score:  85
+Sequences (4:11) Aligned. Score:  85
+Sequences (5:6) Aligned. Score:  86
+Sequences (5:7) Aligned. Score:  87
+Sequences (5:8) Aligned. Score:  88
+Sequences (5:9) Aligned. Score:  87
+Sequences (5:10) Aligned. Score:  85
+Sequences (5:11) Aligned. Score:  85
+Sequences (6:7) Aligned. Score:  94
+Sequences (6:8) Aligned. Score:  95
+Sequences (6:9) Aligned. Score:  94
+Sequences (6:10) Aligned. Score:  86
+Sequences (6:11) Aligned. Score:  86
+Sequences (7:8) Aligned. Score:  94
+Sequences (7:9) Aligned. Score:  99
+Sequences (7:10) Aligned. Score:  88
+Sequences (7:11) Aligned. Score:  88
+Sequences (8:9) Aligned. Score:  94
+Sequences (8:10) Aligned. Score:  87
+Sequences (8:11) Aligned. Score:  87
+Sequences (9:10) Aligned. Score:  88
+Sequences (9:11) Aligned. Score:  88
+Sequences (10:11) Aligned. Score:  99
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/EawxRcbLtY/664i92SqdW.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:10635
+Group 2: Sequences:   3      Score:10635
+Group 3: Sequences:   4      Score:10623
+Group 4: Sequences:   2      Score:10587
+Group 5: Sequences:   3      Score:10606
+Group 6: Sequences:   2      Score:9657
+Group 7: Sequences:   5      Score:10031
+Group 8: Sequences:   9      Score:9895
+Group 9: Sequences:   2      Score:10263
+Group 10: Sequences:  11      Score:9919
+Alignment Score 149099
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/EawxRcbLtY/TvKArirAsS]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/EawxRcbLtY/664i92SqdW,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/EawxRcbLtY/TvKArirAsS
+Cluster:3 I am now working on [BG10346]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/nnlZAuiX0j/lDzdBURuxS -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/nnlZAuiX0j/djDaKTELnd 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             614 aa
+Sequence 2: Ban             327 aa
+Sequence 3: Bce             326 aa
+Sequence 4: Bcl             377 aa
+Sequence 5: Bha             416 aa
+Sequence 6: Bli             457 aa
+Sequence 7: Bpu             426 aa
+Sequence 8: Bsu             575 aa
+Sequence 9: Bth             325 aa
+Sequence 10: Bwe             326 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  37
+Sequences (1:3) Aligned. Score:  36
+Sequences (1:4) Aligned. Score:  28
+Sequences (1:5) Aligned. Score:  29
+Sequences (1:6) Aligned. Score:  48
+Sequences (1:7) Aligned. Score:  51
+Sequences (1:8) Aligned. Score:  48
+Sequences (1:9) Aligned. Score:  37
+Sequences (1:10) Aligned. Score:  37
+Sequences (2:3) Aligned. Score:  94
+Sequences (2:4) Aligned. Score:  32
+Sequences (2:5) Aligned. Score:  33
+Sequences (2:6) Aligned. Score:  37
+Sequences (2:7) Aligned. Score:  39
+Sequences (2:8) Aligned. Score:  39
+Sequences (2:9) Aligned. Score:  99
+Sequences (2:10) Aligned. Score:  90
+Sequences (3:4) Aligned. Score:  30
+Sequences (3:5) Aligned. Score:  32
+Sequences (3:6) Aligned. Score:  36
+Sequences (3:7) Aligned. Score:  36
+Sequences (3:8) Aligned. Score:  36
+Sequences (3:9) Aligned. Score:  94
+Sequences (3:10) Aligned. Score:  89
+Sequences (4:5) Aligned. Score:  41
+Sequences (4:6) Aligned. Score:  27
+Sequences (4:7) Aligned. Score:  29
+Sequences (4:8) Aligned. Score:  28
+Sequences (4:9) Aligned. Score:  31
+Sequences (4:10) Aligned. Score:  32
+Sequences (5:6) Aligned. Score:  30
+Sequences (5:7) Aligned. Score:  26
+Sequences (5:8) Aligned. Score:  28
+Sequences (5:9) Aligned. Score:  32
+Sequences (5:10) Aligned. Score:  31
+Sequences (6:7) Aligned. Score:  49
+Sequences (6:8) Aligned. Score:  52
+Sequences (6:9) Aligned. Score:  37
+Sequences (6:10) Aligned. Score:  37
+Sequences (7:8) Aligned. Score:  50
+Sequences (7:9) Aligned. Score:  39
+Sequences (7:10) Aligned. Score:  37
+Sequences (8:9) Aligned. Score:  37
+Sequences (8:10) Aligned. Score:  36
+Sequences (9:10) Aligned. Score:  90
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/nnlZAuiX0j/lDzdBURuxS.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:6972
+Group 2: Sequences:   3      Score:6821
+Group 3: Sequences:   4      Score:6712
+Group 4: Sequences:   2      Score:6767
+Group 5: Sequences:   2      Score:7329
+Group 6: Sequences:   4      Score:6502
+Group 7: Sequences:   8      Score:4240
+Group 8: Sequences:   2      Score:5737
+Group 9: Sequences:  10      Score:3396
+Alignment Score 34952
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/nnlZAuiX0j/djDaKTELnd]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/nnlZAuiX0j/lDzdBURuxS,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/nnlZAuiX0j/djDaKTELnd
+Cluster:4 I am now working on [BG10347]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3xz4HFloYN/6UmI2QesF3 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3xz4HFloYN/DJqnD2xO62 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             341 aa
+Sequence 2: Ban             341 aa
+Sequence 3: Bce             341 aa
+Sequence 4: Bcl             332 aa
+Sequence 5: Bha             341 aa
+Sequence 6: Bli             340 aa
+Sequence 7: Bmo             341 aa
+Sequence 8: Bpu             344 aa
+Sequence 9: Bsu             341 aa
+Sequence 10: Bth             341 aa
+Sequence 11: Bwe             342 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  30
+Sequences (1:3) Aligned. Score:  31
+Sequences (1:4) Aligned. Score:  28
+Sequences (1:5) Aligned. Score:  26
+Sequences (1:6) Aligned. Score:  55
+Sequences (1:7) Aligned. Score:  70
+Sequences (1:8) Aligned. Score:  52
+Sequences (1:9) Aligned. Score:  70
+Sequences (1:10) Aligned. Score:  31
+Sequences (1:11) Aligned. Score:  30
+Sequences (2:3) Aligned. Score:  95
+Sequences (2:4) Aligned. Score:  27
+Sequences (2:5) Aligned. Score:  25
+Sequences (2:6) Aligned. Score:  30
+Sequences (2:7) Aligned. Score:  31
+Sequences (2:8) Aligned. Score:  33
+Sequences (2:9) Aligned. Score:  30
+Sequences (2:10) Aligned. Score:  99
+Sequences (2:11) Aligned. Score:  92
+Sequences (3:4) Aligned. Score:  27
+Sequences (3:5) Aligned. Score:  25
+Sequences (3:6) Aligned. Score:  30
+Sequences (3:7) Aligned. Score:  30
+Sequences (3:8) Aligned. Score:  33
+Sequences (3:9) Aligned. Score:  29
+Sequences (3:10) Aligned. Score:  95
+Sequences (3:11) Aligned. Score:  92
+Sequences (4:5) Aligned. Score:  54
+Sequences (4:6) Aligned. Score:  31
+Sequences (4:7) Aligned. Score:  28
+Sequences (4:8) Aligned. Score:  27
+Sequences (4:9) Aligned. Score:  28
+Sequences (4:10) Aligned. Score:  27
+Sequences (4:11) Aligned. Score:  28
+Sequences (5:6) Aligned. Score:  27
+Sequences (5:7) Aligned. Score:  25
+Sequences (5:8) Aligned. Score:  28
+Sequences (5:9) Aligned. Score:  25
+Sequences (5:10) Aligned. Score:  24
+Sequences (5:11) Aligned. Score:  26
+Sequences (6:7) Aligned. Score:  59
+Sequences (6:8) Aligned. Score:  57
+Sequences (6:9) Aligned. Score:  60
+Sequences (6:10) Aligned. Score:  30
+Sequences (6:11) Aligned. Score:  30
+Sequences (7:8) Aligned. Score:  54
+Sequences (7:9) Aligned. Score:  85
+Sequences (7:10) Aligned. Score:  31
+Sequences (7:11) Aligned. Score:  30
+Sequences (8:9) Aligned. Score:  56
+Sequences (8:10) Aligned. Score:  33
+Sequences (8:11) Aligned. Score:  32
+Sequences (9:10) Aligned. Score:  29
+Sequences (9:11) Aligned. Score:  29
+Sequences (10:11) Aligned. Score:  92
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3xz4HFloYN/6UmI2QesF3.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:7490
+Group 2: Sequences:   3      Score:7389
+Group 3: Sequences:   4      Score:7279
+Group 4: Sequences:   2      Score:7081
+Group 5: Sequences:   3      Score:6584
+Group 6: Sequences:   4      Score:6037
+Group 7: Sequences:   5      Score:5901
+Group 8: Sequences:   9      Score:3876
+Group 9: Sequences:   2      Score:5679
+Group 10: Sequences:  11      Score:3491
+Alignment Score 50152
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3xz4HFloYN/DJqnD2xO62]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3xz4HFloYN/6UmI2QesF3,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3xz4HFloYN/DJqnD2xO62
+Cluster:5 I am now working on [BG10490]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/E20vIQ6F4C/VlhCZF8UHd -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/E20vIQ6F4C/xJTYQ6xZX1 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             513 aa
+Sequence 2: Ban             551 aa
+Sequence 3: Bce             546 aa
+Sequence 4: Bcl             509 aa
+Sequence 5: Bha             500 aa
+Sequence 6: Bli             513 aa
+Sequence 7: Bmo             515 aa
+Sequence 8: Bpu             510 aa
+Sequence 9: Bsu             513 aa
+Sequence 10: Bth             551 aa
+Sequence 11: Bwe             544 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  16
+Sequences (1:3) Aligned. Score:  16
+Sequences (1:4) Aligned. Score:  59
+Sequences (1:5) Aligned. Score:  18
+Sequences (1:6) Aligned. Score:  64
+Sequences (1:7) Aligned. Score:  76
+Sequences (1:8) Aligned. Score:  65
+Sequences (1:9) Aligned. Score:  76
+Sequences (1:10) Aligned. Score:  16
+Sequences (1:11) Aligned. Score:  15
+Sequences (2:3) Aligned. Score:  90
+Sequences (2:4) Aligned. Score:  11
+Sequences (2:5) Aligned. Score:  41
+Sequences (2:6) Aligned. Score:  13
+Sequences (2:7) Aligned. Score:  14
+Sequences (2:8) Aligned. Score:  15
+Sequences (2:9) Aligned. Score:  16
+Sequences (2:10) Aligned. Score:  94
+Sequences (2:11) Aligned. Score:  92
+Sequences (3:4) Aligned. Score:  11
+Sequences (3:5) Aligned. Score:  40
+Sequences (3:6) Aligned. Score:  16
+Sequences (3:7) Aligned. Score:  16
+Sequences (3:8) Aligned. Score:  15
+Sequences (3:9) Aligned. Score:  16
+Sequences (3:10) Aligned. Score:  88
+Sequences (3:11) Aligned. Score:  91
+Sequences (4:5) Aligned. Score:  14
+Sequences (4:6) Aligned. Score:  58
+Sequences (4:7) Aligned. Score:  57
+Sequences (4:8) Aligned. Score:  56
+Sequences (4:9) Aligned. Score:  59
+Sequences (4:10) Aligned. Score:  11
+Sequences (4:11) Aligned. Score:  10
+Sequences (5:6) Aligned. Score:  18
+Sequences (5:7) Aligned. Score:  19
+Sequences (5:8) Aligned. Score:  17
+Sequences (5:9) Aligned. Score:  19
+Sequences (5:10) Aligned. Score:  40
+Sequences (5:11) Aligned. Score:  41
+Sequences (6:7) Aligned. Score:  64
+Sequences (6:8) Aligned. Score:  61
+Sequences (6:9) Aligned. Score:  65
+Sequences (6:10) Aligned. Score:  16
+Sequences (6:11) Aligned. Score:  14
+Sequences (7:8) Aligned. Score:  66
+Sequences (7:9) Aligned. Score:  92
+Sequences (7:10) Aligned. Score:  14
+Sequences (7:11) Aligned. Score:  15
+Sequences (8:9) Aligned. Score:  67
+Sequences (8:10) Aligned. Score:  15
+Sequences (8:11) Aligned. Score:  15
+Sequences (9:10) Aligned. Score:  16
+Sequences (9:11) Aligned. Score:  16
+Sequences (10:11) Aligned. Score:  91
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/E20vIQ6F4C/VlhCZF8UHd.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:10964
+Group 2: Sequences:   3      Score:10206
+Group 3: Sequences:   4      Score:9445
+Group 4: Sequences:   5      Score:9292
+Group 5: Sequences:   6      Score:8914
+Group 6: Sequences:   2      Score:11742
+Group 7: Sequences:   3      Score:11370
+Group 8: Sequences:   4      Score:11341
+Group 9: Sequences:   5      Score:7698
+Group 10: Sequences:  11      Score:3367
+Alignment Score 60734
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/E20vIQ6F4C/xJTYQ6xZX1]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/E20vIQ6F4C/VlhCZF8UHd,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/E20vIQ6F4C/xJTYQ6xZX1
+Cluster:6 I am now working on [BG10491]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/WBTNPCPwnq/mcgBadGmQY -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/WBTNPCPwnq/7475BZHcr3 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             225 aa
+Sequence 2: Ban             222 aa
+Sequence 3: Bce             149 aa
+Sequence 4: Bsu             380 aa
+Sequence 5: Bth             149 aa
+Sequence 6: Bwe             170 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  40
+Sequences (1:3) Aligned. Score:  9
+Sequences (1:4) Aligned. Score:  12
+Sequences (1:5) Aligned. Score:  9
+Sequences (1:6) Aligned. Score:  16
+Sequences (2:3) Aligned. Score:  22
+Sequences (2:4) Aligned. Score:  14
+Sequences (2:5) Aligned. Score:  22
+Sequences (2:6) Aligned. Score:  15
+Sequences (3:4) Aligned. Score:  32
+Sequences (3:5) Aligned. Score:  99
+Sequences (3:6) Aligned. Score:  40
+Sequences (4:5) Aligned. Score:  32
+Sequences (4:6) Aligned. Score:  32
+Sequences (5:6) Aligned. Score:  40
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/WBTNPCPwnq/mcgBadGmQY.dnd]
+Start of Multiple Alignment
+There are 5 groups
+Aligning...
+Group 1: Sequences:   2      Score:3242
+Group 2: Sequences:   3      Score:2235
+Group 3: Sequences:   4      Score:1827
+Group 4: Sequences:   2      Score:3471
+Group 5: Sequences:   6      Score:1277
+Alignment Score 3172
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/WBTNPCPwnq/7475BZHcr3]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/WBTNPCPwnq/mcgBadGmQY,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/WBTNPCPwnq/7475BZHcr3
+Cluster:7 I am now working on [BG10493]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8a7hy7NBlp/i4YOswHR4V -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8a7hy7NBlp/dCwXKrSl8k 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam              79 aa
+Sequence 2: Ban             140 aa
+Sequence 3: Bce             142 aa
+Sequence 4: Bcl             163 aa
+Sequence 5: Bha             127 aa
+Sequence 6: Bli              89 aa
+Sequence 7: Bmo              67 aa
+Sequence 8: Bsu              75 aa
+Sequence 9: Bth             141 aa
+Sequence 10: Bwe             145 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  31
+Sequences (1:3) Aligned. Score:  34
+Sequences (1:4) Aligned. Score:  32
+Sequences (1:5) Aligned. Score:  37
+Sequences (1:6) Aligned. Score:  55
+Sequences (1:7) Aligned. Score:  83
+Sequences (1:8) Aligned. Score:  78
+Sequences (1:9) Aligned. Score:  31
+Sequences (1:10) Aligned. Score:  39
+Sequences (2:3) Aligned. Score:  100
+Sequences (2:4) Aligned. Score:  17
+Sequences (2:5) Aligned. Score:  24
+Sequences (2:6) Aligned. Score:  44
+Sequences (2:7) Aligned. Score:  40
+Sequences (2:8) Aligned. Score:  42
+Sequences (2:9) Aligned. Score:  100
+Sequences (2:10) Aligned. Score:  93
+Sequences (3:4) Aligned. Score:  17
+Sequences (3:5) Aligned. Score:  23
+Sequences (3:6) Aligned. Score:  44
+Sequences (3:7) Aligned. Score:  43
+Sequences (3:8) Aligned. Score:  45
+Sequences (3:9) Aligned. Score:  100
+Sequences (3:10) Aligned. Score:  93
+Sequences (4:5) Aligned. Score:  37
+Sequences (4:6) Aligned. Score:  24
+Sequences (4:7) Aligned. Score:  32
+Sequences (4:8) Aligned. Score:  30
+Sequences (4:9) Aligned. Score:  17
+Sequences (4:10) Aligned. Score:  16
+Sequences (5:6) Aligned. Score:  40
+Sequences (5:7) Aligned. Score:  38
+Sequences (5:8) Aligned. Score:  40
+Sequences (5:9) Aligned. Score:  23
+Sequences (5:10) Aligned. Score:  25
+Sequences (6:7) Aligned. Score:  67
+Sequences (6:8) Aligned. Score:  66
+Sequences (6:9) Aligned. Score:  44
+Sequences (6:10) Aligned. Score:  41
+Sequences (7:8) Aligned. Score:  98
+Sequences (7:9) Aligned. Score:  40
+Sequences (7:10) Aligned. Score:  46
+Sequences (8:9) Aligned. Score:  42
+Sequences (8:10) Aligned. Score:  48
+Sequences (9:10) Aligned. Score:  92
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8a7hy7NBlp/i4YOswHR4V.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:3148
+Group 2: Sequences:   3      Score:3159
+Group 3: Sequences:   4      Score:3015
+Group 4: Sequences:   2      Score:1526
+Group 5: Sequences:   3      Score:1511
+Group 6: Sequences:   4      Score:1338
+Group 7: Sequences:   8      Score:1164
+Group 8: Sequences:   2      Score:1842
+Group 9: Sequences:  10      Score:935
+Alignment Score 12393
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8a7hy7NBlp/dCwXKrSl8k]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8a7hy7NBlp/i4YOswHR4V,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8a7hy7NBlp/dCwXKrSl8k
+Cluster:8 I am now working on [BG10494]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/LCHAmYHTyX/GHLkQ8ClKK -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/LCHAmYHTyX/r9JQKIK1Qv 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             181 aa
+Sequence 2: Ban             180 aa
+Sequence 3: Bce             180 aa
+Sequence 4: Bcl             190 aa
+Sequence 5: Bha             187 aa
+Sequence 6: Bli             182 aa
+Sequence 7: Bmo              98 aa
+Sequence 8: Bpu             181 aa
+Sequence 9: Bsu             181 aa
+Sequence 10: Bth             180 aa
+Sequence 11: Bwe             181 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  59
+Sequences (1:3) Aligned. Score:  59
+Sequences (1:4) Aligned. Score:  53
+Sequences (1:5) Aligned. Score:  55
+Sequences (1:6) Aligned. Score:  90
+Sequences (1:7) Aligned. Score:  95
+Sequences (1:8) Aligned. Score:  85
+Sequences (1:9) Aligned. Score:  96
+Sequences (1:10) Aligned. Score:  59
+Sequences (1:11) Aligned. Score:  59
+Sequences (2:3) Aligned. Score:  98
+Sequences (2:4) Aligned. Score:  48
+Sequences (2:5) Aligned. Score:  50
+Sequences (2:6) Aligned. Score:  59
+Sequences (2:7) Aligned. Score:  51
+Sequences (2:8) Aligned. Score:  58
+Sequences (2:9) Aligned. Score:  58
+Sequences (2:10) Aligned. Score:  100
+Sequences (2:11) Aligned. Score:  98
+Sequences (3:4) Aligned. Score:  48
+Sequences (3:5) Aligned. Score:  49
+Sequences (3:6) Aligned. Score:  58
+Sequences (3:7) Aligned. Score:  50
+Sequences (3:8) Aligned. Score:  58
+Sequences (3:9) Aligned. Score:  58
+Sequences (3:10) Aligned. Score:  98
+Sequences (3:11) Aligned. Score:  97
+Sequences (4:5) Aligned. Score:  70
+Sequences (4:6) Aligned. Score:  53
+Sequences (4:7) Aligned. Score:  42
+Sequences (4:8) Aligned. Score:  52
+Sequences (4:9) Aligned. Score:  51
+Sequences (4:10) Aligned. Score:  48
+Sequences (4:11) Aligned. Score:  46
+Sequences (5:6) Aligned. Score:  57
+Sequences (5:7) Aligned. Score:  47
+Sequences (5:8) Aligned. Score:  54
+Sequences (5:9) Aligned. Score:  55
+Sequences (5:10) Aligned. Score:  50
+Sequences (5:11) Aligned. Score:  49
+Sequences (6:7) Aligned. Score:  92
+Sequences (6:8) Aligned. Score:  89
+Sequences (6:9) Aligned. Score:  92
+Sequences (6:10) Aligned. Score:  59
+Sequences (6:11) Aligned. Score:  59
+Sequences (7:8) Aligned. Score:  81
+Sequences (7:9) Aligned. Score:  100
+Sequences (7:10) Aligned. Score:  51
+Sequences (7:11) Aligned. Score:  51
+Sequences (8:9) Aligned. Score:  85
+Sequences (8:10) Aligned. Score:  58
+Sequences (8:11) Aligned. Score:  58
+Sequences (9:10) Aligned. Score:  58
+Sequences (9:11) Aligned. Score:  58
+Sequences (10:11) Aligned. Score:  98
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/LCHAmYHTyX/GHLkQ8ClKK.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:3923
+Group 2: Sequences:   3      Score:3904
+Group 3: Sequences:   4      Score:3903
+Group 4: Sequences:   2      Score:2125
+Group 5: Sequences:   3      Score:2913
+Group 6: Sequences:   4      Score:3161
+Group 7: Sequences:   5      Score:3241
+Group 8: Sequences:   9      Score:2845
+Group 9: Sequences:   2      Score:3547
+Group 10: Sequences:  11      Score:2770
+Alignment Score 37244
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/LCHAmYHTyX/r9JQKIK1Qv]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/LCHAmYHTyX/GHLkQ8ClKK,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/LCHAmYHTyX/r9JQKIK1Qv
+Cluster:9 I am now working on [BG10496]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lFXetsz3wj/jwELEYvijA -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lFXetsz3wj/IoQPfC84Vv 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             129 aa
+Sequence 2: Bli             128 aa
+Sequence 3: Bmo             128 aa
+Sequence 4: Bpu             132 aa
+Sequence 5: Bsu             128 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  50
+Sequences (1:3) Aligned. Score:  68
+Sequences (1:4) Aligned. Score:  41
+Sequences (1:5) Aligned. Score:  72
+Sequences (2:3) Aligned. Score:  48
+Sequences (2:4) Aligned. Score:  41
+Sequences (2:5) Aligned. Score:  49
+Sequences (3:4) Aligned. Score:  39
+Sequences (3:5) Aligned. Score:  89
+Sequences (4:5) Aligned. Score:  40
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lFXetsz3wj/jwELEYvijA.dnd]
+Start of Multiple Alignment
+There are 4 groups
+Aligning...
+Group 1: Sequences:   2      Score:2594
+Group 2: Sequences:   3      Score:2406
+Group 3: Sequences:   4      Score:2091
+Group 4: Sequences:   5      Score:1988
+Alignment Score 3970
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lFXetsz3wj/IoQPfC84Vv]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lFXetsz3wj/jwELEYvijA,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lFXetsz3wj/IoQPfC84Vv
+Cluster:10 I am now working on [BG10497]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8ay4qUrdWl/YuVpdfRf7n -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8ay4qUrdWl/FOqFHKQkRo 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             104 aa
+Sequence 2: Bce              66 aa
+Sequence 3: Bcl              92 aa
+Sequence 4: Bha              69 aa
+Sequence 5: Bli             132 aa
+Sequence 6: Bmo             109 aa
+Sequence 7: Bpu             128 aa
+Sequence 8: Bsu             105 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  22
+Sequences (1:3) Aligned. Score:  20
+Sequences (1:4) Aligned. Score:  30
+Sequences (1:5) Aligned. Score:  29
+Sequences (1:6) Aligned. Score:  61
+Sequences (1:7) Aligned. Score:  30
+Sequences (1:8) Aligned. Score:  66
+Sequences (2:3) Aligned. Score:  22
+Sequences (2:4) Aligned. Score:  10
+Sequences (2:5) Aligned. Score:  16
+Sequences (2:6) Aligned. Score:  22
+Sequences (2:7) Aligned. Score:  18
+Sequences (2:8) Aligned. Score:  24
+Sequences (3:4) Aligned. Score:  31
+Sequences (3:5) Aligned. Score:  29
+Sequences (3:6) Aligned. Score:  20
+Sequences (3:7) Aligned. Score:  18
+Sequences (3:8) Aligned. Score:  18
+Sequences (4:5) Aligned. Score:  26
+Sequences (4:6) Aligned. Score:  24
+Sequences (4:7) Aligned. Score:  18
+Sequences (4:8) Aligned. Score:  24
+Sequences (5:6) Aligned. Score:  35
+Sequences (5:7) Aligned. Score:  24
+Sequences (5:8) Aligned. Score:  31
+Sequences (6:7) Aligned. Score:  30
+Sequences (6:8) Aligned. Score:  83
+Sequences (7:8) Aligned. Score:  33
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8ay4qUrdWl/YuVpdfRf7n.dnd]
+Start of Multiple Alignment
+There are 7 groups
+Aligning...
+Group 1: Sequences:   2      Score:2093
+Group 2: Sequences:   3      Score:1879
+Group 3: Sequences:   4      Score:1234
+Group 4: Sequences:   2      Score:447
+Group 5:                     Delayed
+Group 6: Sequences:   6      Score:314
+Group 7:                     Delayed
+Sequence:5     Score:1040
+Sequence:2     Score:274
+Alignment Score 3677
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8ay4qUrdWl/FOqFHKQkRo]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8ay4qUrdWl/YuVpdfRf7n,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/8ay4qUrdWl/FOqFHKQkRo
+Cluster:11 I am now working on [BG10500]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/7FJdNrhgfE/eFDdP2AvEK -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/7FJdNrhgfE/gxrx4oTZ2a 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             167 aa
+Sequence 2: Bce             189 aa
+Sequence 3: Bcl             193 aa
+Sequence 4: Bha             160 aa
+Sequence 5: Bli             170 aa
+Sequence 6: Bmo             190 aa
+Sequence 7: Bpu             160 aa
+Sequence 8: Bsu             172 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  35
+Sequences (1:3) Aligned. Score:  35
+Sequences (1:4) Aligned. Score:  31
+Sequences (1:5) Aligned. Score:  50
+Sequences (1:6) Aligned. Score:  82
+Sequences (1:7) Aligned. Score:  50
+Sequences (1:8) Aligned. Score:  86
+Sequences (2:3) Aligned. Score:  40
+Sequences (2:4) Aligned. Score:  40
+Sequences (2:5) Aligned. Score:  32
+Sequences (2:6) Aligned. Score:  28
+Sequences (2:7) Aligned. Score:  38
+Sequences (2:8) Aligned. Score:  33
+Sequences (3:4) Aligned. Score:  50
+Sequences (3:5) Aligned. Score:  30
+Sequences (3:6) Aligned. Score:  29
+Sequences (3:7) Aligned. Score:  38
+Sequences (3:8) Aligned. Score:  33
+Sequences (4:5) Aligned. Score:  32
+Sequences (4:6) Aligned. Score:  30
+Sequences (4:7) Aligned. Score:  33
+Sequences (4:8) Aligned. Score:  32
+Sequences (5:6) Aligned. Score:  50
+Sequences (5:7) Aligned. Score:  48
+Sequences (5:8) Aligned. Score:  50
+Sequences (6:7) Aligned. Score:  51
+Sequences (6:8) Aligned. Score:  87
+Sequences (7:8) Aligned. Score:  49
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/7FJdNrhgfE/eFDdP2AvEK.dnd]
+Start of Multiple Alignment
+There are 7 groups
+Aligning...
+Group 1: Sequences:   2      Score:3470
+Group 2: Sequences:   3      Score:3306
+Group 3: Sequences:   4      Score:2676
+Group 4: Sequences:   5      Score:2527
+Group 5: Sequences:   2      Score:2549
+Group 6: Sequences:   3      Score:2517
+Group 7: Sequences:   8      Score:1674
+Alignment Score 10070
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/7FJdNrhgfE/gxrx4oTZ2a]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/7FJdNrhgfE/eFDdP2AvEK,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/7FJdNrhgfE/gxrx4oTZ2a
+Cluster:12 I am now working on [BG10608]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Yt25H5tUg0/zVR4qwQVxx -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Yt25H5tUg0/gxJIZW4gPE 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             183 aa
+Sequence 2: Ban             145 aa
+Sequence 3: Bce             142 aa
+Sequence 4: Bcl             153 aa
+Sequence 5: Bha             198 aa
+Sequence 6: Bli             178 aa
+Sequence 7: Bpu             180 aa
+Sequence 8: Bsu             181 aa
+Sequence 9: Bth             145 aa
+Sequence 10: Bwe             145 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  42
+Sequences (1:3) Aligned. Score:  45
+Sequences (1:4) Aligned. Score:  43
+Sequences (1:5) Aligned. Score:  40
+Sequences (1:6) Aligned. Score:  61
+Sequences (1:7) Aligned. Score:  64
+Sequences (1:8) Aligned. Score:  81
+Sequences (1:9) Aligned. Score:  42
+Sequences (1:10) Aligned. Score:  43
+Sequences (2:3) Aligned. Score:  98
+Sequences (2:4) Aligned. Score:  39
+Sequences (2:5) Aligned. Score:  43
+Sequences (2:6) Aligned. Score:  48
+Sequences (2:7) Aligned. Score:  42
+Sequences (2:8) Aligned. Score:  47
+Sequences (2:9) Aligned. Score:  100
+Sequences (2:10) Aligned. Score:  88
+Sequences (3:4) Aligned. Score:  37
+Sequences (3:5) Aligned. Score:  43
+Sequences (3:6) Aligned. Score:  45
+Sequences (3:7) Aligned. Score:  45
+Sequences (3:8) Aligned. Score:  48
+Sequences (3:9) Aligned. Score:  98
+Sequences (3:10) Aligned. Score:  90
+Sequences (4:5) Aligned. Score:  56
+Sequences (4:6) Aligned. Score:  50
+Sequences (4:7) Aligned. Score:  45
+Sequences (4:8) Aligned. Score:  42
+Sequences (4:9) Aligned. Score:  39
+Sequences (4:10) Aligned. Score:  40
+Sequences (5:6) Aligned. Score:  46
+Sequences (5:7) Aligned. Score:  43
+Sequences (5:8) Aligned. Score:  40
+Sequences (5:9) Aligned. Score:  43
+Sequences (5:10) Aligned. Score:  37
+Sequences (6:7) Aligned. Score:  53
+Sequences (6:8) Aligned. Score:  62
+Sequences (6:9) Aligned. Score:  48
+Sequences (6:10) Aligned. Score:  44
+Sequences (7:8) Aligned. Score:  63
+Sequences (7:9) Aligned. Score:  42
+Sequences (7:10) Aligned. Score:  46
+Sequences (8:9) Aligned. Score:  47
+Sequences (8:10) Aligned. Score:  48
+Sequences (9:10) Aligned. Score:  88
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Yt25H5tUg0/zVR4qwQVxx.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:3155
+Group 2: Sequences:   3      Score:3052
+Group 3: Sequences:   4      Score:2962
+Group 4: Sequences:   2      Score:3505
+Group 5: Sequences:   3      Score:3016
+Group 6: Sequences:   4      Score:2940
+Group 7: Sequences:   8      Score:2131
+Group 8: Sequences:   2      Score:2513
+Group 9: Sequences:  10      Score:2124
+Alignment Score 19891
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Yt25H5tUg0/gxJIZW4gPE]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Yt25H5tUg0/zVR4qwQVxx,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Yt25H5tUg0/gxJIZW4gPE
+Cluster:13 I am now working on [BG10946]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qBFLXZYkYY/dXMzuo8UXt -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qBFLXZYkYY/08RufwozNT 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             247 aa
+Sequence 2: Ban             276 aa
+Sequence 3: Bce             276 aa
+Sequence 4: Bcl             268 aa
+Sequence 5: Bha             284 aa
+Sequence 6: Bli             245 aa
+Sequence 7: Bmo             245 aa
+Sequence 8: Bpu             246 aa
+Sequence 9: Bsu             245 aa
+Sequence 10: Bth             276 aa
+Sequence 11: Bwe             276 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  36
+Sequences (1:3) Aligned. Score:  35
+Sequences (1:4) Aligned. Score:  39
+Sequences (1:5) Aligned. Score:  40
+Sequences (1:6) Aligned. Score:  60
+Sequences (1:7) Aligned. Score:  73
+Sequences (1:8) Aligned. Score:  52
+Sequences (1:9) Aligned. Score:  71
+Sequences (1:10) Aligned. Score:  36
+Sequences (1:11) Aligned. Score:  34
+Sequences (2:3) Aligned. Score:  94
+Sequences (2:4) Aligned. Score:  37
+Sequences (2:5) Aligned. Score:  34
+Sequences (2:6) Aligned. Score:  35
+Sequences (2:7) Aligned. Score:  33
+Sequences (2:8) Aligned. Score:  36
+Sequences (2:9) Aligned. Score:  35
+Sequences (2:10) Aligned. Score:  100
+Sequences (2:11) Aligned. Score:  91
+Sequences (3:4) Aligned. Score:  36
+Sequences (3:5) Aligned. Score:  34
+Sequences (3:6) Aligned. Score:  35
+Sequences (3:7) Aligned. Score:  33
+Sequences (3:8) Aligned. Score:  37
+Sequences (3:9) Aligned. Score:  35
+Sequences (3:10) Aligned. Score:  94
+Sequences (3:11) Aligned. Score:  92
+Sequences (4:5) Aligned. Score:  39
+Sequences (4:6) Aligned. Score:  43
+Sequences (4:7) Aligned. Score:  40
+Sequences (4:8) Aligned. Score:  44
+Sequences (4:9) Aligned. Score:  39
+Sequences (4:10) Aligned. Score:  37
+Sequences (4:11) Aligned. Score:  38
+Sequences (5:6) Aligned. Score:  34
+Sequences (5:7) Aligned. Score:  36
+Sequences (5:8) Aligned. Score:  36
+Sequences (5:9) Aligned. Score:  34
+Sequences (5:10) Aligned. Score:  34
+Sequences (5:11) Aligned. Score:  35
+Sequences (6:7) Aligned. Score:  60
+Sequences (6:8) Aligned. Score:  48
+Sequences (6:9) Aligned. Score:  60
+Sequences (6:10) Aligned. Score:  35
+Sequences (6:11) Aligned. Score:  36
+Sequences (7:8) Aligned. Score:  51
+Sequences (7:9) Aligned. Score:  88
+Sequences (7:10) Aligned. Score:  33
+Sequences (7:11) Aligned. Score:  32
+Sequences (8:9) Aligned. Score:  51
+Sequences (8:10) Aligned. Score:  36
+Sequences (8:11) Aligned. Score:  36
+Sequences (9:10) Aligned. Score:  35
+Sequences (9:11) Aligned. Score:  34
+Sequences (10:11) Aligned. Score:  91
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qBFLXZYkYY/dXMzuo8UXt.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:5119
+Group 2: Sequences:   3      Score:4714
+Group 3: Sequences:   4      Score:4373
+Group 4: Sequences:   5      Score:4118
+Group 5: Sequences:   6      Score:3761
+Group 6: Sequences:   7      Score:3772
+Group 7: Sequences:   2      Score:6012
+Group 8: Sequences:   3      Score:5892
+Group 9: Sequences:   4      Score:5829
+Group 10: Sequences:  11      Score:3721
+Alignment Score 41322
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qBFLXZYkYY/08RufwozNT]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qBFLXZYkYY/dXMzuo8UXt,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/qBFLXZYkYY/08RufwozNT
+Cluster:14 I am now working on [BG11172]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/AnowHImaCR/Eftg0YS1e6 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/AnowHImaCR/xZQT00npfk 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             142 aa
+Sequence 2: Ban             140 aa
+Sequence 3: Bce             140 aa
+Sequence 4: Bcl             143 aa
+Sequence 5: Bha             143 aa
+Sequence 6: Bli             142 aa
+Sequence 7: Bpu             142 aa
+Sequence 8: Bsu             142 aa
+Sequence 9: Bth             140 aa
+Sequence 10: Bwe             140 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  64
+Sequences (1:3) Aligned. Score:  62
+Sequences (1:4) Aligned. Score:  60
+Sequences (1:5) Aligned. Score:  57
+Sequences (1:6) Aligned. Score:  80
+Sequences (1:7) Aligned. Score:  88
+Sequences (1:8) Aligned. Score:  86
+Sequences (1:9) Aligned. Score:  64
+Sequences (1:10) Aligned. Score:  63
+Sequences (2:3) Aligned. Score:  98
+Sequences (2:4) Aligned. Score:  60
+Sequences (2:5) Aligned. Score:  65
+Sequences (2:6) Aligned. Score:  60
+Sequences (2:7) Aligned. Score:  60
+Sequences (2:8) Aligned. Score:  62
+Sequences (2:9) Aligned. Score:  100
+Sequences (2:10) Aligned. Score:  97
+Sequences (3:4) Aligned. Score:  60
+Sequences (3:5) Aligned. Score:  65
+Sequences (3:6) Aligned. Score:  60
+Sequences (3:7) Aligned. Score:  60
+Sequences (3:8) Aligned. Score:  60
+Sequences (3:9) Aligned. Score:  98
+Sequences (3:10) Aligned. Score:  97
+Sequences (4:5) Aligned. Score:  72
+Sequences (4:6) Aligned. Score:  66
+Sequences (4:7) Aligned. Score:  57
+Sequences (4:8) Aligned. Score:  59
+Sequences (4:9) Aligned. Score:  60
+Sequences (4:10) Aligned. Score:  60
+Sequences (5:6) Aligned. Score:  60
+Sequences (5:7) Aligned. Score:  57
+Sequences (5:8) Aligned. Score:  57
+Sequences (5:9) Aligned. Score:  65
+Sequences (5:10) Aligned. Score:  65
+Sequences (6:7) Aligned. Score:  80
+Sequences (6:8) Aligned. Score:  83
+Sequences (6:9) Aligned. Score:  60
+Sequences (6:10) Aligned. Score:  58
+Sequences (7:8) Aligned. Score:  88
+Sequences (7:9) Aligned. Score:  60
+Sequences (7:10) Aligned. Score:  59
+Sequences (8:9) Aligned. Score:  62
+Sequences (8:10) Aligned. Score:  60
+Sequences (9:10) Aligned. Score:  97
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/AnowHImaCR/Eftg0YS1e6.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:3112
+Group 2: Sequences:   3      Score:3098
+Group 3: Sequences:   4      Score:3075
+Group 4: Sequences:   2      Score:2810
+Group 5: Sequences:   6      Score:2505
+Group 6: Sequences:   2      Score:2980
+Group 7: Sequences:   3      Score:2990
+Group 8: Sequences:   4      Score:2893
+Group 9: Sequences:  10      Score:2483
+Alignment Score 30312
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/AnowHImaCR/xZQT00npfk]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/AnowHImaCR/Eftg0YS1e6,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/AnowHImaCR/xZQT00npfk
+Cluster:15 I am now working on [BG11187]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/K94LqCKVYl/4bCBMIBTUm -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/K94LqCKVYl/l5WsU3aJ2C 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             266 aa
+Sequence 2: Ban             265 aa
+Sequence 3: Bce             265 aa
+Sequence 4: Bha             275 aa
+Sequence 5: Bli             268 aa
+Sequence 6: Bmo             302 aa
+Sequence 7: Bpu             272 aa
+Sequence 8: Bsu             268 aa
+Sequence 9: Bth             265 aa
+Sequence 10: Bwe             265 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  51
+Sequences (1:3) Aligned. Score:  52
+Sequences (1:4) Aligned. Score:  49
+Sequences (1:5) Aligned. Score:  77
+Sequences (1:6) Aligned. Score:  83
+Sequences (1:7) Aligned. Score:  77
+Sequences (1:8) Aligned. Score:  84
+Sequences (1:9) Aligned. Score:  51
+Sequences (1:10) Aligned. Score:  52
+Sequences (2:3) Aligned. Score:  98
+Sequences (2:4) Aligned. Score:  56
+Sequences (2:5) Aligned. Score:  53
+Sequences (2:6) Aligned. Score:  52
+Sequences (2:7) Aligned. Score:  49
+Sequences (2:8) Aligned. Score:  50
+Sequences (2:9) Aligned. Score:  99
+Sequences (2:10) Aligned. Score:  94
+Sequences (3:4) Aligned. Score:  57
+Sequences (3:5) Aligned. Score:  53
+Sequences (3:6) Aligned. Score:  52
+Sequences (3:7) Aligned. Score:  49
+Sequences (3:8) Aligned. Score:  51
+Sequences (3:9) Aligned. Score:  98
+Sequences (3:10) Aligned. Score:  95
+Sequences (4:5) Aligned. Score:  51
+Sequences (4:6) Aligned. Score:  49
+Sequences (4:7) Aligned. Score:  47
+Sequences (4:8) Aligned. Score:  49
+Sequences (4:9) Aligned. Score:  56
+Sequences (4:10) Aligned. Score:  56
+Sequences (5:6) Aligned. Score:  78
+Sequences (5:7) Aligned. Score:  75
+Sequences (5:8) Aligned. Score:  77
+Sequences (5:9) Aligned. Score:  53
+Sequences (5:10) Aligned. Score:  54
+Sequences (6:7) Aligned. Score:  75
+Sequences (6:8) Aligned. Score:  95
+Sequences (6:9) Aligned. Score:  52
+Sequences (6:10) Aligned. Score:  52
+Sequences (7:8) Aligned. Score:  75
+Sequences (7:9) Aligned. Score:  49
+Sequences (7:10) Aligned. Score:  49
+Sequences (8:9) Aligned. Score:  50
+Sequences (8:10) Aligned. Score:  51
+Sequences (9:10) Aligned. Score:  94
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/K94LqCKVYl/4bCBMIBTUm.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:5646
+Group 2: Sequences:   3      Score:5618
+Group 3: Sequences:   4      Score:5559
+Group 4: Sequences:   5      Score:4573
+Group 5: Sequences:   2      Score:5645
+Group 6: Sequences:   3      Score:5288
+Group 7: Sequences:   4      Score:5154
+Group 8: Sequences:   5      Score:5163
+Group 9: Sequences:  10      Score:4170
+Alignment Score 45533
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/K94LqCKVYl/l5WsU3aJ2C]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/K94LqCKVYl/4bCBMIBTUm,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/K94LqCKVYl/l5WsU3aJ2C
+Cluster:16 I am now working on [BG11193]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3SMeYKOlJR/ODP2GNrk37 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3SMeYKOlJR/pXZMnjqBwt 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             143 aa
+Sequence 2: Bmo             134 aa
+Sequence 3: Bpu             133 aa
+Sequence 4: Bsu             133 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  68
+Sequences (1:3) Aligned. Score:  55
+Sequences (1:4) Aligned. Score:  66
+Sequences (2:3) Aligned. Score:  52
+Sequences (2:4) Aligned. Score:  90
+Sequences (3:4) Aligned. Score:  53
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3SMeYKOlJR/ODP2GNrk37.dnd]
+Start of Multiple Alignment
+There are 3 groups
+Aligning...
+Group 1: Sequences:   2      Score:2728
+Group 2: Sequences:   3      Score:2418
+Group 3: Sequences:   4      Score:2156
+Alignment Score 2957
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3SMeYKOlJR/pXZMnjqBwt]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3SMeYKOlJR/ODP2GNrk37,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3SMeYKOlJR/pXZMnjqBwt
+Cluster:17 I am now working on [BG11194]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/N7HWzsPP9K/LI8xlwEjV5 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/N7HWzsPP9K/Xq17rGKdqo 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             318 aa
+Sequence 2: Ban             854 aa
+Sequence 3: Bha             267 aa
+Sequence 4: Bmo             235 aa
+Sequence 5: Bpu             320 aa
+Sequence 6: Bsu             317 aa
+Sequence 7: Bth             331 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  13
+Sequences (1:3) Aligned. Score:  29
+Sequences (1:4) Aligned. Score:  55
+Sequences (1:5) Aligned. Score:  42
+Sequences (1:6) Aligned. Score:  55
+Sequences (1:7) Aligned. Score:  27
+Sequences (2:3) Aligned. Score:  21
+Sequences (2:4) Aligned. Score:  14
+Sequences (2:5) Aligned. Score:  16
+Sequences (2:6) Aligned. Score:  17
+Sequences (2:7) Aligned. Score:  14
+Sequences (3:4) Aligned. Score:  25
+Sequences (3:5) Aligned. Score:  30
+Sequences (3:6) Aligned. Score:  29
+Sequences (3:7) Aligned. Score:  26
+Sequences (4:5) Aligned. Score:  40
+Sequences (4:6) Aligned. Score:  82
+Sequences (4:7) Aligned. Score:  25
+Sequences (5:6) Aligned. Score:  40
+Sequences (5:7) Aligned. Score:  27
+Sequences (6:7) Aligned. Score:  26
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/N7HWzsPP9K/LI8xlwEjV5.dnd]
+Start of Multiple Alignment
+There are 6 groups
+Aligning...
+Group 1: Sequences:   2      Score:4817
+Group 2: Sequences:   3      Score:4832
+Group 3: Sequences:   4      Score:4481
+Group 4:                     Delayed
+Group 5:                     Delayed
+Group 6:                     Delayed
+Sequence:3     Score:2839
+Sequence:7     Score:3045
+Sequence:2     Score:2301
+Alignment Score 9504
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/N7HWzsPP9K/Xq17rGKdqo]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/N7HWzsPP9K/LI8xlwEjV5,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/N7HWzsPP9K/Xq17rGKdqo
+Cluster:18 I am now working on [BG11195]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/02n34MJfz2/zhP60xIIKZ -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/02n34MJfz2/vAHArn9XKF 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             100 aa
+Sequence 2: Bmo             116 aa
+Sequence 3: Bpu             106 aa
+Sequence 4: Bsu             101 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  57
+Sequences (1:3) Aligned. Score:  41
+Sequences (1:4) Aligned. Score:  68
+Sequences (2:3) Aligned. Score:  31
+Sequences (2:4) Aligned. Score:  72
+Sequences (3:4) Aligned. Score:  37
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/02n34MJfz2/zhP60xIIKZ.dnd]
+Start of Multiple Alignment
+There are 3 groups
+Aligning...
+Group 1: Sequences:   2      Score:1796
+Group 2: Sequences:   3      Score:1691
+Group 3: Sequences:   4      Score:1417
+Alignment Score 1655
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/02n34MJfz2/vAHArn9XKF]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/02n34MJfz2/zhP60xIIKZ,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/02n34MJfz2/vAHArn9XKF
+Cluster:19 I am now working on [BG11448]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a4nPWN0tF3/GDjYrI56wX -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a4nPWN0tF3/9th4dFrYEt 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             145 aa
+Sequence 2: Ban             159 aa
+Sequence 3: Bce             188 aa
+Sequence 4: Bcl             104 aa
+Sequence 5: Bha             109 aa
+Sequence 6: Bli             147 aa
+Sequence 7: Bpu             151 aa
+Sequence 8: Bsu             125 aa
+Sequence 9: Bth             159 aa
+Sequence 10: Bwe             209 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  34
+Sequences (1:3) Aligned. Score:  36
+Sequences (1:4) Aligned. Score:  25
+Sequences (1:5) Aligned. Score:  32
+Sequences (1:6) Aligned. Score:  40
+Sequences (1:7) Aligned. Score:  47
+Sequences (1:8) Aligned. Score:  57
+Sequences (1:9) Aligned. Score:  33
+Sequences (1:10) Aligned. Score:  31
+Sequences (2:3) Aligned. Score:  93
+Sequences (2:4) Aligned. Score:  23
+Sequences (2:5) Aligned. Score:  33
+Sequences (2:6) Aligned. Score:  34
+Sequences (2:7) Aligned. Score:  34
+Sequences (2:8) Aligned. Score:  38
+Sequences (2:9) Aligned. Score:  98
+Sequences (2:10) Aligned. Score:  88
+Sequences (3:4) Aligned. Score:  21
+Sequences (3:5) Aligned. Score:  29
+Sequences (3:6) Aligned. Score:  36
+Sequences (3:7) Aligned. Score:  32
+Sequences (3:8) Aligned. Score:  40
+Sequences (3:9) Aligned. Score:  93
+Sequences (3:10) Aligned. Score:  80
+Sequences (4:5) Aligned. Score:  29
+Sequences (4:6) Aligned. Score:  20
+Sequences (4:7) Aligned. Score:  22
+Sequences (4:8) Aligned. Score:  24
+Sequences (4:9) Aligned. Score:  20
+Sequences (4:10) Aligned. Score:  22
+Sequences (5:6) Aligned. Score:  24
+Sequences (5:7) Aligned. Score:  28
+Sequences (5:8) Aligned. Score:  23
+Sequences (5:9) Aligned. Score:  33
+Sequences (5:10) Aligned. Score:  26
+Sequences (6:7) Aligned. Score:  38
+Sequences (6:8) Aligned. Score:  40
+Sequences (6:9) Aligned. Score:  34
+Sequences (6:10) Aligned. Score:  33
+Sequences (7:8) Aligned. Score:  49
+Sequences (7:9) Aligned. Score:  32
+Sequences (7:10) Aligned. Score:  33
+Sequences (8:9) Aligned. Score:  38
+Sequences (8:10) Aligned. Score:  39
+Sequences (9:10) Aligned. Score:  89
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a4nPWN0tF3/GDjYrI56wX.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:3544
+Group 2: Sequences:   3      Score:3406
+Group 3: Sequences:   4      Score:3337
+Group 4: Sequences:   2      Score:2146
+Group 5: Sequences:   3      Score:2072
+Group 6: Sequences:   4      Score:1936
+Group 7: Sequences:   8      Score:1646
+Group 8:                     Delayed
+Group 9:                     Delayed
+Sequence:5     Score:1042
+Sequence:4     Score:823
+Alignment Score 10887
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a4nPWN0tF3/9th4dFrYEt]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a4nPWN0tF3/GDjYrI56wX,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a4nPWN0tF3/9th4dFrYEt
+Cluster:20 I am now working on [BG11609]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TNfR5yxxCn/AZZclB01x7 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TNfR5yxxCn/3CshDg9hCc 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             224 aa
+Sequence 2: Ban             205 aa
+Sequence 3: Bce             219 aa
+Sequence 4: Bha             136 aa
+Sequence 5: Bli             213 aa
+Sequence 6: Bmo             217 aa
+Sequence 7: Bpu             224 aa
+Sequence 8: Bsu             120 aa
+Sequence 9: Bth             219 aa
+Sequence 10: Bwe             219 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  39
+Sequences (1:3) Aligned. Score:  36
+Sequences (1:4) Aligned. Score:  42
+Sequences (1:5) Aligned. Score:  61
+Sequences (1:6) Aligned. Score:  73
+Sequences (1:7) Aligned. Score:  55
+Sequences (1:8) Aligned. Score:  75
+Sequences (1:9) Aligned. Score:  36
+Sequences (1:10) Aligned. Score:  36
+Sequences (2:3) Aligned. Score:  95
+Sequences (2:4) Aligned. Score:  43
+Sequences (2:5) Aligned. Score:  40
+Sequences (2:6) Aligned. Score:  37
+Sequences (2:7) Aligned. Score:  41
+Sequences (2:8) Aligned. Score:  37
+Sequences (2:9) Aligned. Score:  95
+Sequences (2:10) Aligned. Score:  91
+Sequences (3:4) Aligned. Score:  43
+Sequences (3:5) Aligned. Score:  38
+Sequences (3:6) Aligned. Score:  35
+Sequences (3:7) Aligned. Score:  39
+Sequences (3:8) Aligned. Score:  37
+Sequences (3:9) Aligned. Score:  94
+Sequences (3:10) Aligned. Score:  94
+Sequences (4:5) Aligned. Score:  41
+Sequences (4:6) Aligned. Score:  38
+Sequences (4:7) Aligned. Score:  40
+Sequences (4:8) Aligned. Score:  35
+Sequences (4:9) Aligned. Score:  42
+Sequences (4:10) Aligned. Score:  43
+Sequences (5:6) Aligned. Score:  67
+Sequences (5:7) Aligned. Score:  58
+Sequences (5:8) Aligned. Score:  70
+Sequences (5:9) Aligned. Score:  37
+Sequences (5:10) Aligned. Score:  38
+Sequences (6:7) Aligned. Score:  53
+Sequences (6:8) Aligned. Score:  80
+Sequences (6:9) Aligned. Score:  34
+Sequences (6:10) Aligned. Score:  35
+Sequences (7:8) Aligned. Score:  60
+Sequences (7:9) Aligned. Score:  38
+Sequences (7:10) Aligned. Score:  41
+Sequences (8:9) Aligned. Score:  37
+Sequences (8:10) Aligned. Score:  38
+Sequences (9:10) Aligned. Score:  91
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TNfR5yxxCn/AZZclB01x7.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:2153
+Group 2: Sequences:   3      Score:3238
+Group 3: Sequences:   4      Score:3349
+Group 4: Sequences:   5      Score:3398
+Group 5: Sequences:   2      Score:4660
+Group 6: Sequences:   3      Score:4351
+Group 7: Sequences:   4      Score:4534
+Group 8: Sequences:   5      Score:2072
+Group 9: Sequences:  10      Score:2360
+Alignment Score 26084
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TNfR5yxxCn/3CshDg9hCc]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TNfR5yxxCn/AZZclB01x7,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TNfR5yxxCn/3CshDg9hCc
+Cluster:21 I am now working on [BG11666]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/MC4h9VclIb/qGjQ77LrTq -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/MC4h9VclIb/ie6BfSPXE4 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam              84 aa
+Sequence 2: Ban              84 aa
+Sequence 3: Bce              84 aa
+Sequence 4: Bcl              84 aa
+Sequence 5: Bha              88 aa
+Sequence 6: Bli              86 aa
+Sequence 7: Bmo              84 aa
+Sequence 8: Bpu              84 aa
+Sequence 9: Bsu              84 aa
+Sequence 10: Bth             112 aa
+Sequence 11: Bwe              84 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  47
+Sequences (1:3) Aligned. Score:  47
+Sequences (1:4) Aligned. Score:  25
+Sequences (1:5) Aligned. Score:  30
+Sequences (1:6) Aligned. Score:  60
+Sequences (1:7) Aligned. Score:  76
+Sequences (1:8) Aligned. Score:  69
+Sequences (1:9) Aligned. Score:  78
+Sequences (1:10) Aligned. Score:  47
+Sequences (1:11) Aligned. Score:  46
+Sequences (2:3) Aligned. Score:  94
+Sequences (2:4) Aligned. Score:  25
+Sequences (2:5) Aligned. Score:  26
+Sequences (2:6) Aligned. Score:  40
+Sequences (2:7) Aligned. Score:  42
+Sequences (2:8) Aligned. Score:  47
+Sequences (2:9) Aligned. Score:  44
+Sequences (2:10) Aligned. Score:  100
+Sequences (2:11) Aligned. Score:  90
+Sequences (3:4) Aligned. Score:  25
+Sequences (3:5) Aligned. Score:  27
+Sequences (3:6) Aligned. Score:  42
+Sequences (3:7) Aligned. Score:  42
+Sequences (3:8) Aligned. Score:  47
+Sequences (3:9) Aligned. Score:  44
+Sequences (3:10) Aligned. Score:  94
+Sequences (3:11) Aligned. Score:  92
+Sequences (4:5) Aligned. Score:  40
+Sequences (4:6) Aligned. Score:  25
+Sequences (4:7) Aligned. Score:  22
+Sequences (4:8) Aligned. Score:  25
+Sequences (4:9) Aligned. Score:  25
+Sequences (4:10) Aligned. Score:  25
+Sequences (4:11) Aligned. Score:  25
+Sequences (5:6) Aligned. Score:  31
+Sequences (5:7) Aligned. Score:  36
+Sequences (5:8) Aligned. Score:  38
+Sequences (5:9) Aligned. Score:  36
+Sequences (5:10) Aligned. Score:  25
+Sequences (5:11) Aligned. Score:  27
+Sequences (6:7) Aligned. Score:  60
+Sequences (6:8) Aligned. Score:  65
+Sequences (6:9) Aligned. Score:  65
+Sequences (6:10) Aligned. Score:  39
+Sequences (6:11) Aligned. Score:  41
+Sequences (7:8) Aligned. Score:  69
+Sequences (7:9) Aligned. Score:  88
+Sequences (7:10) Aligned. Score:  42
+Sequences (7:11) Aligned. Score:  41
+Sequences (8:9) Aligned. Score:  72
+Sequences (8:10) Aligned. Score:  47
+Sequences (8:11) Aligned. Score:  46
+Sequences (9:10) Aligned. Score:  44
+Sequences (9:11) Aligned. Score:  42
+Sequences (10:11) Aligned. Score:  90
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/MC4h9VclIb/qGjQ77LrTq.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:1789
+Group 2: Sequences:   3      Score:1753
+Group 3: Sequences:   4      Score:1732
+Group 4: Sequences:   2      Score:1713
+Group 5: Sequences:   3      Score:1625
+Group 6: Sequences:   4      Score:1583
+Group 7: Sequences:   5      Score:1521
+Group 8: Sequences:   9      Score:1337
+Group 9: Sequences:   2      Score:1350
+Group 10: Sequences:  11      Score:520
+Alignment Score 13214
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/MC4h9VclIb/ie6BfSPXE4]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/MC4h9VclIb/qGjQ77LrTq,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/MC4h9VclIb/ie6BfSPXE4
+Cluster:22 I am now working on [BG11800]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/cMBMQPrJTh/58xYA1YfxV -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/cMBMQPrJTh/EYKAzpjaxS 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam              87 aa
+Sequence 2: Ban              91 aa
+Sequence 3: Bce              87 aa
+Sequence 4: Bli              87 aa
+Sequence 5: Bsu             100 aa
+Sequence 6: Bth              87 aa
+Sequence 7: Bwe              88 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  54
+Sequences (1:3) Aligned. Score:  54
+Sequences (1:4) Aligned. Score:  49
+Sequences (1:5) Aligned. Score:  73
+Sequences (1:6) Aligned. Score:  54
+Sequences (1:7) Aligned. Score:  52
+Sequences (2:3) Aligned. Score:  100
+Sequences (2:4) Aligned. Score:  50
+Sequences (2:5) Aligned. Score:  53
+Sequences (2:6) Aligned. Score:  100
+Sequences (2:7) Aligned. Score:  88
+Sequences (3:4) Aligned. Score:  50
+Sequences (3:5) Aligned. Score:  55
+Sequences (3:6) Aligned. Score:  100
+Sequences (3:7) Aligned. Score:  88
+Sequences (4:5) Aligned. Score:  54
+Sequences (4:6) Aligned. Score:  50
+Sequences (4:7) Aligned. Score:  54
+Sequences (5:6) Aligned. Score:  55
+Sequences (5:7) Aligned. Score:  52
+Sequences (6:7) Aligned. Score:  88
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/cMBMQPrJTh/58xYA1YfxV.dnd]
+Start of Multiple Alignment
+There are 6 groups
+Aligning...
+Group 1: Sequences:   2      Score:1703
+Group 2: Sequences:   2      Score:1929
+Group 3: Sequences:   3      Score:1929
+Group 4: Sequences:   4      Score:1847
+Group 5: Sequences:   6      Score:1491
+Group 6: Sequences:   7      Score:1493
+Alignment Score 8244
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/cMBMQPrJTh/EYKAzpjaxS]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/cMBMQPrJTh/58xYA1YfxV,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/cMBMQPrJTh/EYKAzpjaxS
+Cluster:23 I am now working on [BG11801]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/luCgytR7y0/KOWHvcKJk4 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/luCgytR7y0/tRbLNrnBpk 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             189 aa
+Sequence 2: Ban             189 aa
+Sequence 3: Bce             189 aa
+Sequence 4: Bcl             262 aa
+Sequence 5: Bha             298 aa
+Sequence 6: Bli             189 aa
+Sequence 7: Bpu             298 aa
+Sequence 8: Bsu             189 aa
+Sequence 9: Bth             189 aa
+Sequence 10: Bwe             190 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  88
+Sequences (1:3) Aligned. Score:  88
+Sequences (1:4) Aligned. Score:  23
+Sequences (1:5) Aligned. Score:  19
+Sequences (1:6) Aligned. Score:  87
+Sequences (1:7) Aligned. Score:  19
+Sequences (1:8) Aligned. Score:  96
+Sequences (1:9) Aligned. Score:  88
+Sequences (1:10) Aligned. Score:  88
+Sequences (2:3) Aligned. Score:  100
+Sequences (2:4) Aligned. Score:  23
+Sequences (2:5) Aligned. Score:  19
+Sequences (2:6) Aligned. Score:  88
+Sequences (2:7) Aligned. Score:  20
+Sequences (2:8) Aligned. Score:  89
+Sequences (2:9) Aligned. Score:  100
+Sequences (2:10) Aligned. Score:  93
+Sequences (3:4) Aligned. Score:  23
+Sequences (3:5) Aligned. Score:  19
+Sequences (3:6) Aligned. Score:  88
+Sequences (3:7) Aligned. Score:  20
+Sequences (3:8) Aligned. Score:  89
+Sequences (3:9) Aligned. Score:  100
+Sequences (3:10) Aligned. Score:  93
+Sequences (4:5) Aligned. Score:  21
+Sequences (4:6) Aligned. Score:  24
+Sequences (4:7) Aligned. Score:  19
+Sequences (4:8) Aligned. Score:  23
+Sequences (4:9) Aligned. Score:  23
+Sequences (4:10) Aligned. Score:  24
+Sequences (5:6) Aligned. Score:  20
+Sequences (5:7) Aligned. Score:  74
+Sequences (5:8) Aligned. Score:  19
+Sequences (5:9) Aligned. Score:  19
+Sequences (5:10) Aligned. Score:  20
+Sequences (6:7) Aligned. Score:  19
+Sequences (6:8) Aligned. Score:  89
+Sequences (6:9) Aligned. Score:  88
+Sequences (6:10) Aligned. Score:  87
+Sequences (7:8) Aligned. Score:  19
+Sequences (7:9) Aligned. Score:  20
+Sequences (7:10) Aligned. Score:  18
+Sequences (8:9) Aligned. Score:  89
+Sequences (8:10) Aligned. Score:  88
+Sequences (9:10) Aligned. Score:  93
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/luCgytR7y0/KOWHvcKJk4.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:4057
+Group 2: Sequences:   2      Score:4108
+Group 3: Sequences:   3      Score:4108
+Group 4: Sequences:   4      Score:3998
+Group 5: Sequences:   6      Score:3914
+Group 6: Sequences:   7      Score:3909
+Group 7:                     Delayed
+Group 8: Sequences:   2      Score:5762
+Group 9: Sequences:   9      Score:1600
+Sequence:4     Score:1670
+Alignment Score 28057
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/luCgytR7y0/tRbLNrnBpk]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/luCgytR7y0/KOWHvcKJk4,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/luCgytR7y0/tRbLNrnBpk
+Cluster:24 I am now working on [BG11811]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/XE0RcH0lWT/Sga2WeDNFF -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/XE0RcH0lWT/3Cp1vmdRmY 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             303 aa
+Sequence 2: Ban             295 aa
+Sequence 3: Bce             295 aa
+Sequence 4: Bcl             296 aa
+Sequence 5: Bha             298 aa
+Sequence 6: Bli             301 aa
+Sequence 7: Bmo             309 aa
+Sequence 8: Bpu             301 aa
+Sequence 9: Bsu             311 aa
+Sequence 10: Bth             295 aa
+Sequence 11: Bwe             295 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  44
+Sequences (1:3) Aligned. Score:  43
+Sequences (1:4) Aligned. Score:  39
+Sequences (1:5) Aligned. Score:  43
+Sequences (1:6) Aligned. Score:  62
+Sequences (1:7) Aligned. Score:  79
+Sequences (1:8) Aligned. Score:  62
+Sequences (1:9) Aligned. Score:  79
+Sequences (1:10) Aligned. Score:  44
+Sequences (1:11) Aligned. Score:  44
+Sequences (2:3) Aligned. Score:  90
+Sequences (2:4) Aligned. Score:  38
+Sequences (2:5) Aligned. Score:  44
+Sequences (2:6) Aligned. Score:  41
+Sequences (2:7) Aligned. Score:  43
+Sequences (2:8) Aligned. Score:  42
+Sequences (2:9) Aligned. Score:  43
+Sequences (2:10) Aligned. Score:  100
+Sequences (2:11) Aligned. Score:  89
+Sequences (3:4) Aligned. Score:  38
+Sequences (3:5) Aligned. Score:  44
+Sequences (3:6) Aligned. Score:  41
+Sequences (3:7) Aligned. Score:  45
+Sequences (3:8) Aligned. Score:  43
+Sequences (3:9) Aligned. Score:  43
+Sequences (3:10) Aligned. Score:  90
+Sequences (3:11) Aligned. Score:  91
+Sequences (4:5) Aligned. Score:  48
+Sequences (4:6) Aligned. Score:  40
+Sequences (4:7) Aligned. Score:  40
+Sequences (4:8) Aligned. Score:  40
+Sequences (4:9) Aligned. Score:  41
+Sequences (4:10) Aligned. Score:  38
+Sequences (4:11) Aligned. Score:  38
+Sequences (5:6) Aligned. Score:  41
+Sequences (5:7) Aligned. Score:  42
+Sequences (5:8) Aligned. Score:  40
+Sequences (5:9) Aligned. Score:  44
+Sequences (5:10) Aligned. Score:  44
+Sequences (5:11) Aligned. Score:  44
+Sequences (6:7) Aligned. Score:  60
+Sequences (6:8) Aligned. Score:  55
+Sequences (6:9) Aligned. Score:  59
+Sequences (6:10) Aligned. Score:  41
+Sequences (6:11) Aligned. Score:  40
+Sequences (7:8) Aligned. Score:  60
+Sequences (7:9) Aligned. Score:  88
+Sequences (7:10) Aligned. Score:  43
+Sequences (7:11) Aligned. Score:  45
+Sequences (8:9) Aligned. Score:  61
+Sequences (8:10) Aligned. Score:  42
+Sequences (8:11) Aligned. Score:  43
+Sequences (9:10) Aligned. Score:  43
+Sequences (9:11) Aligned. Score:  44
+Sequences (10:11) Aligned. Score:  89
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/XE0RcH0lWT/Sga2WeDNFF.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:6497
+Group 2: Sequences:   2      Score:6253
+Group 3: Sequences:   4      Score:6227
+Group 4: Sequences:   2      Score:6445
+Group 5: Sequences:   3      Score:6047
+Group 6: Sequences:   4      Score:5353
+Group 7: Sequences:   5      Score:5296
+Group 8: Sequences:   9      Score:4522
+Group 9: Sequences:   2      Score:4839
+Group 10: Sequences:  11      Score:4264
+Alignment Score 54296
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/XE0RcH0lWT/3Cp1vmdRmY]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/XE0RcH0lWT/Sga2WeDNFF,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/XE0RcH0lWT/3Cp1vmdRmY
+Cluster:25 I am now working on [BG11822]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/6bPOzAtpPF/BpFFMwgjIh -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/6bPOzAtpPF/ilGqFfokuE 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             124 aa
+Sequence 2: Ban             128 aa
+Sequence 3: Bce             129 aa
+Sequence 4: Bcl             140 aa
+Sequence 5: Bha             144 aa
+Sequence 6: Bli             135 aa
+Sequence 7: Bmo              41 aa
+Sequence 8: Bsu             130 aa
+Sequence 9: Bth             128 aa
+Sequence 10: Bwe             128 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  20
+Sequences (1:3) Aligned. Score:  19
+Sequences (1:4) Aligned. Score:  12
+Sequences (1:5) Aligned. Score:  16
+Sequences (1:6) Aligned. Score:  47
+Sequences (1:7) Aligned. Score:  63
+Sequences (1:8) Aligned. Score:  61
+Sequences (1:9) Aligned. Score:  20
+Sequences (1:10) Aligned. Score:  18
+Sequences (2:3) Aligned. Score:  89
+Sequences (2:4) Aligned. Score:  20
+Sequences (2:5) Aligned. Score:  17
+Sequences (2:6) Aligned. Score:  20
+Sequences (2:7) Aligned. Score:  7
+Sequences (2:8) Aligned. Score:  20
+Sequences (2:9) Aligned. Score:  99
+Sequences (2:10) Aligned. Score:  89
+Sequences (3:4) Aligned. Score:  19
+Sequences (3:5) Aligned. Score:  17
+Sequences (3:6) Aligned. Score:  20
+Sequences (3:7) Aligned. Score:  7
+Sequences (3:8) Aligned. Score:  20
+Sequences (3:9) Aligned. Score:  89
+Sequences (3:10) Aligned. Score:  85
+Sequences (4:5) Aligned. Score:  37
+Sequences (4:6) Aligned. Score:  16
+Sequences (4:7) Aligned. Score:  17
+Sequences (4:8) Aligned. Score:  18
+Sequences (4:9) Aligned. Score:  20
+Sequences (4:10) Aligned. Score:  18
+Sequences (5:6) Aligned. Score:  14
+Sequences (5:7) Aligned. Score:  14
+Sequences (5:8) Aligned. Score:  20
+Sequences (5:9) Aligned. Score:  17
+Sequences (5:10) Aligned. Score:  15
+Sequences (6:7) Aligned. Score:  46
+Sequences (6:8) Aligned. Score:  48
+Sequences (6:9) Aligned. Score:  20
+Sequences (6:10) Aligned. Score:  19
+Sequences (7:8) Aligned. Score:  80
+Sequences (7:9) Aligned. Score:  7
+Sequences (7:10) Aligned. Score:  14
+Sequences (8:9) Aligned. Score:  20
+Sequences (8:10) Aligned. Score:  19
+Sequences (9:10) Aligned. Score:  88
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/6bPOzAtpPF/BpFFMwgjIh.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:2805
+Group 2: Sequences:   3      Score:2657
+Group 3: Sequences:   4      Score:2658
+Group 4: Sequences:   2      Score:2097
+Group 5: Sequences:   6      Score:951
+Group 6: Sequences:   2      Score:818
+Group 7: Sequences:   3      Score:1333
+Group 8: Sequences:   4      Score:1512
+Group 9: Sequences:  10      Score:720
+Alignment Score 7913
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/6bPOzAtpPF/ilGqFfokuE]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/6bPOzAtpPF/BpFFMwgjIh,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/6bPOzAtpPF/ilGqFfokuE
+Cluster:26 I am now working on [BG12167]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/F2lAPOuRpa/k28dQhAZ7g -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/F2lAPOuRpa/gbMny9vJ34 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             144 aa
+Sequence 2: Ban             153 aa
+Sequence 3: Bce             154 aa
+Sequence 4: Bha             145 aa
+Sequence 5: Bli             145 aa
+Sequence 6: Bsu             143 aa
+Sequence 7: Bth             153 aa
+Sequence 8: Bwe             156 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  15
+Sequences (1:3) Aligned. Score:  14
+Sequences (1:4) Aligned. Score:  11
+Sequences (1:5) Aligned. Score:  13
+Sequences (1:6) Aligned. Score:  65
+Sequences (1:7) Aligned. Score:  15
+Sequences (1:8) Aligned. Score:  15
+Sequences (2:3) Aligned. Score:  100
+Sequences (2:4) Aligned. Score:  22
+Sequences (2:5) Aligned. Score:  23
+Sequences (2:6) Aligned. Score:  20
+Sequences (2:7) Aligned. Score:  100
+Sequences (2:8) Aligned. Score:  96
+Sequences (3:4) Aligned. Score:  23
+Sequences (3:5) Aligned. Score:  25
+Sequences (3:6) Aligned. Score:  20
+Sequences (3:7) Aligned. Score:  100
+Sequences (3:8) Aligned. Score:  96
+Sequences (4:5) Aligned. Score:  54
+Sequences (4:6) Aligned. Score:  12
+Sequences (4:7) Aligned. Score:  22
+Sequences (4:8) Aligned. Score:  23
+Sequences (5:6) Aligned. Score:  13
+Sequences (5:7) Aligned. Score:  23
+Sequences (5:8) Aligned. Score:  26
+Sequences (6:7) Aligned. Score:  20
+Sequences (6:8) Aligned. Score:  19
+Sequences (7:8) Aligned. Score:  96
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/F2lAPOuRpa/k28dQhAZ7g.dnd]
+Start of Multiple Alignment
+There are 7 groups
+Aligning...
+Group 1: Sequences:   2      Score:3294
+Group 2: Sequences:   3      Score:3279
+Group 3: Sequences:   4      Score:3222
+Group 4: Sequences:   2      Score:2467
+Group 5: Sequences:   6      Score:1239
+Group 6: Sequences:   2      Score:2625
+Group 7: Sequences:   8      Score:1032
+Alignment Score 8313
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/F2lAPOuRpa/gbMny9vJ34]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/F2lAPOuRpa/k28dQhAZ7g,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/F2lAPOuRpa/gbMny9vJ34
+Cluster:27 I am now working on [BG12181]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a0EPdaaXqE/jJKHJHA7Vp -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a0EPdaaXqE/LFluSzzYqj 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             420 aa
+Sequence 2: Ban             674 aa
+Sequence 3: Bce             674 aa
+Sequence 4: Bli             422 aa
+Sequence 5: Bmo             420 aa
+Sequence 6: Bsu             439 aa
+Sequence 7: Bth             674 aa
+Sequence 8: Bwe             675 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  12
+Sequences (1:3) Aligned. Score:  12
+Sequences (1:4) Aligned. Score:  55
+Sequences (1:5) Aligned. Score:  72
+Sequences (1:6) Aligned. Score:  69
+Sequences (1:7) Aligned. Score:  12
+Sequences (1:8) Aligned. Score:  12
+Sequences (2:3) Aligned. Score:  94
+Sequences (2:4) Aligned. Score:  16
+Sequences (2:5) Aligned. Score:  12
+Sequences (2:6) Aligned. Score:  14
+Sequences (2:7) Aligned. Score:  99
+Sequences (2:8) Aligned. Score:  96
+Sequences (3:4) Aligned. Score:  16
+Sequences (3:5) Aligned. Score:  13
+Sequences (3:6) Aligned. Score:  12
+Sequences (3:7) Aligned. Score:  94
+Sequences (3:8) Aligned. Score:  94
+Sequences (4:5) Aligned. Score:  56
+Sequences (4:6) Aligned. Score:  54
+Sequences (4:7) Aligned. Score:  16
+Sequences (4:8) Aligned. Score:  16
+Sequences (5:6) Aligned. Score:  87
+Sequences (5:7) Aligned. Score:  12
+Sequences (5:8) Aligned. Score:  13
+Sequences (6:7) Aligned. Score:  15
+Sequences (6:8) Aligned. Score:  13
+Sequences (7:8) Aligned. Score:  96
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a0EPdaaXqE/jJKHJHA7Vp.dnd]
+Start of Multiple Alignment
+There are 7 groups
+Aligning...
+Group 1: Sequences:   2      Score:14725
+Group 2: Sequences:   3      Score:14552
+Group 3: Sequences:   4      Score:14414
+Group 4: Sequences:   2      Score:8610
+Group 5: Sequences:   3      Score:7953
+Group 6: Sequences:   4      Score:7349
+Group 7: Sequences:   8      Score:2979
+Alignment Score 36785
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a0EPdaaXqE/LFluSzzYqj]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a0EPdaaXqE/jJKHJHA7Vp,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/a0EPdaaXqE/LFluSzzYqj
+Cluster:28 I am now working on [BG12236]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/z0jPNfuuXD/K88xIydlY3 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/z0jPNfuuXD/HJqvg9RW3T 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             389 aa
+Sequence 2: Ban             380 aa
+Sequence 3: Bce             380 aa
+Sequence 4: Bcl             383 aa
+Sequence 5: Bha             391 aa
+Sequence 6: Bli             382 aa
+Sequence 7: Bmo             381 aa
+Sequence 8: Bpu             384 aa
+Sequence 9: Bsu             435 aa
+Sequence 10: Bth             380 aa
+Sequence 11: Bwe             380 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  68
+Sequences (1:3) Aligned. Score:  67
+Sequences (1:4) Aligned. Score:  60
+Sequences (1:5) Aligned. Score:  65
+Sequences (1:6) Aligned. Score:  75
+Sequences (1:7) Aligned. Score:  91
+Sequences (1:8) Aligned. Score:  83
+Sequences (1:9) Aligned. Score:  91
+Sequences (1:10) Aligned. Score:  68
+Sequences (1:11) Aligned. Score:  67
+Sequences (2:3) Aligned. Score:  98
+Sequences (2:4) Aligned. Score:  61
+Sequences (2:5) Aligned. Score:  71
+Sequences (2:6) Aligned. Score:  70
+Sequences (2:7) Aligned. Score:  68
+Sequences (2:8) Aligned. Score:  69
+Sequences (2:9) Aligned. Score:  69
+Sequences (2:10) Aligned. Score:  99
+Sequences (2:11) Aligned. Score:  97
+Sequences (3:4) Aligned. Score:  61
+Sequences (3:5) Aligned. Score:  71
+Sequences (3:6) Aligned. Score:  70
+Sequences (3:7) Aligned. Score:  68
+Sequences (3:8) Aligned. Score:  70
+Sequences (3:9) Aligned. Score:  69
+Sequences (3:10) Aligned. Score:  98
+Sequences (3:11) Aligned. Score:  97
+Sequences (4:5) Aligned. Score:  62
+Sequences (4:6) Aligned. Score:  61
+Sequences (4:7) Aligned. Score:  62
+Sequences (4:8) Aligned. Score:  61
+Sequences (4:9) Aligned. Score:  61
+Sequences (4:10) Aligned. Score:  62
+Sequences (4:11) Aligned. Score:  62
+Sequences (5:6) Aligned. Score:  68
+Sequences (5:7) Aligned. Score:  66
+Sequences (5:8) Aligned. Score:  65
+Sequences (5:9) Aligned. Score:  65
+Sequences (5:10) Aligned. Score:  71
+Sequences (5:11) Aligned. Score:  71
+Sequences (6:7) Aligned. Score:  77
+Sequences (6:8) Aligned. Score:  78
+Sequences (6:9) Aligned. Score:  78
+Sequences (6:10) Aligned. Score:  70
+Sequences (6:11) Aligned. Score:  71
+Sequences (7:8) Aligned. Score:  85
+Sequences (7:9) Aligned. Score:  96
+Sequences (7:10) Aligned. Score:  68
+Sequences (7:11) Aligned. Score:  69
+Sequences (8:9) Aligned. Score:  83
+Sequences (8:10) Aligned. Score:  69
+Sequences (8:11) Aligned. Score:  70
+Sequences (9:10) Aligned. Score:  69
+Sequences (9:11) Aligned. Score:  69
+Sequences (10:11) Aligned. Score:  98
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/z0jPNfuuXD/K88xIydlY3.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:8162
+Group 2: Sequences:   3      Score:8085
+Group 3: Sequences:   4      Score:7741
+Group 4: Sequences:   5      Score:7527
+Group 5: Sequences:   2      Score:8276
+Group 6: Sequences:   3      Score:8247
+Group 7: Sequences:   4      Score:8234
+Group 8: Sequences:   9      Score:7144
+Group 9: Sequences:  10      Score:7160
+Group 10: Sequences:  11      Score:6826
+Alignment Score 100199
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/z0jPNfuuXD/HJqvg9RW3T]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/z0jPNfuuXD/K88xIydlY3,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/z0jPNfuuXD/HJqvg9RW3T
+Cluster:29 I am now working on [BG12251]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Q3unx3sMEd/Z4imuBOZg4 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Q3unx3sMEd/Lmen9t6m3k 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             331 aa
+Sequence 2: Ban             450 aa
+Sequence 3: Bce             456 aa
+Sequence 4: Bli             318 aa
+Sequence 5: Bmo             368 aa
+Sequence 6: Bpu             306 aa
+Sequence 7: Bsu             321 aa
+Sequence 8: Bth             449 aa
+Sequence 9: Bwe             454 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  9
+Sequences (1:3) Aligned. Score:  9
+Sequences (1:4) Aligned. Score:  47
+Sequences (1:5) Aligned. Score:  58
+Sequences (1:6) Aligned. Score:  34
+Sequences (1:7) Aligned. Score:  57
+Sequences (1:8) Aligned. Score:  9
+Sequences (1:9) Aligned. Score:  11
+Sequences (2:3) Aligned. Score:  75
+Sequences (2:4) Aligned. Score:  14
+Sequences (2:5) Aligned. Score:  11
+Sequences (2:6) Aligned. Score:  12
+Sequences (2:7) Aligned. Score:  12
+Sequences (2:8) Aligned. Score:  93
+Sequences (2:9) Aligned. Score:  69
+Sequences (3:4) Aligned. Score:  12
+Sequences (3:5) Aligned. Score:  10
+Sequences (3:6) Aligned. Score:  10
+Sequences (3:7) Aligned. Score:  11
+Sequences (3:8) Aligned. Score:  75
+Sequences (3:9) Aligned. Score:  67
+Sequences (4:5) Aligned. Score:  50
+Sequences (4:6) Aligned. Score:  40
+Sequences (4:7) Aligned. Score:  49
+Sequences (4:8) Aligned. Score:  13
+Sequences (4:9) Aligned. Score:  10
+Sequences (5:6) Aligned. Score:  36
+Sequences (5:7) Aligned. Score:  85
+Sequences (5:8) Aligned. Score:  11
+Sequences (5:9) Aligned. Score:  9
+Sequences (6:7) Aligned. Score:  34
+Sequences (6:8) Aligned. Score:  9
+Sequences (6:9) Aligned. Score:  4
+Sequences (7:8) Aligned. Score:  13
+Sequences (7:9) Aligned. Score:  9
+Sequences (8:9) Aligned. Score:  68
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Q3unx3sMEd/Z4imuBOZg4.dnd]
+Start of Multiple Alignment
+There are 8 groups
+Aligning...
+Group 1: Sequences:   2      Score:6460
+Group 2: Sequences:   3      Score:5598
+Group 3: Sequences:   4      Score:5109
+Group 4: Sequences:   5      Score:4537
+Group 5: Sequences:   2      Score:9278
+Group 6: Sequences:   3      Score:8590
+Group 7: Sequences:   4      Score:8230
+Group 8: Sequences:   9      Score:2262
+Alignment Score 19594
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Q3unx3sMEd/Lmen9t6m3k]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Q3unx3sMEd/Z4imuBOZg4,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/Q3unx3sMEd/Lmen9t6m3k
+Cluster:30 I am now working on [BG12512]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/jSA06BXSby/mfT7bS6R5A -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/jSA06BXSby/1aLsOZP2dV 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             145 aa
+Sequence 2: Bha             134 aa
+Sequence 3: Bli             142 aa
+Sequence 4: Bmo             120 aa
+Sequence 5: Bpu             142 aa
+Sequence 6: Bsu             140 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  17
+Sequences (1:3) Aligned. Score:  46
+Sequences (1:4) Aligned. Score:  44
+Sequences (1:5) Aligned. Score:  33
+Sequences (1:6) Aligned. Score:  42
+Sequences (2:3) Aligned. Score:  4
+Sequences (2:4) Aligned. Score:  7
+Sequences (2:5) Aligned. Score:  15
+Sequences (2:6) Aligned. Score:  14
+Sequences (3:4) Aligned. Score:  37
+Sequences (3:5) Aligned. Score:  41
+Sequences (3:6) Aligned. Score:  36
+Sequences (4:5) Aligned. Score:  43
+Sequences (4:6) Aligned. Score:  81
+Sequences (5:6) Aligned. Score:  36
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/jSA06BXSby/mfT7bS6R5A.dnd]
+Start of Multiple Alignment
+There are 5 groups
+Aligning...
+Group 1: Sequences:   2      Score:2268
+Group 2: Sequences:   2      Score:2313
+Group 3: Sequences:   4      Score:1987
+Group 4: Sequences:   5      Score:2021
+Group 5:                     Delayed
+Sequence:2     Score:1018
+Alignment Score 3352
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/jSA06BXSby/1aLsOZP2dV]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/jSA06BXSby/mfT7bS6R5A,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/jSA06BXSby/1aLsOZP2dV
+Cluster:31 I am now working on [BG13000]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/343oih8Cpq/9Gr8NPjslV -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/343oih8Cpq/ToA4LwqU6c 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             288 aa
+Sequence 2: Ban             290 aa
+Sequence 3: Bce             290 aa
+Sequence 4: Bcl             283 aa
+Sequence 5: Bha             280 aa
+Sequence 6: Bli             283 aa
+Sequence 7: Bmo             288 aa
+Sequence 8: Bpu             288 aa
+Sequence 9: Bsu             288 aa
+Sequence 10: Bth             290 aa
+Sequence 11: Bwe             290 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  48
+Sequences (1:3) Aligned. Score:  48
+Sequences (1:4) Aligned. Score:  37
+Sequences (1:5) Aligned. Score:  41
+Sequences (1:6) Aligned. Score:  76
+Sequences (1:7) Aligned. Score:  86
+Sequences (1:8) Aligned. Score:  69
+Sequences (1:9) Aligned. Score:  87
+Sequences (1:10) Aligned. Score:  47
+Sequences (1:11) Aligned. Score:  48
+Sequences (2:3) Aligned. Score:  97
+Sequences (2:4) Aligned. Score:  34
+Sequences (2:5) Aligned. Score:  46
+Sequences (2:6) Aligned. Score:  51
+Sequences (2:7) Aligned. Score:  47
+Sequences (2:8) Aligned. Score:  49
+Sequences (2:9) Aligned. Score:  47
+Sequences (2:10) Aligned. Score:  99
+Sequences (2:11) Aligned. Score:  92
+Sequences (3:4) Aligned. Score:  34
+Sequences (3:5) Aligned. Score:  45
+Sequences (3:6) Aligned. Score:  50
+Sequences (3:7) Aligned. Score:  46
+Sequences (3:8) Aligned. Score:  48
+Sequences (3:9) Aligned. Score:  47
+Sequences (3:10) Aligned. Score:  98
+Sequences (3:11) Aligned. Score:  93
+Sequences (4:5) Aligned. Score:  38
+Sequences (4:6) Aligned. Score:  36
+Sequences (4:7) Aligned. Score:  38
+Sequences (4:8) Aligned. Score:  36
+Sequences (4:9) Aligned. Score:  37
+Sequences (4:10) Aligned. Score:  35
+Sequences (4:11) Aligned. Score:  34
+Sequences (5:6) Aligned. Score:  42
+Sequences (5:7) Aligned. Score:  42
+Sequences (5:8) Aligned. Score:  42
+Sequences (5:9) Aligned. Score:  42
+Sequences (5:10) Aligned. Score:  46
+Sequences (5:11) Aligned. Score:  46
+Sequences (6:7) Aligned. Score:  77
+Sequences (6:8) Aligned. Score:  73
+Sequences (6:9) Aligned. Score:  76
+Sequences (6:10) Aligned. Score:  51
+Sequences (6:11) Aligned. Score:  51
+Sequences (7:8) Aligned. Score:  72
+Sequences (7:9) Aligned. Score:  97
+Sequences (7:10) Aligned. Score:  46
+Sequences (7:11) Aligned. Score:  48
+Sequences (8:9) Aligned. Score:  71
+Sequences (8:10) Aligned. Score:  49
+Sequences (8:11) Aligned. Score:  49
+Sequences (9:10) Aligned. Score:  47
+Sequences (9:11) Aligned. Score:  48
+Sequences (10:11) Aligned. Score:  93
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/343oih8Cpq/9Gr8NPjslV.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:6156
+Group 2: Sequences:   3      Score:5885
+Group 3: Sequences:   4      Score:5493
+Group 4: Sequences:   5      Score:5435
+Group 5: Sequences:   2      Score:6240
+Group 6: Sequences:   3      Score:6225
+Group 7: Sequences:   4      Score:6115
+Group 8: Sequences:   9      Score:4644
+Group 9: Sequences:  10      Score:4412
+Group 10: Sequences:  11      Score:4144
+Alignment Score 53921
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/343oih8Cpq/ToA4LwqU6c]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/343oih8Cpq/9Gr8NPjslV,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/343oih8Cpq/ToA4LwqU6c
+Cluster:32 I am now working on [BG13035]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/CFMiDV7SPg/Eco8908tTZ -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/CFMiDV7SPg/vLF4iUiXxp 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             364 aa
+Sequence 2: Ban             350 aa
+Sequence 3: Bce             353 aa
+Sequence 4: Bha             448 aa
+Sequence 5: Bli             361 aa
+Sequence 6: Bmo             383 aa
+Sequence 7: Bpu             368 aa
+Sequence 8: Bsu             363 aa
+Sequence 9: Bth             350 aa
+Sequence 10: Bwe             351 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  26
+Sequences (1:3) Aligned. Score:  26
+Sequences (1:4) Aligned. Score:  14
+Sequences (1:5) Aligned. Score:  57
+Sequences (1:6) Aligned. Score:  74
+Sequences (1:7) Aligned. Score:  29
+Sequences (1:8) Aligned. Score:  74
+Sequences (1:9) Aligned. Score:  26
+Sequences (1:10) Aligned. Score:  24
+Sequences (2:3) Aligned. Score:  87
+Sequences (2:4) Aligned. Score:  13
+Sequences (2:5) Aligned. Score:  26
+Sequences (2:6) Aligned. Score:  25
+Sequences (2:7) Aligned. Score:  22
+Sequences (2:8) Aligned. Score:  25
+Sequences (2:9) Aligned. Score:  98
+Sequences (2:10) Aligned. Score:  74
+Sequences (3:4) Aligned. Score:  13
+Sequences (3:5) Aligned. Score:  26
+Sequences (3:6) Aligned. Score:  26
+Sequences (3:7) Aligned. Score:  22
+Sequences (3:8) Aligned. Score:  25
+Sequences (3:9) Aligned. Score:  87
+Sequences (3:10) Aligned. Score:  77
+Sequences (4:5) Aligned. Score:  16
+Sequences (4:6) Aligned. Score:  14
+Sequences (4:7) Aligned. Score:  10
+Sequences (4:8) Aligned. Score:  15
+Sequences (4:9) Aligned. Score:  13
+Sequences (4:10) Aligned. Score:  14
+Sequences (5:6) Aligned. Score:  58
+Sequences (5:7) Aligned. Score:  32
+Sequences (5:8) Aligned. Score:  59
+Sequences (5:9) Aligned. Score:  27
+Sequences (5:10) Aligned. Score:  25
+Sequences (6:7) Aligned. Score:  29
+Sequences (6:8) Aligned. Score:  90
+Sequences (6:9) Aligned. Score:  25
+Sequences (6:10) Aligned. Score:  25
+Sequences (7:8) Aligned. Score:  30
+Sequences (7:9) Aligned. Score:  22
+Sequences (7:10) Aligned. Score:  20
+Sequences (8:9) Aligned. Score:  25
+Sequences (8:10) Aligned. Score:  25
+Sequences (9:10) Aligned. Score:  74
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/CFMiDV7SPg/Eco8908tTZ.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:7547
+Group 2: Sequences:   3      Score:7198
+Group 3: Sequences:   4      Score:6828
+Group 4: Sequences:   2      Score:7632
+Group 5: Sequences:   3      Score:7108
+Group 6: Sequences:   4      Score:6345
+Group 7: Sequences:   5      Score:4149
+Group 8: Sequences:   9      Score:3070
+Group 9:                     Delayed
+Sequence:4     Score:2779
+Alignment Score 32816
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/CFMiDV7SPg/vLF4iUiXxp]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/CFMiDV7SPg/Eco8908tTZ,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/CFMiDV7SPg/vLF4iUiXxp
+Cluster:33 I am now working on [BG13036]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/107DdWZ9EJ/Fa8w7FV75p -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/107DdWZ9EJ/AXQbYeXsbC 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             453 aa
+Sequence 2: Ban             486 aa
+Sequence 3: Bce             485 aa
+Sequence 4: Bha             459 aa
+Sequence 5: Bli             452 aa
+Sequence 6: Bmo             453 aa
+Sequence 7: Bpu             453 aa
+Sequence 8: Bsu             453 aa
+Sequence 9: Bth             486 aa
+Sequence 10: Bwe             487 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  34
+Sequences (1:3) Aligned. Score:  35
+Sequences (1:4) Aligned. Score:  37
+Sequences (1:5) Aligned. Score:  54
+Sequences (1:6) Aligned. Score:  65
+Sequences (1:7) Aligned. Score:  41
+Sequences (1:8) Aligned. Score:  66
+Sequences (1:9) Aligned. Score:  34
+Sequences (1:10) Aligned. Score:  35
+Sequences (2:3) Aligned. Score:  91
+Sequences (2:4) Aligned. Score:  34
+Sequences (2:5) Aligned. Score:  36
+Sequences (2:6) Aligned. Score:  35
+Sequences (2:7) Aligned. Score:  38
+Sequences (2:8) Aligned. Score:  35
+Sequences (2:9) Aligned. Score:  98
+Sequences (2:10) Aligned. Score:  86
+Sequences (3:4) Aligned. Score:  34
+Sequences (3:5) Aligned. Score:  35
+Sequences (3:6) Aligned. Score:  34
+Sequences (3:7) Aligned. Score:  37
+Sequences (3:8) Aligned. Score:  35
+Sequences (3:9) Aligned. Score:  92
+Sequences (3:10) Aligned. Score:  87
+Sequences (4:5) Aligned. Score:  37
+Sequences (4:6) Aligned. Score:  36
+Sequences (4:7) Aligned. Score:  33
+Sequences (4:8) Aligned. Score:  37
+Sequences (4:9) Aligned. Score:  34
+Sequences (4:10) Aligned. Score:  34
+Sequences (5:6) Aligned. Score:  57
+Sequences (5:7) Aligned. Score:  42
+Sequences (5:8) Aligned. Score:  57
+Sequences (5:9) Aligned. Score:  35
+Sequences (5:10) Aligned. Score:  35
+Sequences (6:7) Aligned. Score:  44
+Sequences (6:8) Aligned. Score:  83
+Sequences (6:9) Aligned. Score:  35
+Sequences (6:10) Aligned. Score:  37
+Sequences (7:8) Aligned. Score:  43
+Sequences (7:9) Aligned. Score:  37
+Sequences (7:10) Aligned. Score:  36
+Sequences (8:9) Aligned. Score:  35
+Sequences (8:10) Aligned. Score:  37
+Sequences (9:10) Aligned. Score:  86
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/107DdWZ9EJ/Fa8w7FV75p.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:10548
+Group 2: Sequences:   3      Score:10264
+Group 3: Sequences:   4      Score:10038
+Group 4: Sequences:   2      Score:9201
+Group 5: Sequences:   3      Score:8472
+Group 6: Sequences:   4      Score:7815
+Group 7: Sequences:   5      Score:7012
+Group 8: Sequences:   9      Score:6640
+Group 9: Sequences:  10      Score:6606
+Alignment Score 62785
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/107DdWZ9EJ/AXQbYeXsbC]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/107DdWZ9EJ/Fa8w7FV75p,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/107DdWZ9EJ/AXQbYeXsbC
+Cluster:34 I am now working on [BG13084]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/xu1RWZ97Xj/z6kLc4dUVQ -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/xu1RWZ97Xj/LdhxUMlOqm 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             170 aa
+Sequence 2: Ban             145 aa
+Sequence 3: Bce             145 aa
+Sequence 4: Bcl             233 aa
+Sequence 5: Bha             197 aa
+Sequence 6: Bli             146 aa
+Sequence 7: Bmo              39 aa
+Sequence 8: Bsu             145 aa
+Sequence 9: Bth             144 aa
+Sequence 10: Bwe             145 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  43
+Sequences (1:3) Aligned. Score:  45
+Sequences (1:4) Aligned. Score:  34
+Sequences (1:5) Aligned. Score:  32
+Sequences (1:6) Aligned. Score:  42
+Sequences (1:7) Aligned. Score:  48
+Sequences (1:8) Aligned. Score:  51
+Sequences (1:9) Aligned. Score:  44
+Sequences (1:10) Aligned. Score:  46
+Sequences (2:3) Aligned. Score:  90
+Sequences (2:4) Aligned. Score:  43
+Sequences (2:5) Aligned. Score:  40
+Sequences (2:6) Aligned. Score:  50
+Sequences (2:7) Aligned. Score:  43
+Sequences (2:8) Aligned. Score:  48
+Sequences (2:9) Aligned. Score:  97
+Sequences (2:10) Aligned. Score:  84
+Sequences (3:4) Aligned. Score:  44
+Sequences (3:5) Aligned. Score:  38
+Sequences (3:6) Aligned. Score:  51
+Sequences (3:7) Aligned. Score:  38
+Sequences (3:8) Aligned. Score:  46
+Sequences (3:9) Aligned. Score:  90
+Sequences (3:10) Aligned. Score:  92
+Sequences (4:5) Aligned. Score:  37
+Sequences (4:6) Aligned. Score:  52
+Sequences (4:7) Aligned. Score:  28
+Sequences (4:8) Aligned. Score:  44
+Sequences (4:9) Aligned. Score:  44
+Sequences (4:10) Aligned. Score:  44
+Sequences (5:6) Aligned. Score:  45
+Sequences (5:7) Aligned. Score:  25
+Sequences (5:8) Aligned. Score:  46
+Sequences (5:9) Aligned. Score:  39
+Sequences (5:10) Aligned. Score:  42
+Sequences (6:7) Aligned. Score:  35
+Sequences (6:8) Aligned. Score:  46
+Sequences (6:9) Aligned. Score:  51
+Sequences (6:10) Aligned. Score:  51
+Sequences (7:8) Aligned. Score:  76
+Sequences (7:9) Aligned. Score:  43
+Sequences (7:10) Aligned. Score:  38
+Sequences (8:9) Aligned. Score:  50
+Sequences (8:10) Aligned. Score:  46
+Sequences (9:10) Aligned. Score:  85
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/xu1RWZ97Xj/z6kLc4dUVQ.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:2396
+Group 2: Sequences:   3      Score:2444
+Group 3: Sequences:   2      Score:3124
+Group 4: Sequences:   2      Score:3068
+Group 5: Sequences:   4      Score:3004
+Group 6: Sequences:   7      Score:2092
+Group 7: Sequences:   2      Score:752
+Group 8: Sequences:   3      Score:1287
+Group 9: Sequences:  10      Score:1511
+Alignment Score 17579
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/xu1RWZ97Xj/LdhxUMlOqm]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/xu1RWZ97Xj/z6kLc4dUVQ,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/xu1RWZ97Xj/LdhxUMlOqm
+Cluster:35 I am now working on [BG13088]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/1AeLf4Nvjx/evw6wM23K6 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/1AeLf4Nvjx/uSCJwaPpNt 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam            1130 aa
+Sequence 2: Ban            1029 aa
+Sequence 3: Bce            1029 aa
+Sequence 4: Bha             565 aa
+Sequence 5: Bli            1130 aa
+Sequence 6: Bmo            1130 aa
+Sequence 7: Bpu            1131 aa
+Sequence 8: Bsu            1130 aa
+Sequence 9: Bth            1029 aa
+Sequence 10: Bwe            1029 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  21
+Sequences (1:3) Aligned. Score:  22
+Sequences (1:4) Aligned. Score:  15
+Sequences (1:5) Aligned. Score:  54
+Sequences (1:6) Aligned. Score:  65
+Sequences (1:7) Aligned. Score:  46
+Sequences (1:8) Aligned. Score:  64
+Sequences (1:9) Aligned. Score:  21
+Sequences (1:10) Aligned. Score:  22
+Sequences (2:3) Aligned. Score:  92
+Sequences (2:4) Aligned. Score:  13
+Sequences (2:5) Aligned. Score:  20
+Sequences (2:6) Aligned. Score:  20
+Sequences (2:7) Aligned. Score:  20
+Sequences (2:8) Aligned. Score:  20
+Sequences (2:9) Aligned. Score:  99
+Sequences (2:10) Aligned. Score:  89
+Sequences (3:4) Aligned. Score:  14
+Sequences (3:5) Aligned. Score:  20
+Sequences (3:6) Aligned. Score:  21
+Sequences (3:7) Aligned. Score:  21
+Sequences (3:8) Aligned. Score:  22
+Sequences (3:9) Aligned. Score:  92
+Sequences (3:10) Aligned. Score:  88
+Sequences (4:5) Aligned. Score:  16
+Sequences (4:6) Aligned. Score:  13
+Sequences (4:7) Aligned. Score:  15
+Sequences (4:8) Aligned. Score:  11
+Sequences (4:9) Aligned. Score:  13
+Sequences (4:10) Aligned. Score:  12
+Sequences (5:6) Aligned. Score:  58
+Sequences (5:7) Aligned. Score:  48
+Sequences (5:8) Aligned. Score:  56
+Sequences (5:9) Aligned. Score:  20
+Sequences (5:10) Aligned. Score:  21
+Sequences (6:7) Aligned. Score:  50
+Sequences (6:8) Aligned. Score:  84
+Sequences (6:9) Aligned. Score:  21
+Sequences (6:10) Aligned. Score:  20
+Sequences (7:8) Aligned. Score:  51
+Sequences (7:9) Aligned. Score:  20
+Sequences (7:10) Aligned. Score:  21
+Sequences (8:9) Aligned. Score:  20
+Sequences (8:10) Aligned. Score:  21
+Sequences (9:10) Aligned. Score:  89
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/1AeLf4Nvjx/evw6wM23K6.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:22097
+Group 2: Sequences:   3      Score:21419
+Group 3: Sequences:   4      Score:21118
+Group 4: Sequences:   2      Score:22543
+Group 5: Sequences:   3      Score:20343
+Group 6: Sequences:   4      Score:19258
+Group 7: Sequences:   5      Score:18182
+Group 8: Sequences:   9      Score:8409
+Group 9:                     Delayed
+Sequence:4     Score:4159
+Alignment Score 90333
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/1AeLf4Nvjx/uSCJwaPpNt]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/1AeLf4Nvjx/evw6wM23K6,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/1AeLf4Nvjx/uSCJwaPpNt
+Cluster:36 I am now working on [BG13097]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/c3z2Diho7U/J35SCrVxlW -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/c3z2Diho7U/tVb3Kt6ehX 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bli             357 aa
+Sequence 2: Bmo             318 aa
+Sequence 3: Bpu             365 aa
+Sequence 4: Bsu             307 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  38
+Sequences (1:3) Aligned. Score:  59
+Sequences (1:4) Aligned. Score:  37
+Sequences (2:3) Aligned. Score:  36
+Sequences (2:4) Aligned. Score:  70
+Sequences (3:4) Aligned. Score:  34
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/c3z2Diho7U/J35SCrVxlW.dnd]
+Start of Multiple Alignment
+There are 3 groups
+Aligning...
+Group 1: Sequences:   2      Score:5706
+Group 2: Sequences:   2      Score:6312
+Group 3: Sequences:   4      Score:4246
+Alignment Score 5045
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/c3z2Diho7U/tVb3Kt6ehX]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/c3z2Diho7U/J35SCrVxlW,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/c3z2Diho7U/tVb3Kt6ehX
+Cluster:37 I am now working on [BG13104]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/T9Q8hh6uBF/Wb3ObX8yvK -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/T9Q8hh6uBF/t6rrqhEA5G 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Ban             269 aa
+Sequence 2: Bce             269 aa
+Sequence 3: Bha             241 aa
+Sequence 4: Bli             260 aa
+Sequence 5: Bmo             267 aa
+Sequence 6: Bsu             268 aa
+Sequence 7: Bth             269 aa
+Sequence 8: Bwe             269 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  93
+Sequences (1:3) Aligned. Score:  14
+Sequences (1:4) Aligned. Score:  41
+Sequences (1:5) Aligned. Score:  43
+Sequences (1:6) Aligned. Score:  42
+Sequences (1:7) Aligned. Score:  98
+Sequences (1:8) Aligned. Score:  91
+Sequences (2:3) Aligned. Score:  15
+Sequences (2:4) Aligned. Score:  40
+Sequences (2:5) Aligned. Score:  41
+Sequences (2:6) Aligned. Score:  41
+Sequences (2:7) Aligned. Score:  94
+Sequences (2:8) Aligned. Score:  92
+Sequences (3:4) Aligned. Score:  18
+Sequences (3:5) Aligned. Score:  20
+Sequences (3:6) Aligned. Score:  18
+Sequences (3:7) Aligned. Score:  15
+Sequences (3:8) Aligned. Score:  15
+Sequences (4:5) Aligned. Score:  45
+Sequences (4:6) Aligned. Score:  45
+Sequences (4:7) Aligned. Score:  41
+Sequences (4:8) Aligned. Score:  41
+Sequences (5:6) Aligned. Score:  89
+Sequences (5:7) Aligned. Score:  43
+Sequences (5:8) Aligned. Score:  43
+Sequences (6:7) Aligned. Score:  42
+Sequences (6:8) Aligned. Score:  44
+Sequences (7:8) Aligned. Score:  91
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/T9Q8hh6uBF/Wb3ObX8yvK.dnd]
+Start of Multiple Alignment
+There are 7 groups
+Aligning...
+Group 1: Sequences:   2      Score:5820
+Group 2: Sequences:   3      Score:5725
+Group 3: Sequences:   4      Score:5672
+Group 4: Sequences:   2      Score:5610
+Group 5: Sequences:   6      Score:4209
+Group 6: Sequences:   7      Score:4035
+Group 7:                     Delayed
+Sequence:3     Score:1858
+Alignment Score 21993
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/T9Q8hh6uBF/t6rrqhEA5G]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/T9Q8hh6uBF/Wb3ObX8yvK,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/T9Q8hh6uBF/t6rrqhEA5G
+Cluster:38 I am now working on [BG13153]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/KvUZYAIxX0/WuhxUAdsY6 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/KvUZYAIxX0/U3cW1UGpv7 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             202 aa
+Sequence 2: Ban             182 aa
+Sequence 3: Bce             174 aa
+Sequence 4: Bli             159 aa
+Sequence 5: Bmo             241 aa
+Sequence 6: Bpu             204 aa
+Sequence 7: Bsu             227 aa
+Sequence 8: Bth             174 aa
+Sequence 9: Bwe             167 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  23
+Sequences (1:3) Aligned. Score:  25
+Sequences (1:4) Aligned. Score:  52
+Sequences (1:5) Aligned. Score:  57
+Sequences (1:6) Aligned. Score:  39
+Sequences (1:7) Aligned. Score:  55
+Sequences (1:8) Aligned. Score:  24
+Sequences (1:9) Aligned. Score:  26
+Sequences (2:3) Aligned. Score:  82
+Sequences (2:4) Aligned. Score:  22
+Sequences (2:5) Aligned. Score:  26
+Sequences (2:6) Aligned. Score:  26
+Sequences (2:7) Aligned. Score:  25
+Sequences (2:8) Aligned. Score:  98
+Sequences (2:9) Aligned. Score:  83
+Sequences (3:4) Aligned. Score:  23
+Sequences (3:5) Aligned. Score:  23
+Sequences (3:6) Aligned. Score:  28
+Sequences (3:7) Aligned. Score:  26
+Sequences (3:8) Aligned. Score:  81
+Sequences (3:9) Aligned. Score:  81
+Sequences (4:5) Aligned. Score:  53
+Sequences (4:6) Aligned. Score:  50
+Sequences (4:7) Aligned. Score:  50
+Sequences (4:8) Aligned. Score:  26
+Sequences (4:9) Aligned. Score:  25
+Sequences (5:6) Aligned. Score:  45
+Sequences (5:7) Aligned. Score:  79
+Sequences (5:8) Aligned. Score:  25
+Sequences (5:9) Aligned. Score:  25
+Sequences (6:7) Aligned. Score:  46
+Sequences (6:8) Aligned. Score:  27
+Sequences (6:9) Aligned. Score:  26
+Sequences (7:8) Aligned. Score:  24
+Sequences (7:9) Aligned. Score:  25
+Sequences (8:9) Aligned. Score:  83
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/KvUZYAIxX0/WuhxUAdsY6.dnd]
+Start of Multiple Alignment
+There are 8 groups
+Aligning...
+Group 1: Sequences:   2      Score:4376
+Group 2: Sequences:   3      Score:3464
+Group 3: Sequences:   4      Score:2644
+Group 4: Sequences:   5      Score:2831
+Group 5: Sequences:   2      Score:3705
+Group 6: Sequences:   3      Score:3365
+Group 7: Sequences:   4      Score:3349
+Group 8: Sequences:   9      Score:1644
+Alignment Score 13737
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/KvUZYAIxX0/U3cW1UGpv7]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/KvUZYAIxX0/WuhxUAdsY6,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/KvUZYAIxX0/U3cW1UGpv7
+Cluster:39 I am now working on [BG13288]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TvO9GIEF14/W6xcIKiNdu -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TvO9GIEF14/6U2MSzKhPJ 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             167 aa
+Sequence 2: Ban             153 aa
+Sequence 3: Bce             153 aa
+Sequence 4: Bcl             165 aa
+Sequence 5: Bha             152 aa
+Sequence 6: Bli             163 aa
+Sequence 7: Bpu             166 aa
+Sequence 8: Bsu             164 aa
+Sequence 9: Bth             153 aa
+Sequence 10: Bwe             153 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  31
+Sequences (1:3) Aligned. Score:  30
+Sequences (1:4) Aligned. Score:  61
+Sequences (1:5) Aligned. Score:  38
+Sequences (1:6) Aligned. Score:  68
+Sequences (1:7) Aligned. Score:  67
+Sequences (1:8) Aligned. Score:  77
+Sequences (1:9) Aligned. Score:  31
+Sequences (1:10) Aligned. Score:  30
+Sequences (2:3) Aligned. Score:  94
+Sequences (2:4) Aligned. Score:  26
+Sequences (2:5) Aligned. Score:  13
+Sequences (2:6) Aligned. Score:  30
+Sequences (2:7) Aligned. Score:  26
+Sequences (2:8) Aligned. Score:  26
+Sequences (2:9) Aligned. Score:  98
+Sequences (2:10) Aligned. Score:  92
+Sequences (3:4) Aligned. Score:  26
+Sequences (3:5) Aligned. Score:  13
+Sequences (3:6) Aligned. Score:  26
+Sequences (3:7) Aligned. Score:  26
+Sequences (3:8) Aligned. Score:  29
+Sequences (3:9) Aligned. Score:  94
+Sequences (3:10) Aligned. Score:  95
+Sequences (4:5) Aligned. Score:  46
+Sequences (4:6) Aligned. Score:  65
+Sequences (4:7) Aligned. Score:  54
+Sequences (4:8) Aligned. Score:  65
+Sequences (4:9) Aligned. Score:  26
+Sequences (4:10) Aligned. Score:  26
+Sequences (5:6) Aligned. Score:  42
+Sequences (5:7) Aligned. Score:  38
+Sequences (5:8) Aligned. Score:  40
+Sequences (5:9) Aligned. Score:  13
+Sequences (5:10) Aligned. Score:  14
+Sequences (6:7) Aligned. Score:  66
+Sequences (6:8) Aligned. Score:  74
+Sequences (6:9) Aligned. Score:  26
+Sequences (6:10) Aligned. Score:  27
+Sequences (7:8) Aligned. Score:  67
+Sequences (7:9) Aligned. Score:  26
+Sequences (7:10) Aligned. Score:  26
+Sequences (8:9) Aligned. Score:  26
+Sequences (8:10) Aligned. Score:  30
+Sequences (9:10) Aligned. Score:  93
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TvO9GIEF14/W6xcIKiNdu.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:3159
+Group 2: Sequences:   3      Score:3004
+Group 3: Sequences:   4      Score:3003
+Group 4: Sequences:   5      Score:2891
+Group 5: Sequences:   6      Score:2274
+Group 6: Sequences:   2      Score:3311
+Group 7: Sequences:   2      Score:3263
+Group 8: Sequences:   4      Score:3250
+Group 9: Sequences:  10      Score:1363
+Alignment Score 18510
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TvO9GIEF14/6U2MSzKhPJ]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TvO9GIEF14/W6xcIKiNdu,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/TvO9GIEF14/6U2MSzKhPJ
+Cluster:40 I am now working on [BG13356]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lMLEtWUMO1/ayvViMSmWp -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lMLEtWUMO1/of9c4on4q2 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             136 aa
+Sequence 2: Ban             145 aa
+Sequence 3: Bce             145 aa
+Sequence 4: Bcl             141 aa
+Sequence 5: Bha             139 aa
+Sequence 6: Bli             131 aa
+Sequence 7: Bmo             132 aa
+Sequence 8: Bpu             137 aa
+Sequence 9: Bsu             132 aa
+Sequence 10: Bth             145 aa
+Sequence 11: Bwe             146 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  33
+Sequences (1:3) Aligned. Score:  33
+Sequences (1:4) Aligned. Score:  31
+Sequences (1:5) Aligned. Score:  30
+Sequences (1:6) Aligned. Score:  71
+Sequences (1:7) Aligned. Score:  75
+Sequences (1:8) Aligned. Score:  58
+Sequences (1:9) Aligned. Score:  75
+Sequences (1:10) Aligned. Score:  33
+Sequences (1:11) Aligned. Score:  33
+Sequences (2:3) Aligned. Score:  95
+Sequences (2:4) Aligned. Score:  31
+Sequences (2:5) Aligned. Score:  33
+Sequences (2:6) Aligned. Score:  32
+Sequences (2:7) Aligned. Score:  35
+Sequences (2:8) Aligned. Score:  34
+Sequences (2:9) Aligned. Score:  34
+Sequences (2:10) Aligned. Score:  99
+Sequences (2:11) Aligned. Score:  91
+Sequences (3:4) Aligned. Score:  34
+Sequences (3:5) Aligned. Score:  34
+Sequences (3:6) Aligned. Score:  32
+Sequences (3:7) Aligned. Score:  37
+Sequences (3:8) Aligned. Score:  35
+Sequences (3:9) Aligned. Score:  35
+Sequences (3:10) Aligned. Score:  95
+Sequences (3:11) Aligned. Score:  93
+Sequences (4:5) Aligned. Score:  48
+Sequences (4:6) Aligned. Score:  30
+Sequences (4:7) Aligned. Score:  28
+Sequences (4:8) Aligned. Score:  31
+Sequences (4:9) Aligned. Score:  29
+Sequences (4:10) Aligned. Score:  31
+Sequences (4:11) Aligned. Score:  34
+Sequences (5:6) Aligned. Score:  30
+Sequences (5:7) Aligned. Score:  30
+Sequences (5:8) Aligned. Score:  29
+Sequences (5:9) Aligned. Score:  30
+Sequences (5:10) Aligned. Score:  32
+Sequences (5:11) Aligned. Score:  35
+Sequences (6:7) Aligned. Score:  70
+Sequences (6:8) Aligned. Score:  64
+Sequences (6:9) Aligned. Score:  70
+Sequences (6:10) Aligned. Score:  32
+Sequences (6:11) Aligned. Score:  33
+Sequences (7:8) Aligned. Score:  59
+Sequences (7:9) Aligned. Score:  90
+Sequences (7:10) Aligned. Score:  35
+Sequences (7:11) Aligned. Score:  37
+Sequences (8:9) Aligned. Score:  61
+Sequences (8:10) Aligned. Score:  34
+Sequences (8:11) Aligned. Score:  36
+Sequences (9:10) Aligned. Score:  34
+Sequences (9:11) Aligned. Score:  37
+Sequences (10:11) Aligned. Score:  90
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lMLEtWUMO1/ayvViMSmWp.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:3181
+Group 2: Sequences:   3      Score:3131
+Group 3: Sequences:   4      Score:3080
+Group 4: Sequences:   2      Score:2776
+Group 5: Sequences:   3      Score:2562
+Group 6: Sequences:   4      Score:2489
+Group 7: Sequences:   5      Score:2387
+Group 8: Sequences:   9      Score:1641
+Group 9: Sequences:   2      Score:2283
+Group 10: Sequences:  11      Score:1531
+Alignment Score 22041
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lMLEtWUMO1/of9c4on4q2]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lMLEtWUMO1/ayvViMSmWp,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/lMLEtWUMO1/of9c4on4q2
+Cluster:41 I am now working on [BG13415]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/ftr4BhjquM/k1cQAlRw12 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/ftr4BhjquM/Ak45OD85U6 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Ban             122 aa
+Sequence 2: Bce             113 aa
+Sequence 3: Bcl              78 aa
+Sequence 4: Bha              70 aa
+Sequence 5: Bli             109 aa
+Sequence 6: Bpu              84 aa
+Sequence 7: Bsu             123 aa
+Sequence 8: Bth              72 aa
+Sequence 9: Bwe              78 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  18
+Sequences (1:3) Aligned. Score:  33
+Sequences (1:4) Aligned. Score:  37
+Sequences (1:5) Aligned. Score:  27
+Sequences (1:6) Aligned. Score:  39
+Sequences (1:7) Aligned. Score:  24
+Sequences (1:8) Aligned. Score:  100
+Sequences (1:9) Aligned. Score:  25
+Sequences (2:3) Aligned. Score:  28
+Sequences (2:4) Aligned. Score:  34
+Sequences (2:5) Aligned. Score:  20
+Sequences (2:6) Aligned. Score:  29
+Sequences (2:7) Aligned. Score:  25
+Sequences (2:8) Aligned. Score:  33
+Sequences (2:9) Aligned. Score:  96
+Sequences (3:4) Aligned. Score:  37
+Sequences (3:5) Aligned. Score:  25
+Sequences (3:6) Aligned. Score:  44
+Sequences (3:7) Aligned. Score:  37
+Sequences (3:8) Aligned. Score:  41
+Sequences (3:9) Aligned. Score:  26
+Sequences (4:5) Aligned. Score:  42
+Sequences (4:6) Aligned. Score:  42
+Sequences (4:7) Aligned. Score:  45
+Sequences (4:8) Aligned. Score:  37
+Sequences (4:9) Aligned. Score:  32
+Sequences (5:6) Aligned. Score:  36
+Sequences (5:7) Aligned. Score:  24
+Sequences (5:8) Aligned. Score:  33
+Sequences (5:9) Aligned. Score:  24
+Sequences (6:7) Aligned. Score:  52
+Sequences (6:8) Aligned. Score:  43
+Sequences (6:9) Aligned. Score:  30
+Sequences (7:8) Aligned. Score:  37
+Sequences (7:9) Aligned. Score:  29
+Sequences (8:9) Aligned. Score:  27
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/ftr4BhjquM/k1cQAlRw12.dnd]
+Start of Multiple Alignment
+There are 8 groups
+Aligning...
+Group 1: Sequences:   2      Score:1627
+Group 2: Sequences:   2      Score:1362
+Group 3: Sequences:   3      Score:959
+Group 4: Sequences:   5      Score:915
+Group 5: Sequences:   2      Score:1002
+Group 6: Sequences:   7      Score:410
+Group 7: Sequences:   2      Score:1752
+Group 8: Sequences:   9      Score:405
+Alignment Score 3294
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/ftr4BhjquM/Ak45OD85U6]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/ftr4BhjquM/k1cQAlRw12,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/ftr4BhjquM/Ak45OD85U6
+Cluster:42 I am now working on [BG13484]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/42mHs3fAXm/CO9ZxZfNPH -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/42mHs3fAXm/sCbpJjtxPW 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             392 aa
+Sequence 2: Bce             398 aa
+Sequence 3: Bcl             394 aa
+Sequence 4: Bli             358 aa
+Sequence 5: Bpu             386 aa
+Sequence 6: Bsu             392 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  62
+Sequences (1:3) Aligned. Score:  60
+Sequences (1:4) Aligned. Score:  65
+Sequences (1:5) Aligned. Score:  65
+Sequences (1:6) Aligned. Score:  56
+Sequences (2:3) Aligned. Score:  76
+Sequences (2:4) Aligned. Score:  72
+Sequences (2:5) Aligned. Score:  69
+Sequences (2:6) Aligned. Score:  78
+Sequences (3:4) Aligned. Score:  71
+Sequences (3:5) Aligned. Score:  68
+Sequences (3:6) Aligned. Score:  74
+Sequences (4:5) Aligned. Score:  77
+Sequences (4:6) Aligned. Score:  70
+Sequences (5:6) Aligned. Score:  66
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/42mHs3fAXm/CO9ZxZfNPH.dnd]
+Start of Multiple Alignment
+There are 5 groups
+Aligning...
+Group 1: Sequences:   2      Score:7844
+Group 2: Sequences:   3      Score:7656
+Group 3: Sequences:   4      Score:6875
+Group 4: Sequences:   5      Score:7205
+Group 5: Sequences:   6      Score:6847
+Alignment Score 26169
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/42mHs3fAXm/sCbpJjtxPW]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/42mHs3fAXm/CO9ZxZfNPH,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/42mHs3fAXm/sCbpJjtxPW
+Cluster:43 I am now working on [BG13506]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/p9ie0L9pL7/rpJSJg8Yj0 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/p9ie0L9pL7/8VLOru2LE9 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Ban             478 aa
+Sequence 2: Bce             478 aa
+Sequence 3: Bli             140 aa
+Sequence 4: Bmo             479 aa
+Sequence 5: Bsu             446 aa
+Sequence 6: Bth             478 aa
+Sequence 7: Bwe             482 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  84
+Sequences (1:3) Aligned. Score:  60
+Sequences (1:4) Aligned. Score:  67
+Sequences (1:5) Aligned. Score:  68
+Sequences (1:6) Aligned. Score:  85
+Sequences (1:7) Aligned. Score:  84
+Sequences (2:3) Aligned. Score:  58
+Sequences (2:4) Aligned. Score:  66
+Sequences (2:5) Aligned. Score:  68
+Sequences (2:6) Aligned. Score:  98
+Sequences (2:7) Aligned. Score:  85
+Sequences (3:4) Aligned. Score:  71
+Sequences (3:5) Aligned. Score:  57
+Sequences (3:6) Aligned. Score:  59
+Sequences (3:7) Aligned. Score:  60
+Sequences (4:5) Aligned. Score:  81
+Sequences (4:6) Aligned. Score:  67
+Sequences (4:7) Aligned. Score:  65
+Sequences (5:6) Aligned. Score:  68
+Sequences (5:7) Aligned. Score:  68
+Sequences (6:7) Aligned. Score:  85
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/p9ie0L9pL7/rpJSJg8Yj0.dnd]
+Start of Multiple Alignment
+There are 6 groups
+Aligning...
+Group 1: Sequences:   2      Score:10353
+Group 2: Sequences:   3      Score:9797
+Group 3: Sequences:   4      Score:9746
+Group 4: Sequences:   2      Score:8958
+Group 5: Sequences:   6      Score:8412
+Group 6: Sequences:   7      Score:2427
+Alignment Score 37204
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/p9ie0L9pL7/8VLOru2LE9]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/p9ie0L9pL7/rpJSJg8Yj0,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/p9ie0L9pL7/8VLOru2LE9
+Cluster:44 I am now working on [BG13537]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/r94I0rOTvw/8GRmvWKsrL -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/r94I0rOTvw/Ik6Ut9rlOg 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam              83 aa
+Sequence 2: Ban             131 aa
+Sequence 3: Bce             131 aa
+Sequence 4: Bcl              97 aa
+Sequence 5: Bli              84 aa
+Sequence 6: Bpu              83 aa
+Sequence 7: Bsu              83 aa
+Sequence 8: Bth             131 aa
+Sequence 9: Bwe             148 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  50
+Sequences (1:3) Aligned. Score:  50
+Sequences (1:4) Aligned. Score:  55
+Sequences (1:5) Aligned. Score:  62
+Sequences (1:6) Aligned. Score:  75
+Sequences (1:7) Aligned. Score:  69
+Sequences (1:8) Aligned. Score:  50
+Sequences (1:9) Aligned. Score:  45
+Sequences (2:3) Aligned. Score:  99
+Sequences (2:4) Aligned. Score:  31
+Sequences (2:5) Aligned. Score:  44
+Sequences (2:6) Aligned. Score:  44
+Sequences (2:7) Aligned. Score:  45
+Sequences (2:8) Aligned. Score:  99
+Sequences (2:9) Aligned. Score:  86
+Sequences (3:4) Aligned. Score:  31
+Sequences (3:5) Aligned. Score:  44
+Sequences (3:6) Aligned. Score:  44
+Sequences (3:7) Aligned. Score:  44
+Sequences (3:8) Aligned. Score:  100
+Sequences (3:9) Aligned. Score:  86
+Sequences (4:5) Aligned. Score:  51
+Sequences (4:6) Aligned. Score:  50
+Sequences (4:7) Aligned. Score:  50
+Sequences (4:8) Aligned. Score:  31
+Sequences (4:9) Aligned. Score:  31
+Sequences (5:6) Aligned. Score:  61
+Sequences (5:7) Aligned. Score:  63
+Sequences (5:8) Aligned. Score:  44
+Sequences (5:9) Aligned. Score:  44
+Sequences (6:7) Aligned. Score:  67
+Sequences (6:8) Aligned. Score:  44
+Sequences (6:9) Aligned. Score:  49
+Sequences (7:8) Aligned. Score:  44
+Sequences (7:9) Aligned. Score:  46
+Sequences (8:9) Aligned. Score:  86
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/r94I0rOTvw/8GRmvWKsrL.dnd]
+Start of Multiple Alignment
+There are 8 groups
+Aligning...
+Group 1: Sequences:   2      Score:1618
+Group 2: Sequences:   3      Score:1574
+Group 3: Sequences:   2      Score:1315
+Group 4: Sequences:   5      Score:1360
+Group 5: Sequences:   2      Score:2958
+Group 6: Sequences:   3      Score:2951
+Group 7: Sequences:   4      Score:2767
+Group 8: Sequences:   9      Score:1188
+Alignment Score 12383
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/r94I0rOTvw/Ik6Ut9rlOg]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/r94I0rOTvw/8GRmvWKsrL,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/r94I0rOTvw/Ik6Ut9rlOg
+Cluster:45 I am now working on [BG13781]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3FxiuVQbDN/u5qdwVaIqq -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3FxiuVQbDN/XRXZnXSzno 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             407 aa
+Sequence 2: Ban             582 aa
+Sequence 3: Bce             580 aa
+Sequence 4: Bcl             509 aa
+Sequence 5: Bha             444 aa
+Sequence 6: Bli             350 aa
+Sequence 7: Bmo             387 aa
+Sequence 8: Bpu             415 aa
+Sequence 9: Bsu             387 aa
+Sequence 10: Bth             609 aa
+Sequence 11: Bwe             722 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  23
+Sequences (1:3) Aligned. Score:  27
+Sequences (1:4) Aligned. Score:  17
+Sequences (1:5) Aligned. Score:  21
+Sequences (1:6) Aligned. Score:  45
+Sequences (1:7) Aligned. Score:  54
+Sequences (1:8) Aligned. Score:  35
+Sequences (1:9) Aligned. Score:  56
+Sequences (1:10) Aligned. Score:  24
+Sequences (1:11) Aligned. Score:  26
+Sequences (2:3) Aligned. Score:  93
+Sequences (2:4) Aligned. Score:  14
+Sequences (2:5) Aligned. Score:  27
+Sequences (2:6) Aligned. Score:  23
+Sequences (2:7) Aligned. Score:  25
+Sequences (2:8) Aligned. Score:  27
+Sequences (2:9) Aligned. Score:  26
+Sequences (2:10) Aligned. Score:  93
+Sequences (2:11) Aligned. Score:  88
+Sequences (3:4) Aligned. Score:  14
+Sequences (3:5) Aligned. Score:  26
+Sequences (3:6) Aligned. Score:  25
+Sequences (3:7) Aligned. Score:  26
+Sequences (3:8) Aligned. Score:  26
+Sequences (3:9) Aligned. Score:  27
+Sequences (3:10) Aligned. Score:  91
+Sequences (3:11) Aligned. Score:  88
+Sequences (4:5) Aligned. Score:  23
+Sequences (4:6) Aligned. Score:  26
+Sequences (4:7) Aligned. Score:  23
+Sequences (4:8) Aligned. Score:  20
+Sequences (4:9) Aligned. Score:  20
+Sequences (4:10) Aligned. Score:  16
+Sequences (4:11) Aligned. Score:  14
+Sequences (5:6) Aligned. Score:  27
+Sequences (5:7) Aligned. Score:  23
+Sequences (5:8) Aligned. Score:  25
+Sequences (5:9) Aligned. Score:  24
+Sequences (5:10) Aligned. Score:  32
+Sequences (5:11) Aligned. Score:  29
+Sequences (6:7) Aligned. Score:  49
+Sequences (6:8) Aligned. Score:  44
+Sequences (6:9) Aligned. Score:  46
+Sequences (6:10) Aligned. Score:  29
+Sequences (6:11) Aligned. Score:  28
+Sequences (7:8) Aligned. Score:  40
+Sequences (7:9) Aligned. Score:  86
+Sequences (7:10) Aligned. Score:  27
+Sequences (7:11) Aligned. Score:  27
+Sequences (8:9) Aligned. Score:  40
+Sequences (8:10) Aligned. Score:  25
+Sequences (8:11) Aligned. Score:  30
+Sequences (9:10) Aligned. Score:  27
+Sequences (9:11) Aligned. Score:  27
+Sequences (10:11) Aligned. Score:  85
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3FxiuVQbDN/u5qdwVaIqq.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:12242
+Group 2: Sequences:   3      Score:12035
+Group 3: Sequences:   4      Score:11546
+Group 4:                     Delayed
+Group 5: Sequences:   2      Score:7900
+Group 6: Sequences:   3      Score:6064
+Group 7: Sequences:   4      Score:5146
+Group 8: Sequences:   5      Score:4907
+Group 9: Sequences:   9      Score:2927
+Group 10:                     Delayed
+Sequence:5     Score:3531
+Sequence:4     Score:3085
+Alignment Score 36157
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3FxiuVQbDN/XRXZnXSzno]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3FxiuVQbDN/u5qdwVaIqq,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/3FxiuVQbDN/XRXZnXSzno
+Cluster:46 I am now working on [BG13822]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/d7FmkPGXYT/w6eZxoMCc2 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/d7FmkPGXYT/UuLa739irC 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             156 aa
+Sequence 2: Ban             151 aa
+Sequence 3: Bce             153 aa
+Sequence 4: Bli             147 aa
+Sequence 5: Bpu             158 aa
+Sequence 6: Bsu             155 aa
+Sequence 7: Bth             151 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  60
+Sequences (1:3) Aligned. Score:  62
+Sequences (1:4) Aligned. Score:  60
+Sequences (1:5) Aligned. Score:  63
+Sequences (1:6) Aligned. Score:  69
+Sequences (1:7) Aligned. Score:  60
+Sequences (2:3) Aligned. Score:  88
+Sequences (2:4) Aligned. Score:  48
+Sequences (2:5) Aligned. Score:  63
+Sequences (2:6) Aligned. Score:  54
+Sequences (2:7) Aligned. Score:  92
+Sequences (3:4) Aligned. Score:  50
+Sequences (3:5) Aligned. Score:  64
+Sequences (3:6) Aligned. Score:  54
+Sequences (3:7) Aligned. Score:  92
+Sequences (4:5) Aligned. Score:  61
+Sequences (4:6) Aligned. Score:  61
+Sequences (4:7) Aligned. Score:  50
+Sequences (5:6) Aligned. Score:  60
+Sequences (5:7) Aligned. Score:  64
+Sequences (6:7) Aligned. Score:  54
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/d7FmkPGXYT/w6eZxoMCc2.dnd]
+Start of Multiple Alignment
+There are 6 groups
+Aligning...
+Group 1: Sequences:   2      Score:2956
+Group 2: Sequences:   3      Score:2641
+Group 3: Sequences:   2      Score:3202
+Group 4: Sequences:   3      Score:3178
+Group 5: Sequences:   4      Score:2749
+Group 6: Sequences:   7      Score:2544
+Alignment Score 13393
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/d7FmkPGXYT/UuLa739irC]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/d7FmkPGXYT/w6eZxoMCc2,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/d7FmkPGXYT/UuLa739irC
+Cluster:47 I am now working on [BG14013]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/VXQ6cPcVZh/B76XWrwRA5 -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/VXQ6cPcVZh/scDj07dOZR 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             272 aa
+Sequence 2: Ban             268 aa
+Sequence 3: Bce             268 aa
+Sequence 4: Bcl             285 aa
+Sequence 5: Bha             246 aa
+Sequence 6: Bli             276 aa
+Sequence 7: Bpu             274 aa
+Sequence 8: Bsu             274 aa
+Sequence 9: Bth             268 aa
+Sequence 10: Bwe             269 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  60
+Sequences (1:3) Aligned. Score:  59
+Sequences (1:4) Aligned. Score:  45
+Sequences (1:5) Aligned. Score:  41
+Sequences (1:6) Aligned. Score:  71
+Sequences (1:7) Aligned. Score:  78
+Sequences (1:8) Aligned. Score:  87
+Sequences (1:9) Aligned. Score:  59
+Sequences (1:10) Aligned. Score:  59
+Sequences (2:3) Aligned. Score:  98
+Sequences (2:4) Aligned. Score:  52
+Sequences (2:5) Aligned. Score:  44
+Sequences (2:6) Aligned. Score:  60
+Sequences (2:7) Aligned. Score:  60
+Sequences (2:8) Aligned. Score:  60
+Sequences (2:9) Aligned. Score:  99
+Sequences (2:10) Aligned. Score:  98
+Sequences (3:4) Aligned. Score:  51
+Sequences (3:5) Aligned. Score:  43
+Sequences (3:6) Aligned. Score:  60
+Sequences (3:7) Aligned. Score:  60
+Sequences (3:8) Aligned. Score:  59
+Sequences (3:9) Aligned. Score:  98
+Sequences (3:10) Aligned. Score:  97
+Sequences (4:5) Aligned. Score:  52
+Sequences (4:6) Aligned. Score:  44
+Sequences (4:7) Aligned. Score:  46
+Sequences (4:8) Aligned. Score:  46
+Sequences (4:9) Aligned. Score:  52
+Sequences (4:10) Aligned. Score:  50
+Sequences (5:6) Aligned. Score:  41
+Sequences (5:7) Aligned. Score:  38
+Sequences (5:8) Aligned. Score:  43
+Sequences (5:9) Aligned. Score:  43
+Sequences (5:10) Aligned. Score:  43
+Sequences (6:7) Aligned. Score:  71
+Sequences (6:8) Aligned. Score:  72
+Sequences (6:9) Aligned. Score:  59
+Sequences (6:10) Aligned. Score:  59
+Sequences (7:8) Aligned. Score:  78
+Sequences (7:9) Aligned. Score:  59
+Sequences (7:10) Aligned. Score:  59
+Sequences (8:9) Aligned. Score:  59
+Sequences (8:10) Aligned. Score:  59
+Sequences (9:10) Aligned. Score:  97
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/VXQ6cPcVZh/B76XWrwRA5.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:5496
+Group 2: Sequences:   3      Score:5304
+Group 3: Sequences:   4      Score:5106
+Group 4: Sequences:   2      Score:5729
+Group 5: Sequences:   3      Score:5707
+Group 6: Sequences:   4      Score:5701
+Group 7: Sequences:   8      Score:4655
+Group 8: Sequences:   2      Score:4081
+Group 9: Sequences:  10      Score:3832
+Alignment Score 44019
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/VXQ6cPcVZh/scDj07dOZR]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/VXQ6cPcVZh/B76XWrwRA5,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/VXQ6cPcVZh/scDj07dOZR
+Cluster:48 I am now working on [BG14044]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/64Zi7q9K4L/g7LiGPSxFn -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/64Zi7q9K4L/DFfVyzVxXd 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             338 aa
+Sequence 2: Ban             333 aa
+Sequence 3: Bce             333 aa
+Sequence 4: Bcl             346 aa
+Sequence 5: Bha             352 aa
+Sequence 6: Bli             336 aa
+Sequence 7: Bmo             339 aa
+Sequence 8: Bpu             343 aa
+Sequence 9: Bsu             339 aa
+Sequence 10: Bth             333 aa
+Sequence 11: Bwe             334 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  38
+Sequences (1:3) Aligned. Score:  38
+Sequences (1:4) Aligned. Score:  22
+Sequences (1:5) Aligned. Score:  28
+Sequences (1:6) Aligned. Score:  61
+Sequences (1:7) Aligned. Score:  77
+Sequences (1:8) Aligned. Score:  58
+Sequences (1:9) Aligned. Score:  77
+Sequences (1:10) Aligned. Score:  38
+Sequences (1:11) Aligned. Score:  39
+Sequences (2:3) Aligned. Score:  98
+Sequences (2:4) Aligned. Score:  32
+Sequences (2:5) Aligned. Score:  30
+Sequences (2:6) Aligned. Score:  37
+Sequences (2:7) Aligned. Score:  39
+Sequences (2:8) Aligned. Score:  43
+Sequences (2:9) Aligned. Score:  40
+Sequences (2:10) Aligned. Score:  99
+Sequences (2:11) Aligned. Score:  92
+Sequences (3:4) Aligned. Score:  32
+Sequences (3:5) Aligned. Score:  30
+Sequences (3:6) Aligned. Score:  37
+Sequences (3:7) Aligned. Score:  39
+Sequences (3:8) Aligned. Score:  43
+Sequences (3:9) Aligned. Score:  41
+Sequences (3:10) Aligned. Score:  97
+Sequences (3:11) Aligned. Score:  93
+Sequences (4:5) Aligned. Score:  38
+Sequences (4:6) Aligned. Score:  27
+Sequences (4:7) Aligned. Score:  21
+Sequences (4:8) Aligned. Score:  25
+Sequences (4:9) Aligned. Score:  24
+Sequences (4:10) Aligned. Score:  32
+Sequences (4:11) Aligned. Score:  32
+Sequences (5:6) Aligned. Score:  32
+Sequences (5:7) Aligned. Score:  30
+Sequences (5:8) Aligned. Score:  29
+Sequences (5:9) Aligned. Score:  31
+Sequences (5:10) Aligned. Score:  30
+Sequences (5:11) Aligned. Score:  30
+Sequences (6:7) Aligned. Score:  65
+Sequences (6:8) Aligned. Score:  56
+Sequences (6:9) Aligned. Score:  64
+Sequences (6:10) Aligned. Score:  37
+Sequences (6:11) Aligned. Score:  38
+Sequences (7:8) Aligned. Score:  58
+Sequences (7:9) Aligned. Score:  90
+Sequences (7:10) Aligned. Score:  39
+Sequences (7:11) Aligned. Score:  41
+Sequences (8:9) Aligned. Score:  58
+Sequences (8:10) Aligned. Score:  42
+Sequences (8:11) Aligned. Score:  41
+Sequences (9:10) Aligned. Score:  40
+Sequences (9:11) Aligned. Score:  42
+Sequences (10:11) Aligned. Score:  92
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/64Zi7q9K4L/g7LiGPSxFn.dnd]
+Start of Multiple Alignment
+There are 10 groups
+Aligning...
+Group 1: Sequences:   2      Score:7148
+Group 2: Sequences:   3      Score:6669
+Group 3: Sequences:   4      Score:6016
+Group 4: Sequences:   5      Score:5889
+Group 5: Sequences:   2      Score:7313
+Group 6: Sequences:   3      Score:7269
+Group 7: Sequences:   4      Score:7151
+Group 8: Sequences:   9      Score:5039
+Group 9: Sequences:   2      Score:5216
+Group 10: Sequences:  11      Score:3499
+Alignment Score 54272
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/64Zi7q9K4L/DFfVyzVxXd]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/64Zi7q9K4L/g7LiGPSxFn,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/64Zi7q9K4L/DFfVyzVxXd
+Cluster:49 I am now working on [BG14052]::
+Program /opt/local/bin/clustalw
+clustal command = /opt/local/bin/clustalw align  -infile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/eGvgWzCFxv/da6MhtYHLK -output=gcg   -outorder=input -outfile=/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/eGvgWzCFxv/qUhMUqVTmR 2>&1Bio::Tools::Run::Alignment::Clustalw::_run /opt/local/lib/perl5/site_perl/5.8.9/Bio/Tools/Run/Alignment/Clustalw.pm:754
+
+
+
+ CLUSTAL W (1.83) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: Bam             113 aa
+Sequence 2: Bli              73 aa
+Sequence 3: Bpu             117 aa
+Sequence 4: Bsu             122 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  43
+Sequences (1:3) Aligned. Score:  36
+Sequences (1:4) Aligned. Score:  51
+Sequences (2:3) Aligned. Score:  45
+Sequences (2:4) Aligned. Score:  47
+Sequences (3:4) Aligned. Score:  35
+Guide tree        file created:   [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/eGvgWzCFxv/da6MhtYHLK.dnd]
+Start of Multiple Alignment
+There are 3 groups
+Aligning...
+Group 1: Sequences:   2      Score:1874
+Group 2: Sequences:   3      Score:1195
+Group 3: Sequences:   4      Score:1499
+Alignment Score 1370
+GCG-Alignment file created      [/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/eGvgWzCFxv/qUhMUqVTmR]
+going to remove files /var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/eGvgWzCFxv/da6MhtYHLK,/var/folders/mR/mRMH1qeXEGuhVZN+CyfozU+++TI/-Tmp-/eGvgWzCFxv/qUhMUqVTmR
+bash-3.2$ exit;
+exit
+
+Script done on Thu Jan 20 15:12:53 2011

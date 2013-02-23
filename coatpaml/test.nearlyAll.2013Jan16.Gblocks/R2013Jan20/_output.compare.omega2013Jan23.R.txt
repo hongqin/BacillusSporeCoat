@@ -1,0 +1,899 @@
+
+R version 2.15.1 (2012-06-22) -- "Roasted Marshmallows"
+Copyright (C) 2012 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-apple-darwin9.8.0/x86_64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #2013 Jan 13, compare free omega bw coat and nonCE after GBlocks
+> 
+> # Nov 29, 2011,  partition between <1, >1, 
+> 
+> # 051411 add coat profile
+> # I will partion Bsu, Bce-clade omegas, wilcox.test in coat proteins and between coat and nonCE protein
+> 
+> ##########################################
+> rm(list=ls());
+>  
+> ## some test to demonstrate the syntax for alternative hypothesis
+> x = rnorm(100)+5
+> y = x + 2
+> #summary(x); 
+> #summary(y)
+> wilcox.test( x, y, alt='gr') #accept null, large p 
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  x and y 
+W = 729, p-value = 1
+alternative hypothesis: true location shift is greater than 0 
+
+> wilcox.test( y, x, alt='gr') #accept alter, small p
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  y and x 
+W = 9271, p-value < 2.2e-16
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> ## coat gene profile
+>  ctb = read.table( "_coat.profile.122908.csv",sep="\t",header=T);
+>  ctb$id = as.character( ctb$id );
+>  row.names( ctb ) = as.character( ctb$id );
+>  bacillus.specs = names(ctb)[10:20];
+> 
+>  ctb2 = ctb[,c(1,10:20)]
+>  ctb3 = ctb2[, 2:12] #profile matrix
+>  ctb3 = ifelse( is.na(ctb3), 0, 1);
+>  ctb3 = data.frame(ctb3);
+>  #head(ctb3); #passed
+> 
+>  ctb3$cereushits = ctb3$Ban + ctb3$Bth + ctb3$Bce + ctb3$Bwe
+>  ctb3$subtilishits = ctb3$Bam + ctb3$Bli + ctb3$Bpu 
+>  ctb3$outhits = ctb3$Bha + ctb3$Bcl
+>  ctb3$hits = ctb3$cereushits + ctb3$subtilishits + ctb3$outhits;  
+>  #hist(ctb3$cereushits)
+> 
+> ### coat free omega, and match to coat orthologous hits in the profile table
+> coat11.tb = read.delim("_free.omega.coat.paml.Jan20,2011.txt", header=F);
+> coat.tb = read.delim("_free.omega.GBlocked.coat.paml.Jan17,2013.txt", header=F); #20130123
+> coat.tb = coat.tb[ ! is.na(coat.tb$V4), ]
+> coat.tb$V2 = as.character(coat.tb$V2) 
+> coat.tb$V1 = as.character(coat.tb$V1) 
+> 
+> positions = match( coat.tb$V1, rownames(ctb3))
+> #ctb3[positions[1:5], ] #check, passed
+> coat.tb = cbind( coat.tb, ctb3[positions, c('cereushits','subtilishits', 'outhits', 'hits')])
+> #head(coat.tb)
+> 
+> positions = match( coat.tb$V1, ctb$id)
+> coat.tb$CoatLocation = ctb$CoatLocation[positions]
+> coat.tb$node = "internal"
+> coat.tb$node[grep("^B", coat.tb$V2)] = "leaf"
+> head(coat.tb)
+       V1                    V2 V3     V4 V5    V6 V7    V8    V9      V10 V11
+2 BG10106             (Bha,Bcl)  t  0.277  S 195.2  N 641.8 dN/dS  11.4953  dN
+3 BG10106                   Bha  t 50.000  S 195.2  N 641.8 dN/dS   0.0015  dN
+4 BG10106                   Bcl  t 50.000  S 195.2  N 641.8 dN/dS   0.0021  dN
+5 BG10106 (Bpu,Bli,Bam,Bmo,Bsu)  t 50.000  S 195.2  N 641.8 dN/dS   0.0017  dN
+6 BG10106                   Bpu  t  1.538  S 195.2  N 641.8 dN/dS   0.0275  dN
+7 BG10106     (Bli,Bam,Bmo,Bsu)  t  0.028  S 195.2  N 641.8 dN/dS 410.6105  dN
+     V12 V13     V14  V15     V16  V17  V18 cereushits subtilishits outhits
+2 0.1171  dS  0.0102 S*dS     2.0 N*dN 75.2          4            3       2
+3 0.1100  dS 71.0948 S*dS 13879.4 N*dN 70.6          4            3       2
+4 0.1474  dS 70.9720 S*dS 13855.4 N*dN 94.6          4            3       2
+5 0.1216  dS 71.0567 S*dS 13872.0 N*dN 78.0          4            3       2
+6 0.0555  dS  2.0156 S*dS   393.5 N*dN 35.6          4            3       2
+7 0.0121  dS  0.0000 S*dS     0.0 N*dN  7.8          4            3       2
+  hits CoatLocation     node
+2    9              internal
+3    9                  leaf
+4    9                  leaf
+5    9              internal
+6    9                  leaf
+7    9              internal
+> unique(coat.tb$CoatLocation)
+[1]                InnerLine      InnerCoat      OuterCoat      OuterLine     
+[6] MiddleLine     InnerOuterCoat
+7 Levels:  InnerCoat InnerLine InnerOuterCoat MiddleLine ... OuterLine
+> 
+> 
+> ### nonCE free omega
+> nonCE11.tb = read.delim("_nonCE.omega.7March2011.tab", header=F); #2011 results, without GBlocks
+> nonCE11.tb = nonCE11.tb[nonCE11.tb$V2=='H1C',] # H1C is where free omega are calculated 
+> head(nonCE11.tb)
+        V1  V2                V3 V4    V5 V6    V7 V8    V9   V10    V11 V12
+20 BG10002 H1C         (Bha,Bcl)  t 0.231  S 333.8  N 959.2 dN/dS 0.1650  dN
+21 BG10002 H1C               Bha  t 0.828  S 333.8  N 959.2 dN/dS 0.0195  dN
+22 BG10002 H1C               Bcl  t 1.140  S 333.8  N 959.2 dN/dS 0.0501  dN
+23 BG10002 H1C (Bpu,Bli,Bam,Bsu)  t 0.425  S 333.8  N 959.2 dN/dS 0.0749  dN
+24 BG10002 H1C               Bpu  t 0.635  S 333.8  N 959.2 dN/dS 0.0177  dN
+25 BG10002 H1C     (Bli,Bam,Bsu)  t 0.176  S 333.8  N 959.2 dN/dS 0.0276  dN
+      V13 V14    V15  V16   V17  V18  V19
+20 0.0335  dS 0.2027 S*dS  67.7 N*dN 32.1
+21 0.0198  dS 1.0129 S*dS 338.1 N*dN 18.9
+22 0.0644  dS 1.2865 S*dS 429.4 N*dN 61.8
+23 0.0339  dS 0.4520 S*dS 150.9 N*dN 32.5
+24 0.0138  dS 0.7801 S*dS 260.4 N*dN 13.2
+25 0.0058  dS 0.2111 S*dS  70.5 N*dN  5.6
+> 
+> nonCE.tb = read.delim("_nonCE.omega.2013Jan23.tab", header=F); #20130123, after GBlocks
+> nonCE.tb$V1 = as.character( nonCE.tb$V1 )
+> nonCE.tb$V2 = as.character( nonCE.tb$V2 )
+> nonCE.tb = nonCE.tb[nonCE.tb$V2=='H1C',] # H1C is where free omega are calculated 
+> #nonCE.tb = nonCE.tb[- grep("#", nonCE.tb$V1) , ]
+> nonCE.tb$V3 = as.character(nonCE.tb$V3)
+> nonCE.tb$node = "internal"
+> nonCE.tb$node[grep("^B", nonCE.tb$V3)] = "leaf"
+> head(nonCE.tb)
+        V1  V2                V3 V4    V5 V6    V7 V8    V9   V10    V11 V12
+20 BG10002 H1C         (Bha,Bcl)  t 0.233  S 331.2  N 946.8 dN/dS 0.1494  dN
+21 BG10002 H1C               Bha  t 0.826  S 331.2  N 946.8 dN/dS 0.0200  dN
+22 BG10002 H1C               Bcl  t 1.145  S 331.2  N 946.8 dN/dS 0.0503  dN
+23 BG10002 H1C (Bpu,Bli,Bam,Bsu)  t 0.408  S 331.2  N 946.8 dN/dS 0.0714  dN
+24 BG10002 H1C               Bpu  t 0.627  S 331.2  N 946.8 dN/dS 0.0179  dN
+25 BG10002 H1C     (Bli,Bam,Bsu)  t 0.179  S 331.2  N 946.8 dN/dS 0.0260  dN
+      V13 V14    V15  V16   V17  V18  V19     node
+20 0.0313  dS 0.2097 S*dS  69.5 N*dN 29.7 internal
+21 0.0201  dS 1.0051 S*dS 332.9 N*dN 19.0     leaf
+22 0.0648  dS 1.2877 S*dS 426.4 N*dN 61.4     leaf
+23 0.0311  dS 0.4358 S*dS 144.3 N*dN 29.4 internal
+24 0.0137  dS 0.7670 S*dS 254.0 N*dN 13.0     leaf
+25 0.0056  dS 0.2142 S*dS  70.9 N*dN  5.3 internal
+> str(nonCE.tb)
+'data.frame':	29632 obs. of  20 variables:
+ $ V1  : chr  "BG10002" "BG10002" "BG10002" "BG10002" ...
+ $ V2  : chr  "H1C" "H1C" "H1C" "H1C" ...
+ $ V3  : chr  "(Bha,Bcl)" "Bha" "Bcl" "(Bpu,Bli,Bam,Bsu)" ...
+ $ V4  : Factor w/ 2 levels "","t": 2 2 2 2 2 2 2 2 2 2 ...
+ $ V5  : num  0.233 0.826 1.145 0.408 0.627 ...
+ $ V6  : Factor w/ 2 levels "","S": 2 2 2 2 2 2 2 2 2 2 ...
+ $ V7  : num  331 331 331 331 331 ...
+ $ V8  : Factor w/ 2 levels "","N": 2 2 2 2 2 2 2 2 2 2 ...
+ $ V9  : num  947 947 947 947 947 ...
+ $ V10 : Factor w/ 2 levels "","dN/dS": 2 2 2 2 2 2 2 2 2 2 ...
+ $ V11 : num  0.1494 0.02 0.0503 0.0714 0.0179 ...
+ $ V12 : Factor w/ 2 levels "","dN": 2 2 2 2 2 2 2 2 2 2 ...
+ $ V13 : num  0.0313 0.0201 0.0648 0.0311 0.0137 0.0056 0.0148 0.0061 0.0064 0.0075 ...
+ $ V14 : Factor w/ 2 levels "","dS": 2 2 2 2 2 2 2 2 2 2 ...
+ $ V15 : num  0.21 1.005 1.288 0.436 0.767 ...
+ $ V16 : Factor w/ 2 levels "","S*dS": 2 2 2 2 2 2 2 2 2 2 ...
+ $ V17 : num  69.5 332.9 426.4 144.3 254 ...
+ $ V18 : Factor w/ 2 levels "","N*dN": 2 2 2 2 2 2 2 2 2 2 ...
+ $ V19 : num  29.7 19 61.4 29.4 13 5.3 14 5.7 6.1 7.1 ...
+ $ node: chr  "internal" "leaf" "leaf" "internal" ...
+> 
+> #compare nonCE w be and afer GBlocks
+> summary(nonCE11.tb$V11)
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+  0.0001   0.0052   0.0430  83.9000   0.1482 999.0000 
+> summary(nonCE.tb$V11)
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+  0.0001   0.0045   0.0393  82.4500   0.1409 999.0000 
+> t.test( nonCE11.tb$V11, nonCE.tb$V11)
+
+	Welch Two Sample t-test
+
+data:  nonCE11.tb$V11 and nonCE.tb$V11 
+t = 0.668, df = 59320.02, p-value = 0.5041
+alternative hypothesis: true difference in means is not equal to 0 
+95 percent confidence interval:
+ -2.797548  5.690543 
+sample estimates:
+mean of x mean of y 
+ 83.89953  82.45303 
+
+> hist(nonCE11.tb$V11)
+> hist(nonCE.tb$V11)
+> 
+> #how much w > 1, 999 
+> quantile( nonCE.tb$V11, prob=c(0.2, 0.5, 0.8,0.83, 0.85, 0.86, 0.87, 0.88, 0.9))
+      20%       50%       80%       83%       85%       86%       87%       88% 
+ 0.002500  0.039300  0.273640  1.010041  5.709815 10.481284 17.331285 28.218872 
+      90% 
+92.352550 
+> quantile( coat.tb$V10, prob=c(0.2, 0.5, 0.8,0.815, 0.82, 0.83, 0.85, 0.86, 0.87, 0.88, 0.9))
+        20%         50%         80%       81.5%         82%         83% 
+  0.0025000   0.0545500   0.5359000   0.8430925   1.6436800   8.7813700 
+        85%         86%         87%         88%         90% 
+ 25.4672250  44.2291000  96.1480200 179.1283200 694.0049000 
+> 
+> #### parse the omega results 
+> clades = unique(c( nonCE.tb$V3, coat.tb$V2))  #35 clades
+> 
+> BsuClade0 = clades[ grep( "Bsu|Bpu|Bam|Bli|Bmo", clades)]; #20130123
+> BsuClade = BsuClade0[- grep("Bce|Bwe|Ban|Bth", BsuClade0)]
+> 
+> BceClade0 = clades[grep("Bce|Bwe|Ban|Bth", clades)]
+> BceClade = BceClade0[ - grep( "Bsu|Bpu|Bam|Bli|Bmo", BceClade0) ]
+> 
+> BsuClade11 = c("(Bpu,Bli,Bam,Bsu)","(Bli,Bam,Bsu)","(Bpu,Bli,Bsu)", "Bpu", "Bli", "(Bam,Bsu)", "Bam", "Bsu", "(Bpu,Bam,Bsu)", 
++              "(Bpu,Bli,Bam,Bmo,Bsu)", "(Bli,Bam,Bmo,Bsu)", "(Bam,Bmo,Bsu)","(Bmo,Bsu)","Bmo","(Bli,Bam,Bsu,Bmo)", "(Bam,Bsu,Bmo)", "(Bsu,Bmo)", 
++              "(Bpu,Bam,Bmo,Bsu)", "(Bli,Bmo,Bsu)", "(Bli,Bsu)" );   
+> BceClade11 = c("(Bwe,Bce,Ban,Bth)","(Bce,Ban,Bth)","(Ban,Bth)","(Bwe,Bce,Bth)","(Bce,Bth)", "(Bwe,Ban,Bth)",
++                "Bwe","Ban","Bth","Bce");
+> match(sort(BceClade), sort(BceClade11)) #20130123, 2013 and 2011 gave exactly the same branchs. YES.
+ [1]  1  2  3  4  5  6  7  8  9 10
+> match(sort(BsuClade), sort(BsuClade11))
+ [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+> 
+> 
+> nonCE.tb$flag = NA;
+> coat.tb$flag  = NA; 
+> for( j in 1:length(BsuClade)){
++   nonCE.tb$flag[ nonCE.tb$V3 == BsuClade[j] ] = 'bsu';
++   coat.tb$flag[ coat.tb$V2==BsuClade[j] ]     = 'bsu';
++ }
+> 
+> for( j in 1:length(BceClade)){
++   nonCE.tb$flag[ nonCE.tb$V3 == BceClade[j] ] = 'bce';
++   coat.tb$flag[ coat.tb$V2==BceClade[j] ]     = 'bce';
++ }
+> 
+> table( coat.tb$V2, coat.tb$flag) #check flags
+                       
+                        bce bsu
+  (Bam,Bmo,Bsu)           0  28
+  (Bam,Bsu,Bmo)           0   1
+  (Bam,Bsu)               0  13
+  (Ban,Bth)              39   0
+  (Bce,Ban,Bth)          38   0
+  (Bha,Bcl)               0   0
+  (Bli,Bam,Bmo,Bsu)       0  27
+  (Bli,Bam,Bsu,Bce)       0   0
+  (Bli,Bam,Bsu,Bmo)       0   1
+  (Bli,Bam,Bsu)           0   9
+  (Bli,Bmo,Bsu)           0   3
+  (Bli,Bsu)               0   1
+  (Bmo,Bsu)               0  32
+  (Bpu,Bam,Bmo,Bsu)       0   1
+  (Bpu,Bli,Bam,Bmo,Bsu)   0  23
+  (Bpu,Bli,Bam,Bsu,Bce)   0   0
+  (Bpu,Bli,Bam,Bsu)       0   9
+  (Bpu,Bli,Bsu)           0   1
+  (Bsu,Bmo)               0   1
+  (Bwe,Bce,Ban,Bth)      37   0
+  Bam                     0  43
+  Ban                    39   0
+  Bce                    41   0
+  Bcl                     0   0
+  Bha                     0   0
+  Bli                     0  44
+  Bmo                     0  33
+  Bpu                     0  39
+  Bsu                     0  47
+  Bth                    39   0
+  Bwe                    37   0
+> table(coat.tb$node, coat.tb$flag) #check flags
+          
+           bce bsu
+  internal 114 150
+  leaf     156 206
+> 
+> #2013 for updated table 
+> head(coat.tb)
+       V1                    V2 V3     V4 V5    V6 V7    V8    V9      V10 V11
+2 BG10106             (Bha,Bcl)  t  0.277  S 195.2  N 641.8 dN/dS  11.4953  dN
+3 BG10106                   Bha  t 50.000  S 195.2  N 641.8 dN/dS   0.0015  dN
+4 BG10106                   Bcl  t 50.000  S 195.2  N 641.8 dN/dS   0.0021  dN
+5 BG10106 (Bpu,Bli,Bam,Bmo,Bsu)  t 50.000  S 195.2  N 641.8 dN/dS   0.0017  dN
+6 BG10106                   Bpu  t  1.538  S 195.2  N 641.8 dN/dS   0.0275  dN
+7 BG10106     (Bli,Bam,Bmo,Bsu)  t  0.028  S 195.2  N 641.8 dN/dS 410.6105  dN
+     V12 V13     V14  V15     V16  V17  V18 cereushits subtilishits outhits
+2 0.1171  dS  0.0102 S*dS     2.0 N*dN 75.2          4            3       2
+3 0.1100  dS 71.0948 S*dS 13879.4 N*dN 70.6          4            3       2
+4 0.1474  dS 70.9720 S*dS 13855.4 N*dN 94.6          4            3       2
+5 0.1216  dS 71.0567 S*dS 13872.0 N*dN 78.0          4            3       2
+6 0.0555  dS  2.0156 S*dS   393.5 N*dN 35.6          4            3       2
+7 0.0121  dS  0.0000 S*dS     0.0 N*dN  7.8          4            3       2
+  hits CoatLocation     node flag
+2    9              internal <NA>
+3    9                  leaf <NA>
+4    9                  leaf <NA>
+5    9              internal  bsu
+6    9                  leaf  bsu
+7    9              internal  bsu
+> head(nonCE.tb)
+        V1  V2                V3 V4    V5 V6    V7 V8    V9   V10    V11 V12
+20 BG10002 H1C         (Bha,Bcl)  t 0.233  S 331.2  N 946.8 dN/dS 0.1494  dN
+21 BG10002 H1C               Bha  t 0.826  S 331.2  N 946.8 dN/dS 0.0200  dN
+22 BG10002 H1C               Bcl  t 1.145  S 331.2  N 946.8 dN/dS 0.0503  dN
+23 BG10002 H1C (Bpu,Bli,Bam,Bsu)  t 0.408  S 331.2  N 946.8 dN/dS 0.0714  dN
+24 BG10002 H1C               Bpu  t 0.627  S 331.2  N 946.8 dN/dS 0.0179  dN
+25 BG10002 H1C     (Bli,Bam,Bsu)  t 0.179  S 331.2  N 946.8 dN/dS 0.0260  dN
+      V13 V14    V15  V16   V17  V18  V19     node flag
+20 0.0313  dS 0.2097 S*dS  69.5 N*dN 29.7 internal <NA>
+21 0.0201  dS 1.0051 S*dS 332.9 N*dN 19.0     leaf <NA>
+22 0.0648  dS 1.2877 S*dS 426.4 N*dN 61.4     leaf <NA>
+23 0.0311  dS 0.4358 S*dS 144.3 N*dN 29.4 internal  bsu
+24 0.0137  dS 0.7670 S*dS 254.0 N*dN 13.0     leaf  bsu
+25 0.0056  dS 0.2142 S*dS  70.9 N*dN  5.3 internal  bsu
+> length(unique(nonCE.tb$V1)) #2085 genes
+[1] 2085
+> length(unique(coat.tb$V1)) #47 genes
+[1] 47
+> 
+> # remove overly high omegas
+> # how many?? 
+> Wcutoff = 10
+> coat.tb$V10[coat.tb$V10> Wcutoff ] = NA
+> nonCE.tb$V11[nonCE.tb$V11> Wcutoff ] = NA
+> 
+> ### leaf node in Bsu clade
+> BsuClade
+ [1] "(Bpu,Bli,Bam,Bsu)"     "Bpu"                   "(Bli,Bam,Bsu)"        
+ [4] "Bli"                   "(Bam,Bsu)"             "Bam"                  
+ [7] "Bsu"                   "(Bpu,Bli,Bsu)"         "(Bli,Bsu)"            
+[10] "(Bpu,Bam,Bsu)"         "(Bpu,Bli,Bam,Bmo,Bsu)" "(Bli,Bam,Bmo,Bsu)"    
+[13] "(Bam,Bmo,Bsu)"         "(Bmo,Bsu)"             "Bmo"                  
+[16] "(Bli,Bam,Bsu,Bmo)"     "(Bam,Bsu,Bmo)"         "(Bsu,Bmo)"            
+[19] "(Bpu,Bam,Bmo,Bsu)"     "(Bli,Bmo,Bsu)"        
+> summary( coat.tb$V10[coat.tb$node=='leaf' & coat.tb$flag=='bsu'] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0001  0.0195  0.0579  0.1770  0.1009  9.4570      75 
+> summary( nonCE.tb$V11[nonCE.tb$node=='leaf' & nonCE.tb$flag=='bsu'] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.014   0.039   0.087   0.073   9.540    3313 
+> wilcox.test( coat.tb$V10[coat.tb$node=='leaf' & coat.tb$flag=='bsu'], 
++              nonCE.tb$V11[nonCE.tb$node=='leaf' & nonCE.tb$flag=='bsu'],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == "leaf" & coat.tb$flag == "bsu"] and nonCE.tb$V11[nonCE.tb$node == "leaf" & nonCE.tb$flag == "bsu"] 
+W = 843716, p-value = 3.747e-05
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> summary( coat.tb$V10[coat.tb$node=='leaf' & coat.tb$flag=='bsu' & coat.tb$V10<1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00010 0.01928 0.05700 0.07487 0.10060 0.40040      75 
+> summary( nonCE.tb$V11[nonCE.tb$node=='leaf' & nonCE.tb$flag=='bsu' & nonCE.tb$V11<1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.014   0.038   0.057   0.072   0.947    3306 
+> wilcox.test( coat.tb$V10[coat.tb$node=='leaf' & coat.tb$flag=='bsu' & coat.tb$V10<1 ], 
++              nonCE.tb$V11[nonCE.tb$node=='leaf' & nonCE.tb$flag=='bsu' & nonCE.tb$V11<1],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == "leaf" & coat.tb$flag == "bsu" &  and nonCE.tb$V11[nonCE.tb$node == "leaf" & nonCE.tb$flag == "bsu" &      coat.tb$V10 < 1] and     nonCE.tb$V11 < 1] 
+W = 821274, p-value = 6.431e-05
+alternative hypothesis: true location shift is greater than 0 
+
+> head(coat.tb[(coat.tb$node=='leaf' & coat.tb$flag=='bsu' & coat.tb$V10<1 ), ] )
+          V1   V2   V3    V4   V5    V6   V7    V8    V9    V10  V11    V12
+NA      <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>     NA
+NA.1    <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>     NA
+6    BG10106  Bpu    t 1.538    S 195.2    N 641.8 dN/dS 0.0275   dN 0.0555
+8    BG10106  Bli    t 0.900    S 195.2    N 641.8 dN/dS 0.0816   dN 0.0828
+10   BG10106  Bam    t 0.665    S 195.2    N 641.8 dN/dS 0.0268   dN 0.0234
+12   BG10106  Bmo    t 0.295    S 195.2    N 641.8 dN/dS 0.0263   dN 0.0102
+      V13    V14  V15   V16  V17  V18 cereushits subtilishits outhits hits
+NA   <NA>     NA <NA>    NA <NA>   NA         NA           NA      NA   NA
+NA.1 <NA>     NA <NA>    NA <NA>   NA         NA           NA      NA   NA
+6      dS 2.0156 S*dS 393.5 N*dN 35.6          4            3       2    9
+8      dS 1.0145 S*dS 198.1 N*dN 53.1          4            3       2    9
+10     dS 0.8738 S*dS 170.6 N*dN 15.0          4            3       2    9
+12     dS 0.3883 S*dS  75.8 N*dN  6.5          4            3       2    9
+     CoatLocation node flag
+NA           <NA> <NA> <NA>
+NA.1         <NA> <NA> <NA>
+6                 leaf  bsu
+8                 leaf  bsu
+10                leaf  bsu
+12                leaf  bsu
+> head(nonCE.tb[nonCE.tb$node=='leaf' & nonCE.tb$flag=='bsu' & nonCE.tb$V11<1,])
+          V1   V2   V3   V4    V5   V6    V7   V8    V9   V10    V11  V12
+NA      <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+NA.1    <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+24   BG10002  H1C  Bpu    t 0.627    S 331.2    N 946.8 dN/dS 0.0179   dN
+26   BG10002  H1C  Bli    t 0.545    S 331.2    N 946.8 dN/dS 0.0225   dN
+28   BG10002  H1C  Bam    t 0.276    S 331.2    N 946.8 dN/dS 0.0192   dN
+29   BG10002  H1C  Bsu    t 0.334    S 331.2    N 946.8 dN/dS 0.0185   dN
+        V13  V14    V15  V16   V17  V18  V19 node flag
+NA       NA <NA>     NA <NA>    NA <NA>   NA <NA> <NA>
+NA.1     NA <NA>     NA <NA>    NA <NA>   NA <NA> <NA>
+24   0.0137   dS 0.7670 S*dS 254.0 N*dN 13.0 leaf  bsu
+26   0.0148   dS 0.6586 S*dS 218.1 N*dN 14.0 leaf  bsu
+28   0.0064   dS 0.3365 S*dS 111.4 N*dN  6.1 leaf  bsu
+29   0.0075   dS 0.4082 S*dS 135.2 N*dN  7.1 leaf  bsu
+> 
+> 
+> summary( coat.tb$V10[coat.tb$node=='leaf' & coat.tb$flag=='bsu' & coat.tb$V10 > 1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  3.200   5.240   7.280   6.646   8.368   9.457      15 
+> summary( nonCE.tb$V11[nonCE.tb$node=='leaf' & nonCE.tb$flag=='bsu' & nonCE.tb$V11 > 1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  1.002   1.566   2.810   4.024   5.486   9.540     282 
+> wilcox.test( coat.tb$V10[coat.tb$node=='leaf' & coat.tb$flag=='bsu' & coat.tb$V10 > 1 ], 
++              nonCE.tb$V11[nonCE.tb$node=='leaf' & nonCE.tb$flag=='bsu' & nonCE.tb$V11 > 1],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == "leaf" & coat.tb$flag == "bsu" &  and nonCE.tb$V11[nonCE.tb$node == "leaf" & nonCE.tb$flag == "bsu" &      coat.tb$V10 > 1] and     nonCE.tb$V11 > 1] 
+W = 131, p-value = 0.06347
+alternative hypothesis: true location shift is greater than 0 
+
+> head(coat.tb[(coat.tb$node=='leaf' & coat.tb$flag=='bsu' & coat.tb$V10 > 1 ), ] )
+       V1   V2   V3 V4   V5 V6   V7 V8   V9 V10  V11 V12  V13 V14  V15 V16  V17
+NA   <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA <NA>
+NA.1 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA <NA>
+NA.2 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA <NA>
+NA.3 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA <NA>
+NA.4 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA <NA>
+NA.5 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA <NA>
+     V18 cereushits subtilishits outhits hits CoatLocation node flag
+NA    NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.1  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.2  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.3  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.4  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.5  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+> head(nonCE.tb[nonCE.tb$node=='leaf' & nonCE.tb$flag=='bsu' & nonCE.tb$V11 > 1,])
+          V1   V2   V3   V4    V5   V6    V7   V8    V9   V10    V11  V12
+NA      <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+NA.1    <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+360  BG10043  H1C  Bpu    t 6.349    S 114.2    N 389.8 dN/dS 1.1846   dN
+NA.2    <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+791  BG10060  H1C  Bsu    t 0.040    S 334.8    N 964.2 dN/dS 2.8102   dN
+NA.3    <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+        V13  V14    V15  V16   V17  V18   V19 node flag
+NA       NA <NA>     NA <NA>    NA <NA>    NA <NA> <NA>
+NA.1     NA <NA>     NA <NA>    NA <NA>    NA <NA> <NA>
+360  2.1937   dS 1.8519 S*dS 211.6 N*dN 855.0 leaf  bsu
+NA.2     NA <NA>     NA <NA>    NA <NA>    NA <NA> <NA>
+791  0.0160   dS 0.0057 S*dS   1.9 N*dN  15.4 leaf  bsu
+NA.3     NA <NA>     NA <NA>    NA <NA>    NA <NA> <NA>
+> 
+> ##################
+> ### internal node in BsuClade
+> nodechoice = 'internal'; cladechoice = 'bsu';
+> BsuClade
+ [1] "(Bpu,Bli,Bam,Bsu)"     "Bpu"                   "(Bli,Bam,Bsu)"        
+ [4] "Bli"                   "(Bam,Bsu)"             "Bam"                  
+ [7] "Bsu"                   "(Bpu,Bli,Bsu)"         "(Bli,Bsu)"            
+[10] "(Bpu,Bam,Bsu)"         "(Bpu,Bli,Bam,Bmo,Bsu)" "(Bli,Bam,Bmo,Bsu)"    
+[13] "(Bam,Bmo,Bsu)"         "(Bmo,Bsu)"             "Bmo"                  
+[16] "(Bli,Bam,Bsu,Bmo)"     "(Bam,Bsu,Bmo)"         "(Bsu,Bmo)"            
+[19] "(Bpu,Bam,Bmo,Bsu)"     "(Bli,Bmo,Bsu)"        
+> head(coat.tb[(coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10<1 ), ] )
+          V1                    V2   V3     V4   V5    V6   V7    V8    V9
+NA      <NA>                  <NA> <NA>     NA <NA>    NA <NA>    NA  <NA>
+5    BG10106 (Bpu,Bli,Bam,Bmo,Bsu)    t 50.000    S 195.2    N 641.8 dN/dS
+NA.1    <NA>                  <NA> <NA>     NA <NA>    NA <NA>    NA  <NA>
+NA.2    <NA>                  <NA> <NA>     NA <NA>    NA <NA>    NA  <NA>
+11   BG10106             (Bmo,Bsu)    t  0.484    S 195.2    N 641.8 dN/dS
+NA.3    <NA>                  <NA> <NA>     NA <NA>    NA <NA>    NA  <NA>
+        V10  V11    V12  V13     V14  V15     V16  V17  V18 cereushits
+NA       NA <NA>     NA <NA>      NA <NA>      NA <NA>   NA         NA
+5    0.0017   dN 0.1216   dS 71.0567 S*dS 13872.0 N*dN 78.0          4
+NA.1     NA <NA>     NA <NA>      NA <NA>      NA <NA>   NA         NA
+NA.2     NA <NA>     NA <NA>      NA <NA>      NA <NA>   NA         NA
+11   0.0127   dN 0.0084   dS  0.6639 S*dS   129.6 N*dN  5.4          4
+NA.3     NA <NA>     NA <NA>      NA <NA>      NA <NA>   NA         NA
+     subtilishits outhits hits CoatLocation     node flag
+NA             NA      NA   NA         <NA>     <NA> <NA>
+5               3       2    9              internal  bsu
+NA.1           NA      NA   NA         <NA>     <NA> <NA>
+NA.2           NA      NA   NA         <NA>     <NA> <NA>
+11              3       2    9              internal  bsu
+NA.3           NA      NA   NA         <NA>     <NA> <NA>
+> head(nonCE.tb[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11<1,])
+        V1   V2                V3   V4     V5   V6    V7   V8    V9   V10
+NA    <NA> <NA>              <NA> <NA>     NA <NA>    NA <NA>    NA  <NA>
+23 BG10002  H1C (Bpu,Bli,Bam,Bsu)    t  0.408    S 331.2    N 946.8 dN/dS
+25 BG10002  H1C     (Bli,Bam,Bsu)    t  0.179    S 331.2    N 946.8 dN/dS
+27 BG10002  H1C         (Bam,Bsu)    t  0.205    S 331.2    N 946.8 dN/dS
+70 BG10003  H1C (Bpu,Bli,Bam,Bsu)    t  4.688    S  91.4    N 280.6 dN/dS
+72 BG10003  H1C     (Bli,Bam,Bsu)    t 50.000    S  91.4    N 280.6 dN/dS
+      V11  V12    V13  V14     V15  V16    V17  V18  V19     node flag
+NA     NA <NA>     NA <NA>      NA <NA>     NA <NA>   NA     <NA> <NA>
+23 0.0714   dN 0.0311   dS  0.4358 S*dS  144.3 N*dN 29.4 internal  bsu
+25 0.0260   dN 0.0056   dS  0.2142 S*dS   70.9 N*dN  5.3 internal  bsu
+27 0.0246   dN 0.0061   dS  0.2469 S*dS   81.8 N*dN  5.7 internal  bsu
+70 0.0128   dN 0.0784   dS  6.1227 S*dS  559.3 N*dN 22.0 internal  bsu
+72 0.0005   dN 0.0352   dS 67.7626 S*dS 6190.1 N*dN  9.9 internal  bsu
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0001  0.0018  0.0210  0.4279  0.1074  9.9920    2867 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0001  0.0016  0.0235  0.2267  0.0954  8.2280      78 
+> wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice], 
++              nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == nodechoice & coat.tb$flag == cladechoice] and nonCE.tb$V11[nonCE.tb$node == nodechoice & nonCE.tb$flag == cladechoice] 
+W = 185609, p-value = 0.5843
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice  & nonCE.tb$V11<1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0001  0.0015  0.0143  0.0705  0.0735  0.9944    2737 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10<1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00010 0.00160 0.02020 0.08155 0.07617 0.74050      77 
+> wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice  & coat.tb$V10<1 ], 
++              nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11<1],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == nodechoice & coat.tb$flag == cladechoice &  and nonCE.tb$V11[nonCE.tb$node == nodechoice & nonCE.tb$flag == cladechoice &      coat.tb$V10 < 1] and     nonCE.tb$V11 < 1] 
+W = 171338, p-value = 0.281
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> 
+> head(nonCE.tb[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1,])
+          V1   V2                V3   V4    V5   V6    V7   V8     V9   V10
+NA      <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>     NA  <NA>
+NA.1    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>     NA  <NA>
+161  BG10010  H1C (Bpu,Bli,Bam,Bsu)    t 0.249    S 501.6    N 1448.4 dN/dS
+NA.2    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>     NA  <NA>
+NA.3    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>     NA  <NA>
+NA.4    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>     NA  <NA>
+        V11  V12    V13  V14    V15  V16  V17  V18   V19     node flag
+NA       NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA     <NA> <NA>
+NA.1     NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA     <NA> <NA>
+161  3.0818   dN 0.1003   dS 0.0326 S*dS 16.3 N*dN 145.3 internal  bsu
+NA.2     NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA     <NA> <NA>
+NA.3     NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA     <NA> <NA>
+NA.4     NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA     <NA> <NA>
+> head(coat.tb[(coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ), ] )
+          V1                    V2   V3    V4   V5    V6   V7    V8    V9
+NA      <NA>                  <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+NA.1    <NA>                  <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+NA.2    <NA>                  <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+NA.3    <NA>                  <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+63   BG10347 (Bpu,Bli,Bam,Bmo,Bsu)    t 0.753    S 223.1    N 724.9 dN/dS
+NA.4    <NA>                  <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+        V10  V11    V12  V13    V14  V15  V16  V17   V18 cereushits
+NA       NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA         NA
+NA.1     NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA         NA
+NA.2     NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA         NA
+NA.3     NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA         NA
+63   1.1401   dN 0.2585   dS 0.2268 S*dS 50.6 N*dN 187.4          4
+NA.4     NA <NA>     NA <NA>     NA <NA>   NA <NA>    NA         NA
+     subtilishits outhits hits CoatLocation     node flag
+NA             NA      NA   NA         <NA>     <NA> <NA>
+NA.1           NA      NA   NA         <NA>     <NA> <NA>
+NA.2           NA      NA   NA         <NA>     <NA> <NA>
+NA.3           NA      NA   NA         <NA>     <NA> <NA>
+63              3       2    9    InnerCoat internal  bsu
+NA.4           NA      NA   NA         <NA>     <NA> <NA>
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  1.001   1.988   3.934   4.418   6.476   9.992    2355 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  1.140   1.163   2.737   3.711   5.285   8.228      62 
+> wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ], 
++              nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1],
++              alternative='gr') 
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == nodechoice & coat.tb$flag == cladechoice &  and nonCE.tb$V11[nonCE.tb$node == nodechoice & nonCE.tb$flag == cladechoice &      coat.tb$V10 > 1] and     nonCE.tb$V11 > 1] 
+W = 471, p-value = 0.7939
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> ##################
+> ### leaf node in BceClade
+> nodechoice = 'leaf'; cladechoice = 'bce';
+> BceClade
+ [1] "(Bwe,Bce,Ban,Bth)" "Bwe"               "(Bce,Ban,Bth)"    
+ [4] "Bce"               "(Ban,Bth)"         "Ban"              
+ [7] "Bth"               "(Bwe,Bce,Bth)"     "(Bce,Bth)"        
+[10] "(Bwe,Ban,Bth)"    
+> head(coat.tb[(coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10<1 ), ] )
+          V1   V2   V3    V4   V5    V6   V7    V8    V9    V10  V11    V12
+NA      <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>     NA
+NA.1    <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>     NA
+15   BG10106  Bwe    t 0.236    S 195.2    N 641.8 dN/dS 0.0001   dN 0.0000
+17   BG10106  Bce    t 0.118    S 195.2    N 641.8 dN/dS 0.0144   dN 0.0023
+19   BG10106  Ban    t 0.000    S 195.2    N 641.8 dN/dS 0.0001   dN 0.0000
+20   BG10106  Bth    t 0.004    S 195.2    N 641.8 dN/dS 0.0001   dN 0.0000
+      V13    V14  V15  V16  V17 V18 cereushits subtilishits outhits hits
+NA   <NA>     NA <NA>   NA <NA>  NA         NA           NA      NA   NA
+NA.1 <NA>     NA <NA>   NA <NA>  NA         NA           NA      NA   NA
+15     dS 0.3372 S*dS 65.8 N*dN 0.0          4            3       2    9
+17     dS 0.1610 S*dS 31.4 N*dN 1.5          4            3       2    9
+19     dS 0.0000 S*dS  0.0 N*dN 0.0          4            3       2    9
+20     dS 0.0056 S*dS  1.1 N*dN 0.0          4            3       2    9
+     CoatLocation node flag
+NA           <NA> <NA> <NA>
+NA.1         <NA> <NA> <NA>
+15                leaf  bce
+17                leaf  bce
+19                leaf  bce
+20                leaf  bce
+> head(nonCE.tb[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11<1,])
+          V1   V2   V3   V4    V5   V6    V7   V8    V9   V10    V11  V12
+NA      <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+NA.1    <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+31   BG10002  H1C  Bwe    t 0.080    S 331.2    N 946.8 dN/dS 0.0724   dN
+33   BG10002  H1C  Bce    t 0.071    S 331.2    N 946.8 dN/dS 0.0640   dN
+35   BG10002  H1C  Ban    t 0.006    S 331.2    N 946.8 dN/dS 0.0001   dN
+36   BG10002  H1C  Bth    t 0.012    S 331.2    N 946.8 dN/dS 0.0001   dN
+        V13  V14    V15  V16  V17  V18 V19 node flag
+NA       NA <NA>     NA <NA>   NA <NA>  NA <NA> <NA>
+NA.1     NA <NA>     NA <NA>   NA <NA>  NA <NA> <NA>
+31   0.0062   dS 0.0851 S*dS 28.2 N*dN 5.8 leaf  bce
+33   0.0050   dS 0.0776 S*dS 25.7 N*dN 4.7 leaf  bce
+35   0.0000   dS 0.0080 S*dS  2.6 N*dN 0.0 leaf  bce
+36   0.0000   dS 0.0152 S*dS  5.0 N*dN 0.0 leaf  bce
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.000   0.028   0.201   0.085   9.999    4111 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00010 0.00010 0.01895 0.18440 0.06750 7.83700      90 
+> wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice], 
++              nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == nodechoice & coat.tb$flag == cladechoice] and nonCE.tb$V11[nonCE.tb$node == nodechoice & nonCE.tb$flag == cladechoice] 
+W = 371626, p-value = 0.8108
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice  & nonCE.tb$V11<1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  0.000   0.000   0.026   0.064   0.077   0.987    4104 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10<1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00010 0.00010 0.01755 0.07980 0.06498 0.84510      90 
+> wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice  & coat.tb$V10<1 ], 
++              nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11<1],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == nodechoice & coat.tb$flag == cladechoice &  and nonCE.tb$V11[nonCE.tb$node == nodechoice & nonCE.tb$flag == cladechoice &      coat.tb$V10 < 1] and     nonCE.tb$V11 < 1] 
+W = 359554, p-value = 0.7193
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> 
+> head(nonCE.tb[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1,])
+          V1   V2   V3   V4    V5   V6    V7   V8    V9   V10    V11  V12
+123  BG10006  H1C  Ban    t 0.000    S  35.5    N  96.5 dN/dS 7.8934   dN
+NA      <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+NA.1    <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+NA.2    <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+NA.3    <NA> <NA> <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>     NA <NA>
+327  BG10039  H1C  Bwe    t 0.015    S 224.0    N 634.0 dN/dS 4.2419   dN
+        V13  V14    V15  V16 V17  V18 V19 node flag
+123  0.0000   dS 0.0000 S*dS 0.0 N*dN   0 leaf  bce
+NA       NA <NA>     NA <NA>  NA <NA>  NA <NA> <NA>
+NA.1     NA <NA>     NA <NA>  NA <NA>  NA <NA> <NA>
+NA.2     NA <NA>     NA <NA>  NA <NA>  NA <NA> <NA>
+NA.3     NA <NA>     NA <NA>  NA <NA>  NA <NA> <NA>
+327  0.0063   dS 0.0015 S*dS 0.3 N*dN   4 leaf  bce
+> head(coat.tb[(coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ), ] )
+          V1   V2   V3   V4   V5   V6   V7    V8    V9    V10  V11    V12  V13
+NA      <NA> <NA> <NA>   NA <NA>   NA <NA>    NA  <NA>     NA <NA>     NA <NA>
+NA.1    <NA> <NA> <NA>   NA <NA>   NA <NA>    NA  <NA>     NA <NA>     NA <NA>
+NA.2    <NA> <NA> <NA>   NA <NA>   NA <NA>    NA  <NA>     NA <NA>     NA <NA>
+NA.3    <NA> <NA> <NA>   NA <NA>   NA <NA>    NA  <NA>     NA <NA>     NA <NA>
+NA.4    <NA> <NA> <NA>   NA <NA>   NA <NA>    NA  <NA>     NA <NA>     NA <NA>
+289  BG11448  Bwe    t 0.07    S 48.3    N 167.7 dN/dS 5.7164   dN 0.0285   dS
+       V14  V15 V16  V17 V18 cereushits subtilishits outhits hits CoatLocation
+NA      NA <NA>  NA <NA>  NA         NA           NA      NA   NA         <NA>
+NA.1    NA <NA>  NA <NA>  NA         NA           NA      NA   NA         <NA>
+NA.2    NA <NA>  NA <NA>  NA         NA           NA      NA   NA         <NA>
+NA.3    NA <NA>  NA <NA>  NA         NA           NA      NA   NA         <NA>
+NA.4    NA <NA>  NA <NA>  NA         NA           NA      NA   NA         <NA>
+289  0.005 S*dS 0.2 N*dN 4.8          4            3       2    9    InnerCoat
+     node flag
+NA   <NA> <NA>
+NA.1 <NA> <NA>
+NA.2 <NA> <NA>
+NA.3 <NA> <NA>
+NA.4 <NA> <NA>
+289  leaf  bce
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  1.026   2.134   3.881   4.300   5.997   9.999    1080 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  5.716   6.246   6.776   6.776   7.307   7.837      30 
+> wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ], 
++              nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1],
++              alternative='gr') 
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == nodechoice & coat.tb$flag == cladechoice &  and nonCE.tb$V11[nonCE.tb$node == nodechoice & nonCE.tb$flag == cladechoice &      coat.tb$V10 > 1] and     nonCE.tb$V11 > 1] 
+W = 312, p-value = 0.076
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> 
+> ##################
+> ### internal node in BceClade
+> nodechoice = 'internal'; cladechoice = 'bce';
+> BceClade
+ [1] "(Bwe,Bce,Ban,Bth)" "Bwe"               "(Bce,Ban,Bth)"    
+ [4] "Bce"               "(Ban,Bth)"         "Ban"              
+ [7] "Bth"               "(Bwe,Bce,Bth)"     "(Bce,Bth)"        
+[10] "(Bwe,Ban,Bth)"    
+> head(coat.tb[(coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10<1 ), ] )
+          V1                V2   V3     V4   V5    V6   V7     V8    V9    V10
+NA      <NA>              <NA> <NA>     NA <NA>    NA <NA>     NA  <NA>     NA
+14   BG10106 (Bwe,Bce,Ban,Bth)    t 50.000    S 195.2    N  641.8 dN/dS 0.0019
+NA.1    <NA>              <NA> <NA>     NA <NA>    NA <NA>     NA  <NA>     NA
+18   BG10106         (Ban,Bth)    t  0.178    S 195.2    N  641.8 dN/dS 0.0091
+NA.2    <NA>              <NA> <NA>     NA <NA>    NA <NA>     NA  <NA>     NA
+34   BG10275 (Bwe,Bce,Ban,Bth)    t 50.000    S 351.9    N 1010.1 dN/dS 0.0007
+      V11    V12  V13     V14  V15     V16  V17  V18 cereushits subtilishits
+NA   <NA>     NA <NA>      NA <NA>      NA <NA>   NA         NA           NA
+14     dN 0.1332   dS 71.0185 S*dS 13864.5 N*dN 85.5          4            3
+NA.1 <NA>     NA <NA>      NA <NA>      NA <NA>   NA         NA           NA
+18     dN 0.0023   dS  0.2477 S*dS    48.4 N*dN  1.4          4            3
+NA.2 <NA>     NA <NA>      NA <NA>      NA <NA>   NA         NA           NA
+34     dN 0.0447   dS 64.3863 S*dS 22654.8 N*dN 45.2          4            3
+     outhits hits CoatLocation     node flag
+NA        NA   NA         <NA>     <NA> <NA>
+14         2    9              internal  bce
+NA.1      NA   NA         <NA>     <NA> <NA>
+18         2    9              internal  bce
+NA.2      NA   NA         <NA>     <NA> <NA>
+34         2    9    InnerLine internal  bce
+> head(nonCE.tb[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11<1,])
+          V1   V2                V3   V4    V5   V6    V7   V8    V9   V10
+NA      <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+30   BG10002  H1C (Bwe,Bce,Ban,Bth)    t 1.923    S 331.2    N 946.8 dN/dS
+32   BG10002  H1C     (Bce,Ban,Bth)    t 0.050    S 331.2    N 946.8 dN/dS
+34   BG10002  H1C         (Ban,Bth)    t 0.065    S 331.2    N 946.8 dN/dS
+NA.1    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+80   BG10003  H1C         (Ban,Bth)    t 0.197    S  91.4    N 280.6 dN/dS
+        V11  V12    V13  V14    V15  V16   V17  V18  V19     node flag
+NA       NA <NA>     NA <NA>     NA <NA>    NA <NA>   NA     <NA> <NA>
+30   0.0292   dN 0.0667   dS 2.2829 S*dS 756.0 N*dN 63.2 internal  bce
+32   0.0001   dN 0.0000   dS 0.0639 S*dS  21.2 N*dN  0.0 internal  bce
+34   0.1155   dN 0.0073   dS 0.0628 S*dS  20.8 N*dN  6.9 internal  bce
+NA.1     NA <NA>     NA <NA>     NA <NA>    NA <NA>   NA     <NA> <NA>
+80   0.0634   dN 0.0142   dS 0.2235 S*dS  20.4 N*dN  4.0 internal  bce
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0001  0.0032  0.0240  0.2128  0.0647  9.8580    1802 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00010 0.00240 0.02030 0.06615 0.05610 0.67400      45 
+> wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice], 
++              nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == nodechoice & coat.tb$flag == cladechoice] and nonCE.tb$V11[nonCE.tb$node == nodechoice & nonCE.tb$flag == cladechoice] 
+W = 203129, p-value = 0.8348
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice  & nonCE.tb$V11<1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+ 0.0001  0.0030  0.0222  0.0514  0.0575  0.9670    1672 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10<1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+0.00010 0.00240 0.02030 0.06615 0.05610 0.67400      44 
+> wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice  & coat.tb$V10<1 ], 
++              nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11<1],
++              alternative='gr') #
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  coat.tb$V10[coat.tb$node == nodechoice & coat.tb$flag == cladechoice &  and nonCE.tb$V11[nonCE.tb$node == nodechoice & nonCE.tb$flag == cladechoice &      coat.tb$V10 < 1] and     nonCE.tb$V11 < 1] 
+W = 203129, p-value = 0.643
+alternative hypothesis: true location shift is greater than 0 
+
+> 
+> head(nonCE.tb[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1,], 10)
+          V1   V2                V3   V4    V5   V6    V7   V8    V9   V10
+NA      <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+NA.1    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+NA.2    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+NA.3    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+272  BG10026  H1C     (Bce,Ban,Bth)    t 0.014    S 210.9    N 599.1 dN/dS
+NA.4    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+NA.5    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+364  BG10043  H1C (Bwe,Bce,Ban,Bth)    t 0.252    S 114.2    N 389.8 dN/dS
+NA.6    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+NA.7    <NA> <NA>              <NA> <NA>    NA <NA>    NA <NA>    NA  <NA>
+        V11  V12    V13  V14    V15  V16 V17  V18  V19     node flag
+NA       NA <NA>     NA <NA>     NA <NA>  NA <NA>   NA     <NA> <NA>
+NA.1     NA <NA>     NA <NA>     NA <NA>  NA <NA>   NA     <NA> <NA>
+NA.2     NA <NA>     NA <NA>     NA <NA>  NA <NA>   NA     <NA> <NA>
+NA.3     NA <NA>     NA <NA>     NA <NA>  NA <NA>   NA     <NA> <NA>
+272  2.5740   dN 0.0055   dS 0.0021 S*dS 0.4 N*dN  3.3 internal  bce
+NA.4     NA <NA>     NA <NA>     NA <NA>  NA <NA>   NA     <NA> <NA>
+NA.5     NA <NA>     NA <NA>     NA <NA>  NA <NA>   NA     <NA> <NA>
+364  1.3357   dN 0.0891   dS 0.0667 S*dS 7.6 N*dN 34.7 internal  bce
+NA.6     NA <NA>     NA <NA>     NA <NA>  NA <NA>   NA     <NA> <NA>
+NA.7     NA <NA>     NA <NA>     NA <NA>  NA <NA>   NA     <NA> <NA>
+> head(coat.tb[(coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ), ], 20 ) #none!
+        V1   V2   V3 V4   V5 V6   V7 V8   V9 V10  V11 V12  V13 V14  V15 V16
+NA    <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.1  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.2  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.3  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.4  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.5  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.6  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.7  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.8  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.9  <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.10 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.11 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.12 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.13 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.14 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.15 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.16 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.17 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.18 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+NA.19 <NA> <NA> <NA> NA <NA> NA <NA> NA <NA>  NA <NA>  NA <NA>  NA <NA>  NA
+       V17 V18 cereushits subtilishits outhits hits CoatLocation node flag
+NA    <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.1  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.2  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.3  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.4  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.5  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.6  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.7  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.8  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.9  <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.10 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.11 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.12 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.13 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.14 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.15 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.16 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.17 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.18 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+NA.19 <NA>  NA         NA           NA      NA   NA         <NA> <NA> <NA>
+> hist(coat.tb$V10[(coat.tb$node==nodechoice & coat.tb$flag==cladechoice)])
+> 
+> summary( nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+  1.034   2.084   3.819   4.453   6.572   9.858    1290 
+> summary( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ] )
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+     NA      NA      NA     NaN      NA      NA      29 
+> #wilcox.test( coat.tb$V10[coat.tb$node==nodechoice & coat.tb$flag==cladechoice & coat.tb$V10 > 1 ], 
+> #             nonCE.tb$V11[nonCE.tb$node==nodechoice & nonCE.tb$flag==cladechoice & nonCE.tb$V11 > 1],
+> #             alternative='gr') 
+> 
+> 
+> quit("yes")

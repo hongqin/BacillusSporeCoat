@@ -1,0 +1,24 @@
+paml test
+5 subtilis genome
+4 cereus genome
+1 output (bha or bcl)
+
+
+
+ grep lnL BG*/H*/resu* > out.Bha/lnL-BhaTest1.txt
+ cut lnL-geo.txt -f 1 -d "/" > _tmp
+ paste _tmp lnL-geo.txt > lnL-geo.csv
+
+ tb = read.table( "out.Bha5sub4cer080208.csv", header=F);
+
+
+my @Htres = ( "(Bha,(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe,(Bce,Ban,Bth)));", #H0
+"(Bha,(Bpu,(Bli,(Bam ,(Bmo #1,Bsu #1)))),(Bwe,(Bce,Ban,Bth)));", #H1a
+"(Bha,(Bpu,(Bli,(Bam #1,(Bmo #1,Bsu #1)))),(Bwe,(Bce,Ban,Bth)));", #H1b
+"(Bha,(Bpu,(Bli #1,(Bam #1,(Bmo #1,Bsu #1)))),(Bwe,(Bce,Ban,Bth)));", #H1c
+"(Bha,(Bpu #1,(Bli #1,(Bam #1,(Bmo #1,Bsu #1)))),(Bwe,(Bce,Ban,Bth)));", #H1d
+"(Bha,(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe,(Bce,Ban #1,Bth)));", #H2a
+"(Bha,(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe,(Bce #1,Ban #1,Bth #1)));", #H2b
+"(Bha,(Bpu,(Bli,(Bam,(Bmo,Bsu)))),(Bwe #1,(Bce #1,Ban #1,Bth #1)));" #H2c
+);
+

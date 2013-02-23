@@ -1,0 +1,272 @@
+
+seed used = 1138622865
+     10     90
+
+Bam                                        CCT TTT TAT CTG AAT GAC AAA CAT ATT TTC ACT GAT TTC ACC AAC CAT ATT CTG ACC GTC TCC ATG AAC AAG TCA TTT TCC TTT CAA TTT 
+Ban                                        CCC ACT ACT ATT ATT TAT AAG AAG ATG CTA GCC TGC TTA GAG AAT GGA TTT TTA GCC ATT CAT ATT TCC AAA GAA GAG AAA GTT CTT TTT 
+Bce                                        CCC GAT AAT ATT ATT TAT AAG AAG ATG CTA GCC TGC TTA GAA AAT GGA TAT TTA GCC ATT CAT ATT TCC AAA GAA AAG AAA GTT CTT TTT 
+Bcl                                        CCA TTT CCT TTT ACC GAA GAG GAC ATT CAA GCC CAT TAT GAA AAT GGG TTG CTG CGC ATC GTC ATT AAA GGA CGG AAA ACG ATT TCA ATT 
+Bha                                        CCA TAC CCC GTG CAA GAA GGT GAT ATC AAA GCG AGA TTA CGA AAC GGC TTA TTG ACG ATC GCG ATT CCG AAC CGG AAA CGT ATC AAC ATT 
+Bli                                        CCT TTC TTT TTG AAT GAC AAA CAG ATC GAA GCG GAA TGC GAA AAC AAC ATT CTT GCA GTT AAA ATC AAT AAA TCG CTT TCA ATC AAT ATT 
+Bmo                                        CCT TTT TAT TTG AAT GAC AAG TCG ATT GAG ACT GAA TGC GAA AAT CAA ATT CTC ACA GTT GCT GTC AAA AAA TCT TTT TCT CTT CAA TTT 
+Bsu                                        CCT TTT TAT TTT AAT GAC AAA AAC ATT CAA GTC GAA TGC GAA AAT CAA ATA CTC ACA GTC GCC GTC AAT AAA TCT TTT TCT CTT CAA TTT 
+Bth                                        CCC GCT ACT ATT ATT TAT AAG AAG ATG CTA GCC TGC TTA GAG AAT GGA TTT TTA GCC ATT CAT ATT TCC AAA GAA GAG AAA GTT CTT TTT 
+Bwe                                        CCT ACT AAT ATC ATT TAT AAC AAG ATG CTA GCC TGT TTA GAG AAT GGA TAT TTA GCC ATT CAT ATT TCC AAA GAA GAG AAA GTC TTT TTT 
+
+
+
+Printing out site pattern counts
+
+
+        10         90  P
+
+Bam                   AAA AAC AAC AAG AAT ACC ACC ACT ATG ATT ATT CAA CAT CAT CCT CTG CTG GAC GAT GTC TAT TCA TCC TCC TTC TTC TTT TTT TTT TTT 
+Ban                   ..G ..T TC. ..A .T. GAG G.. G.C ..T ..G T.. .TT A.G GGA ..C A.T T.A T.T TGC A.T AC. GA. AAA CAT C.A ..A AC. GAG G.. ... 
+Bce                   ..G ..T TC. ..A .T. GAA G.. G.C ..T ..G TA. .TT A.G GGA ..C A.T T.A T.T TGC A.T A.. GA. AAA CAT C.A ..A GA. AAG G.. ... 
+Bcl                   G.G ..T ..A GGA .CC GAA CG. G.C ..T ... T.G TC. G.C GGG ..A T.T ... ..A C.. A.. CC. CGG A.G GT. CAA .AT ... AAA A.. A.. 
+Bha                   GGT ... CCG ..C C.A CGA ..G G.G ..T ..C T.A A.C G.. GGC ..A G.. T.. ..A AGA A.. CCC CGG CGT G.G AAA ..A .AC AAA A.C A.. 
+Bli                   ... ... ..T ..A ... GAA G.A G.G ..C ..C ... A.T ..G A.C ... T.. ..T ... ..A ..T .T. ..G ..A AAA GAA .G. ..C C.. A.C A.. 
+Bmo                   ..G ..T ..A ..A ... GAA ..A ... G.C ... ... ... TCG ..A ... T.. ..C ... ..A ..T ... ..T ..T G.T GAG .G. ... ... C.. ... 
+Bsu                   ... ..T ..T ..A ... GAA ..A GTC G.C ... ..A ... A.C ..A ... T.T ..C ... ..A ... ... ..T ..T G.. CAA .G. ... ... C.. ... 
+Bth                   ..G ..T TC. ..A .T. GAG G.. G.C ..T ..G T.. .TT A.G GGA ..C A.T T.A T.T TGC A.T AC. GA. AAA CAT C.A ..A GC. GAG G.. ... 
+Bwe                   ..C ..T TC. ..A .T. GAG G.. G.C ..T ..G TA. TTT A.G GGA ... A.C T.A T.T TG. A.T A.. GA. AAA CAT C.A ..A AC. GAG G.C ... 
+
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+
+
+CODONML (in paml version 4.4, January 2010)  cds3.phylip
+Model: free dN/dS Ratios for branches for branches
+Codon frequency model: F3x4
+ns =  10  ls =  30
+
+Codon usage in sequences
+--------------------------------------------------------------------------------------------------------------
+Phe TTT  4  2  1  2  0  1 | Ser TCT  0  0  0  0  0  0 | Tyr TAT  1  1  2  1  0  0 | Cys TGT  0  0  0  0  0  0
+    TTC  2  0  0  0  0  1 |     TCC  2  1  1  0  0  0 |     TAC  0  0  0  0  1  0 |     TGC  0  1  1  0  0  1
+Leu TTA  0  2  2  0  2  0 |     TCA  1  0  0  1  0  1 | *** TAA  0  0  0  0  0  0 | *** TGA  0  0  0  0  0  0
+    TTG  0  0  0  1  1  1 |     TCG  0  0  0  0  0  1 |     TAG  0  0  0  0  0  0 | Trp TGG  0  0  0  0  0  0
+--------------------------------------------------------------------------------------------------------------
+Leu CTT  0  1  1  0  0  2 | Pro CCT  1  0  0  1  0  1 | His CAT  2  1  1  1  0  0 | Arg CGT  0  0  0  0  1  0
+    CTC  0  0  0  0  0  0 |     CCC  0  1  1  0  1  0 |     CAC  0  0  0  0  0  0 |     CGC  0  0  0  1  0  0
+    CTA  0  1  1  0  0  0 |     CCA  0  0  0  1  1  0 | Gln CAA  1  0  0  1  1  0 |     CGA  0  0  0  0  1  0
+    CTG  2  0  0  1  0  0 |     CCG  0  0  0  0  1  0 |     CAG  0  0  0  0  0  1 |     CGG  0  0  0  1  1  0
+--------------------------------------------------------------------------------------------------------------
+Ile ATT  2  4  4  4  2  2 | Thr ACT  1  2  0  0  0  0 | Asn AAT  1  1  2  1  0  3 | Ser AGT  0  0  0  0  0  0
+    ATC  0  0  0  1  3  3 |     ACC  2  0  0  1  0  0 |     AAC  2  0  0  0  3  2 |     AGC  0  0  0  0  0  0
+    ATA  0  0  0  0  0  0 |     ACA  0  0  0  0  0  0 | Lys AAA  1  2  2  2  2  3 | Arg AGA  0  0  0  0  1  0
+Met ATG  1  1  1  0  0  0 |     ACG  0  0  0  1  1  0 |     AAG  1  2  3  0  0  0 |     AGG  0  0  0  0  0  0
+--------------------------------------------------------------------------------------------------------------
+Val GTT  0  1  1  0  0  1 | Ala GCT  0  0  0  0  0  0 | Asp GAT  1  0  1  0  1  0 | Gly GGT  0  0  0  0  1  0
+    GTC  1  0  0  1  0  0 |     GCC  0  2  2  1  0  0 |     GAC  1  0  0  1  0  1 |     GGC  0  0  0  0  1  0
+    GTA  0  0  0  0  0  0 |     GCA  0  0  0  0  0  1 | Glu GAA  0  1  2  2  1  3 |     GGA  0  1  1  1  0  0
+    GTG  0  0  0  0  1  0 |     GCG  0  0  0  0  2  1 |     GAG  0  2  0  1  0  0 |     GGG  0  0  0  1  0  0
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+Phe TTT  3  4  2  2 | Ser TCT  2  2  0  0 | Tyr TAT  1  1  1  2 | Cys TGT  0  0  0  1
+    TTC  0  0  0  0 |     TCC  0  0  1  1 |     TAC  0  0  0  0 |     TGC  1  1  1  0
+Leu TTA  0  0  2  2 |     TCA  0  0  0  0 | *** TAA  0  0  0  0 | *** TGA  0  0  0  0
+    TTG  1  0  0  0 |     TCG  1  0  0  0 |     TAG  0  0  0  0 | Trp TGG  0  0  0  0
+--------------------------------------------------------------------------------------
+Leu CTT  1  1  1  0 | Pro CCT  1  1  0  1 | His CAT  0  0  1  1 | Arg CGT  0  0  0  0
+    CTC  1  1  0  0 |     CCC  0  0  1  0 |     CAC  0  0  0  0 |     CGC  0  0  0  0
+    CTA  0  0  1  1 |     CCA  0  0  0  0 | Gln CAA  2  3  0  0 |     CGA  0  0  0  0
+    CTG  0  0  0  0 |     CCG  0  0  0  0 |     CAG  0  0  0  0 |     CGG  0  0  0  0
+--------------------------------------------------------------------------------------
+Ile ATT  2  1  4  3 | Thr ACT  1  0  1  1 | Asn AAT  2  3  1  2 | Ser AGT  0  0  0  0
+    ATC  0  0  0  1 |     ACC  0  0  0  0 |     AAC  0  1  0  1 |     AGC  0  0  0  0
+    ATA  0  1  0  0 |     ACA  1  1  0  0 | Lys AAA  2  2  2  2 | Arg AGA  0  0  0  0
+Met ATG  0  0  1  1 |     ACG  0  0  0  0 |     AAG  1  0  2  1 |     AGG  0  0  0  0
+--------------------------------------------------------------------------------------
+Val GTT  1  0  1  0 | Ala GCT  1  0  1  0 | Asp GAT  0  0  0  0 | Gly GGT  0  0  0  0
+    GTC  1  3  0  1 |     GCC  0  1  2  2 |     GAC  1  1  0  0 |     GGC  0  0  0  0
+    GTA  0  0  0  0 |     GCA  0  0  0  0 | Glu GAA  2  2  1  1 |     GGA  0  0  1  1
+    GTG  0  0  0  0 |     GCG  0  0  0  0 |     GAG  1  0  2  2 |     GGG  0  0  0  0
+--------------------------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: Bam            
+position  1:    T:0.33333    C:0.20000    A:0.36667    G:0.10000
+position  2:    T:0.40000    C:0.23333    A:0.36667    G:0.00000
+position  3:    T:0.43333    C:0.33333    A:0.10000    G:0.13333
+Average         T:0.38889    C:0.25556    A:0.27778    G:0.07778
+
+#2: Ban            
+position  1:    T:0.23333    C:0.13333    A:0.40000    G:0.23333
+position  2:    T:0.40000    C:0.20000    A:0.33333    G:0.06667
+position  3:    T:0.43333    C:0.16667    A:0.23333    G:0.16667
+Average         T:0.35556    C:0.16667    A:0.32222    G:0.15556
+
+#3: Bce            
+position  1:    T:0.23333    C:0.13333    A:0.40000    G:0.23333
+position  2:    T:0.36667    C:0.13333    A:0.43333    G:0.06667
+position  3:    T:0.43333    C:0.16667    A:0.26667    G:0.13333
+Average         T:0.34444    C:0.14444    A:0.36667    G:0.14444
+
+#4: Bcl            
+position  1:    T:0.16667    C:0.23333    A:0.33333    G:0.26667
+position  2:    T:0.33333    C:0.20000    A:0.33333    G:0.13333
+position  3:    T:0.33333    C:0.20000    A:0.26667    G:0.20000
+Average         T:0.27778    C:0.21111    A:0.31111    G:0.20000
+
+#5: Bha            
+position  1:    T:0.13333    C:0.23333    A:0.40000    G:0.23333
+position  2:    T:0.30000    C:0.20000    A:0.30000    G:0.20000
+position  3:    T:0.16667    C:0.30000    A:0.30000    G:0.23333
+Average         T:0.20000    C:0.24444    A:0.33333    G:0.22222
+
+#6: Bli            
+position  1:    T:0.20000    C:0.13333    A:0.43333    G:0.23333
+position  2:    T:0.36667    C:0.16667    A:0.43333    G:0.03333
+position  3:    T:0.33333    C:0.26667    A:0.26667    G:0.13333
+Average         T:0.30000    C:0.18889    A:0.37778    G:0.13333
+
+#7: Bmo            
+position  1:    T:0.30000    C:0.16667    A:0.30000    G:0.23333
+position  2:    T:0.33333    C:0.23333    A:0.40000    G:0.03333
+position  3:    T:0.50000    C:0.13333    A:0.23333    G:0.13333
+Average         T:0.37778    C:0.17778    A:0.31111    G:0.13333
+
+#8: Bsu            
+position  1:    T:0.26667    C:0.20000    A:0.30000    G:0.23333
+position  2:    T:0.36667    C:0.16667    A:0.43333    G:0.03333
+position  3:    T:0.43333    C:0.26667    A:0.30000    G:0.00000
+Average         T:0.35556    C:0.21111    A:0.34444    G:0.08889
+
+#9: Bth            
+position  1:    T:0.23333    C:0.13333    A:0.36667    G:0.26667
+position  2:    T:0.40000    C:0.20000    A:0.33333    G:0.06667
+position  3:    T:0.43333    C:0.16667    A:0.23333    G:0.16667
+Average         T:0.35556    C:0.16667    A:0.31111    G:0.16667
+
+#10: Bwe            
+position  1:    T:0.26667    C:0.10000    A:0.40000    G:0.23333
+position  2:    T:0.36667    C:0.16667    A:0.40000    G:0.06667
+position  3:    T:0.43333    C:0.20000    A:0.23333    G:0.13333
+Average         T:0.35556    C:0.15556    A:0.34444    G:0.14444
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT      21 | Ser S TCT       4 | Tyr Y TAT      10 | Cys C TGT       1
+      TTC       3 |       TCC       6 |       TAC       1 |       TGC       6
+Leu L TTA      10 |       TCA       3 | *** * TAA       0 | *** * TGA       0
+      TTG       4 |       TCG       2 |       TAG       0 | Trp W TGG       0
+------------------------------------------------------------------------------
+Leu L CTT       7 | Pro P CCT       6 | His H CAT       7 | Arg R CGT       1
+      CTC       2 |       CCC       4 |       CAC       0 |       CGC       1
+      CTA       4 |       CCA       2 | Gln Q CAA       8 |       CGA       1
+      CTG       3 |       CCG       1 |       CAG       1 |       CGG       2
+------------------------------------------------------------------------------
+Ile I ATT      28 | Thr T ACT       6 | Asn N AAT      16 | Ser S AGT       0
+      ATC       8 |       ACC       3 |       AAC       9 |       AGC       0
+      ATA       1 |       ACA       2 | Lys K AAA      20 | Arg R AGA       1
+Met M ATG       5 |       ACG       2 |       AAG      10 |       AGG       0
+------------------------------------------------------------------------------
+Val V GTT       5 | Ala A GCT       2 | Asp D GAT       3 | Gly G GGT       1
+      GTC       7 |       GCC      10 |       GAC       5 |       GGC       1
+      GTA       0 |       GCA       1 | Glu E GAA      15 |       GGA       5
+      GTG       1 |       GCG       3 |       GAG       8 |       GGG       1
+------------------------------------------------------------------------------
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.23667    C:0.16667    A:0.37000    G:0.22667
+position  2:    T:0.36333    C:0.19000    A:0.37667    G:0.07000
+position  3:    T:0.39333    C:0.22000    A:0.24333    G:0.14333
+Average         T:0.33111    C:0.19222    A:0.33000    G:0.14667
+
+Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
+  0.03517661  0.01967505  0.02176180  0.01281860
+  0.01839511  0.01028879  0.01138002  0.00670330
+  0.03646749  0.02039707  0.00000000  0.00000000
+  0.00677715  0.00379061  0.00000000  0.00246964
+  0.02477226  0.01385567  0.01532521  0.00902718
+  0.01295430  0.00724563  0.00801410  0.00472064
+  0.02568133  0.01436414  0.01588761  0.00935845
+  0.00477264  0.00266944  0.00295256  0.00173918
+  0.05499442  0.03075959  0.03402197  0.02004034
+  0.02875855  0.01608529  0.01779131  0.01047981
+  0.05701256  0.03188838  0.03527048  0.02077576
+  0.01059525  0.00592616  0.00655469  0.00386098
+  0.03369027  0.01884371  0.02084229  0.01227696
+  0.01761785  0.00985405  0.01089918  0.00642006
+  0.03492661  0.01953523  0.02160714  0.01272750
+  0.00649079  0.00363044  0.00401549  0.00236529
+
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+Bam                 
+Ban                 -1.0000 (0.9485 -1.0000)
+Bce                 -1.0000 (0.9443 -1.0000) 1.3678 (0.0741 0.0542)
+Bcl                  0.6709 (0.9742 1.4521) 0.5080 (0.7758 1.5272) 0.6051 (0.8044 1.3293)
+Bha                  0.3301 (1.1442 3.4664)-1.0000 (0.9318 -1.0000)-1.0000 (0.9154 -1.0000)-1.0000 (0.5344 -1.0000)
+Bli                 -1.0000 (0.3646 -1.0000) 0.2033 (0.8813 4.3356) 0.4196 (0.9202 2.1932)-1.0000 (0.7375 -1.0000) 1.0169 (0.9349 0.9193)
+Bmo                  0.1699 (0.2469 1.4533) 1.1258 (1.0846 0.9634) 1.3357 (1.0780 0.8070) 0.4580 (0.7981 1.7427)-1.0000 (1.1676 -1.0000) 0.2672 (0.2767 1.0358)
+Bsu                  0.1325 (0.2540 1.9171) 0.5500 (0.9065 1.6483) 0.6834 (0.9028 1.3211) 0.7288 (0.6812 0.9347) 0.3890 (1.0942 2.8131) 0.2631 (0.2941 1.1180) 0.2205 (0.1091 0.4950)
+Bth                 -1.0000 (0.9485 -1.0000)-1.0000 (0.0144 0.0000) 1.0832 (0.0587 0.0542) 0.5080 (0.7758 1.5272)-1.0000 (0.9318 -1.0000) 0.2033 (0.8813 4.3356) 1.1258 (1.0846 0.9634) 0.5500 (0.9065 1.6483)
+Bwe                  0.5186 (1.0345 1.9950) 0.2388 (0.0586 0.2456) 0.2183 (0.0734 0.3360) 0.4322 (0.8690 2.0108)-1.0000 (0.9824 -1.0000) 0.7599 (0.9600 1.2633) 1.1466 (1.1879 1.0361) 0.5180 (0.9878 1.9070) 0.3015 (0.0741 0.2456)
+NOTE: -1 means that NG86 is inapplicable.
+
+
+TREE #  1:  ((5, 4), (6, (1, (7, 8))), (10, (3, (2, 9))));   MP score: 126
+check convergence..
+lnL(ntime: 17  np: 35):   -697.098114      +0.000000
+  11..12   12..5    12..4    11..13   13..6    13..14   14..1    14..15   15..7    15..8    11..16   16..10   16..17   17..3    17..18   18..2    18..9  
+ 41.064190 2.786131 2.541768 49.736699 0.254794 0.554695 50.000000 0.680275 0.437869 0.270291 1.863830 0.171078 0.083464 0.143726 0.062527 0.000004 0.032617 1.681441 0.000100 0.202229 0.086315 0.008061 9.457130 0.387701 0.002508 0.029987 0.100666 0.335341 29.088388 0.220106 0.000100 0.845149 26.027221 0.546002 21.577139
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per neucleotide site).
+
+tree length = 150.68396
+
+((5: 2.786131, 4: 2.541768): 41.064190, (6: 0.254794, (1: 50.000000, (7: 0.437869, 8: 0.270291): 0.680275): 0.554695): 49.736699, (10: 0.171078, (3: 0.143726, (2: 0.000004, 9: 0.032617): 0.062527): 0.083464): 1.863830);
+
+((Bha: 2.786131, Bcl: 2.541768): 41.064190, (Bli: 0.254794, (Bam: 50.000000, (Bmo: 0.437869, Bsu: 0.270291): 0.680275): 0.554695): 49.736699, (Bwe: 0.171078, (Bce: 0.143726, (Ban: 0.000004, Bth: 0.032617): 0.062527): 0.083464): 1.863830);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  1.68144
+
+w (dN/dS) for branches:  0.00010 0.20223 0.08632 0.00806 9.45713 0.38770 0.00251 0.02999 0.10067 0.33534 29.08839 0.22011 0.00010 0.84515 26.02722 0.54600 21.57714
+
+dN & dS for each branch
+
+ branch          t       N       S   dN/dS      dN      dS  N*dN  S*dS
+
+  11..12    41.064    68.8    21.2  0.0001  0.0058 58.0823   0.4 1231.5
+  12..5      2.786    68.8    21.2  0.2022  0.4814  2.3802  33.1  50.5
+  12..4      2.542    68.8    21.2  0.0863  0.2425  2.8095  16.7  59.6
+  11..13    49.737    68.8    21.2  0.0081  0.5528 68.5781  38.0 1454.1
+  13..6      0.255    68.8    21.2  9.4571  0.1076  0.0114   7.4   0.2
+  13..14     0.555    68.8    21.2  0.3877  0.1348  0.3476   9.3   7.4
+  14..1     50.000    68.8    21.2  0.0025  0.1760 70.1733  12.1 1487.9
+  14..15     0.680    68.8    21.2  0.0300  0.0263  0.8772   1.8  18.6
+  15..7      0.438    68.8    21.2  0.1007  0.0470  0.4670   3.2   9.9
+  15..8      0.270    68.8    21.2  0.3353  0.0614  0.1832   4.2   3.9
+  11..16     1.864    68.8    21.2 29.0884  0.8042  0.0276  55.3   0.6
+  16..10     0.171    68.8    21.2  0.2201  0.0311  0.1412   2.1   3.0
+  16..17     0.083    68.8    21.2  0.0001  0.0000  0.1181   0.0   2.5
+  17..3      0.144    68.8    21.2  0.8451  0.0459  0.0543   3.2   1.2
+  17..18     0.063    68.8    21.2 26.0272  0.0269  0.0010   1.9   0.0
+  18..2      0.000    68.8    21.2  0.5460  0.0000  0.0000   0.0   0.0
+  18..9      0.033    68.8    21.2 21.5771  0.0140  0.0006   1.0   0.0
+
+tree length for dN:       2.7578
+tree length for dS:     204.2526
+
+dS tree:
+((Bha: 2.380232, Bcl: 2.809477): 58.082297, (Bli: 0.011378, (Bam: 70.173261, (Bmo: 0.467000, Bsu: 0.183150): 0.877165): 0.347584): 68.578089, (Bwe: 0.141209, (Bce: 0.054341, (Ban: 0.000002, Bth: 0.000650): 0.001035): 0.118054): 0.027648);
+dN tree:
+((Bha: 0.481353, Bcl: 0.242501): 0.005808, (Bli: 0.107601, (Bam: 0.175992, (Bmo: 0.047011, Bsu: 0.061418): 0.026304): 0.134759): 0.552805, (Bwe: 0.031081, (Bce: 0.045926, (Ban: 0.000001, Bth: 0.014023): 0.026947): 0.000012): 0.804232);
+
+w ratios as labels for TreeView:
+((Bha '#0.2022' , Bcl '#0.0863' ) '#0.0001' , (Bli '#9.4571' , (Bam '#0.0025' , (Bmo '#0.1007' , Bsu '#0.3353' ) '#0.0300' ) '#0.3877' ) '#0.0081' , (Bwe '#0.2201' , (Bce '#0.8451' , (Ban '#0.5460' , Bth '#21.5771' ) '#26.0272' ) '#0.0001' ) '#29.0884' );
+
+
+Time used:  6:07
