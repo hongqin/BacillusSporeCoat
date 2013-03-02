@@ -6,6 +6,8 @@ All files are provided 'as is'.
 Working folders are simple 'dump' into this repository. Many links and path should be modified 
 in order for the scripts to run. 
 
+Folder online.supplementary.files contain the supplementary files for Qin & Driks2013
+ coat.profile.for.submission.xlsx
 
 Folder bacillus.species.tree  contains the workfing files for 16s rDNA and 34 essential genes. 
 
