@@ -1,4 +1,4 @@
-BacillusSporeCoat, by Hong Qin, 2013 Fe 22
+BacillusSporeCoat, by Hong Qin, 2013 Feb 22
 =================
 Supporting data and information for Bacillus spore coat project
 All files are provided 'as is'. 
