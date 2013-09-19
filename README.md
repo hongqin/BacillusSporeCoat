@@ -18,6 +18,7 @@ Folder compare.profiles is the working folder for orthologous profile analysis a
 Folder pairwise.matrix.omega.062310 is the working folder to perform the pairwise test and generate heatmaps. 
 
 File whole.genome.codemlLRT.tar contain the working folders for whole genome LRT test. 
+The expanded directory is whole.genome.codemlLRT/
 The original R working directory is ~/coat.protein07/ortholog.analysis/whole.genome.codeml.042109/R.Bha4sub4cereus
 
 Folder key.data contains some key data used in the spore coat project. 
