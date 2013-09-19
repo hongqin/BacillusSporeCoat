@@ -13,7 +13,7 @@ Folder bacillus.species.tree  contains the workfing files for 16s rDNA and 34 es
 
 Folder tree.test  contains the topology test using the highly conserved essential genes. 
 
-Folder compare.profiles is the working folder for orthologous profile analysis and heatmap generatin. 
+Folder compare.profiles is the working folder for orthologous profile analysis and heatmap generation. 
 
 Folder key.data contains some key data used in the spore coat project. 
 
@@ -24,3 +24,7 @@ Folder coatpaml contains the free omega runs that were excluded from the final s
 File genomes.tar.gz contain the genomes used in the spore coat projects. Some additional genomes were also dumped here for future studies. 
 
 File whole.genome.codemlLRT.tar contain the working folders for whole genome LRT test. 
+The original R working directory is ~/coat.protein07/ortholog.analysis/whole.genome.codeml.042109/R.Bha4sub4cereus
+
+=========================
+
