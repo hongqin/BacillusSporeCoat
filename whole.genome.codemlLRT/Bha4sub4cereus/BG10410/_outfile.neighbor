@@ -1,0 +1,4705 @@
+
+   9 Populations
+
+Neighbor-Joining/UPGMA method version 3.67
+
+Data set # 1:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +-Bpu       
+    ! 
+  +-2 +---Bli       
+  ! ! ! 
+  ! ! !     +Ban       
+  ! +-3 +---5 
+  !   ! !   ! +Bwe       
+  !   ! !   +-7 
+  !   +-4     ! +Bce       
+  !     !     +-6 
+  !     !       +Bth       
+  !     ! 
+  !     +------Bha       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03230
+   2          Bpu             0.03856
+   2             3            0.01564
+   3          Bli             0.06438
+   3             4            0.02011
+   4             5            0.07328
+   5          Ban             0.00135
+   5             7            0.00404
+   7          Bwe             0.00300
+   7             6            0.00168
+   6          Bce             0.00198
+   6          Bth             0.00176
+   4          Bha             0.11129
+   1          Bsu             0.03957
+   1          Bam             0.03015
+
+
+Data set # 2:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !     +------Bha       
+  !     ! 
+  !   +-4     +Bth       
+  !   ! !   +-5 
+  !   ! !   ! +Ban       
+  !   ! +---6 
+  ! +-3     ! +Bwe       
+  ! ! !     +-7 
+  ! ! !       +Bce       
+  1-2 ! 
+  ! ! +----Bli       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04135
+   1             2            0.03501
+   2             3            0.00603
+   3             4            0.03217
+   4          Bha             0.11358
+   4             6            0.06567
+   6             5            0.00505
+   5          Bth             0.00000
+   5          Ban             0.00001
+   6             7            0.00246
+   7          Bwe             0.00898
+   7          Bce             0.00222
+   3          Bli             0.06736
+   2          Bpu             0.04707
+   1          Bam             0.02511
+
+
+Data set # 3:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !   +---Bli       
+  !   ! 
+  ! +-3 +-----Bha       
+  ! ! ! ! 
+  ! ! +-4      +Bth       
+  ! !   !    +-5 
+  ! !   !    ! +Ban       
+  1-2   +----7 
+  ! !        ! +Bwe       
+  ! !        +-6 
+  ! !          +Bce       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03536
+   1             2            0.03528
+   2             3            0.01185
+   3          Bli             0.06361
+   3             4            0.03325
+   4          Bha             0.10864
+   4             7            0.08441
+   7             5            0.00310
+   5          Bth             0.00000
+   5          Ban             0.00001
+   7             6            0.00144
+   6          Bwe             0.00596
+   6          Bce             0.00129
+   2          Bpu             0.05165
+   1          Bam             0.03096
+
+
+Data set # 4:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +--Bpu       
+  ! ! 
+  ! ! +---Bli       
+  1-2 ! 
+  ! ! !         +Bth       
+  ! ! !       +-5 
+  ! +-3     +-6 +Bce       
+  !   !     ! ! 
+  !   !  +--7 +Bwe       
+  !   !  !  ! 
+  !   +--4  +Ban       
+  !      ! 
+  !      +--------Bha       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03540
+   1             2            0.02778
+   2          Bpu             0.04898
+   2             3            0.00642
+   3          Bli             0.07002
+   3             4            0.04563
+   4             7            0.04987
+   7             6            0.00093
+   6             5            0.00287
+   5          Bth             0.00139
+   5          Bce             0.00231
+   6          Bwe             0.01296
+   7          Ban             0.00233
+   4          Bha             0.15476
+   1          Bam             0.03218
+
+
+Data set # 5:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +------Bha       
+        ! 
+        !          +Bwe       
+      +-4        +-5 
+      ! !      +-6 +Bce       
+      ! !      ! ! 
+    +-3 +------7 +Bth       
+    ! !        ! 
+    ! !        +Ban       
+  +-2 ! 
+  ! ! +---Bli       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.01830
+   2             3            0.00892
+   3             4            0.02895
+   4          Bha             0.11020
+   4             7            0.10383
+   7             6            0.00151
+   6             5            0.00333
+   5          Bwe             0.00206
+   5          Bce            -0.00022
+   6          Bth             0.00039
+   7          Ban             0.00035
+   3          Bli             0.07547
+   2          Bpu             0.04695
+   1          Bsu             0.04374
+   1          Bam             0.04273
+
+
+Data set # 6:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+      ! 
+    +-3  +-------Bha       
+    ! !  ! 
+    ! +--4      +Bth       
+    !    !    +-6 
+    !    !    ! +Ban       
+  +-2    +----7 
+  ! !         ! +Bce       
+  ! !         +-5 
+  ! !           +Bwe       
+  ! ! 
+  ! +---Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.04145
+   2             3            0.02009
+   3          Bli             0.07679
+   3             4            0.04884
+   4          Bha             0.13260
+   4             7            0.08432
+   7             6            0.00457
+   6          Bth             0.00201
+   6          Ban             0.00160
+   7             5            0.00466
+   5          Bce             0.00357
+   5          Bwe             0.00912
+   2          Bpu             0.05346
+   1          Bsu             0.04584
+   1          Bam             0.05480
+
+
+Data set # 7:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+  +-2 +---Bli       
+  ! ! ! 
+  ! +-3 +------Bha       
+  !   ! ! 
+  !   +-4       +Ban       
+  !     !     +-6 
+  !     !     ! +Bth       
+  !     +-----7 
+  !           ! +Bce       
+  !           +-5 
+  !             +Bwe       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03381
+   2          Bpu             0.05069
+   2             3            0.00952
+   3          Bli             0.07576
+   3             4            0.04705
+   4          Bha             0.11175
+   4             7            0.08887
+   7             6            0.00272
+   6          Ban             0.00075
+   6          Bth             0.00114
+   7             5            0.00300
+   5          Bce             0.00191
+   5          Bwe             0.00375
+   1          Bsu             0.03167
+   1          Bam             0.02858
+
+
+Data set # 8:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+  +-2 +---Bli       
+  ! ! ! 
+  ! ! !         +Bth       
+  ! +-3       +-6 
+  !   !       ! +Ban       
+  !   !  +----7 
+  !   !  !    ! +Bwe       
+  !   +--4    +-5 
+  !      !      +Bce       
+  !      ! 
+  !      +------Bha       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02221
+   2          Bpu             0.05080
+   2             3            0.00613
+   3          Bli             0.06823
+   3             4            0.06135
+   4             7            0.07546
+   7             6            0.00188
+   6          Bth             0.00000
+   6          Ban             0.00001
+   7             5            0.00274
+   5          Bwe             0.00705
+   5          Bce             0.00032
+   4          Bha             0.10311
+   1          Bsu             0.03755
+   1          Bam             0.02815
+
+
+Data set # 9:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                +Bce       
+              +-5 
+              ! +Bwe       
+         +----6 
+         !    ! +Bth       
+      +--4    +-7 
+      !  !      +Ban       
+    +-3  ! 
+    ! !  +-------Bha       
+  +-2 ! 
+  ! ! +---Bpu       
+  ! ! 
+  ! +--Bli       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03004
+   2             3            0.00492
+   3             4            0.04347
+   4             6            0.08217
+   6             5            0.00152
+   5          Bce             0.00085
+   5          Bwe             0.01029
+   6             7            0.00131
+   7          Bth             0.00001
+   7          Ban             0.00000
+   4          Bha             0.13290
+   3          Bpu             0.07009
+   2          Bli             0.05788
+   1          Bsu             0.05048
+   1          Bam             0.03389
+
+
+Data set # 10:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !   +---Bli       
+  !   ! 
+  ! +-3  +-----Bha       
+  ! ! !  ! 
+  ! ! !  !         +Bth       
+  ! ! +--4       +-5 
+  ! !    !     +-7 +Bce       
+  1-2    !     ! ! 
+  ! !    +-----6 +Bwe       
+  ! !          ! 
+  ! !          +Ban       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.02646
+   1             2            0.03314
+   2             3            0.00388
+   3          Bli             0.06083
+   3             4            0.05208
+   4          Bha             0.09055
+   4             6            0.10104
+   6             7            0.00015
+   7             5            0.00077
+   5          Bth             0.00086
+   5          Bce             0.00096
+   7          Bwe             0.00472
+   6          Ban             0.00076
+   2          Bpu             0.04277
+   1          Bam             0.02701
+
+
+Data set # 11:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+  +-2 +---Bli       
+  ! ! ! 
+  ! +-3  +-----Bha       
+  !   !  ! 
+  !   !  !       +Bce       
+  !   +--4     +-5 
+  !      !   +-7 +Bwe       
+  !      !   ! ! 
+  !      +---6 +Bth       
+  !          ! 
+  !          +Ban       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02442
+   2          Bpu             0.04061
+   2             3            0.01266
+   3          Bli             0.05800
+   3             4            0.04641
+   4          Bha             0.10150
+   4             6            0.07072
+   6             7            0.00327
+   7             5            0.00376
+   5          Bce             0.00091
+   5          Bwe             0.00629
+   7          Bth             0.00169
+   6          Ban             0.00127
+   1          Bsu             0.03635
+   1          Bam             0.03159
+
+
+Data set # 12:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +--Bli       
+    +-2 
+    ! +--Bpu       
+  +-3 
+  ! !   +-------Bha       
+  ! !   ! 
+  ! +---4     +Bth       
+  !     !   +-7 
+  !     !   ! ! +Bwe       
+  !     +---5 +-6 
+  !         !   +Bce       
+  !         ! 
+  !         +Ban       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             3            0.04053
+   3             2            0.00675
+   2          Bli             0.05419
+   2          Bpu             0.05693
+   3             4            0.05201
+   4          Bha             0.13369
+   4             5            0.07499
+   5             7            0.00350
+   7          Bth             0.00110
+   7             6            0.00264
+   6          Bwe             0.01425
+   6          Bce             0.00050
+   5          Ban             0.00120
+   1          Bsu             0.04105
+   1          Bam             0.02809
+
+
+Data set # 13:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +----Bli       
+      ! 
+    +-3   +------Bha       
+    ! !   ! 
+    ! +---4     +Bth       
+    !     !   +-6 
+    !     !   ! +Ban       
+  +-2     +---7 
+  ! !         ! +Bce       
+  ! !         +-5 
+  ! !           +Bwe       
+  ! ! 
+  ! +---Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.04129
+   2             3            0.01061
+   3          Bli             0.08692
+   3             4            0.06203
+   4          Bha             0.11437
+   4             7            0.06983
+   7             6            0.00084
+   6          Bth             0.00000
+   6          Ban             0.00001
+   7             5            0.00106
+   5          Bce             0.00029
+   5          Bwe             0.01092
+   2          Bpu             0.05341
+   1          Bsu             0.04998
+   1          Bam             0.03887
+
+
+Data set # 14:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +-Bpu       
+  ! ! 
+  1-2 +----Bli       
+  ! ! ! 
+  ! +-3  +------Bha       
+  !   !  ! 
+  !   +--4     +Bce       
+  !      !   +-5 
+  !      !   ! +Bwe       
+  !      +---6 
+  !          ! +Ban       
+  !          +-7 
+  !            +Bth       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03806
+   1             2            0.02899
+   2          Bpu             0.04553
+   2             3            0.01048
+   3          Bli             0.07417
+   3             4            0.04202
+   4          Bha             0.12105
+   4             6            0.07408
+   6             5            0.00660
+   5          Bce             0.00054
+   5          Bwe             0.00321
+   6             7            0.00387
+   7          Ban             0.00000
+   7          Bth             0.00000
+   1          Bam             0.04113
+
+
+Data set # 15:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-Bpu       
+      ! 
+    +-3  +-----Bha       
+    ! !  ! 
+    ! +--4      +Bth       
+    !    !    +-5 
+    !    !    ! +Ban       
+  +-2    +----7 
+  ! !         ! +Bwe       
+  ! !         +-6 
+  ! !           +Bce       
+  ! ! 
+  ! +----Bli       
+  ! 
+  1-Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03247
+   2             3            0.01041
+   3          Bpu             0.04557
+   3             4            0.05134
+   4          Bha             0.10642
+   4             7            0.08482
+   7             5            0.00743
+   5          Bth             0.00164
+   5          Ban             0.00200
+   7             6            0.00478
+   6          Bwe             0.01412
+   6          Bce             0.00606
+   2          Bli             0.08255
+   1          Bsu             0.04071
+   1          Bam             0.04221
+
+
+Data set # 16:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !     +-------Bha       
+  !     ! 
+  !   +-4      +Ban       
+  !   ! !    +-6 
+  !   ! !    ! +Bth       
+  !   ! +----7 
+  ! +-3      ! +Bce       
+  ! ! !      +-5 
+  ! ! !        +Bwe       
+  1-2 ! 
+  ! ! +--Bpu       
+  ! ! 
+  ! +----Bli       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03773
+   1             2            0.02655
+   2             3            0.00840
+   3             4            0.02615
+   4          Bha             0.13989
+   4             7            0.08275
+   7             6            0.00293
+   6          Ban             0.00075
+   6          Bth             0.00111
+   7             5            0.00568
+   5          Bce             0.00110
+   5          Bwe             0.01576
+   3          Bpu             0.05261
+   2          Bli             0.08980
+   1          Bam             0.04198
+
+
+Data set # 17:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +--Bpu       
+  ! ! 
+  1-2 +---Bli       
+  ! ! ! 
+  ! +-3 +------Bha       
+  !   ! ! 
+  !   +-4     +Bth       
+  !     !   +-5 
+  !     !   ! +Bce       
+  !     +---6 
+  !         ! +Ban       
+  !         +-7 
+  !           +Bwe       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04345
+   1             2            0.02180
+   2          Bpu             0.05011
+   2             3            0.00741
+   3          Bli             0.06897
+   3             4            0.01907
+   4          Bha             0.11193
+   4             6            0.07470
+   6             5            0.00287
+   5          Bth             0.00216
+   5          Bce             0.00344
+   6             7            0.00039
+   7          Ban             0.00214
+   7          Bwe             0.01097
+   1          Bam             0.03724
+
+
+Data set # 18:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+      ! 
+    +-3 +--------Bha       
+    ! ! ! 
+    ! +-4    +Ban       
+    !   !    ! 
+    !   +----7   +Bce       
+  +-2        ! +-5 
+  ! !        +-6 +Bwe       
+  ! !          ! 
+  ! !          +Bth       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03474
+   2             3            0.01137
+   3          Bli             0.07443
+   3             4            0.02611
+   4          Bha             0.13827
+   4             7            0.07923
+   7          Ban             0.00271
+   7             6            0.00382
+   6             5            0.00993
+   5          Bce             0.00102
+   5          Bwe             0.00450
+   6          Bth             0.00315
+   2          Bpu             0.04572
+   1          Bsu             0.04350
+   1          Bam             0.04213
+
+
+Data set # 19:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +---Bli       
+  ! ! 
+  1-2 +--Bpu       
+  ! ! ! 
+  ! +-3 +-----Bha       
+  !   ! ! 
+  !   +-4     +Bwe       
+  !     !     ! 
+  !     +-----6   +Ban       
+  !           ! +-5 
+  !           +-7 +Bth       
+  !             ! 
+  !             +Bce       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04572
+   1             2            0.02883
+   2          Bli             0.07748
+   2             3            0.00614
+   3          Bpu             0.05048
+   3             4            0.03850
+   4          Bha             0.09381
+   4             6            0.09947
+   6          Bwe             0.00676
+   6             7            0.00075
+   7             5            0.00360
+   5          Ban             0.00080
+   5          Bth             0.00106
+   7          Bce             0.00384
+   1          Bam             0.04221
+
+
+Data set # 20:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +-Bpu       
+  1-2 
+  ! ! +---Bli       
+  ! +-3 
+  !   ! +------Bha       
+  !   +-4 
+  !     !    +Ban       
+  !     +----7 
+  !          ! +Bwe       
+  !          +-6 
+  !            ! +Bce       
+  !            +-5 
+  !              +Bth       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04350
+   1             2            0.01754
+   2          Bpu             0.03761
+   2             3            0.00062
+   3          Bli             0.06183
+   3             4            0.03656
+   4          Bha             0.10500
+   4             7            0.08223
+   7          Ban             0.00165
+   7             6            0.00202
+   6          Bwe             0.00625
+   6             5            0.00296
+   5          Bce             0.00193
+   5          Bth             0.00174
+   1          Bam             0.03578
+
+
+Data set # 21:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +----Bli       
+  1-2 
+  ! ! +--Bpu       
+  ! +-3 
+  !   ! +------Bha       
+  !   +-4 
+  !     !    +Ban       
+  !     +----7 
+  !          ! +Bth       
+  !          +-6 
+  !            ! +Bwe       
+  !            +-5 
+  !              +Bce       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04641
+   1             2            0.04105
+   2          Bli             0.07421
+   2             3            0.00624
+   3          Bpu             0.05425
+   3             4            0.04325
+   4          Bha             0.10329
+   4             7            0.06956
+   7          Ban             0.00168
+   7             6            0.00113
+   6          Bth             0.00205
+   6             5            0.00267
+   5          Bwe             0.00723
+   5          Bce             0.00209
+   1          Bam             0.03773
+
+
+Data set # 22:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !   +--Bli       
+  !   ! 
+  ! +-3 +------Bha       
+  ! ! ! ! 
+  ! ! +-4      +Ban       
+  ! !   !    +-7 
+  ! !   !    ! +Bth       
+  1-2   +----6 
+  ! !        ! +Bwe       
+  ! !        +-5 
+  ! !          +Bce       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03714
+   1             2            0.03744
+   2             3            0.00800
+   3          Bli             0.06225
+   3             4            0.03067
+   4          Bha             0.12222
+   4             6            0.09446
+   6             7            0.00152
+   7          Ban             0.00092
+   7          Bth             0.00095
+   6             5            0.00319
+   5          Bwe             0.00126
+   5          Bce             0.00062
+   2          Bpu             0.04859
+   1          Bam             0.03072
+
+
+Data set # 23:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !  +--Bpu       
+  !  ! 
+  !  !   +----Bli       
+  1--3 +-2 
+  !  ! ! +-------Bha       
+  !  ! ! 
+  !  +-4       +Ban       
+  !    !     +-6 
+  !    !     ! +Bth       
+  !    +-----7 
+  !          ! +Bwe       
+  !          +-5 
+  !            +Bce       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.05103
+   1             3            0.04777
+   3          Bpu             0.05690
+   3             4            0.01148
+   4             2            0.01773
+   2          Bli             0.08948
+   2          Bha             0.13176
+   4             7            0.11468
+   7             6            0.00851
+   6          Ban             0.00000
+   6          Bth             0.00001
+   7             5            0.00852
+   5          Bwe             0.01544
+   5          Bce             0.00134
+   1          Bam             0.04358
+
+
+Data set # 24:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +---Bli       
+  ! ! 
+  1-2 +-Bpu       
+  ! ! ! 
+  ! +-3 +------Bha       
+  !   ! ! 
+  !   +-4      +Bth       
+  !     !    +-6 
+  !     !    ! +Ban       
+  !     +----7 
+  !          ! +Bwe       
+  !          +-5 
+  !            +Bce       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03613
+   1             2            0.03090
+   2          Bli             0.06836
+   2             3            0.01093
+   3          Bpu             0.04210
+   3             4            0.04671
+   4          Bha             0.11050
+   4             7            0.07653
+   7             6            0.00359
+   6          Bth             0.00111
+   6          Ban             0.00073
+   7             5            0.00403
+   5          Bwe             0.01634
+   5          Bce             0.00222
+   1          Bam             0.04282
+
+
+Data set # 25:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+    !   +------Bha       
+    !   ! 
+  +-2 +-4     +Bth       
+  ! ! ! !   +-5 
+  ! ! ! !   ! +Ban       
+  ! ! ! +---6 
+  ! +-3     ! +Bwe       
+  !   !     +-7 
+  !   !       +Bce       
+  !   ! 
+  !   +---Bli       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02353
+   2          Bpu             0.04926
+   2             3            0.01867
+   3             4            0.04470
+   4          Bha             0.11943
+   4             6            0.06743
+   6             5            0.00563
+   5          Bth             0.00107
+   5          Ban             0.00079
+   6             7            0.00380
+   7          Bwe             0.01436
+   7          Bce             0.00252
+   3          Bli             0.07444
+   1          Bsu             0.04012
+   1          Bam             0.03767
+
+
+Data set # 26:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +Bsu       
+  ! 
+  ! +---Bli       
+  ! ! 
+  1-2 +--Bpu       
+  ! ! ! 
+  ! +-3  +-----Bha       
+  !   !  ! 
+  !   +--4  +Ban       
+  !      !  ! 
+  !      +--7   +Bce       
+  !         ! +-5 
+  !         +-6 +Bwe       
+  !           ! 
+  !           +Bth       
+  ! 
+  +Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.02437
+   1             2            0.03602
+   2          Bli             0.07109
+   2             3            0.00944
+   3          Bpu             0.04890
+   3             4            0.04680
+   4          Bha             0.10496
+   4             7            0.06499
+   7          Ban             0.00032
+   7             6            0.00154
+   6             5            0.00342
+   5          Bce            -0.00006
+   5          Bwe             0.00190
+   6          Bth             0.00032
+   1          Bam             0.02152
+
+
+Data set # 27:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+      ! 
+    +-3    +----Bha       
+    ! !    ! 
+    ! +----4       +Bce       
+    !      !     +-5 
+    !      !     ! +Bwe       
+  +-2      +-----6 
+  ! !            ! +Bth       
+  ! !            +-7 
+  ! !              +Ban       
+  ! ! 
+  ! +---Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03329
+   2             3            0.00796
+   3          Bli             0.05961
+   3             4            0.06720
+   4          Bha             0.09924
+   4             6            0.10577
+   6             5            0.00711
+   5          Bce             0.00109
+   5          Bwe             0.00809
+   6             7            0.00682
+   7          Bth             0.00001
+   7          Ban             0.00000
+   2          Bpu             0.06433
+   1          Bsu             0.04302
+   1          Bam             0.03354
+
+
+Data set # 28:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +---Bli       
+  !   ! 
+  !   !         +Bth       
+  ! +-3       +-6 
+  ! ! !       ! +Ban       
+  ! ! !   +---7 
+  ! ! !   !   ! +Bwe       
+  1-2 +---4   +-5 
+  ! !     !     +Bce       
+  ! !     ! 
+  ! !     +-----Bha       
+  ! ! 
+  ! +---Bpu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04386
+   1             2            0.01528
+   2             3            0.00330
+   3          Bli             0.05655
+   3             4            0.06055
+   4             7            0.07206
+   7             6            0.00370
+   6          Bth             0.00000
+   6          Ban             0.00001
+   7             5            0.00554
+   5          Bwe             0.00707
+   5          Bce             0.00021
+   4          Bha             0.09676
+   2          Bpu             0.06099
+   1          Bam             0.04452
+
+
+Data set # 29:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+    +-2 
+    ! +--Bpu       
+  +-3 
+  ! !  +----Bha       
+  ! !  ! 
+  ! +--4     +Bth       
+  !    !   +-6 
+  !    !   ! +Ban       
+  !    +---7 
+  !        ! +Bce       
+  !        +-5 
+  !          +Bwe       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             3            0.01389
+   3             2            0.00914
+   2          Bli             0.06186
+   2          Bpu             0.04461
+   3             4            0.05312
+   4          Bha             0.08708
+   4             7            0.07300
+   7             6            0.00440
+   6          Bth             0.00000
+   6          Ban             0.00001
+   7             5            0.00868
+   5          Bce             0.00020
+   5          Bwe             0.00345
+   1          Bsu             0.03489
+   1          Bam             0.03905
+
+
+Data set # 30:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +--Bpu       
+  !   ! 
+  ! +-3 +------Bha       
+  ! ! ! ! 
+  ! ! +-4       +Bth       
+  ! !   !     +-6 
+  ! !   !     ! +Ban       
+  1-2   +-----7 
+  ! !         ! +Bwe       
+  ! !         +-5 
+  ! !           +Bce       
+  ! ! 
+  ! +---Bli       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04291
+   1             2            0.03118
+   2             3            0.00303
+   3          Bpu             0.05135
+   3             4            0.03551
+   4          Bha             0.11874
+   4             7            0.09003
+   7             6            0.00377
+   6          Bth             0.00205
+   6          Ban             0.00165
+   7             5            0.00751
+   5          Bwe             0.00761
+   5          Bce             0.00165
+   2          Bli             0.06436
+   1          Bam             0.04674
+
+
+Data set # 31:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +---Bli       
+    ! 
+  +-2 +---Bpu       
+  ! ! ! 
+  ! +-3 +------Bha       
+  !   ! ! 
+  !   +-4      +Bwe       
+  !     !    +-5 
+  !     !    ! +Bce       
+  !     +----7 
+  !          ! +Ban       
+  !          +-6 
+  !            +Bth       
+  ! 
+  1--Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03142
+   2          Bli             0.07273
+   2             3            0.00637
+   3          Bpu             0.05573
+   3             4            0.02613
+   4          Bha             0.11443
+   4             7            0.09363
+   7             5            0.00559
+   5          Bwe             0.00552
+   5          Bce             0.00179
+   7             6            0.00186
+   6          Ban             0.00147
+   6          Bth             0.00219
+   1          Bsu             0.05277
+   1          Bam             0.05400
+
+
+Data set # 32:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bli       
+    ! 
+  +-2 +-Bpu       
+  ! ! ! 
+  ! +-3 +----Bha       
+  !   ! ! 
+  !   +-4     +Bth       
+  !     !   +-7 
+  !     !   ! ! +Bwe       
+  !     +---6 +-5 
+  !         !   +Bce       
+  !         ! 
+  !         +Ban       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02853
+   2          Bli             0.05837
+   2             3            0.01320
+   3          Bpu             0.04017
+   3             4            0.03917
+   4          Bha             0.09104
+   4             6            0.07178
+   6             7            0.00261
+   7          Bth             0.00104
+   7             5            0.00261
+   5          Bwe             0.00878
+   5          Bce             0.00034
+   6          Ban             0.00105
+   1          Bsu             0.04753
+   1          Bam             0.03414
+
+
+Data set # 33:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +--Bpu       
+  ! ! 
+  1-2 +---Bli       
+  ! ! ! 
+  ! +-3 +-------Bha       
+  !   ! ! 
+  !   +-4      +Bth       
+  !     !    +-5 
+  !     !    ! +Ban       
+  !     +----6 
+  !          ! +Bce       
+  !          +-7 
+  !            +Bwe       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04278
+   1             2            0.02203
+   2          Bpu             0.04313
+   2             3            0.01343
+   3          Bli             0.07257
+   3             4            0.03204
+   4          Bha             0.13562
+   4             6            0.08013
+   6             5            0.00490
+   5          Bth             0.00104
+   5          Ban             0.00078
+   6             7            0.00430
+   7          Bce             0.00201
+   7          Bwe             0.00897
+   1          Bam             0.04211
+
+
+Data set # 34:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+  +-2 +---Bli       
+  ! ! ! 
+  ! +-3  +-----Bha       
+  !   !  ! 
+  !   +--4   +Ban       
+  !      !   ! 
+  !      +---7   +Bce       
+  !          ! +-5 
+  !          +-6 +Bwe       
+  !            ! 
+  !            +Bth       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02612
+   2          Bpu             0.05554
+   2             3            0.00368
+   3          Bli             0.07401
+   3             4            0.04965
+   4          Bha             0.09862
+   4             7            0.06958
+   7          Ban             0.00134
+   7             6            0.00051
+   6             5            0.00161
+   5          Bce             0.00206
+   5          Bwe             0.00351
+   6          Bth             0.00213
+   1          Bsu             0.04563
+   1          Bam             0.03242
+
+
+Data set # 35:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +--------Bha       
+        ! 
+        !        +Bce       
+      +-4      +-5 
+      ! !    +-7 +Bwe       
+      ! !    ! ! 
+      ! +----6 +Bth       
+  +---3      ! 
+  !   !      +Ban       
+  !   ! 
+  !   ! +---Bpu       
+  !   +-2 
+  !     +---Bli       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             3            0.05903
+   3             4            0.04768
+   4          Bha             0.14642
+   4             6            0.07230
+   6             7            0.00265
+   7             5            0.00583
+   5          Bce             0.00047
+   5          Bwe             0.00698
+   7          Bth             0.00086
+   6          Ban             0.00113
+   3             2            0.01045
+   2          Bpu             0.06017
+   2          Bli             0.06931
+   1          Bsu             0.03005
+   1          Bam             0.03553
+
+
+Data set # 36:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +-Bpu       
+  ! ! 
+  1-2 +---Bli       
+  ! ! ! 
+  ! +-3 +-----Bha       
+  !   ! ! 
+  !   +-4       +Bce       
+  !     !     +-5 
+  !     !     ! +Bwe       
+  !     +-----6 
+  !           ! +Ban       
+  !           +-7 
+  !             +Bth       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.05607
+   1             2            0.02677
+   2          Bpu             0.04650
+   2             3            0.01722
+   3          Bli             0.07884
+   3             4            0.02646
+   4          Bha             0.10309
+   4             6            0.10313
+   6             5            0.00155
+   5          Bce             0.00156
+   5          Bwe             0.00964
+   6             7            0.00036
+   7          Ban             0.00073
+   7          Bth             0.00113
+   1          Bam             0.04098
+
+
+Data set # 37:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +--Bpu       
+      ! 
+  +---2 +----Bli       
+  !   ! ! 
+  !   +-3  +-----Bha       
+  !     !  ! 
+  !     !  !        +Bce       
+  !     +--4      +-6 
+  !        !    +-7 +Bwe       
+  !        !    ! ! 
+  !        +----5 +Bth       
+  !             ! 
+  !             +Ban       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.06345
+   2          Bpu             0.05260
+   2             3            0.01763
+   3          Bli             0.09037
+   3             4            0.04795
+   4          Bha             0.10851
+   4             5            0.08744
+   5             7            0.00665
+   7             6            0.00608
+   6          Bce             0.00135
+   6          Bwe             0.00429
+   7          Bth             0.00247
+   5          Ban             0.00245
+   1          Bsu             0.04384
+   1          Bam             0.03395
+
+
+Data set # 38:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +---Bli       
+    ! 
+  +-2 +--Bpu       
+  ! ! ! 
+  ! +-3 +-------Bha       
+  !   ! ! 
+  !   +-4      +Bwe       
+  !     !    +-5 
+  !     !    ! +Bce       
+  !     +----6 
+  !          ! +Bth       
+  !          +-7 
+  !            +Ban       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02478
+   2          Bli             0.05941
+   2             3            0.00684
+   3          Bpu             0.04990
+   3             4            0.03869
+   4          Bha             0.12179
+   4             6            0.08582
+   6             5            0.00311
+   5          Bwe             0.00751
+   5          Bce             0.00189
+   6             7            0.00261
+   7          Bth             0.00112
+   7          Ban             0.00075
+   1          Bsu             0.03259
+   1          Bam             0.03430
+
+
+Data set # 39:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !    +---Bpu       
+  !    ! 
+  !  +-3 +------Bha       
+  !  ! ! ! 
+  !  ! +-4    +Ban       
+  !  !   !    ! 
+  !  !   +----6   +Bth       
+  1--2        ! +-5 
+  !  !        +-7 +Bce       
+  !  !          ! 
+  !  !          +Bwe       
+  !  ! 
+  !  +---Bli       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04425
+   1             2            0.05184
+   2             3            0.00411
+   3          Bpu             0.05919
+   3             4            0.03483
+   4          Bha             0.11017
+   4             6            0.08226
+   6          Ban             0.00167
+   6             7            0.00155
+   7             5            0.00199
+   5          Bth             0.00153
+   5          Bce             0.00214
+   7          Bwe             0.00633
+   2          Bli             0.06765
+   1          Bam             0.02865
+
+
+Data set # 40:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +--Bpu       
+  ! ! 
+  1-2 +----Bli       
+  ! ! ! 
+  ! +-3 +------Bha       
+  !   ! ! 
+  !   +-4       +Bce       
+  !     !     +-7 
+  !     !     ! +Bwe       
+  !     +-----6 
+  !           ! +Ban       
+  !           +-5 
+  !             +Bth       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.05202
+   1             2            0.02962
+   2          Bpu             0.06180
+   2             3            0.00933
+   3          Bli             0.07826
+   3             4            0.03520
+   4          Bha             0.11370
+   4             6            0.08914
+   6             7            0.00064
+   7          Bce             0.00264
+   7          Bwe             0.00854
+   6             5            0.00217
+   5          Ban             0.00080
+   5          Bth             0.00106
+   1          Bam             0.03685
+
+
+Data set # 41:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +-Bpu       
+  ! ! 
+  1-2 +---Bli       
+  ! ! ! 
+  ! ! !      +Ban       
+  ! +-3 +----6 
+  !   ! !    ! +Bth       
+  !   ! !    +-7 
+  !   +-4      ! +Bce       
+  !     !      +-5 
+  !     !        +Bwe       
+  !     ! 
+  !     +-------Bha       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04130
+   1             2            0.02900
+   2          Bpu             0.04076
+   2             3            0.01128
+   3          Bli             0.05369
+   3             4            0.02985
+   4             6            0.08649
+   6          Ban             0.00171
+   6             7            0.00293
+   7          Bth             0.00212
+   7             5            0.00442
+   5          Bce             0.00166
+   5          Bwe             0.01124
+   4          Bha             0.12878
+   1          Bam             0.04263
+
+
+Data set # 42:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +---Bpu       
+  +-2 
+  ! ! +--Bli       
+  ! +-3 
+  !   ! +-------Bha       
+  !   +-4 
+  !     !   +Ban       
+  !     +---6 
+  !         ! +Bth       
+  !         +-7 
+  !           ! +Bwe       
+  !           +-5 
+  !             +Bce       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03487
+   2          Bpu             0.06142
+   2             3            0.01530
+   3          Bli             0.05638
+   3             4            0.04090
+   4          Bha             0.12933
+   4             6            0.06229
+   6          Ban             0.00186
+   6             7            0.00088
+   7          Bth             0.00296
+   7             5            0.00357
+   5          Bwe             0.00416
+   5          Bce             0.00317
+   1          Bsu             0.03816
+   1          Bam             0.03943
+
+
+Data set # 43:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !       +------Bha       
+  !       ! 
+  !   +---4      +Bce       
+  !   !   !    +-5 
+  !   !   !    ! +Bth       
+  !   !   +----6 
+  ! +-3        ! +Bwe       
+  ! ! !        +-7 
+  ! ! !          +Ban       
+  1-2 ! 
+  ! ! +---Bpu       
+  ! ! 
+  ! +---Bli       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03929
+   1             2            0.04007
+   2             3            0.00530
+   3             4            0.06779
+   4          Bha             0.12711
+   4             6            0.09384
+   6             5            0.00257
+   5          Bce             0.00429
+   5          Bth             0.00319
+   6             7            0.00167
+   7          Bwe             0.01482
+   7          Ban             0.00207
+   3          Bpu             0.06445
+   2          Bli             0.06477
+   1          Bam             0.03950
+
+
+Data set # 44:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +-Bpu       
+    ! 
+  +-2   +----Bha       
+  ! ! +-3 
+  ! ! ! +----Bli       
+  ! +-4 
+  !   !     +Bth       
+  !   +-----6 
+  !         ! +Ban       
+  !         +-7 
+  !           ! +Bce       
+  !           +-5 
+  !             +Bwe       
+  ! 
+  1-Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03070
+   2          Bpu             0.03944
+   2             4            0.01956
+   4             3            0.01439
+   3          Bha             0.09353
+   3          Bli             0.08363
+   4             6            0.09634
+   6          Bth            -0.00040
+   6             7            0.00041
+   7          Ban            -0.00040
+   7             5            0.00041
+   5          Bce            -0.00054
+   5          Bwe             0.00618
+   1          Bsu             0.03949
+   1          Bam             0.04448
+
+
+Data set # 45:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !    +----Bli       
+  !  +-3 
+  !  ! ! +------Bha       
+  !  ! +-4 
+  !  !   !     +Ban       
+  !  !   +-----6 
+  1--2         ! +Bth       
+  !  !         +-7 
+  !  !           ! +Bce       
+  !  !           +-5 
+  !  !             +Bwe       
+  !  ! 
+  !  +--Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04174
+   1             2            0.04853
+   2             3            0.00534
+   3          Bli             0.08050
+   3             4            0.03472
+   4          Bha             0.11587
+   4             6            0.09679
+   6          Ban             0.00297
+   6             7            0.00354
+   7          Bth             0.00348
+   7             5            0.00951
+   5          Bce             0.00099
+   5          Bwe             0.00635
+   2          Bpu             0.05866
+   1          Bam             0.03942
+
+
+Data set # 46:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +---Bli       
+  ! ! 
+  1-2 +--Bpu       
+  ! ! ! 
+  ! +-3 +-------Bha       
+  !   ! ! 
+  !   +-4     +Ban       
+  !     !   +-5 
+  !     !   ! +Bth       
+  !     +---7 
+  !         ! +Bwe       
+  !         +-6 
+  !           +Bce       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03820
+   1             2            0.02674
+   2          Bli             0.06566
+   2             3            0.00832
+   3          Bpu             0.05404
+   3             4            0.03201
+   4          Bha             0.12504
+   4             7            0.05941
+   7             5            0.00383
+   5          Ban             0.00160
+   5          Bth             0.00209
+   7             6            0.00271
+   6          Bwe             0.00535
+   6          Bce             0.00393
+   1          Bam             0.03286
+
+
+Data set # 47:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +--Bli       
+      ! 
+    +-3  +-------Bha       
+    ! !  ! 
+    ! +--4      +Bth       
+    !    !    +-6 
+    !    !    ! +Ban       
+  +-2    +----7 
+  ! !         ! +Bwe       
+  ! !         +-5 
+  ! !           +Bce       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03646
+   2             3            0.01223
+   3          Bli             0.05777
+   3             4            0.04614
+   4          Bha             0.13087
+   4             7            0.09136
+   7             6            0.00257
+   6          Bth             0.00109
+   6          Ban             0.00072
+   7             5            0.00302
+   5          Bwe             0.01230
+   5          Bce             0.00224
+   2          Bpu             0.04753
+   1          Bsu             0.03037
+   1          Bam             0.03770
+
+
+Data set # 48:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +---Bpu       
+  1-2 
+  ! ! +---Bli       
+  ! +-3 
+  !   !  +------Bha       
+  !   +--4 
+  !      !    +Ban       
+  !      +----5 
+  !           ! +Bth       
+  !           +-6 
+  !             ! +Bce       
+  !             +-7 
+  !               +Bwe       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03943
+   1             2            0.02444
+   2          Bpu             0.05734
+   2             3            0.00936
+   3          Bli             0.06602
+   3             4            0.04247
+   4          Bha             0.12627
+   4             5            0.08368
+   5          Ban             0.00086
+   5             6            0.00284
+   6          Bth             0.00173
+   6             7            0.00205
+   7          Bce             0.00092
+   7          Bwe             0.01415
+   1          Bam             0.04779
+
+
+Data set # 49:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-----Bli       
+      ! 
+    +-3  +------Bha       
+    ! !  ! 
+    ! +--4      +Bth       
+    !    !    +-6 
+    !    !    ! ! +Bce       
+  +-2    +----7 +-5 
+  ! !         !   +Bwe       
+  ! !         ! 
+  ! !         +Ban       
+  ! ! 
+  ! +-Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02569
+   2             3            0.01283
+   3          Bli             0.09106
+   3             4            0.04800
+   4          Bha             0.11318
+   4             7            0.07479
+   7             6            0.00085
+   6          Bth             0.00183
+   6             5            0.00196
+   5          Bce             0.00158
+   5          Bwe             0.00592
+   7          Ban             0.00101
+   2          Bpu             0.04757
+   1          Bsu             0.04183
+   1          Bam             0.03954
+
+
+Data set # 50:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +---Bpu       
+  ! +-2 
+  ! ! +-----Bli       
+  ! ! 
+  1-3      +Ban       
+  ! ! +----6 
+  ! ! !    ! +Bth       
+  ! ! !    +-7 
+  ! +-4      ! +Bce       
+  !   !      +-5 
+  !   !        +Bwe       
+  !   ! 
+  !   +-------Bha       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04191
+   1             3            0.03250
+   3             2            0.00803
+   2          Bpu             0.05125
+   2          Bli             0.08583
+   3             4            0.02818
+   4             6            0.08310
+   6          Ban             0.00233
+   6             7            0.00136
+   7          Bth             0.00263
+   7             5            0.00297
+   5          Bce             0.00214
+   5          Bwe             0.01078
+   4          Bha             0.13782
+   1          Bam             0.04320
+
+
+Data set # 51:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !      +---------Bha       
+  !      ! 
+  !   +--4      +Bwe       
+  !   !  !    +-5 
+  !   !  !    ! +Bce       
+  !   !  +----7 
+  ! +-3       ! +Ban       
+  ! ! !       +-6 
+  ! ! !         +Bth       
+  1-2 ! 
+  ! ! +---Bli       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04589
+   1             2            0.03294
+   2             3            0.00912
+   3             4            0.06383
+   4          Bha             0.15362
+   4             7            0.06923
+   7             5            0.00439
+   5          Bwe             0.02436
+   5          Bce             0.00561
+   7             6            0.00353
+   6          Ban             0.00219
+   6          Bth             0.00339
+   3          Bli             0.06952
+   2          Bpu             0.05294
+   1          Bam             0.03636
+
+
+Data set # 52:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +--Bpu       
+     ! 
+  +--2 +---Bli       
+  !  ! ! 
+  !  +-3  +-----Bha       
+  !    !  ! 
+  !    +--4     +Bth       
+  !       !   +-6 
+  !       !   ! +Ban       
+  !       +---7 
+  !           ! +Bwe       
+  !           +-5 
+  !             +Bce       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.04839
+   2          Bpu             0.05294
+   2             3            0.00432
+   3          Bli             0.07180
+   3             4            0.04762
+   4          Bha             0.10645
+   4             7            0.07459
+   7             6            0.00329
+   6          Bth             0.00000
+   6          Ban             0.00001
+   7             5            0.00519
+   5          Bwe             0.00668
+   5          Bce             0.00074
+   1          Bsu             0.03921
+   1          Bam             0.03078
+
+
+Data set # 53:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bli       
+    ! 
+    !    +-------Bha       
+    !    ! 
+  +-2 +--4      +Bwe       
+  ! ! !  !    +-5 
+  ! ! !  !    ! +Bce       
+  ! ! !  +----6 
+  ! +-3       ! +Bth       
+  !   !       +-7 
+  !   !         +Ban       
+  !   ! 
+  !   +-Bpu       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02508
+   2          Bli             0.05338
+   2             3            0.00649
+   3             4            0.05818
+   4          Bha             0.12109
+   4             6            0.07651
+   6             5            0.00504
+   5          Bwe             0.01136
+   5          Bce             0.00171
+   6             7            0.00259
+   7          Bth             0.00112
+   7          Ban             0.00074
+   3          Bpu             0.03524
+   1          Bsu             0.03484
+   1          Bam             0.03743
+
+
+Data set # 54:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+      ! 
+    +-3 +------Bha       
+    ! ! ! 
+    ! +-4      +Bth       
+    !   !    +-6 
+    !   !    ! ! +Bce       
+  +-2   +----7 +-5 
+  ! !        !   +Bwe       
+  ! !        ! 
+  ! !        +Ban       
+  ! ! 
+  ! +-Bpu       
+  ! 
+  1-Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02970
+   2             3            0.01421
+   3          Bli             0.06551
+   3             4            0.04567
+   4          Bha             0.11286
+   4             7            0.07394
+   7             6            0.00170
+   6          Bth             0.00280
+   6             5            0.00374
+   5          Bce             0.00256
+   5          Bwe             0.00484
+   7          Ban             0.00201
+   2          Bpu             0.04393
+   1          Bsu             0.04127
+   1          Bam             0.05052
+
+
+Data set # 55:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +--Bpu       
+     ! 
+  +--2 +----Bli       
+  !  ! ! 
+  !  +-3 +-------Bha       
+  !    ! ! 
+  !    ! !        +Bwe       
+  !    +-4      +-5 
+  !      !    +-6 +Bce       
+  !      !    ! ! 
+  !      +----7 +Bth       
+  !           ! 
+  !           +Ban       
+  ! 
+  1--Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.04436
+   2          Bpu             0.06325
+   2             3            0.01498
+   3          Bli             0.08560
+   3             4            0.03491
+   4          Bha             0.13993
+   4             7            0.09433
+   7             6            0.00185
+   6             5            0.00296
+   5          Bwe             0.01330
+   5          Bce             0.00186
+   6          Bth             0.00273
+   7          Ban             0.00192
+   1          Bsu             0.04408
+   1          Bam             0.04469
+
+
+Data set # 56:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +--Bpu       
+     ! 
+     !    +-----Bha       
+  +--2 +--4 
+  !  ! !  !    +Ban       
+  !  ! !  +----5 
+  !  ! !       ! +Bth       
+  !  +-3       +-7 
+  !    !         ! +Bwe       
+  !    !         +-6 
+  !    !           +Bce       
+  !    ! 
+  !    +---Bli       
+  ! 
+  1-Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.04936
+   2          Bpu             0.05287
+   2             3            0.01318
+   3             4            0.04616
+   4          Bha             0.10940
+   4             5            0.08663
+   5          Ban             0.00021
+   5             7            0.00549
+   7          Bth             0.00023
+   7             6            0.00355
+   6          Bwe             0.00752
+   6          Bce            -0.00012
+   3          Bli             0.06893
+   1          Bsu             0.03987
+   1          Bam             0.04368
+
+
+Data set # 57:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !   +------Bha       
+  !   ! 
+  ! +-4       +Bwe       
+  ! ! !     +-5 
+  ! ! !     ! +Bce       
+  ! ! +-----6 
+  1-3       ! +Bth       
+  ! !       +-7 
+  ! !         +Ban       
+  ! ! 
+  ! ! +---Bpu       
+  ! +-2 
+  !   +----Bli       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04051
+   1             3            0.03497
+   3             4            0.03369
+   4          Bha             0.12222
+   4             6            0.09641
+   6             5            0.00323
+   5          Bwe             0.00847
+   5          Bce             0.00092
+   6             7            0.00153
+   7          Bth             0.00105
+   7          Ban             0.00083
+   3             2            0.00481
+   2          Bpu             0.05801
+   2          Bli             0.07844
+   1          Bam             0.04420
+
+
+Data set # 58:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+  +-2 +----Bli       
+  ! ! ! 
+  ! +-3  +------Bha       
+  !   !  ! 
+  !   +--4      +Bth       
+  !      !    +-5 
+  !      !    ! +Ban       
+  !      +----7 
+  !           ! +Bce       
+  !           +-6 
+  !             +Bwe       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03545
+   2          Bpu             0.05044
+   2             3            0.01167
+   3          Bli             0.07856
+   3             4            0.04778
+   4          Bha             0.12022
+   4             7            0.08643
+   7             5            0.00844
+   5          Bth             0.00105
+   5          Ban             0.00078
+   7             6            0.00826
+   6          Bce             0.00202
+   6          Bwe             0.00534
+   1          Bsu             0.03700
+   1          Bam             0.03643
+
+
+Data set # 59:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +---Bli       
+  ! +-3 
+  ! ! ! +------Bha       
+  ! ! +-4 
+  ! !   !    +Ban       
+  ! !   +----5 
+  1-2        ! +Bth       
+  ! !        +-7 
+  ! !          ! +Bwe       
+  ! !          +-6 
+  ! !            +Bce       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04836
+   1             2            0.04026
+   2             3            0.02141
+   3          Bli             0.06897
+   3             4            0.03854
+   4          Bha             0.11624
+   4             5            0.08548
+   5          Ban             0.00179
+   5             7            0.00402
+   7          Bth             0.00242
+   7             6            0.00321
+   6          Bwe             0.00425
+   6          Bce             0.00133
+   2          Bpu             0.05109
+   1          Bam             0.04231
+
+
+Data set # 60:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+  +-2 +---Bli       
+  ! ! ! 
+  ! +-3  +-------Bha       
+  !   !  ! 
+  !   +--4        +Ban       
+  !      !      +-6 
+  !      !      ! +Bth       
+  !      +------7 
+  !             ! +Bce       
+  !             +-5 
+  !               +Bwe       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02783
+   2          Bpu             0.05063
+   2             3            0.00540
+   3          Bli             0.07213
+   3             4            0.05654
+   4          Bha             0.12103
+   4             7            0.10600
+   7             6            0.00146
+   6          Ban             0.00164
+   6          Bth             0.00208
+   7             5            0.00415
+   5          Bce             0.00152
+   5          Bwe             0.00592
+   1          Bsu             0.05704
+   1          Bam             0.03926
+
+
+Data set # 61:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !           +Ban       
+  !     +-----5 
+  !     !     ! +Bwe       
+  !     !     +-6 
+  !   +-4       ! +Bth       
+  !   ! !       +-7 
+  !   ! !         +Bce       
+  ! +-3 ! 
+  ! ! ! +------Bha       
+  1-2 ! 
+  ! ! +--Bpu       
+  ! ! 
+  ! +---Bli       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04271
+   1             2            0.02253
+   2             3            0.00579
+   3             4            0.04375
+   4             5            0.09350
+   5          Ban             0.00088
+   5             6            0.00217
+   6          Bwe             0.00366
+   6             7            0.00184
+   7          Bth             0.00113
+   7          Bce             0.00070
+   4          Bha             0.11722
+   3          Bpu             0.04887
+   2          Bli             0.06408
+   1          Bam             0.03516
+
+
+Data set # 62:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+    !    +-----Bha       
+  +-2 +--4 
+  ! ! !  !   +Ban       
+  ! ! !  +---5 
+  ! ! !      ! +Bwe       
+  ! +-3      +-6 
+  !   !        ! +Bth       
+  !   !        +-7 
+  !   !          +Bce       
+  !   ! 
+  !   +---Bli       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03454
+   2          Bpu             0.05617
+   2             3            0.00471
+   3             4            0.03657
+   4          Bha             0.10903
+   4             5            0.07923
+   5          Ban             0.00099
+   5             6            0.00179
+   6          Bwe             0.00464
+   6             7            0.00092
+   7          Bth             0.00115
+   7          Bce             0.00070
+   3          Bli             0.05648
+   1          Bsu             0.03834
+   1          Bam             0.03553
+
+
+Data set # 63:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +--Bpu       
+  !   ! 
+  !   !        +Bce       
+  ! +-3      +-5 
+  ! ! !      ! +Bwe       
+  ! ! ! +----6 
+  ! ! ! !    ! +Bth       
+  1-2 +-4    +-7 
+  ! !   !      +Ban       
+  ! !   ! 
+  ! !   +------Bha       
+  ! ! 
+  ! +---Bli       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04899
+   1             2            0.02628
+   2             3            0.01624
+   3          Bpu             0.05525
+   3             4            0.03422
+   4             6            0.08899
+   6             5            0.00688
+   5          Bce             0.00285
+   5          Bwe             0.00437
+   6             7            0.00683
+   7          Bth             0.00108
+   7          Ban             0.00072
+   4          Bha             0.12531
+   2          Bli             0.06758
+   1          Bam             0.04273
+
+
+Data set # 64:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+    !    +-----Bha       
+    !    ! 
+  +-2 +--4      +Bth       
+  ! ! !  !    +-7 
+  ! ! !  !    ! +Ban       
+  ! ! !  +----6 
+  ! +-3       ! +Bce       
+  !   !       +-5 
+  !   !         +Bwe       
+  !   ! 
+  !   +----Bli       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03483
+   2          Bpu             0.04852
+   2             3            0.00219
+   3             4            0.05073
+   4          Bha             0.09256
+   4             6            0.08321
+   6             7            0.00232
+   7          Bth             0.00001
+   7          Ban             0.00000
+   6             5            0.00418
+   5          Bce             0.00007
+   5          Bwe             0.00733
+   3          Bli             0.07543
+   1          Bsu             0.03484
+   1          Bam             0.03895
+
+
+Data set # 65:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+    ! 
+  +-2 +-----Bli       
+  ! ! ! 
+  ! +-3 +-------Bha       
+  !   ! ! 
+  !   +-4        +Bwe       
+  !     !      +-5 
+  !     !      ! +Bce       
+  !     +------7 
+  !            ! +Ban       
+  !            +-6 
+  !              +Bth       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02943
+   2          Bpu             0.05326
+   2             3            0.00949
+   3          Bli             0.08905
+   3             4            0.03378
+   4          Bha             0.13085
+   4             7            0.10293
+   7             5            0.00544
+   5          Bwe             0.00979
+   5          Bce             0.00138
+   7             6            0.00217
+   6          Ban             0.00073
+   6          Bth             0.00112
+   1          Bsu             0.04054
+   1          Bam             0.03710
+
+
+Data set # 66:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !  +--Bpu       
+  !  ! 
+  1--2 +---Bli       
+  !  ! ! 
+  !  ! !       +Ban       
+  !  +-3 +-----6 
+  !    ! !     ! +Bth       
+  !    ! !     +-7 
+  !    +-4       ! +Bce       
+  !      !       +-5 
+  !      !         +Bwe       
+  !      ! 
+  !      +-------Bha       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03969
+   1             2            0.05215
+   2          Bpu             0.05556
+   2             3            0.01068
+   3          Bli             0.07792
+   3             4            0.04432
+   4             6            0.09073
+   6          Ban             0.00118
+   6             7            0.00159
+   7          Bth             0.00162
+   7             5            0.00208
+   5          Bce             0.00104
+   5          Bwe             0.00821
+   4          Bha             0.11867
+   1          Bam             0.03782
+
+
+Data set # 67:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !  +---Bli       
+  !  ! 
+  1--2 +---Bpu       
+  !  ! ! 
+  !  ! !        +Bce       
+  !  +-3      +-5 
+  !    !      ! +Bwe       
+  !    !  +---6 
+  !    !  !   ! +Bth       
+  !    +--4   +-7 
+  !       !     +Ban       
+  !       ! 
+  !       +------Bha       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04934
+   1             2            0.04450
+   2          Bli             0.06844
+   2             3            0.01346
+   3          Bpu             0.05560
+   3             4            0.04022
+   4             6            0.07207
+   6             5            0.00315
+   5          Bce             0.00100
+   5          Bwe             0.00633
+   6             7            0.00149
+   7          Bth             0.00092
+   7          Ban             0.00091
+   4          Bha             0.12665
+   1          Bam             0.03132
+
+
+Data set # 68:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+  +-2 
+  ! ! +----Bli       
+  ! +-3 
+  !   ! +------Bha       
+  !   +-4 
+  !     !   +Ban       
+  !     +---5 
+  !         ! +Bth       
+  !         +-6 
+  !           ! +Bwe       
+  !           +-7 
+  !             +Bce       
+  ! 
+  1--Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03153
+   2          Bpu             0.04349
+   2             3            0.01752
+   3          Bli             0.08618
+   3             4            0.03468
+   4          Bha             0.10812
+   4             5            0.07343
+   5          Ban             0.00160
+   5             6            0.00152
+   6          Bth             0.00176
+   6             7            0.00110
+   7          Bwe             0.00776
+   7          Bce             0.00174
+   1          Bsu             0.04368
+   1          Bam             0.04557
+
+
+Data set # 69:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+      ! 
+      !      +Ban       
+    +-3 +----5 
+    ! ! !    ! +Bth       
+    ! ! !    +-7 
+    ! +-4      ! +Bce       
+  +-2   !      +-6 
+  ! !   !        +Bwe       
+  ! !   ! 
+  ! !   +-------Bha       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02548
+   2             3            0.02340
+   3          Bli             0.06686
+   3             4            0.03825
+   4             5            0.07807
+   5          Ban             0.00016
+   5             7            0.00257
+   7          Bth             0.00067
+   7             6            0.00121
+   6          Bce             0.00027
+   6          Bwe             0.00537
+   4          Bha             0.13683
+   2          Bpu             0.05696
+   1          Bsu             0.05048
+   1          Bam             0.03886
+
+
+Data set # 70:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !   +---Bli       
+  !   ! 
+  ! +-3 +------Bha       
+  ! ! ! ! 
+  ! ! +-4      +Bwe       
+  ! !   !    +-7 
+  ! !   !    ! +Bce       
+  1-2   +----6 
+  ! !        ! +Bth       
+  ! !        +-5 
+  ! !          +Ban       
+  ! ! 
+  ! +-Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03243
+   1             2            0.03073
+   2             3            0.01158
+   3          Bli             0.07519
+   3             4            0.04310
+   4          Bha             0.11642
+   4             6            0.07630
+   6             7            0.00117
+   7          Bwe             0.00727
+   7          Bce             0.00217
+   6             5            0.00168
+   5          Bth             0.00108
+   5          Ban             0.00080
+   2          Bpu             0.04176
+   1          Bam             0.02573
+
+
+Data set # 71:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +-Bpu       
+  ! ! 
+  1-2 +----Bli       
+  ! ! ! 
+  ! +-3  +-----Bha       
+  !   !  ! 
+  !   +--4      +Ban       
+  !      !    +-5 
+  !      !    ! +Bth       
+  !      +----6 
+  !           ! +Bce       
+  !           +-7 
+  !             +Bwe       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04780
+   1             2            0.02601
+   2          Bpu             0.04717
+   2             3            0.01499
+   3          Bli             0.07402
+   3             4            0.04713
+   4          Bha             0.09725
+   4             6            0.08582
+   6             5            0.00236
+   5          Ban             0.00157
+   5          Bth             0.00211
+   6             7            0.00136
+   7          Bce             0.00350
+   7          Bwe             0.00574
+   1          Bam             0.03850
+
+
+Data set # 72:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +---Bsu       
+  ! 
+  ! +-----Bli       
+  ! ! 
+  1-2 +---Bpu       
+  ! ! ! 
+  ! +-3   +-------Bha       
+  !   !   ! 
+  !   +---4      +Bwe       
+  !       !    +-5 
+  !       !    ! +Bce       
+  !       +----6 
+  !            ! +Ban       
+  !            +-7 
+  !              +Bth       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.05880
+   1             2            0.03516
+   2          Bli             0.09710
+   2             3            0.01470
+   3          Bpu             0.06499
+   3             4            0.06203
+   4          Bha             0.13036
+   4             6            0.08733
+   6             5            0.00544
+   5          Bwe             0.00737
+   5          Bce             0.00013
+   6             7            0.00215
+   7          Ban             0.00092
+   7          Bth             0.00096
+   1          Bam             0.04212
+
+
+Data set # 73:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +--Bpu       
+  ! ! 
+  ! !            +Bth       
+  ! !          +-2 
+  5-7          ! +Ban       
+  ! !   +------3 
+  ! !   !      ! +Bwe       
+  ! ! +-4      +-1 
+  ! ! ! !        +Bce       
+  ! +-6 ! 
+  !   ! +--------Bha       
+  !   ! 
+  !   +---Bli       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5          Bsu             0.05831
+   5             7            0.01830
+   7          Bpu             0.05535
+   7             6            0.01082
+   6             4            0.02660
+   4             3            0.10615
+   3             2            0.00600
+   2          Bth             0.00000
+   2          Ban             0.00001
+   3             1            0.00649
+   1          Bwe             0.00683
+   1          Bce             0.00073
+   4          Bha             0.14145
+   6          Bli             0.07061
+   5          Bam             0.04231
+
+
+Data set # 74:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +-Bpu       
+     ! 
+     !    +-----Bha       
+     !    ! 
+  +--2 +--4     +Bce       
+  !  ! !  !   +-5 
+  !  ! !  !   ! +Bwe       
+  !  ! !  +---6 
+  !  +-3      ! +Bth       
+  !    !      +-7 
+  !    !        +Ban       
+  !    ! 
+  !    +---Bli       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.04201
+   2          Bpu             0.04707
+   2             3            0.00496
+   3             4            0.04521
+   4          Bha             0.10891
+   4             6            0.07745
+   6             5            0.00301
+   5          Bce             0.00295
+   5          Bwe             0.00635
+   6             7            0.00268
+   7          Bth             0.00094
+   7          Ban             0.00092
+   3          Bli             0.07317
+   1          Bsu             0.03195
+   1          Bam             0.03814
+
+
+Data set # 75:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +---Bpu       
+  1-2 
+  ! ! +----Bli       
+  ! +-3 
+  !   ! +--------Bha       
+  !   +-4 
+  !     !      +Ban       
+  !     +------7 
+  !            ! +Bth       
+  !            +-6 
+  !              ! +Bce       
+  !              +-5 
+  !                +Bwe       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04828
+   1             2            0.03819
+   2          Bpu             0.06084
+   2             3            0.01211
+   3          Bli             0.08157
+   3             4            0.03970
+   4          Bha             0.13910
+   4             7            0.10775
+   7          Ban             0.00215
+   7             6            0.00256
+   6          Bth             0.00263
+   6             5            0.00681
+   5          Bce             0.00103
+   5          Bwe             0.01017
+   1          Bam             0.04526
+
+
+Data set # 76:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +----Bli       
+    ! 
+  +-2 +---Bpu       
+  ! ! ! 
+  ! ! !         +Bce       
+  ! +-3       +-5 
+  !   !       ! +Bwe       
+  !   !  +----6 
+  !   !  !    ! +Bth       
+  !   +--4    +-7 
+  !      !      +Ban       
+  !      ! 
+  !      +------Bha       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03145
+   2          Bli             0.08041
+   2             3            0.00704
+   3          Bpu             0.05465
+   3             4            0.05041
+   4             6            0.08450
+   6             5            0.00335
+   5          Bce             0.00287
+   5          Bwe             0.00445
+   6             7            0.00309
+   7          Bth             0.00203
+   7          Ban             0.00162
+   4          Bha             0.11231
+   1          Bsu             0.03374
+   1          Bam             0.04144
+
+
+Data set # 77:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +---Bpu       
+  ! +-3 
+  ! ! ! +-------Bha       
+  ! ! +-4 
+  ! !   !    +Ban       
+  ! !   +----6 
+  1-2        ! +Bth       
+  ! !        +-7 
+  ! !          ! +Bwe       
+  ! !          +-5 
+  ! !            +Bce       
+  ! ! 
+  ! +----Bli       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04801
+   1             2            0.04148
+   2             3            0.00621
+   3          Bpu             0.06336
+   3             4            0.03057
+   4          Bha             0.13714
+   4             6            0.08254
+   6          Ban             0.00051
+   6             7            0.00041
+   7          Bth             0.00087
+   7             5            0.00283
+   5          Bwe             0.00740
+   5          Bce            -0.00000
+   2          Bli             0.08200
+   1          Bam             0.03258
+
+
+Data set # 78:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+           +------Bha       
+           ! 
+        +--4    +Bwe       
+        !  !    ! 
+        !  +----6   +Bth       
+        !       ! +-5 
+      +-3       +-7 +Ban       
+      ! !         ! 
+      ! !         +Bce       
+  +---2 ! 
+  !   ! +---Bpu       
+  !   ! 
+  !   +---Bli       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.05959
+   2             3            0.00569
+   3             4            0.04820
+   4          Bha             0.12455
+   4             6            0.08915
+   6          Bwe             0.01018
+   6             7            0.00112
+   7             5            0.00271
+   5          Bth             0.00319
+   5          Ban             0.00241
+   7          Bce             0.00478
+   3          Bpu             0.06490
+   2          Bli             0.07240
+   1          Bsu             0.03516
+   1          Bam             0.02641
+
+
+Data set # 79:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +--------Bha       
+        ! 
+      +-4        +Bth       
+      ! !      +-6 
+      ! !      ! +Ban       
+      ! +------7 
+    +-3        ! +Bce       
+    ! !        +-5 
+    ! !          +Bwe       
+  +-2 ! 
+  ! ! +--Bpu       
+  ! ! 
+  ! +--Bli       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02594
+   2             3            0.01013
+   3             4            0.03659
+   4          Bha             0.14181
+   4             7            0.10517
+   7             6            0.00113
+   6          Bth             0.00203
+   6          Ban             0.00164
+   7             5            0.00257
+   5          Bce             0.00176
+   5          Bwe             0.00927
+   3          Bpu             0.04706
+   2          Bli             0.05444
+   1          Bsu             0.04684
+   1          Bam             0.03822
+
+
+Data set # 80:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +---Bli       
+  ! ! 
+  1-2 +---Bpu       
+  ! ! ! 
+  ! +-3  +-------Bha       
+  !   !  ! 
+  !   +--4      +Bce       
+  !      !    +-6 
+  !      !    ! +Bwe       
+  !      +----7 
+  !           ! +Bth       
+  !           +-5 
+  !             +Ban       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04829
+   1             2            0.03243
+   2          Bli             0.07236
+   2             3            0.00919
+   3          Bpu             0.05912
+   3             4            0.04580
+   4          Bha             0.13108
+   4             7            0.08228
+   7             6            0.00533
+   6          Bce             0.00462
+   6          Bwe             0.01212
+   7             5            0.00692
+   5          Bth             0.00167
+   5          Ban             0.00203
+   1          Bam             0.03850
+
+
+Data set # 81:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +--Bpu       
+  ! ! 
+  1-2 +---Bli       
+  ! ! ! 
+  ! ! !       +Bth       
+  ! +-3     +-6 
+  !   !     ! ! +Bwe       
+  !   ! +---7 +-5 
+  !   ! !   !   +Bce       
+  !   +-4   ! 
+  !     !   +Ban       
+  !     ! 
+  !     +-----Bha       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03331
+   1             2            0.03894
+   2          Bpu             0.05010
+   2             3            0.00423
+   3          Bli             0.07147
+   3             4            0.01739
+   4             7            0.07512
+   7             6            0.00249
+   6          Bth             0.00068
+   6             5            0.00307
+   5          Bwe             0.00324
+   5          Bce             0.00045
+   7          Ban             0.00030
+   4          Bha             0.10729
+   1          Bam             0.03180
+
+
+Data set # 82:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +---Bpu       
+    ! 
+  +-2 +---Bli       
+  ! ! ! 
+  ! ! !         +Bce       
+  ! +-3       +-5 
+  !   !       ! +Bwe       
+  !   ! +-----6 
+  !   ! !     ! +Bth       
+  !   +-4     +-7 
+  !     !       +Ban       
+  !     ! 
+  !     +-------Bha       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02057
+   2          Bpu             0.05458
+   2             3            0.01423
+   3          Bli             0.06036
+   3             4            0.03715
+   4             6            0.08931
+   6             5            0.00527
+   5          Bce             0.00154
+   5          Bwe             0.00757
+   6             7            0.00392
+   7          Bth             0.00093
+   7          Ban             0.00088
+   4          Bha             0.12149
+   1          Bsu             0.03553
+   1          Bam             0.03417
+
+
+Data set # 83:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+    +-3 
+    ! !  +------Bha       
+    ! +--4 
+    !    !   +Ban       
+    !    +---5 
+  +-2        ! +Bwe       
+  ! !        +-6 
+  ! !          ! +Bth       
+  ! !          +-7 
+  ! !            +Bce       
+  ! ! 
+  ! +--Bpu       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03529
+   2             3            0.00191
+   3          Bli             0.06302
+   3             4            0.04674
+   4          Bha             0.12252
+   4             5            0.06729
+   5          Ban             0.00163
+   5             6            0.00111
+   6          Bwe             0.01009
+   6             7            0.00101
+   7          Bth             0.00145
+   7          Bce             0.00222
+   2          Bpu             0.03987
+   1          Bsu             0.02965
+   1          Bam             0.02944
+
+
+Data set # 84:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +---Bli       
+    ! 
+    !    +------Bha       
+    !    ! 
+  +-2 +--4     +Bth       
+  ! ! !  !   +-7 
+  ! ! !  !   ! ! +Bwe       
+  ! ! !  +---5 +-6 
+  ! +-3      !   +Ban       
+  !   !      ! 
+  !   !      +Bce       
+  !   ! 
+  !   +--Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.01982
+   2          Bli             0.06928
+   2             3            0.01226
+   3             4            0.04326
+   4          Bha             0.13039
+   4             5            0.07895
+   5             7            0.00107
+   7          Bth            -0.00000
+   7             6            0.00001
+   6          Bwe             0.00187
+   6          Ban            -0.00000
+   5          Bce             0.00017
+   3          Bpu             0.05864
+   1          Bsu             0.05171
+   1          Bam             0.03601
+
+
+Data set # 85:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+            +Bth       
+          +-5 
+          ! +Ban       
+      +---7 
+      !   ! +Bwe       
+    +-4   +-6 
+    ! !     +Bce       
+    ! ! 
+  +-3 +----Bha       
+  ! ! 
+  ! ! +----Bli       
+  ! +-2 
+  !   +--Bpu       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             3            0.03457
+   3             4            0.02865
+   4             7            0.06453
+   7             5            0.00316
+   5          Bth             0.00255
+   5          Ban             0.00297
+   7             6            0.00249
+   6          Bwe             0.00856
+   6          Bce             0.00436
+   4          Bha             0.09359
+   3             2            0.00204
+   2          Bli             0.07588
+   2          Bpu             0.05357
+   1          Bsu             0.05779
+   1          Bam             0.04038
+
+
+Data set # 86:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  ! +-Bpu       
+  ! ! 
+  1-2 +---Bli       
+  ! ! ! 
+  ! ! !        +Bwe       
+  ! +-3      +-6 
+  !   !      ! ! +Bce       
+  !   !  +---7 +-5 
+  !   !  !   !   +Bth       
+  !   +--4   ! 
+  !      !   +Ban       
+  !      ! 
+  !      +----Bha       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04363
+   1             2            0.02642
+   2          Bpu             0.04175
+   2             3            0.00617
+   3          Bli             0.06814
+   3             4            0.04290
+   4             7            0.08268
+   7             6            0.00044
+   6          Bwe             0.01127
+   6             5            0.00161
+   5          Bce             0.00206
+   5          Bth             0.00161
+   7          Ban             0.00139
+   4          Bha             0.09314
+   1          Bam             0.03936
+
+
+Data set # 87:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +--Bpu       
+     ! 
+  +--2 +----Bli       
+  !  ! ! 
+  !  +-3 +-----Bha       
+  !    ! ! 
+  !    +-4       +Bce       
+  !      !     +-5 
+  !      !     ! +Bwe       
+  !      +-----6 
+  !            ! +Bth       
+  !            +-7 
+  !              +Ban       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.04763
+   2          Bpu             0.04874
+   2             3            0.01570
+   3          Bli             0.08850
+   3             4            0.03194
+   4          Bha             0.10960
+   4             6            0.10724
+   6             5            0.00709
+   5          Bce             0.00157
+   5          Bwe             0.00767
+   6             7            0.00424
+   7          Bth             0.00094
+   7          Ban             0.00090
+   1          Bsu             0.04310
+   1          Bam             0.03442
+
+
+Data set # 88:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  !    +--Bpu       
+  !  +-3 
+  !  ! ! +-----Bha       
+  !  ! +-4 
+  !  !   !   +Ban       
+  !  !   +---5 
+  1--2       ! +Bth       
+  !  !       +-6 
+  !  !         ! +Bwe       
+  !  !         +-7 
+  !  !           +Bce       
+  !  ! 
+  !  +---Bli       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03441
+   1             2            0.04168
+   2             3            0.00340
+   3          Bpu             0.05382
+   3             4            0.03089
+   4          Bha             0.11457
+   4             5            0.07744
+   5          Ban             0.00218
+   5             6            0.00489
+   6          Bth             0.00220
+   6             7            0.00352
+   7          Bwe             0.00703
+   7          Bce             0.00236
+   2          Bli             0.07784
+   1          Bam             0.02819
+
+
+Data set # 89:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +---Bpu       
+  !   ! 
+  ! +-3 +------Bha       
+  ! ! ! ! 
+  ! ! +-4       +Bth       
+  ! !   !     +-6 
+  ! !   !     ! +Ban       
+  1-2   +-----7 
+  ! !         ! +Bce       
+  ! !         +-5 
+  ! !           +Bwe       
+  ! ! 
+  ! +----Bli       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.05160
+   1             2            0.02331
+   2             3            0.00713
+   3          Bpu             0.06329
+   3             4            0.04009
+   4          Bha             0.10877
+   4             7            0.09680
+   7             6            0.00072
+   6          Bth             0.00000
+   6          Ban             0.00001
+   7             5            0.00296
+   5          Bce            -0.00026
+   5          Bwe             0.00573
+   2          Bli             0.07681
+   1          Bam             0.04776
+
+
+Data set # 90:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +----Bli       
+  ! ! 
+  ! !       +Ban       
+  ! !   +---5 
+  1-2   !   ! +Bth       
+  ! !   !   +-6 
+  ! ! +-4     ! +Bwe       
+  ! ! ! !     +-7 
+  ! ! ! !       +Bce       
+  ! +-3 ! 
+  !   ! +------Bha       
+  !   ! 
+  !   +---Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03548
+   1             2            0.03650
+   2          Bli             0.07567
+   2             3            0.01633
+   3             4            0.02866
+   4             5            0.07004
+   5          Ban             0.00282
+   5             6            0.00436
+   6          Bth             0.00263
+   6             7            0.00303
+   7          Bwe             0.01434
+   7          Bce             0.00255
+   4          Bha             0.11809
+   3          Bpu             0.05724
+   1          Bam             0.03835
+
+
+Data set # 91:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +---Bpu       
+  ! ! 
+  1-2 +--Bli       
+  ! ! ! 
+  ! ! !      +Ban       
+  ! +-3  +---6 
+  !   !  !   ! +Bth       
+  !   !  !   +-7 
+  !   +--4     ! +Bwe       
+  !      !     +-5 
+  !      !       +Bce       
+  !      ! 
+  !      +------Bha       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.02961
+   1             2            0.03694
+   2          Bpu             0.05554
+   2             3            0.01038
+   3          Bli             0.05017
+   3             4            0.05966
+   4             6            0.05789
+   6          Ban             0.00130
+   6             7            0.00149
+   7          Bth             0.00167
+   7             5            0.00302
+   5          Bwe             0.00772
+   5          Bce             0.00156
+   4          Bha             0.10985
+   1          Bam             0.02796
+
+
+Data set # 92:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+    +-2 
+    ! +--Bpu       
+  +-3 
+  ! !  +-----Bha       
+  ! !  ! 
+  ! +--4       +Ban       
+  !    !     +-7 
+  !    !     ! +Bth       
+  !    +-----6 
+  !          ! +Bwe       
+  !          +-5 
+  !            +Bce       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             3            0.02449
+   3             2            0.00518
+   2          Bli             0.07132
+   2          Bpu             0.05300
+   3             4            0.04506
+   4          Bha             0.10441
+   4             6            0.09219
+   6             7            0.00047
+   7          Ban             0.00081
+   7          Bth             0.00103
+   6             5            0.00234
+   5          Bwe             0.00669
+   5          Bce             0.00069
+   1          Bsu             0.03930
+   1          Bam             0.03951
+
+
+Data set # 93:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bli       
+    +-2 
+    ! +--Bpu       
+  +-3 
+  ! ! +-------Bha       
+  ! ! ! 
+  ! +-4      +Bwe       
+  !   !    +-5 
+  !   !    ! +Bce       
+  !   +----6 
+  !        ! +Bth       
+  !        +-7 
+  !          +Ban       
+  ! 
+  1-Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             3            0.02949
+   3             2            0.00757
+   2          Bli             0.06077
+   2          Bpu             0.04993
+   3             4            0.03471
+   4          Bha             0.14046
+   4             6            0.08285
+   6             5            0.00166
+   5          Bwe             0.00922
+   5          Bce             0.00203
+   6             7            0.00026
+   7          Bth             0.00208
+   7          Ban             0.00166
+   1          Bsu             0.03846
+   1          Bam             0.04224
+
+
+Data set # 94:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +---Bli       
+    ! 
+  +-2 +--Bpu       
+  ! ! ! 
+  ! +-3 +-------Bha       
+  !   ! ! 
+  !   +-4      +Ban       
+  !     !    +-6 
+  !     !    ! +Bth       
+  !     +----7 
+  !          ! +Bce       
+  !          +-5 
+  !            +Bwe       
+  ! 
+  1-Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.03853
+   2          Bli             0.06635
+   2             3            0.00420
+   3          Bpu             0.05418
+   3             4            0.04495
+   4          Bha             0.12233
+   4             7            0.08394
+   7             6            0.00379
+   6          Ban             0.00164
+   6          Bth             0.00203
+   7             5            0.00464
+   5          Bce             0.00294
+   5          Bwe             0.01178
+   1          Bsu             0.04022
+   1          Bam             0.03051
+
+
+Data set # 95:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +----Bli       
+    ! 
+  +-2 +---Bpu       
+  ! ! ! 
+  ! +-3 +-------Bha       
+  !   ! ! 
+  !   +-4       +Bth       
+  !     !     +-6 
+  !     !     ! ! +Bce       
+  !     +-----5 +-7 
+  !           !   +Bwe       
+  !           ! 
+  !           +Ban       
+  ! 
+  1--Bsu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02961
+   2          Bli             0.08034
+   2             3            0.00651
+   3          Bpu             0.05734
+   3             4            0.03761
+   4          Bha             0.13218
+   4             5            0.08997
+   5             6            0.00136
+   6          Bth             0.00186
+   6             7            0.00097
+   7          Bce             0.00185
+   7          Bwe             0.00944
+   5          Ban             0.00177
+   1          Bsu             0.04978
+   1          Bam             0.04532
+
+
+Data set # 96:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +-Bsu       
+  ! 
+  ! +----Bli       
+  ! ! 
+  1-2 +---Bpu       
+  ! ! ! 
+  ! +-3  +-------Bha       
+  !   !  ! 
+  !   !  !        +Bwe       
+  !   +--4      +-5 
+  !      !    +-7 +Bce       
+  !      !    ! ! 
+  !      +----6 +Ban       
+  !           ! 
+  !           +Bth       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.03773
+   1             2            0.03360
+   2          Bli             0.07480
+   2             3            0.01433
+   3          Bpu             0.06843
+   3             4            0.04671
+   4          Bha             0.14512
+   4             6            0.08135
+   6             7            0.00011
+   7             5            0.00385
+   5          Bwe             0.00240
+   5          Bce            -0.00055
+   7          Ban            -0.00010
+   6          Bth            -0.00010
+   1          Bam             0.04324
+
+
+Data set # 97:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +----Bha       
+  !   ! 
+  !   !        +Bwe       
+  ! +-4      +-5 
+  ! ! !    +-6 +Bce       
+  ! ! !    ! ! 
+  ! ! +----7 +Bth       
+  1-3      ! 
+  ! !      +Ban       
+  ! ! 
+  ! ! +----Bli       
+  ! +-2 
+  !   +---Bpu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04293
+   1             3            0.03790
+   3             4            0.03182
+   4          Bha             0.08605
+   4             7            0.07717
+   7             6            0.00269
+   6             5            0.00296
+   5          Bwe             0.00000
+   5          Bce             0.00001
+   6          Bth             0.00071
+   7          Ban             0.00100
+   3             2            0.00295
+   2          Bli             0.06772
+   2          Bpu             0.05425
+   1          Bam             0.04018
+
+
+Data set # 98:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +--Bsu       
+  ! 
+  !   +----Bli       
+  !   ! 
+  !   !          +Bth       
+  ! +-3        +-7 
+  ! ! !        ! +Ban       
+  ! ! !  +-----6 
+  ! ! !  !     ! +Bce       
+  1-2 +--4     +-5 
+  ! !    !       +Bwe       
+  ! !    ! 
+  ! !    +-----Bha       
+  ! ! 
+  ! +---Bpu       
+  ! 
+  +--Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1          Bsu             0.04567
+   1             2            0.02451
+   2             3            0.01385
+   3          Bli             0.07518
+   3             4            0.03897
+   4             6            0.10485
+   6             7            0.00305
+   7          Bth             0.00209
+   7          Ban             0.00163
+   6             5            0.00449
+   5          Bce             0.00302
+   5          Bwe             0.00817
+   4          Bha             0.11394
+   2          Bpu             0.05577
+   1          Bam             0.04319
+
+
+Data set # 99:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +--Bpu       
+  +-2 
+  ! ! +---Bli       
+  ! +-3 
+  !   ! +-----Bha       
+  !   +-4 
+  !     !    +Ban       
+  !     +----6 
+  !          ! +Bth       
+  !          +-7 
+  !            ! +Bwe       
+  !            +-5 
+  !              +Bce       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             2            0.02662
+   2          Bpu             0.04919
+   2             3            0.00630
+   3          Bli             0.06132
+   3             4            0.02766
+   4          Bha             0.11209
+   4             6            0.08610
+   6          Ban             0.00084
+   6             7            0.00190
+   7          Bth             0.00124
+   7             5            0.00242
+   5          Bwe             0.00679
+   5          Bce             0.00053
+   1          Bsu             0.05063
+   1          Bam             0.03540
+
+
+Data set # 100:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bpu       
+    +-2 
+    ! +--Bli       
+  +-3 
+  ! !  +-------Bha       
+  ! !  ! 
+  ! +--4       +Bth       
+  !    !     +-6 
+  !    !     ! +Ban       
+  !    +-----7 
+  !          ! +Bce       
+  !          +-5 
+  !            +Bwe       
+  ! 
+  1--Bsu       
+  ! 
+  +-Bam       
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   1             3            0.01794
+   3             2            0.00208
+   2          Bpu             0.05566
+   2          Bli             0.05257
+   3             4            0.05345
+   4          Bha             0.12123
+   4             7            0.08906
+   7             6            0.00469
+   6          Bth             0.00106
+   6          Ban             0.00084
+   7             5            0.00777
+   5          Bce             0.00064
+   5          Bwe             0.00315
+   1          Bsu             0.05371
+   1          Bam             0.03756
+
+
