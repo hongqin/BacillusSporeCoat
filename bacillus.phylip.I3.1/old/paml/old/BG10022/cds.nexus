@@ -1,0 +1,221 @@
+#NEXUS
+[TITLE: NoName]
+
+begin data;
+dimensions ntax=5 nchar=1464;
+format interleave datatype=protein   gap=- symbols="ATCG";
+
+matrix
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         ATGATATTAA ATCCACAAAA ACTTTCTGTA GATTTTGGAA ATGGCATAAC 
+CPR_1593           ---------- ---------- ---------- ---------- ---------- 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         AGCTACTGAA CCTATTATTC CTAGACGCTA CACTCTTACT CACTCAGATA 
+CPR_1593           ---------- ---------- ---------- ---------- ---------- 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         TAACTGCAAA ACTCTTTCTT AATATTGGAT TAACTTATGC CTATAATAAA 
+CPR_1593           ---------- ---------- ---------- ---------- ---------- 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         ATGACCACTA TGAGAGATGA GGTACTTGGA GAATGGGTAA AAAAATCTCA 
+CPR_1593           ---------- ---------- ---------- ---------- ---------- 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         AGATTACTCT TATCAAGTAT TCTTACATGT AGACGGAAGA CTTGGTCCTA 
+CPR_1593           ---------- ---------- ---------- ---------- ---------- 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ----TTGAAT 
+NT01CA3725         AGACAACAGC CATAAGAAAT AAAATCTTTA GACGTGAGCT ACCTCTTGCT 
+CPR_1593           ---------- ---------- ---------- ---------- ---------- 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            GTGTATGACA TCAGAATGGC TCCTTATTGG TTTTATGAAG GCAGAGGACT 
+NT01CA3725         TTAGAAGCTA TAAGATACGG AGATAAAAGA TTCTTTAACG CCCATCCATA 
+CPR_1593           ---------- ---------- ---------- ---------- ---------- 
+NT02CT0966         ---------- ---------- ---------- ATGTATAATT CT-------- 
+OB2306             ---------- ---------- -------ATG CTGTACTCTC TTTCGCTTCT 
+
+
+BG10022            TGTTCAACAT CCA------- --TACGTATT TCGGCAGCCT ---------- 
+NT01CA3725         CTTAGACAAT GCACCAATAA CAGTTTTTTT CATATCAACT AATCCAAACT 
+CPR_1593           ---------- ---------- -----ATGAT TGAAACTGAT ---------- 
+NT02CT0966         ---------- ---------- -----TATTT TAGGAATGAT ---------- 
+OB2306             ATTAACACTT TCTATAGTAA GTCCTGTAGC TGAACAGCCA ---------- 
+
+
+BG10022            ---------- ---------- ------GTCT CCTCACGTGC AATCATTGTA 
+NT01CA3725         TCAATAAAAT AGAGAACTGG GGTACTTTTT CAGATTATAA TATAGAATCT 
+CPR_1593           ---------- ---------- ---------- --AAGGGAAA AATAATAGAT 
+NT02CT0966         ---------- ---------- ------ATAG CCTATACAAG AGTTGTAGCT 
+OB2306             ---------- ---------- ------ACAG ACCCGATTTC TATTCATTCA 
+
+
+BG10022            TCTACCCGC- ---------- ---------- ---------- -----GGCGA 
+NT01CA3725         TATTACAGGA ATTATAAAAA CGTTTATCTA CTTGATAGAA AGGTAGGAGA 
+CPR_1593           TACAAATTA- ---------- ---------- ---------- -----GGGGA 
+NT02CT0966         TATGCTAGG- ---------- ---------- ---------- -----GGAGA 
+OB2306             TATCATGAA- ---------- ---------- ---------- --------GA 
+
+
+BG10022            TGTAACGGGA GACGGCGTTA TTGACGAGGT CTTTCTAACT GGA---AATC 
+NT01CA3725         TGTAACTGGA GATGATATTC CTGATACAGT ATCCTTATAT GGAGAAAAAG 
+CPR_1593           TGTTACAGGA GATGGTATTA ATGATGAAGT TTATATTATG TCT------- 
+NT02CT0966         TGTGAATGGT GATAGAATAC TTGATAATGT GTATTTAACA GGT---ACAA 
+OB2306             TGTAACCGGT GATGGACAAA GTGATACGAT TGATTTAAAA GGGGAACTAT 
+
+
+BG10022            AAATGCCCGG CAGCCCGTTA TGGAGAAATA TCACATTGGT GATCCGTGAT 
+NT01CA3725         AAGCTCCCTC TGAAATTTTT GCCGACGACA TAACTGTTAT TATTACAGAT 
+CPR_1593           --TGTGCTTT TAATAAATGT TTAAATAGGC ATTGGTTAGT TGTTAAAGAA 
+NT02CT0966         AGGCGTCAAG TAGTCCATTT ATTCAAAATA TTACTCTTGT AATACAGGAT 
+OB2306             TTGCACCTGA TGGCCAATAT TATCAACATA TATGGGCTGA TATTACTGAT 
+
+
+BG10022            GGCAGAACCC ATCAGGAGCA GCGGATTCAG CTTCAAAACA ATATGGGATA 
+NT01CA3725         GGTAGCACAG GCAATACTAC AACTATTACA CCAGAATTTA ACTCAGGATA 
+CPR_1593           GGAAATTCAG AAAGGATCTT TAAATATGAA CTAACAGAAA AT---AATTA 
+NT02CT0966         GGGATAACAG GAAGATTTAT TAGCATACCA CTTAATCAAA ATTCGGGATA 
+OB2306             GCAAATAAT- --------CA TTCCTGGACT ATTCCTTATG GAGGAGGTTA 
+
+
+BG10022            CAATCCGTCA CTTTTTCTGG GGGATATGAC AGGCGACAAG ATTGAGGATG 
+NT01CA3725         TAATCCTACA ATATTTCTCG GTGATTTTAC TAAAAACAGA GTTTACGATA 
+CPR_1593           TAATTTTGAA ATATTTCTAG TAAAATTTAG ACATACTAAT AAATTAGATA 
+NT02CT0966         TGGGCCTAGA TTATTTTTAG GAGACTTTAC AGGTGATGGA GTAAAAGATA 
+OB2306             TGAACCTTCA CTACAATTCG TAGATTTAAA CCACGATAAT CAAAATGATA 
+
+
+BG10022            TGGCAGTAGT AATGGACACA GGGGGAAGCG GCGGTGCTAT TTATGCATAT 
+NT01CA3725         TAAAAATAAG CATTGATTCT GGTGGAAGTG GAGGCTACGG TTTCTTTTAT 
+CPR_1593           TATTTATTAG ATCTATAGGG GAATGCTTTG GTGGATGCGT TAATGGTAAA 
+NT02CT0966         TTTTAATAGG CATTGATTCA GGTGGAAGTG GTGCAATAAC CTATGATTAT 
+OB2306             TTTTTTATCA GAGTGCTACT GGAGGAAGTG GAGGGTTATA TACAAGTAAA 
+
+
+BG10022            GTGTTTGCCT ATCTAAACAG GCAGTTCCGG CGAATTTTCA ATTCAGATGT 
+NT01CA3725         ATTTATTCCT TTATGGAAAA TACTTTTCGA GAAATCTTTA ACTTTGACGC 
+CPR_1593           ATTTTTACTT ATGATAGAGA AAATTTAAAA GAAATATTTA ATACTAATGA 
+NT02CT0966         ATTTATTCAT TTATAAATAA TGTACCAAGA TTACTTTTTG ATTTTAATGT 
+OB2306             CTCCATACAA TCAAAAATAA TCAGTTGATC GAAATTCCC- ---------- 
+
+
+BG10022            ATTGAATGAT GAATTAAAGT ACAGTGTGAG GTATCAAAAT CAATATAAAG 
+NT01CA3725         ATACAATAAA GAATATAAAT ACAAAGTAGA CTATGATGAT CTTTACAAAG 
+CPR_1593           TTTTTACAAA AAAAATAAGT TAAGTGCTTT TTATAGAGAT GATTATAAAG 
+NT02CT0966         ATATAATGAA GAATATAAAT ATGATGTTAA TTTTAAAGAT AACTATAAGG 
+OB2306             -TTGCCAAAC AATCAACCGT TACAAGGAGA ATTTATTGAT GATTTTAAAG 
+
+
+BG10022            CGAGCGTTAT CAGTCATCAG CAAAACGAAA CGTATATCCT CGACCTTACT 
+NT01CA3725         TTAATGTAGG TGCTATTACA CTAAATAAGC TTTTCATATT AGATATAAGC 
+CPR_1593           TTGATGTACT TAATTATGAA AGAAATAAAA AATATATTGT TGATATAAAA 
+NT02CT0966         TTGAAGTTAT AAGTGAAAAG AATAATAAAA AGTACATTAT TGATATATCT 
+OB2306             CATCGATAAC TTTACTTCCT GGAGAAGAAC CAATTATTAT TGATTTATCT 
+
+
+BG10022            TACAAGGGCA GGGAATATTT GAATGAG--- ATTTATAACA GCCAAGGTGT 
+NT01CA3725         TACAAGGGAT ATGATGTTCT ATCTCAA--- TACTATTATG AAAACGGTAA 
+CPR_1593           GAGAATTTTA AATATTATTT AGACTTT--- GTATATTATG GAGATGGAAA 
+NT02CT0966         AGTAGAGATG CTGATTATTT AAATGAG--- ATATATGATG AGAATGGAAA 
+OB2306             GATCGTAAAG ACGAATATAT TCGACTCAAT ATATATGATG AAAACGGAAA 
+
+
+BG10022            GTTAAAAATG CCGATAGAAG GATGGGTGAA TCCTTTATCG GGCTTGTATC 
+NT01CA3725         ATTAATAAAA CCTGTGGATG GTGATGTTCT TGCCCTAGGA GCATTAGTTC 
+CPR_1593           AGTGAAAGAA GGAAAGGATA AAGCAAATAT AAGTAGTGTA TGGGGCTGCA 
+NT02CT0966         GTTGAAAAAT CCAATTGAAG GATTTGTAAA CCCACTAAGT GGTCTATATC 
+OB2306             CTTATTAGAA CCTACTTCGT TAATGATAGA TCCAGTTGCT ATGTTTGAAC 
+
+
+BG10022            CG---GTTGA TTTTGACAGA GACGGCGTAT ACGAATTATT GGCGTACCAG 
+NT01CA3725         CTATTGTAAG CAATGAGCTT CTAGATTTTT ATAACTTACT TGCATTCCAG 
+CPR_1593           ATTTATATTA TCCTATGGGA AGTGAAGTTT CTAATATAAG TATTATCCAA 
+NT02CT0966         CT---GTAGA TTTTGATTCT GATGGAGTGT ACGAATTACT AGCATATCAA 
+OB2306             CC---GTTAA TCTCAGTGAG AGAAATGGAT ACGGTTTAAA AAGTTATCAA 
+
+
+BG10022            CGGATAGCGG GAAGGTATAA CGCCGACTCA TTGGGATATG TTCAAACCGT 
+NT01CA3725         CGCATAATAG GTACCTACAA TGCTGATACC TTGGGATATG TACAAAATCT 
+CPR_1593           AAGGTTATTG GTCAGGCTTC TACTGATGAT ATATGTTTAA TTGAAAGTAT 
+NT02CT0966         AAGATAGCAG GTAGATACAA TGCAGATGCT TTAGGTTATA TATTAAACAC 
+OB2306             CAAATCAGCG GAGCTTATCA TGCAGACGGA ATTGGTGTAG TTGAATCACT 
+
+
+BG10022            ATTAAAATGG AACGGGCAGA GGTTTATGTT TAACCGTCAG ACTGTTACGA 
+NT01CA3725         TTTATCCTGG GATGGAAAAA ACTTCACTCC TTCTAGTACT TTCGTAAATA 
+CPR_1593           ATTAAAATGG CAAGATAATT CTTTTAGAGT AATTGAACAA AATGTAATTC 
+NT02CT0966         TTTAAAATGG AAGAATAATA AATTTGACTT AAATAATCAA AATGTGGCTA 
+OB2306             CTGGTATTAC GAAAAAGGGA AATGGAAATT ATTAAAAACG ACATTGAAAT 
+
+
+BG10022            TTTTTGGGAG TGACTTATCT ---------- ---------- ---------- 
+NT01CA3725         TATCTGGTTC AAGCTTAATT TCCCCATAT- ---------- ---------- 
+CPR_1593           TAAAAGGTGC TTTTATAAAT AAAAATAATA GAATTAAAGA AATAAGTAAT 
+NT02CT0966         TTTTTGGAGC AGAAAATAAT TCTCAAAAGT CA-------- ---------- 
+OB2306             CAGATAATCC AACGGAAAAT CCAACAGAGG AAAATAAAGA TGAA------ 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         ---------- ---------- ---------- ---------- ---------- 
+CPR_1593           AAAAAAGATT TTTTTATTGA TAAAAGAAAT TGTTATGAAA ATAACTTAAA 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         ---------- ---------- ---------- ---------- ---------- 
+CPR_1593           AGGATTAAAT AAGTATATTA ATGATAATGA AGATTTTGAT TCATCAATTA 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         ---------- ---------- ---------- ---------- ---------- 
+CPR_1593           CTTGGTATTA CCTAGCTATA TTACAATTTT TTGAAAAAGA TTTAATTGAG 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         ---------- ---------- ---------- ---------- ---------- 
+CPR_1593           GCTTTAAAAT CAATAAATAT GAATTTAAGT TTTAAGCACC CTTATCCTTC 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---------- ---------- ---------- ---------- 
+NT01CA3725         ---------- ---------- ---------- ---------- ---------- 
+CPR_1593           AAAAGAAAGG GCTTTAACTT TAAAAGAAGA AATTGAATAT AGTATTAAAT 
+NT02CT0966         ---------- ---------- ---------- ---------- ---------- 
+OB2306             ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10022            ---------- ---- 
+NT01CA3725         ---------- ---- 
+CPR_1593           CAAATATGTT TATC 
+NT02CT0966         ---------- ---- 
+OB2306             ---------- ---- 
+
+
+;
+
+endblock;

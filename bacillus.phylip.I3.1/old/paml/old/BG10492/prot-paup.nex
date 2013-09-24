@@ -1,0 +1,17 @@
+#nexus
+
+begin data;
+	dimensions ntax = 1 nchar = 118;
+	format  datatype = DNA interleave=yes gap = - missing = ?;
+
+	matrix
+
+[Source of sequence data: prot-aligned]
+
+	BG10492_CotC	MKNRLFILICFCVICLFLSFGQPFFPSMILTVQAAKSTRRIIKRSKNKGGVYMGYYKKYKEEYYTVKKTYYKKYYEYDKKDYDCDYDKKYDDYDKKYYDHDKKDYDYVVEYKKHKKHY
+	;
+end;
+
+begin paup;
+	charset prot-aligned = 1 - 118;
+end;

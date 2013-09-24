@@ -1,0 +1,323 @@
+#NEXUS
+[TITLE: NoName]
+
+begin data;
+dimensions ntax=11 nchar=1164;
+format interleave datatype=dna   gap=- symbols="ATCG";
+
+matrix
+BG10491           ATGAGCAAGA GGAGAATGAA ATATCATTCA AATAATGAAA TATCGTATTA 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        ---------- ---------- ---------- ---------- ---------- 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           TAACTTTTTG CACTCAATGA AAGATAAAAT TGTTACTGTA TATCGTGGAG 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        ---------- ---------- ---------- ---------- ---------- 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           GTCCGGAATC TAAAAAAGGA AAATTAACAG CTGTAAAATC AGATTATATA 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        ---------- ---------- ---------- ---------- ---------- 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           GCTTTACAAG CTGAAAAAAA AATAATTTAT TATCAGTTGG AGCATGTGAA 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        ---------- ---------- ---------- ---------- ---------- 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           AAGTATTACT GAGGATACCA ATAATAGCAC CACAACAATT GAGACTGAGG 
+NT02BT0408        ---------- ---------- ---------- ---------- ---TTGGAGA 
+NT01GK1894        ---------- ------ATGA CGTTATATGG CATGAATGAC CATTCCATGT 
+BAAU0375          ---------- ---------- ---------- ---------- ---TTGGAGA 
+BACN0505          ---------- ---------- ---------- ---------- ---TTGGAGA 
+BAKB0490          ---------- ---------- ---------- ---------- ---TTGGAGA 
+NT05BA0398        ---------- ---------- ---------- ---------- ---TTGGAGA 
+BAWN0389          ---------- ---------- ---------- ---------- ---TTGGAGA 
+BAVO0535          ---------- ---------- ---------- ---------- ---TTGGAGA 
+BC_0390           ---------- ---------- ---------- ---------- ---TTGGAGA 
+BCE33L0328        ---------- ---------- ---------- ---------- ---TTGGAGA 
+
+
+BG10491           AAATGCTCGA TGCTGATGAT TTTCATAGCT TAATCGGACA TTTAATAAAC 
+NT02BT0408        ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+NT01GK1894        CTTCTCTCCC CAACGATGAA TTGGCACCGT TAATTGGG-- ---------- 
+BAAU0375          ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+BACN0505          ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+BAKB0490          ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+NT05BA0398        ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+BAWN0389          ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+BAVO0535          ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+BC_0390           ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+BCE33L0328        ATGTATTATG CTGTGACCAA ATTAAATGTT TAGTTGGT-- ---------- 
+
+
+BG10491           CAATCAGTTC AATTTAACCA AGGGGGTCCG GAATCTAAAA AAGGAAGATT 
+NT02BT0408        GAGACTGTAA AAGTAAACCT TCGCGGACCA GAAAGTCGAG TGGGTGAGCT 
+NT01GK1894        AAGACAGTCA CCATTTATCG TGGAGGTCCG GAATCCAAAA CCGGAAAATT 
+BAAU0375          GAGACTGTAA AAGTAAACCT TCGCGGACCA GAAAGTCGAG TGGGTGAGCT 
+BACN0505          GAGACTGTAA AAGTAAACCT TCGCGGACCA GAAAGTCGAG TGGGTGAGCT 
+BAKB0490          GAGACTGTAA AAGTAAACCT TCGCGGACCA GAAAGTCGAG TGGGTGAGCT 
+NT05BA0398        GAGACTGTAA AAGTAAACCT TCGCGGACCA GAAAGTCGAG TGGGTGAGCT 
+BAWN0389          GAGACTGTAA AAGTAAACCT TCGCGGACCA GAAAGTCGAG TGGGTGAGCT 
+BAVO0535          GAGACTGTAA AAGTAAACCT TCGCGGACCA GAAAGTCGAG TGGGTGAGCT 
+BC_0390           GAGACTGTAA AAGTAAACCT TCGTGGACCA GAAAGTCGAG TTGGTGAGCT 
+BCE33L0328        GAGACTGTAA AAGTAAACCT TCGCGGACCA GAAAGTCGAG TGGGTGAGCT 
+
+
+BG10491           GGTCTGGCTG GGAGATGATT ACGCTGCGTT AAACACAAAT GAGGATGGGG 
+NT02BT0408        CGTATCGTTA GGCAAAGATT ATTTAACGTT ACAATTACCT CATGGTGAAT 
+NT01GK1894        GCTTGATGTC CAGTCCGACT ATCTTTCTCT TATGGACGGA ---TCATCCG 
+BAAU0375          CGTATCGTTA GGCAAAGATT ATTTAACGTT ACAATTACCT CATGGTGAAT 
+BACN0505          CGTATCGTTA GGCAAAGATT ATTTAACGTT ACAATTACCT CATGGTGAAT 
+BAKB0490          CGTATCGTTA GGCAAAGATT ATTTAACGTT ACAATTACCT CATGGTGAAT 
+NT05BA0398        CGTATCGTTA GGCAAAGATT ATTTAACGTT ACAATTACCT CATGGTGAAT 
+BAWN0389          CGTATCGTTA GGCAAAGATT ATTTAACGTT ACAATTACCT CATGGTGAAT 
+BAVO0535          CGTATCGTTA GGCAAAGATT ATTTAACGTT ACAATTACCT CATGGTGAAT 
+BC_0390           CGTATCGTTA GGAAAAGATT ATCTAACGTT ACAGTTACCT CATGGTGAAT 
+BCE33L0328        CGTATCGTTA GGCAAAGATT ATTTAACGTT ACAATTACCT CATGGTGAAT 
+
+
+BG10491           TAGTGTATTT TAATATCCAT CACATCAAAA GTATAAGTAA ACACGAGCCT 
+NT02BT0408        TAGTATATTA TCAGTTGAAA CATGTGAAGA GCCTAGTTAA GAAAGTGAAA 
+NT01GK1894        TCATTTATTA TGCACTGCAC CATGTTCAAA GCATTACCGA AAACGCCAAA 
+BAAU0375          TAGTATATTA TCAGTTGAAA CATGTGAAGA GCCTAGTTAA GAAAGTGAAA 
+BACN0505          TAGTATATTA TCAGTTGAAA CATGTGAAGA GCCTAGTTAA GAAAGTGAAA 
+BAKB0490          TAGTATATTA TCAGTTGAAA CATGTGAAGA GCCTAGTTAA GAAAGTGAAA 
+NT05BA0398        TAGTATATTA TCAGTTGAAA CATGTGAAGA GCCTAGTTAA GAAAGTGAAA 
+BAWN0389          TAGTATATTA TCAGTTGAAA CATGTGAAGA GCCTAGTTAA GAAAGTGAAA 
+BAVO0535          TAGTATATTA TCAGTTGAAA CATGTGAAGA GCCTAGTTAA GAAAGTGAAA 
+BC_0390           TAGTATATTA TCAGTTGAAA CATGTGAAGA GTCTAGTGAA GAAAGTGAAA 
+BCE33L0328        TAGTATATTA TCAGTTGAAA CATGTGAAGA GCCTAGTTAA GAAAGTGAAA 
+
+
+BG10491           GATTTGAAAA TAGAAGAGCA GACGCCA--- GTTGGAGTTT TGGAAGCTGA 
+NT02BT0408        GAAAGTAAAT GTGGCGATTG CTATAGTTCA TGTTTTTGCT CTGATGAGGA 
+NT01GK1894        CAGAATTCGA TCCCTTCTGT TTCCGATTTG GCCAACCCGT CCGATACGGA 
+BAAU0375          GAAAGTAAAT GTGGCGATTG CTATAGTTCA TGTTTCTGCT CTGATGAGGA 
+BACN0505          GAAAGTAAAT GTGGCGATTG CTATAGTTCA TGTTTCTGCT CTGATGAGGA 
+BAKB0490          GAAAGTAAAT GTGGCGATTG CTATAGTTCA TGTTTCTGCT CTGATGAGGA 
+NT05BA0398        GAAAGTAAAT GTGGCGATTG CTATAGTTCA TGTTTCTGCT CTGATGAGGA 
+BAWN0389          GAAAGTAAAT GTGGCGATTG CTATAGTTCA TGTTTCTGCT CTGATGAGGA 
+BAVO0535          GAAAGTAAAT GTGGCGATTG CTATAGTTCA TGTTTCTGCT CTGATGAGGA 
+BC_0390           GAAAGTAAAT GTGGCGATTG CTATAGTTCA TGTTTCTGCT CTGATGAGGA 
+BCE33L0328        GAAAGTAAAT GTGGCGATTG TTATAGTTCA TGTTTCTGCT CTGATGAGGA 
+
+
+BG10491           TGAT------ ---------- --TTAAGCGA GGTTTTTAAG AGTCTGACTC 
+NT02BT0408        TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+NT01GK1894        GGTCCCCGCG GGATTCAGCT GCTTTCATGA ACTGTTACAA CATTTGGTCG 
+BAAU0375          TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+BACN0505          TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+BAKB0490          TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+NT05BA0398        TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+BAWN0389          TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+BAVO0535          TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+BC_0390           TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+BCE33L0328        TACT------ ---------- --TTTTTAGA TATATTAAAA GACTTGAAGT 
+
+
+BG10491           ATAAATGGGT TTCAATTAAT CGTGGAGGTC CGGAAGCCAT TGAGGGTATC 
+NT02BT0408        ATAAGTGGGT AAAAATTAAT CGTGGTGGTC CAGAATGTGT GGAAGGTTTA 
+NT01GK1894        ATGCTTATAT TCAGGTCAAT CAAGGCGGGC CTGAATCCAA ACAGGGGACG 
+BAAU0375          ATAAGTGGGT AAAAATTAAT CGTGGTGGTC CAGAATGTAT GGATGGTTTA 
+BACN0505          ATAAGTGGGT AAAAATTAAT CGTGGTGGTC CAGAATGTAT GGATGGTTTA 
+BAKB0490          ATAAGTGGGT AAAAATTAAT CGTGGTGGTC CAGAATGTAT GGATGGTTTA 
+NT05BA0398        ATAAGTGGGT AAAAATTAAT CGTGGTGGTC CAGAATGTAT GGATGGTTTA 
+BAWN0389          ATAAGTGGGT AAAAATTAAT CGTGGTGGTC CAGAATGTAT GGATGGTTTA 
+BAVO0535          ATAAGTGGGT AAAAATTAAT CGTGGTGGTC CAGAATGTAT GGATGGTTTA 
+BC_0390           ATAAGTGGGT AAAAATTAAT CGTGGCGGTC CAGAGTGTGT GGAAGGTTTA 
+BCE33L0328        ATAAGTGGGT AAAAATTAAT CGTGGTGGTC CAGAATGTGT GGATGGTTTA 
+
+
+BG10491           CTTGTAGATA ATGCCGACGG CCATTATACT ATAGTGAAAA ATCAAGAG-- 
+NT02BT0408        TTAAGCGAGG TACACCATGG CTGTATTACA CTAGTAAACT GCGATGAA-- 
+NT01GK1894        CTATTAGGCG TCAATGACGA CCATATTGTC CTGTTCACCC GGGATGATGG 
+BAAU0375          TTAAGTGAGG TACACCATGG CTGTATTACA CTAGTAAACT GCGATGAA-- 
+BACN0505          TTAAGTGAGG TACACCATGG CTGTATTACA CTAGTAAACT GCGATGAA-- 
+BAKB0490          TTAAGTGAGG TACACCATGG CTGTATTACA CTAGTAAACT GCGATGAA-- 
+NT05BA0398        TTAAGTGAGG TACACCATGG CTGTATTACA CTAGTAAACT GCGATGAA-- 
+BAWN0389          TTAAGTGAGG TACACCATGG CTGTATTACA CTAGTAAACT GCGATGAA-- 
+BAVO0535          TTAAGTGAGG TACACCATGG CTGTATTACA CTAGTAAACT GCGATGAA-- 
+BC_0390           TTAAGTGAGG TACACCATGG CTGTATTACA CTAGTAAACG GTGATGAA-- 
+BCE33L0328        TTAAGTGAGG TACACCATGG CTGTATTACA CTAGTAAACT GCGATGAA-- 
+
+
+BG10491           -GTGCTTCGC ATCTATCCTT TTCACATAAA AAGCATCAGC TTAGGTCCAA 
+NT02BT0408        -GTTATTTAT GTAATTAAGT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+NT01GK1894        GGTTGTGTTT TATCATCTTC AACATATTAA AAGTATCAGC CTGCCTATCA 
+BAAU0375          -GTTATTTAT GTAATTAACT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+BACN0505          -GTTATTTAT GTAATTAACT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+BAKB0490          -GTTATTTAT GTAATTAACT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+NT05BA0398        -GTTATTTAT GTAATTAACT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+BAWN0389          -GTTATTTAT GTAATTAACT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+BAVO0535          -GTTATTTAT GTAATTAACT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+BC_0390           -GTTATTTAT GTAATTAAGT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+BCE33L0328        -GTTATTTAT GTAATTAAGT CTCATATTAA GAGTGTGAGT CAAGTAGTTA 
+
+
+BG10491           AAGGGTCGTA CAAAAAAGAG GATCAAAAAA ATGAACAAAA CCAGGAAGAC 
+NT02BT0408        AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+NT01GK1894        AACGTGAAGA AACCGCACCA GAAGCCGGCT CATCAGCAAA CGAAGCGGCG 
+BAAU0375          AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+BACN0505          AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+BAKB0490          AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+NT05BA0398        AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+BAWN0389          AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+BAVO0535          AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+BC_0390           AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+BCE33L0328        AATGTAAAAA GAATGAAGAT GAA------- ---------- ---------- 
+
+
+BG10491           AATAATGATA AGGACAGCAA TTCGTTCATT TCTTCAAAAT CATATAGCTC 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        AACAACGTTT CTCCATCATC GGCAGATCAT GTTTCTCCAT CA-------- 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           ATCAAAATCA TCTAAACGAT CACTAAAATC TTCAGATGAT CAATCATCCA 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        ---------- ---------- ---------- ---------- ---------- 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           AATCTGGTCG TTCGTCACGT TCAAAAAGTT CTTCAAAATC ATCTAAACGA 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        --------CC AGAGGACGCC TCTAAACATC AGGAAACGCT CTCTCCTCCT 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           TCACTAAAAT CTTCGGATTA TCAATCATCC AAATCTGGCC GTTCGTCACG 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        CCATATGTCA ACGCACAAAA TTTGTCGGAT TTATTAGCCC ATTTAACGCA 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           TTCAAAAAGT TCTTCAAAAT CATCTAAACG ATCATTAAAA TCTTCAGATT 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        TACATGGGTG GCCATAAACC GAGGAGGACC TGAAGCGATT GAAGGGATTC 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           ATCAATCATC AAAATCATCT AAACGATCAC CAAGATCTTC AGATTATCAA 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        TTTGTAAATT AGCACATTAT TTCAGAATCC CTTTTTCAAA TTATTTCGGA 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           TCATCAAGAT CACCAGGCTA TTCAAGTTCA ATAAAAAGTT CAGGAAAACA 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        CGGATTCGGA AA-------- ---------- ---------- ---------- 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           AAAGGAAGAT TATAGCTATG AAACGATTGT CAGAACGATA GACTATCACT 
+NT02BT0408        ---------- ---------- ---------- ---------- ---------- 
+NT01GK1894        ---------- ---------- ---------- ---------- ---------- 
+BAAU0375          ---------- ---------- ---------- ---------- ---------- 
+BACN0505          ---------- ---------- ---------- ---------- ---------- 
+BAKB0490          ---------- ---------- ---------- ---------- ---------- 
+NT05BA0398        ---------- ---------- ---------- ---------- ---------- 
+BAWN0389          ---------- ---------- ---------- ---------- ---------- 
+BAVO0535          ---------- ---------- ---------- ---------- ---------- 
+BC_0390           ---------- ---------- ---------- ---------- ---------- 
+BCE33L0328        ---------- ---------- ---------- ---------- ---------- 
+
+
+BG10491           GGAAACGTAA ATTT 
+NT02BT0408        ---------- ---- 
+NT01GK1894        ---------- ---- 
+BAAU0375          ---------- ---- 
+BACN0505          ---------- ---- 
+BAKB0490          ---------- ---- 
+NT05BA0398        ---------- ---- 
+BAWN0389          ---------- ---- 
+BAVO0535          ---------- ---- 
+BC_0390           ---------- ---- 
+BCE33L0328        ---------- ---- 
+
+
+;
+
+endblock;

@@ -1,0 +1,54 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Dec 21 22:44:35 2007]
+[!
+>Data file = /home/hqin/projects/coat.protein07/orthog.analysis/phylo/BG10494/prot-paup2.nexus
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 100
+>  Starting seed = 968885765
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 389 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        206 characters are constant
+>        82 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 101
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: simple (reference taxon = BAAU3829 spore)
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>   100 bootstrap replicates completed
+>   Time used = 13 sec (CPU time = 13.14 sec)
+]
+	Translate
+		1 BAAU3829_spore,
+		2 BACN3959_spore,
+		3 BAKB3981_spore,
+		4 BAVO3979_spore,
+		5 BAWN3842_spore,
+		6 BA_3906_spore,
+		7 BCE33L3529_spore,
+		8 BCE_3804_spore,
+		9 BC_3770_Spore,
+		10 BG10494,
+		11 BH2370_outer,
+		12 Bmo3297,
+		13 GBAA3906_spore,
+		14 NT01DH1090_conserved,
+		15 NT01GK1452_morphogenic,
+		16 NT02BT3754_spore,
+		17 NT03BC2506_hypothetical,
+		18 NT03BL2026_morphogenic,
+		19 NT05BA3789_spore,
+		20 OB1630_outer
+		;
+End;

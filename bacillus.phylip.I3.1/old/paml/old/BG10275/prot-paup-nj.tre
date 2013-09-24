@@ -1,0 +1,39 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Dec 21 22:46:04 2007]
+[!
+>Data file = /home/hqin/projects/coat.protein07/orthog.analysis/phylo/BG10275/prot-paup.nexus
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = mean character difference
+>  (Tree is unrooted)
+]
+	Translate
+		1 BAAU1509_stage,
+		2 BACN1638_stage,
+		3 BAKB1638_stage,
+		4 BAVO1669_stage,
+		5 BAWN1528_stage,
+		6 BA_1530_stage,
+		7 BCE33L1391_stage,
+		8 BCE_1636_stage,
+		9 BC_1509_Stage,
+		10 BG10275,
+		11 BH1645_stage,
+		12 Bmo2839,
+		13 CPR_1724_stage,
+		14 GBAA1530_stage,
+		15 NT01CA1897_Coat,
+		16 NT01DH2675_stage,
+		17 NT01GK2448_required,
+		18 NT02BT1543_stage,
+		19 NT02CT1170_stage,
+		20 NT03BC2159_hypothetical,
+		21 NT03BL2566_required,
+		22 NT03CD2932_stage,
+		23 NT03MT1460_stage,
+		24 NT05BA1547_Stage,
+		25 OB1793_stage
+		;
+tree PAUP_1 = [&U] (1:0,2:0,(3:0,(4:0,(5:0,(((((((6:0,((((10:2,12:3):16,21:6):19,17:21):7,((11:22,20:21):14,((((13:85,(15:86,19:54):36):63,22:119):67,(16:89,23:93):53):124,25:44):36):18):45):0,7:0):0,9:0):0,14:0):0,18:0):0,24:0):0,8:0):0):0):0):0);
+End;

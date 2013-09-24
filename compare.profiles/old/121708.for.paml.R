@@ -1,0 +1,111 @@
+### hclust cuttree to group genes for PAML
+
+ rm( list = ls() );
+ library("e1071")
+
+ numclus =4 ; 
+ numclus =2 ; #111808 change
+
+ etb = read.table( "_essenGene.baciProfile.091208.csv",sep="\t",header=T);	
+ ctb = read.csv( "_coat.profile.110808.csv");
+
+ bacillus.specs = names(ctb)[10:20];
+ 
+ ### generate profile for coat genes
+ # ctb2 = cbind( rep("coat", length(ctb[,1])), ctb[, c(1,10:20) ]);
+ ctb2 = matrix( nrow=length(ctb[,1]), ncol=11);
+ colnames(ctb2) = bacillus.specs;
+ rownames(ctb2) = as.character( paste(ctb$id, ctb$Gene) );
+
+ for( j in 1:11){
+   for( i in 1:length(ctb2[,1]) ) {
+   #for( i in 1:2 ) {
+	ctb2[i,j] = ifelse( is.na(ctb[i,j+9]), 0, 1 );
+   }
+ }
+
+ head(ctb2);
+ ctb2 = ctb2[, -c(2,10,11)]
+
+ #check
+ head(ctb[,11:20]);
+ head(ctb2);
+# ctb2["BG11380",]
+ mymethods = c("ward","complete","average","single","median","centroid", "mcquitty");
+ spec.colors = c("cyan","cyan","cyan","cyan","orange","orange","orange","orange" );
+ names(spec.colors) = c( "Bsu", "Bam", "Bli", "Bpu", "Ban", "Bce", "Bth", "Bwe")
+
+
+ hd =  hclust( dist(ctb2), mymethod); 
+ coat.cat = cutree(hd, numclus )
+ col.palette = c("red","brown","blue","green");
+ coat.color = col.palette[coat.cat]
+
+ hcol =  hclust(dist( t(ctb2)), method=mymethod )
+ #hcol =  as.dendrogram( hclust(dist( t(ctb2)), method=mymethod ) )
+
+ library(RColorBrewer);
+ hmcol = colorRampPalette(brewer.pal(5,"RdBu"))(16);
+
+ mymethod = "average";
+ heatmap( ctb2, col=hmcol, scale="none", margins = c(5,22),  
+ #Colv = NA,  ## no dedrogram
+ #Colv = FALSE, ## use the input column order,  
+ #Colv = as.dendrogram( hclust(dist( t(ctb2)), method=mymethod ) ),
+ #RowSideColors=coat.color, ColSideColors = spec.colors,
+ hclustfun = function(c) hclust( c, method=mymethod), 
+ cexRow=0.4, cexCol=0.6 );
+
+ # cats = c("Fluid","Subtilis","Cereus","Conserved");
+ # coat.cat2 = cats[coat.cat]
+
+##############################
+ ### generate profile for essential genes
+ numclus = 3 ; 
+
+ etb2 = matrix( nrow=length(etb[,1]), ncol=11);
+ colnames(etb2) = bacillus.specs;
+ row.names(etb2) = as.character(etb$BG);
+
+ for( j in 1:11) {
+   for( i in 1:length(etb[,1]) ) {
+    etb2[i,j] = ifelse( is.na(etb[i, j+2]), 0, 1 )
+   }
+ }
+
+ head(etb2);
+ etb2 = etb2[,-c(2,10,11)];
+
+ etb2 = etb2[,c( "Bwe", "Bce", "Ban","Bth","Bpu", "Bli", "Bam",  "Bsu") ]; # fix the order
+
+ # spec.colors = c( "cyan","cyan","cyan","cyan","orange","orange","orange","orange" );
+ spec.colors = c( "orange","orange","orange","orange" , "cyan","cyan","cyan","cyan");
+ names(spec.colors) = c( "Bsu", "Bam", "Bli", "Bpu", "Ban", "Bce", "Bth", "Bwe")
+ # There seems to be a bug here for ColSideColors
+
+ pdf("_111808.average.hclus.essen.pdf", height=10, width=10); 
+
+ mymethod = "ward";
+ mymethod = "average"; #111808 
+ hd =  hclust( dist(etb2), mymethod); 
+ essen.cat = cutree(hd, numclus )
+ #col.palette = c("blue","green","red","brown",);
+ col.palette = c("blue","red","green" );
+ essen.color = col.palette[essen.cat]
+
+ library(RColorBrewer);
+ hmcol = colorRampPalette(brewer.pal(5,"RdBu"))(16);
+
+ heatmap( etb2, col=hmcol, scale="none", margins = c(5,10), 
+  Colv = NA, ##no dendrogram
+  RowSideColors=essen.color, ColSideColors = spec.colors,
+  hclustfun = function(c) hclust( c, method=mymethod),
+  labRow = NA);
+
+ #heatmap(etb2, );
+ #heatmap( etb2, col=hmcol, scale="none", labRow=NA );
+
+ dev.off();
+
+quit("yes");
+

@@ -1,0 +1,19 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Dec 21 22:44:21 2007]
+[!
+>Data file = /home/hqin/projects/coat.protein07/orthog.analysis/phylo/BG10022/prot-paup.nexus
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = mean character difference
+>  (Tree is unrooted)
+]
+	Translate
+		1 BG10022,
+		2 CPR_1593_conserved,
+		3 NT01CA3725_Uncharacterized,
+		4 NT02CT0966_conserved,
+		5 OB2306_hypothetical
+		;
+tree PAUP_1 = [&U] (1:92,((2:85,5:96):79,3:85):61,4:60);
+End;

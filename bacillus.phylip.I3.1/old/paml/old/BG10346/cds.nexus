@@ -1,0 +1,771 @@
+#NEXUS
+[TITLE: NoName]
+
+begin data;
+dimensions ntax=18 nchar=1869;
+format interleave datatype=protein   gap=- symbols="ATCG";
+
+matrix
+NT03BC2990         ---------- ---------- ----GTGGCG CAGGAGCAAT CATCGACGTT 
+BG10346            ---------- ---------- ---------- TTGCCGCAAA ATCATCGATT 
+BH3042             ---------- ---------- ----ATGACG CAAGAACGAC CTTCAAAGTT 
+NT03BL3125         ---------- ---------- ---------- TTGCCGCAAA ACAATCGTTT 
+NT02BT4452         ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+NT01GK2904         ---------- ---------- ---------- ---TTGGAGC AATCGTATTT 
+OB2064             ---------- ---------- -------TTG TCAACTGATT CCAATGCTTT 
+BAAU4594           ATGACATATA GTTTGGGAGG GGGAAAAGAA GTGGCAACAG ATCATTCATT 
+GBAA4692           ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+BA_4692            ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+BACN4721           ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+BAKB4748           ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+NT05BA4543         ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+BAWN4606           ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+BAVO4746           ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+BC_4467            ---------- ---------- ---------- GTGGCTGCAG ATCATTCATT 
+BCE_4551           ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+BCE33L4204         ---------- ---------- ---------- GTGGCAACAG ATCATTCATT 
+
+
+NT03BC2990         AACCTTTTCC ATAGAAGATT CCGTATGGCT GAACCAAGGG CAACAAATTG 
+BG10346            GCAATTTTCT GTAGAAGAAT CGATCTGTTT CCAAAAAGGA CAGGAAGTTT 
+BH3042             GTCGTTTTCC ATTGAAGAAA CCGTTTGGCT TAATAAAGGG CAAGAAGTAA 
+NT03BL3125         GCAATTTTCT GTAGAAGAGT CAATCTGTTT TCAAAAAGGA CAGGAAGTAT 
+NT02BT4452         ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+NT01GK2904         GCGTTTTTCA TTGGAAGAAT CGGTCTGGTT TAAAAGAGGA CAGGAAGTCG 
+OB2064             TACATTTGAA TTAGAAGAAT CCTTGTTTTT TGAAAAAGGA CAGGAAGTGG 
+BAAU4594           ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+GBAA4692           ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+BA_4692            ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+BACN4721           ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+BAKB4748           ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+NT05BA4543         ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+BAWN4606           ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+BAVO4746           ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+BC_4467            ACGATTTTCA TTAAAAGAAT CTGTGTGGTT CCAAAAAGGA CAGGAAGTCG 
+BCE_4551           ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+BCE33L4204         ACGTTTTTCA TTAAAAGAAT CTGTTTGGTT CCAAAAAGGA CAGGAAGTCG 
+
+
+NT03BC2990         ACGAAATTCT TGGCATGACC TTAACGCCAG AGATCTTTGT CGATCAAGAC 
+BG10346            CTGAACTGCT TTCTATTTCA TTAGATCCTG ATATTAGGGT TCAGGAAGTA 
+BH3042             AAGAAATATT GGCAATGTCC CTTGAGCCTG ATATTCGGAT CGAAGAAAAG 
+NT03BL3125         CCGAATTATT ATCGATTTCA TTGGATCCTG ACATTACCGT TCAGGAAGTA 
+NT02BT4452         AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+NT01GK2904         CCGAGTTTTT ATCCATTTCT CTTGATCCGG TCATTTCCGT CGATGAGTAC 
+OB2064             AGGAAATCAG AGGAATATCT TTGGAACCTG AGATATCTAT TCATGCATAT 
+BAAU4594           AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+GBAA4692           AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+BA_4692            AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+BACN4721           AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+BAKB4748           AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+NT05BA4543         AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+BAWN4606           AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+BAVO4746           AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+BC_4467            AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+BCE_4551           AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+BCE33L4204         AAGAACTTTT GTCAATTTCG TTAGATCCAG ACGTTGAGAT AGAAGAGCTT 
+
+
+NT03BC2990         GGCGAGCATG TAACGATTAA GGGTGGACTA CGTTTTGTCG GTGAGTACAA 
+BG10346            AATGATTATG TATCAATCAT AGGATCGCTT GAACTTACAG GTGAGTACAA 
+BH3042             CAGGATCATG TCTATATTAA AGGCGGCTTA AGACTTCTTG GAGAATATGT 
+NT03BL3125         AATGATTATG TATCCATACG AGGGTCATTA GAGCTGACAG GCGAATACAA 
+NT02BT4452         GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+NT01GK2904         GACCAATATA TTACGATCCG CGGCGCGCTT GAGTTGAGCG GCGAATTCCG 
+OB2064             GAAGACTACA TTTTAATTCG TGGTGCGATT GAACTGCAAG GTGAGTATCA 
+BAAU4594           GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+GBAA4692           GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+BA_4692            GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+BACN4721           GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+BAKB4748           GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+NT05BA4543         GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+BAWN4606           GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+BAVO4746           GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+BC_4467            GATCATGAAG TAATCGTGAG AGGACAATTA GATTTAACGG GAGAGTATGT 
+BCE_4551           GATCATGAGG TAATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+BCE33L4204         GATCATGAGG TTATTGTGAG AGGGCAATTA GATTTAACGG GAGAGTATGT 
+
+
+NT03BC2990         AATTGACCGT GGTGTAGAAG AAGAACAGCG CATTGATGAT GGAGAATCAT 
+BG10346            CATAGAT--- ---------- --------CA AAACAAACAT ACCGAAGAGA 
+BH3042             ACCGACG--- ------GAAG AGGAAGCGAC CCTTGATCCA ACTTCGGCCA 
+NT03BL3125         CATAGAT--- ---------- --------CA AACCCGGGAG TATGCAGAGC 
+NT02BT4452         TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+NT01GK2904         CCAAGCGGGC ---------- --GAAGAGCA GGCTGAAGCG GATGACGACG 
+OB2064             AAGGGTACCT ---------T ATACAGAAGT AGAAGATGAA CCTTTAGATT 
+BAAU4594           TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+GBAA4692           TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+BA_4692            TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+BACN4721           TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+BAKB4748           TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+NT05BA4543         TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+BAWN4606           TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+BAVO4746           TGCAAGG--- ---------- --------CA AGATGATTCA GCTTATTCAT 
+BC_4467            TGCACGA--- ---------- --------AA AGATGATTCC GCGTATTCAT 
+BCE_4551           TGCACGA--- ---------- --------AA AGATGATTCA GCTTATTCAT 
+BCE33L4204         TGCACGA--- ---------- --------AA AGATGATTCA GCTTATTCAT 
+
+
+NT03BC2990         TTGCTGACTT GAGCGATTTC CGCCAATCTG GGCAATTGAC TGAGCATGAA 
+BG10346            TTTAT----- -ACAGATAAG CGGTTTGTTG AACAAGTCAG AAAGAGAGAG 
+BH3042             TTCAAGAACA GGTGTCGTTT CGTTCAGTCG AAGAGGTGAC CATTGATGAC 
+NT03BL3125         TGCCT----- -GCGACAAGC CGATTTGTAG AAGATGTAAA GCTGAAAGGG 
+NT02BT4452         TAAGAGATCT ATCGCCAGCG AAGTCAATTG ATTATGTAGA AACGAGAGAA 
+NT01GK2904         TGTTTGAGCT GGCTGGTTAT CGGTTCATTC AGCACATTTC GGTGCGCGAA 
+OB2064             TCGATCAAAT TCAATCTAAA CGCTACGTCG AAAAGATTGA GGAAATAAAT 
+BAAU4594           TAAGAGATCT ATCGCCAGCG AAGTCAATAG ATTATGTAGA AACAAGAGAA 
+GBAA4692           TAAGAGATCT ATCGCCAGCG AAGTCAATAG ATTATGTAGA AACAAGAGAA 
+BA_4692            TAAGAGATCT ATCGCCAGCG AAGTCAATAG ATTATGTAGA AACAAGAGAA 
+BACN4721           TAAGAGATCT ATCGCCAGCG AAGTCAATAG ATTATGTAGA AACAAGAGAA 
+BAKB4748           TAAGAGATCT ATCGCCAGCG AAGTCAATAG ATTATGTAGA AACAAGAGAA 
+NT05BA4543         TAAGAGATCT ATCGCCAGCG AAGTCAATAG ATTATGTAGA AACAAGAGAA 
+BAWN4606           TAAGAGATCT ATCGCCAGCG AAGTCAATAG ATTATGTAGA AACAAGAGAA 
+BAVO4746           TAAGAGATCT ATCGCCAGCG AAGTCAATAG ATTATGTAGA AACAAGAGAA 
+BC_4467            TAAGAGAACT ATCGCCAGCA AAGTCAATTG ATTATGTAGA AACAAGAGAA 
+BCE_4551           TAAGAGATCT ATCGCCAGCG AAGTCCATTG ATTATGTAGA AACAAGAGAA 
+BCE33L4204         TAAGAGATCT ATCGCCAGCG AAGTCCATTG ATTATGTAGA AACGAGAGAA 
+
+
+NT03BC2990         GGGGAAGTTG GCGAGATTGA GCATTTGTTT CCAATTGATA TTACAATTCC 
+BG10346            GATGGAAGTG CGGAACTGAC TCACTGTTTT CCTGTGGATA TTACCATTCC 
+BH3042             GAGGGAAAGG GGAGCATTCA ACATTTTTTC CCGATTGATG TGACGATTCC 
+NT03BL3125         GACGGCAGCG CAGAGCTGAC GCATTGTTTC CCAGTGGATA TCACCATCCC 
+NT02BT4452         GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+NT01GK2904         GACGGGATCA GCGAACTGTC GCACCGCTTT CCAATCGATA TTACGATTCC 
+OB2064             ---GGTTTAT ATTTATTCTC TCACACTTTT CCAGTAGAAA TTTCTGTTCC 
+BAAU4594           GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+GBAA4692           GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+BA_4692            GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+BACN4721           GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+BAKB4748           GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+NT05BA4543         GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+BAWN4606           GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+BAVO4746           GATGGGGTTA ATGAACTTGT TCATTCCTTT CCGCTTGAAA TATCAATCCC 
+BC_4467            GATGGGGTTA ATGAACTTGT TCATTCCTTT CCACTTGAAA TATCAATTCC 
+BCE_4551           GATGGGGTTA ATGAACTTGT TCATTCCTTC CCGCTTGAAA TATCAATTCC 
+BCE33L4204         GATGGGGTTA ATGAACTTGT TCATTCCTTT CCACTTGAAA TATCGATCCC 
+
+
+NT03BC2990         GATGGCTCGA ATCCAACATA TTGATGATAT TTTTGTGGAA ATTGCCAGCT 
+BG10346            GAAAAATAAA GTGAGCCATT TACAGGATGT CTTCGTCTTT ATTGACGCAT 
+BH3042             TTTAAGTCGA ATTCAAAAAC TAGACGATAT TTACGTTCAA GTTGATTCAT 
+NT03BL3125         GAAAGACAAA GTCAATCATT TAAACGACGT ATTTGTTTTT ATTGACGCTT 
+NT02BT4452         AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+NT01GK2904         AAAAAACCGC ATTCGTTCCC TTGAGGATGT GTACGTGACG GTTGAATCGT 
+OB2064             ACCATATCGA GTTGATAATC TTGATGATGT AACTGTTCAA ATTGAGTCTT 
+BAAU4594           AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+GBAA4692           AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+BA_4692            AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+BACN4721           AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+BAKB4748           AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+NT05BA4543         AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+BAWN4606           AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+BAVO4746           AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+BC_4467            GAGAAATCGA GTGAAAGTAA TTGAAGAGCT ATATGTATCA ATCGAGGAAT 
+BCE_4551           AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCT ATCGAGGAAT 
+BCE33L4204         AAGAAACCGT GTGAAAGTAA TTGAAGAACT ATATGTATCC ATCGAGGAAT 
+
+
+NT03BC2990         TTGACTATGA TCTGCCAGAG AAAGGCTGCA TCCAATTGAC GGCTGACGTT 
+BG10346            TTGACTATCA ATTGACGGAT TCGCGCATTT TAACAATTCA AGCTGATTTA 
+BH3042             TTGATTATGA CTTGCCAGAA CGAAGCTGCA TTCAATTAAC GGCAGATGTG 
+NT03BL3125         TCGATTATCA GCTGACAGAT GCGAGGATGC TGACGATTCA GGCTGATTTG 
+NT02BT4452         TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+NT01GK2904         TTGATTATGA TTTGGATGAA AACGGAAGAT TGCTGATCAC TGCCGACATT 
+OB2064             TTGATTATGA GTTATTAGAA GAGGATCAAT TAAAGGTTTT TGCTTCTATA 
+BAAU4594           TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+GBAA4692           TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+BA_4692            TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+BACN4721           TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+BAKB4748           TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+NT05BA4543         TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+BAWN4606           TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+BAVO4746           TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+BC_4467            TTGATTATGA ATTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+BCE_4551           TTGATTATGA ACTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+BCE33L4204         TTGATTATGA ATTAAAGGAA AATGGTTGCT TACAATTATT AGCGGATATA 
+
+
+NT03BC2990         AGCATTAGCG GCATGAAAGC GGAA------ ------AAAC AG-------- 
+BG10346            GCGATCGAAG GGCTTTTGGA CGATACGCAA GACAAAGAGC CGGAGATACC 
+BH3042             TCGATTAGCG GTATGACAAG TGAGCCTCCT GTGTCAAAGC AAAAAGCACA 
+NT03BL3125         GCGATTGAAG GCCTCTTGAA TGTGAGCGGT GAAGCGGGTG AAGAAGAACC 
+NT02BT4452         TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+NT01GK2904         TCGATCAGCG GCATCAGTGA AGCGCCG--- ---------- ---------- 
+OB2064             GATATTGAAG GTATACAACA A--------- ---------- ---------- 
+BAAU4594           TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+GBAA4692           TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+BA_4692            TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+BACN4721           TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+BAKB4748           TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+NT05BA4543         TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+BAWN4606           TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+BAVO4746           TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+BC_4467            TCTATTACCG GTTTGTGTGA T--------- ---------- ---------- 
+BCE_4551           TCTATTACAG GTTTATGTGA T--------- ---------- ---------- 
+BCE33L4204         TCTATTACAG GATTATGTGA T--------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            TTTATATGAA GCTCCTGCGG CATTCAGGGA GGAAGAGCTT TCAGAGCCGC 
+BH3042             ATCG------ ---------- ---------- ---------- ---------- 
+NT03BL3125         GCGC---ACT ATGCCTGCGG CCGTCCATCC GGAAGAGGAG CTCGAACCTG 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            CGGCACATAG TGTAGTAGAA GAACCGGGTG CATCATCGGC AGAGGAAGCA 
+BH3042             ---------- ---------- ---------- ---------- ---------- 
+NT03BL3125         CCTACAGATC ACCTTCAAAC GACGAAGATC AGGGTGAAGA GAAAGAATAT 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            GTTCTTCAGC ATGAACCGCC AGCCGAACCG CCAGAACTTT TTATCTCGAA 
+BH3042             ---------- ---------- ---------- ---------- ---------- 
+NT03BL3125         TTGATCCAGC TTGACAGACC TTACGAA--- ---------- ---------- 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            AGCGGGGCTC CGTGAAGAAC TGGAGACAGA AAAAGCAGAA TCTGAGCCGC 
+BH3042             ---------- ---------- ---------- ---------- ---------- 
+NT03BL3125         ---------- ---------- ---------- ---------- ---------- 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ------GAGC TGGAAGCCGA TGCAGATGAC 
+BG10346            CTGAATCGGT TGCTTCAGAA CCAGAGGCCA GAGAAGATGT GAAAGAGGAA 
+BH3042             ---------- ---------- ------GAGC GTCCAGCAGC CATCGACCCA 
+NT03BL3125         ---------- ---------- ---GAGCAGG ACGAAGAACA GGCGGAAGAA 
+NT02BT4452         ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+NT01GK2904         ---------- ---------- ------CTTG ACGATGATTT GCCGGACGAT 
+OB2064             ---------- ---------- ---------- -----GACAA TAATTTAGAA 
+BAAU4594           ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+GBAA4692           ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+BA_4692            ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+BACN4721           ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+BAKB4748           ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+NT05BA4543         ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+BAWN4606           ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+BAVO4746           ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+BC_4467            ---------- ---------- ---------- --GAAGAGAG AAGCGAGGAT 
+BCE_4551           ---------- ---------- ---------- --GAAGAAAG AATTGAGGAT 
+BCE33L4204         ---------- ---------- ---------- --GAAGAACG CATCGAGGAT 
+
+
+NT03BC2990         CGTGAGTTGG AACAGGAAGA AGAAGCGGAA GAAACGGCTT TTTCTTTCAC 
+BG10346            GAAGAGTCAG AAGAGCTTGC TGTGCCGGAA ACGGAGGTTC GTGCTGAATC 
+BH3042             CTCCCGAAGC CACCACAGTT AGAGCCTATC CCATCTACTT TTTCGTTTGA 
+NT03BL3125         CATGATACCG GTGAGGAAAC GGTTCCGATT TACCAGTCGT TTCTCGGAAA 
+NT02BT4452         GAA------G AGGAAGAA-- ----ACGGCG TATGCTGAGT TGGAAGTTGA 
+NT01GK2904         GAGGAGGACG ATGAGCCGCT GTTTGCCCCG TTTGAATCAA TCGCCCGCAA 
+OB2064             GCAGAACCTG CCAGAGAAGA TTCAGAAGAA GAAGATTCGT TTTCTTTTGA 
+BAAU4594           GAA------G AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+GBAA4692           GAA------G AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+BA_4692            GAA------G AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+BACN4721           GAA------G AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+BAKB4748           GAA------G AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+NT05BA4543         GAA------G AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+BAWN4606           GAA------G AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+BAVO4746           GAA------G AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+BC_4467            GAA------G TTGAAGAGGA AGAAACGGTG TATGCTGAGT TAGAAGAAGA 
+BCE_4551           GAA------- -----GAGGA AGAAACGGCG TATGCTGAGT TAGAGGATGA 
+BCE33L4204         GAAGAGGAAG AGGAAGAGGA AGAAACGGCG TATGCTGAGT TGGAAGTTGA 
+
+
+NT03BC2990         TGCTTACAAG ---------- ---------- ---------- ---------- 
+BG10346            GGAAACAGAA GAATCTGAGC CAGAACCTGA TCCTTCAGAA ATAGAGATTC 
+BH3042             AGCGAAAAAA CCGTTTGTGA ATGAGGAGGC TGGTGCA--- ---------- 
+NT03BL3125         CGACACAGAG GAAGCTAAAC CGTTTTTTAC AGCGTCT--- ---------- 
+NT02BT4452         CTCAGCACAA GAG------- ---------- ---------- ---------- 
+NT01GK2904         GGAAGCGGCC GGT------- ---------- ---------- ---------- 
+OB2064             AATAGAACAT CCT------- ---------- ---------- ---------- 
+BAAU4594           CTCAGCACAA GAG------- ---------- ---------- ---------- 
+GBAA4692           CTCAGCACAA GAG------- ---------- ---------- ---------- 
+BA_4692            CTCAGCACAA GAG------- ---------- ---------- ---------- 
+BACN4721           CTCAGCACAA GAG------- ---------- ---------- ---------- 
+BAKB4748           CTCAGCACAA GAG------- ---------- ---------- ---------- 
+NT05BA4543         CTCAGCACAA GAG------- ---------- ---------- ---------- 
+BAWN4606           CTCAGCACAA GAG------- ---------- ---------- ---------- 
+BAVO4746           CTCAGCACAA GAG------- ---------- ---------- ---------- 
+BC_4467            TTCAGCGCAA GAG------- ---------- ---------- ---------- 
+BCE_4551           TTCTGCGCAA GAG------- ---------- ---------- ---------- 
+BCE33L4204         TTCAGCGCAA GAG------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            AAGAGATCGT TAAAGCAAAA AAAGAAACGG CAGAGCCGGC AGCTGCAATA 
+BH3042             ---------- ---------- ---------- ---------- ---------- 
+NT03BL3125         ---------- ---------- ---------- ---------- ---------- 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            GCGGATGTTC GTGAAGAAGC AGACTCTCCA GCGGAGACTG AGCTTCGTGA 
+BH3042             ---------- ---------- ---------- ---------- ---------- 
+NT03BL3125         ---------- ---------- ---------- ---------- ---------- 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            ACACGTTGGA GCAGAAGAAT CGCCTGCTTT GGAAGCTGAG CTTCATTCAG 
+BH3042             ---------- ---------- --------TG GAATGAGGGA GTGCAGTCTC 
+NT03BL3125         ---------- ---------- --------TT GTCGGCGGCA GAGCGTACGA 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- -------GAG CCTGACGGAG AAGAGCCGAG TTTGCAAAAA 
+BG10346            AGACTGTGAT TGCAAAGGAA AAAGAGGAAA CAACAGTGTC TCCTAATCAT 
+BH3042             GACAAACATT TAAATTTCAA CCAGCAGATA ATGAAAATAA ACTAGAGGAA 
+NT03BL3125         AGCGCGAAAT AGAAAATCAA AAAGAAGCCT CTCTTGAACA GCCGGAAGAA 
+NT02BT4452         ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+NT01GK2904         ---------- ---------- ---GAGGAAG CGTTTGCTTC CGTGGATGAT 
+OB2064             ---------- -------ATC CAAGAAGAGA CAACAGAAAA TCTCGAGCGA 
+BAAU4594           ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+GBAA4692           ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+BA_4692            ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+BACN4721           ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+BAKB4748           ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+NT05BA4543         ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+BAWN4606           ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+BAVO4746           ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+BC_4467            ---------- ---------- ---GATGAAA ATAGACCGGC GCCGCATGTA 
+BCE_4551           ---------- ---------- ---CATGAAA CTAGACCAAC GCCACAAGTC 
+BCE33L4204         ---------- ---------- ---GAGGAAA ATAGACCAAC GCCGCACGTA 
+
+
+NT03BC2990         CCAACAGTCG AATCCGATGC ACAACAAACA GCATCAGCTG GC---GCAGA 
+BG10346            GAATATGCGC TGCGCCAAGA GGCTCAAAAT GAAGAAGCAG CTCAATCGGA 
+BH3042             GATGTGGTTG TATCGAACGA AGAGCAGGCA CACGAAGGGG AGCCAATAGA 
+NT03BL3125         GAATATAAGC TGAAAAGAGA GAAAGTGGAA GAGGAACCGG AAGAATATGA 
+NT02BT4452         GAAGAACCAG CTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+NT01GK2904         CTCACCGATG AGGCGGATGA ACAGCCGGCT TTTGCCGCCG AC-------- 
+OB2064             ACAGATGAAA GTAAGGAAGA ACATGAACAA CATGAACAA- ---------- 
+BAAU4594           GAAGAACCAG TTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+GBAA4692           GAAGAACCAG TTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+BA_4692            GAAGAACCAG TTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+BACN4721           GAAGAACCAG TTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+BAKB4748           GAAGAACCAG TTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+NT05BA4543         GAAGAACCAG TTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+BAWN4606           GAAGAACCAG TTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+BAVO4746           GAAGAACCAG TTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+BC_4467            GAAGAACCAG CATATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+BCE_4551           GAAGAGCCAG CCTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+BCE33L4204         GAAGAACCAG CTTATAAGGA ATCAGATGAG TGGGAAGAT- ---------- 
+
+
+NT03BC2990         AAATCCTCAA ---------- ---------- ---------- ---------- 
+BG10346            TCAGGCTGAT CCTGCGCTTT GCCAAGAAGA GGCGGAACCG GATGAAGCTT 
+BH3042             GGAATCAAAA ---------- ---------- ---------- ---------- 
+NT03BL3125         GCTGAAAAGA ---------- ---------- ---------- ---------- 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            TGGAGAGTGT ATCAGAGGCC GCTCTCTCCA TAGAAGATAG CAGAGAAACA 
+BH3042             ---------- ---------- ---------- ---------- ---------- 
+NT03BL3125         --GAGAAAGT GGAAGAGGAA CCGGAAGAAT ATGAGCTGAA AAGA------ 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            GCTTCAGCTG TATATATGGA GAATGACAAT GCCGATTTAC ATTTCCATTT 
+BH3042             ---------- ---------- ---------- ---------- ---------- 
+NT03BL3125         ---------- ---------- ---------- ---------- ---------- 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------- ---------- ---------- 
+BG10346            CAATCAAAAA ACAAGCTCGG AGGAGGCATC TCAAGAAGAA TTGCCTGAAC 
+BH3042             ---------- ---------- ---------- ---------- ---------- 
+NT03BL3125         ---------- ---------G AAGAAGCGGA AGAAGAG--- ---CCGGAGC 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- ---------- 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         ---------- ---------- ---------G AACATAGAGA GCAAGTGTTG 
+BG10346            CGGCATACCG TACCTTCCTG CCTGAACAAG AAGAG---GA GGATTCTTTT 
+BH3042             ---------- ---------- ---------G CGGATCAGGC AAAAGTGGAG 
+NT03BL3125         TGTCGCACAG CTCTTATCAA CCTCACGAGG AACTGAAAGA GAACCCGTTC 
+NT02BT4452         ---------- ---------- ---------- ---------- ---------- 
+NT01GK2904         ---------- ---------- ---------- ---------- -------GAA 
+OB2064             ---------- ---------- ---------- ---------- ---------- 
+BAAU4594           ---------- ---------- ---------- ---------- ---------- 
+GBAA4692           ---------- ---------- ---------- ---------- ---------- 
+BA_4692            ---------- ---------- ---------- ---------- ---------- 
+BACN4721           ---------- ---------- ---------- ---------- ---------- 
+BAKB4748           ---------- ---------- ---------- ---------- ---------- 
+NT05BA4543         ---------- ---------- ---------- ---------- ---------- 
+BAWN4606           ---------- ---------- ---------- ---------- ---------- 
+BAVO4746           ---------- ---------- ---------- ---------- ---------- 
+BC_4467            ---------- ---------- ---------- ---------- ---------- 
+BCE_4551           ---------- ---------- ---------- ---------- ---------- 
+BCE33L4204         ---------- ---------- ---------- ---------- ---------- 
+
+
+NT03BC2990         GACATCTCTG CCGCTTTTGA AGCAGCACTT GAAAACAATC ATGAAACATC 
+BG10346            TATTCAGCGC CTAAGCTGCT GGAGGAGGAA ------GAAC AAGAGGAAGA 
+BH3042             GAGTCTACAG CCTCCGTTCA AAAGCAGCAA GAGGAAAATC ATCAACAAGA 
+NT03BL3125         TACAGTGTTC CTCCTCTTCT GAAGGAAGAC CAGAATGACA GGGAGCCTGA 
+NT02BT4452         TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+NT01GK2904         ACGACGGTTT CCGCCATGGA GCCGGCCGCC ATGCGTCATG AAGAAACGGA 
+OB2064             CATGAACAAC CAGCTGATGA TGACCCTGAT CGATGGAAAA TCAAGTCACA 
+BAAU4594           TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+GBAA4692           TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+BA_4692            TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+BACN4721           TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+BAKB4748           TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+NT05BA4543         TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+BAWN4606           TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+BAVO4746           TATGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+BC_4467            TACGCATTTG AACCGTTCCA ATTAGAGGAA AGAAAAGAGC AGGAATTAGA 
+BCE_4551           TACGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+BCE33L4204         TACGCATTTG AACCGTTCCA ACTAGAAGAA AGAAAAGAGC AGGAAGTAGA 
+
+
+NT03BC2990         ACCTCCTTCT GAATCGGTGT CGCCAAGGTC AGCAGAGAAT GAACTGGACG 
+BG10346            GAGCTTCGAA ATTGAAGTGA GAAAAACACC ATCAGCTGAA GAGCCTAAGG 
+BH3042             AGTTACATCA GTTGCTAATC AGGATGAGAC AGCAGAGGGG CAAGTCAACG 
+NT03BL3125         GGCTTTTGAG GTTGAGGTGA CACAGGAAGC AGAAGCGATT GAT---GAAG 
+NT02BT4452         GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+NT01GK2904         GGCTGAGGAA GAAGAGGAGG CCAAAGAGCC GTTTTTGCCG CTTGAGACGG 
+OB2064             GCCATTATCA GAGTACTTCC AAAGTATCTC GGAAGTAGAA GCATCACCAG 
+BAAU4594           GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+GBAA4692           GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+BA_4692            GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+BACN4721           GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+BAKB4748           GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+NT05BA4543         GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+BAWN4606           GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+BAVO4746           GGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+BC_4467            AGAAGAGAAA ATAGAAGAAC ATGAATTTGT GGAACGTGAA GAGGAGCAAG 
+BCE_4551           AGAAGAGGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGAGAAAG 
+BCE33L4204         GGAGGAAGAA ATAGAAGAAC ATGAATTTGT AGAGCGTGAA GAGGATATAG 
+
+
+NT03BC2990         TTGAGCAAGA GAAAAAAGCG TCTGTGGAAA CGACTGAAGA TGTGGTGATA 
+BG10346            AAGAAACACC TTTT---CAA TCCTTCCAGC TGCCTGAATC TTCTGAGACT 
+BH3042             AAGGAAATGC TATTGAACCA GCGATGATGC GTGGAGAAGT AGACGTAGAA 
+NT03BL3125         AAGAGGAAGC CGGG---CAT ACGATTGAAA TCCCGGAATA TTCGTTTCAT 
+NT02BT4452         AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+NT01GK2904         AAACGAAGGC GGTCAGCGCA CAGACGGAGG AAGACATCGC TTCACTGCTG 
+OB2064             AAGATGAT-- ---------- ---------- --AATTATGA AGAATATGAA 
+BAAU4594           AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+GBAA4692           AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+BA_4692            AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+BACN4721           AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+BAKB4748           AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+NT05BA4543         AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+BAWN4606           AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+BAVO4746           AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+BC_4467            AAACAACG-- ---------- ---------- --CCGCAATT TGAACTGTTC 
+BCE_4551           AAACAACG-- ---------- ---------- --CCGCAATT TGAATTGTTC 
+BCE33L4204         AAACAACG-- ---------- ---------- --CCACAATT TGAATTGTTC 
+
+
+NT03BC2990         GAAGCCGTAG CAGAAGAGGT TCGTTATGAG GAATCTCCAC AG-------- 
+BG10346            GAAAGGAAGG AAACGGATGC TGTTCCT--- ---------- ---------- 
+BH3042             CACTATGATT CCGAAAGTGT GGAAGAAGAA GAGAATCCTA CGAAAATTCA 
+NT03BL3125         GAGCAGACGG AGCCCGAAGA AGAAAGA--- ---------- ---------- 
+NT02BT4452         GGACGAAAAG ATTTCAAGAA AGAACCA--- ---------- ---------- 
+NT01GK2904         CCGCCAACTG AGGCGAAGGT ATCGATCGGG ---------- ---------- 
+OB2064             GATGAAACTG ATTATGAAGT AAATGAT--- ---------- ---------- 
+BAAU4594           GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+GBAA4692           GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+BA_4692            GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+BACN4721           GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+BAKB4748           GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+NT05BA4543         GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+BAWN4606           GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+BAVO4746           GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+BC_4467            GGACGAAAAG ATTTCAAGAA AGAAAAA--- ---------- ---------- 
+BCE_4551           GGAAGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+BCE33L4204         GGACGAAAAG ATTTCAAGAA AGAACAA--- ---------- ---------- 
+
+
+NT03BC2990         ---------- CAGGAAGACG CGCTAGCAGG CGATGACCAA GAACTAGAAG 
+BG10346            ---------- ---------- ---------- ---------- ---AGGGTTG 
+BH3042             ACTTGGCGTT CAGCGAGAGG AAGTAGCAAT AGACGAGGAA TCACAAGAAG 
+NT03BL3125         ---------- ---------- ---------- ---------- ---GATGAAA 
+NT02BT4452         ---------- ---------- ---------- ---------- ---GCGAAAA 
+NT01GK2904         ---------- ---------- ---------- ---------- ---GCGGCGA 
+OB2064             ---------- ---------- ---------- ---------- ---------C 
+BAAU4594           ---------- ---------- ---------- ---------- ---GCGAAAA 
+GBAA4692           ---------- ---------- ---------- ---------- ---GCGAAAA 
+BA_4692            ---------- ---------- ---------- ---------- ---GCGAAAA 
+BACN4721           ---------- ---------- ---------- ---------- ---GCGAAAA 
+BAKB4748           ---------- ---------- ---------- ---------- ---GCGAAAA 
+NT05BA4543         ---------- ---------- ---------- ---------- ---GCGAAAA 
+BAWN4606           ---------- ---------- ---------- ---------- ---GCGAAAA 
+BAVO4746           ---------- ---------- ---------- ---------- ---GCGAAAA 
+BC_4467            ---------- ---------- ---------- ---------- ---GCGAAAA 
+BCE_4551           ---------- ---------- ---------- ---------- ---GCGAAAA 
+BCE33L4204         ---------- ---------- ---------- ---------- ---GCGAAAA 
+
+
+NT03BC2990         AAGCAGCCCT TGAAGAGGAA GATCAAAAAG GTGAGCGAGA AGAAAACGCG 
+BG10346            CTCCTGCTGC TGAAACGAAG GAACCTCAAA CAAAGGAAAG TGATAATTCT 
+BH3042             ATCTAGGGGA AGATACAGAC GAACCAAAAG GACATCGAGA AGAGAATGCC 
+NT03BL3125         TGCAGGCAGC GGATGAACAG GAAGTGTCAG CAAAGGAAAA CGACAACGCA 
+NT02BT4452         AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+NT01GK2904         AAAAGGCGGT TGAGGAAGAA GAAGAAACGA AAACAAAAAG CGAAAATGCG 
+OB2064             AGGAGGAAGT TCTTGATATT CTCGATAATG AAGAGAGTCC GGAAGATGTA 
+BAAU4594           AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+GBAA4692           AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+BA_4692            AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+BACN4721           AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+BAKB4748           AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+NT05BA4543         AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+BAWN4606           AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+BAVO4746           AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+BC_4467            AGCAGGAAGA ACAAGAAGAA GAG---TACT CACAGCGAGA TGAAAATGCG 
+BCE_4551           AACAAGAAGT ACAAGAAGAG GAAACGTATT CACAGCGGGA TGAAAATGCG 
+BCE33L4204         AACAAGAAGA ACAAGAAGAG GAAACGTATT CACAGCGAGA TGAAAATGCG 
+
+
+NT03BC2990         ACGTATTTGA CGAGCATGCT CAGA---AAT GAAGTCGAGC AATTTACAAA 
+BG10346            CTTTATTTAA CAAAACTCTT TACAAAAGAA GCGGAT---G AGTTTTCGAG 
+BH3042             CTTTATTTAA CAAAAATGAT GACG---AAC GGTGAAGAGG AATTTTCGAA 
+NT03BL3125         CTCTATTTGA CAAAGCTGTT TACAAAGCAG GGAGAGGAGG AGTTTACTCG 
+NT02BT4452         CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+NT01GK2904         CTTTACTTGA CGAAACTGTT TGCGAAAAGC GAGGAGGAAG AGTTTACGAA 
+OB2064             ACCTATTTAT CTGATATATT CCGTAATGCT GAAGAAGAAC AGTATACTAA 
+BAAU4594           CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+GBAA4692           CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+BA_4692            CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+BACN4721           CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+BAKB4748           CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+NT05BA4543         CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+BAWN4606           CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+BAVO4746           CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+BC_4467            CTTTATTTAA CAAAACTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+BCE_4551           CTTTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+BCE33L4204         CTGTATTTAA CGAAATTATT TACGAAAGAA CCGGAAGAAG AATTTACAAA 
+
+
+NT03BC2990         GTGGAAAATG TGCATCATTC AAGAAAATGA AACGCTTGAC ACGATTGCCG 
+BG10346            AATGAAAATT TGTATTGTGC AGCAGGAAGA TACGATCGAG CGTTTATGCG 
+BH3042             GTTAAAGATG TGCATCATTC AAGAAAATGA ATCTCTCGAT ATGATCGCCG 
+NT03BL3125         AATGAGGATG TGCATCGTTC AGCAAAATGA TACGATTGAT CTTCTGTGCG 
+NT02BT4452         GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+NT01GK2904         ACTGAAAATT TGCATCGTCC AGCAAGGAGA TTCATTGGAC AAGATTGCCG 
+OB2064             AATGCGTCTA TGTATTGTTC AAGAGGATGA CACAATTGAA ACCATTGCAC 
+BAAU4594           GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+GBAA4692           GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+BA_4692            GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+BACN4721           GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+BAKB4748           GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+NT05BA4543         GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+BAWN4606           GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+BAVO4746           GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATCGAA TCGGTTGCAG 
+BC_4467            GTTAAGAATG TATTTCGTGC AAGAAGGGGA TACAATTGAA TCTATTGCAG 
+BCE_4551           GTTACGAATG TATTTTGTGC AAGAAGGAGA TACGATCGAA TCTGTTGCAG 
+BCE33L4204         GTTAAGAATG TATTTCGTGC AAGAAGGAGA TACGATTGAA TCGGTTGCAG 
+
+
+NT03BC2990         AGCGGTATGA ACTGTCAGCA AGCCAATTGA CGCGCTATAA C---AATTTA 
+BG10346            AACGGTATGA AATTACATCC CAGCAGCTGA TCAGGATGAA TTCTTTAGCC 
+BH3042             AGCGATATGA TATTTCGACA AGTCACTTAA TACGTTTCAA T---CGTTTA 
+NT03BL3125         AGCGCTATGA TATTAACGTC CAGCAGCTCA TCCGGATGAA TTCCCTTTCC 
+NT02BT4452         AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+NT01GK2904         AACGGTATGA TGTGACCGTC TCACAGCTTT TGCGCGCCAA TGATTTGGAA 
+OB2064             AAAGGTTTTC TATTAGTCCT TTACAATTAA TCAAACATAA TCAATTAGAG 
+BAAU4594           AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+GBAA4692           AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+BA_4692            AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+BACN4721           AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+BAKB4748           AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+NT05BA4543         AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+BAWN4606           AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+BAVO4746           AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+BC_4467            ACCGTTATGA AACGTCTGTA CAAAATTTAT ACCGTGTCAA T---CAAACA 
+BCE_4551           AACGTTATGA AACATCTGTA CAAAACTTAT ACCGTGTCAA T---CAAACA 
+BCE33L4204         AACGGTATGA AACATCTGTA CAAAACTTAT ACCGCGTCAA T---CAAACA 
+
+
+NT03BC2990         GCTGATGAAC AGGTATCAGA AGGGCAAATT CTCTATATAC CTGTGAAAGC 
+BG10346            TTGGATGATG AATTAAAAGC AGGACAGATT CTCTATATTC CTCAATATAA 
+BH3042             ACAGAGGAAC GGGTGGAAGA AGGGCAAATT CTTTACATTC CTGTCCCATC 
+NT03BL3125         CTTGACGAGG AATTAAAAGA GGGACAGATC CTTTATATAC CGGATTATCA 
+NT02BT4452         GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+NT01GK2904         AGCCCAGATG ACGTGCACGA GGGGCAGCTG CTGTATATTC CGGCCATGGC 
+OB2064             TCAGATTTTG AAGTGAACCA AGGTCAATTA CTGTATATTC CTCCTAAA-- 
+BAAU4594           GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+GBAA4692           GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+BA_4692            GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+BACN4721           GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+BAKB4748           GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+NT05BA4543         GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+BAWN4606           GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+BAVO4746           GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+BC_4467            GAAGATATAT TTTTAAATAC GGGGCAAATT ATTTATATTC CCGTTTCAAG 
+BCE_4551           GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+BCE33L4204         GAAGATATAT ATTTAACTAC AGGACAAATT ATTTATATTC CTGTTTCAAG 
+
+
+NT03BC2990         GGAG------ --------- 
+BG10346            AAATAGCCAT GCG------ 
+BH3042             ACATCAGTCG AAAGAGGGG 
+NT03BL3125         AAACAGCCAT GCC------ 
+NT02BT4452         AGCAAAAGCG AAA------ 
+NT01GK2904         GGGAAGCCGT CCTTTCTCA 
+OB2064             ---------- --------- 
+BAAU4594           AGCAAAAGCG AAA------ 
+GBAA4692           AGCAAAAGCG AAA------ 
+BA_4692            AGCAAAAGCG AAA------ 
+BACN4721           AGCAAAAGCG AAA------ 
+BAKB4748           AGCAAAAGCG AAA------ 
+NT05BA4543         AGCAAAAGCG AAA------ 
+BAWN4606           AGCAAAAGCG AAA------ 
+BAVO4746           AGCAAAAGCG AAA------ 
+BC_4467            GGTAAAGGCG AAA------ 
+BCE_4551           AGCAAAAGCG AAA------ 
+BCE33L4204         AGCAAAAGCG AAA------ 
+
+
+;
+
+endblock;

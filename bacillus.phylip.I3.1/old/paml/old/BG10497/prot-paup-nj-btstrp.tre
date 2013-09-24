@@ -1,0 +1,43 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Dec 21 22:47:50 2007]
+[!
+>Data file = /home/hqin/projects/coat.protein07/orthog.analysis/phylo/BG10497/prot-paup2.nexus
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 100
+>  Starting seed = 637135071
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 143 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        28 characters are constant
+>        55 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 60
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: simple (reference taxon = BCE33L2604 spore)
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>   100 bootstrap replicates completed
+>   Time used = <1 sec (CPU time = 0.15 sec)
+]
+	Translate
+		1 BCE33L2604_spore,
+		2 BCE_2908_spore,
+		3 BC_2873_Spore,
+		4 BG10497_CotW,
+		5 BH2191_spore,
+		6 Bmo2055_Bmo2055,
+		7 NT03BL1348_spore,
+		8 NT03CD3846_conserved,
+		9 OB0573_spore
+		;
+End;

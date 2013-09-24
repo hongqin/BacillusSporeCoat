@@ -1,0 +1,33 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Dec 21 22:44:59 2007]
+[!
+>Data file = /home/hqin/projects/coat.protein07/orthog.analysis/phylo/BG10493/prot-paup.nexus
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = mean character difference
+>  (Tree is unrooted)
+]
+	Translate
+		1 BAAU1557_Spore,
+		2 BACN1687_Spore,
+		3 BAKB1688_Spore,
+		4 BAVO1717_Spore,
+		5 BAWN1576_Spore,
+		6 BA_1581_spore,
+		7 BCE33L1438_spore,
+		8 BCE_1687_spore,
+		9 BC_1560_Spore,
+		10 BG10493,
+		11 BH1767_inner,
+		12 Bmo2896,
+		13 GBAA1581_spore,
+		14 NT01GK1712_spore,
+		15 NT02BT1591_spore,
+		16 NT03BC2311_hypothetical,
+		17 NT03BL2496_spore,
+		18 NT05BA1595_spore,
+		19 OB1024_inner
+		;
+tree PAUP_1 = [&U] (1:0,(2:0,(3:0,(4:0,(5:0,(6:0,(((7:0,(9:0,15:0):0):0,18:0):0,13:0):0):0):0):0):0):1,(8:0,(((10:0,12:1):8,17:14):11,(((11:30,16:48):21,19:58):21,14:16):16):70):1);
+End;

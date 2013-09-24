@@ -1,0 +1,19 @@
+#nexus
+
+begin data;
+	dimensions ntax = 3 nchar = 27;
+	format  datatype = DNA interleave=yes gap = - missing = ?;
+
+	matrix
+
+[Source of sequence data: prot-aligned]
+
+	BG10776	MKFYTIKLPKFLGGIVRAMLGSFRKD-
+	BH2501_stage	MKFYTIKLPKFLGGVVRAVLNSFKKG-
+	OB1513_spore	MKFYTIKLPKFVGGFVKVVIGIFKKDK
+	;
+end;
+
+begin paup;
+	charset prot-aligned = 1 - 27;
+end;
