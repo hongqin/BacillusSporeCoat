@@ -1,0 +1,4305 @@
+
+   8 Populations
+
+Neighbor-Joining/UPGMA method version 3.67
+
+Data set # 1:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+       +--------NT03BL1349
+       ! 
+       !                                  +---------NT03BL1346
+  +----4                          +-------1 
+  !    !   +----------------------2       +--------BPUM_1106x
+  !    !   !                      ! 
+  !    +---3                      +----------------BH2192xxxx
+  !        ! 
+  !        +-------------BPUM_1108x
+  ! 
+  !  +Bmo2056xxx
+  6--5 
+  !  +BG10496xxx
+  ! 
+  +------BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.16472
+   4          NT03BL1349      0.29738
+   4             3            0.12455
+   3             2            0.74025
+   2             1            0.26477
+   1          NT03BL1346      0.33471
+   1          BPUM_1106x      0.31278
+   2          BH2192xxxx      0.57152
+   3          BPUM_1108x      0.44818
+   6             5            0.09468
+   5          Bmo2056xxx      0.02483
+   5          BG10496xxx      0.02384
+   6          BAM_011790      0.21803
+
+
+Data set # 2:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +BG10496xxx
+  +--6 
+  !  +--Bmo2056xxx
+  ! 
+  !                                   +------BPUM_1106x
+  !            +----------------------2 
+  !            !                      !    +---------------NT03BL1346
+  !    +-------3                      +----1 
+  !    !       !                           +--------------BH2192xxxx
+  5----4       ! 
+  !    !       +------------BPUM_1108x
+  !    ! 
+  !    +----------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.08234
+   6          BG10496xxx      0.03663
+   6          Bmo2056xxx      0.08584
+   5             4            0.15683
+   4             3            0.23640
+   3             2            0.77884
+   2          BPUM_1106x      0.20943
+   2             1            0.14003
+   1          NT03BL1346      0.54038
+   1          BH2192xxxx      0.49351
+   3          BPUM_1108x      0.43178
+   4          NT03BL1349      0.36803
+   5          BAM_011790      0.15739
+
+
+Data set # 3:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+       +---------NT03BL1349
+       ! 
+  +----6 +----------------------BPUM_1108x
+  !    ! ! 
+  !    +-5                            +------BPUM_1106x
+  !      !                       +----1 
+  !      +-----------------------2    +-------------NT03BL1346
+  !                              ! 
+  !                              +---------------BH2192xxxx
+  ! 
+  !   +BG10496xxx
+  4---3 
+  !   +Bmo2056xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.15193
+   6          NT03BL1349      0.30824
+   6             5            0.06638
+   5          BPUM_1108x      0.74329
+   5             2            0.80265
+   2             1            0.14300
+   1          BPUM_1106x      0.22829
+   1          NT03BL1346      0.44633
+   2          BH2192xxxx      0.53579
+   4             3            0.11038
+   3          BG10496xxx      0.02599
+   3          Bmo2056xxx      0.03462
+   4          BAM_011790      0.10646
+
+
+Data set # 4:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+         +--------NT03BL1349
+  +------4 
+  !      !   +--------------BPUM_1108x
+  !      +---3 
+  !          !                     +--------------------BH2192xxxx
+  !          +---------------------2 
+  !                                !    +------------------NT03BL1346
+  !                                +----1 
+  !                                     +---BPUM_1106x
+  ! 
+  !   +BG10496xxx
+  6---5 
+  !   +--Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.20898
+   4          NT03BL1349      0.29443
+   4             3            0.13873
+   3          BPUM_1108x      0.50587
+   3             2            0.73145
+   2          BH2192xxxx      0.71110
+   2             1            0.15409
+   1          NT03BL1346      0.61362
+   1          BPUM_1106x      0.14107
+   6             5            0.11037
+   5          BG10496xxx      0.01730
+   5          Bmo2056xxx      0.08515
+   6          BAM_011790      0.11140
+
+
+Data set # 5:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                         +--------BH2192xxxx
+        +----------------2 
+        !                !      +BPUM_1106x
+      +-5                +------1 
+      ! !                       +------------NT03BL1346
+  +---6 ! 
+  !   ! +------NT03BL1349
+  !   ! 
+  !   +---------BPUM_1108x
+  ! 
+  !  +BG10496xxx
+  4--3 
+  !  +-Bmo2056xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.21768
+   6             5            0.07456
+   5             2            0.87763
+   2          BH2192xxxx      0.46223
+   2             1            0.33843
+   1          BPUM_1106x     -0.00683
+   1          NT03BL1346      0.64355
+   5          NT03BL1349      0.33959
+   6          BPUM_1108x      0.48891
+   4             3            0.14460
+   3          BG10496xxx      0.00698
+   3          Bmo2056xxx      0.12873
+   4          BAM_011790      0.17382
+
+
+Data set # 6:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                       +---------------NT03BL1346
+                              +--------1 
+             +----------------2        +---BPUM_1106x
+             !                ! 
+       +-----4                +------------------BH2192xxxx
+       !     ! 
+  +----5     +----------BPUM_1108x
+  !    ! 
+  !    +---------NT03BL1349
+  ! 
+  !     +BG10496xxx
+  6-----3 
+  !     +-Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             5            0.15685
+   5             4            0.16850
+   4             2            0.55615
+   2             1            0.28089
+   1          NT03BL1346      0.54400
+   1          BPUM_1106x      0.14482
+   2          BH2192xxxx      0.61982
+   4          BPUM_1108x      0.37602
+   5          NT03BL1349      0.30423
+   6             3            0.17657
+   3          BG10496xxx      0.04440
+   3          Bmo2056xxx      0.06939
+   6          BAM_011790      0.13737
+
+
+Data set # 7:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +-----------NT03BL1349
+        ! 
+        !                             +-------BPUM_1106x
+  +-----5                        +----1 
+  !     ! +----------------------2    +------------NT03BL1346
+  !     ! !                      ! 
+  !     +-6                      +---------------BH2192xxxx
+  !       ! 
+  !       +----------------BPUM_1108x
+  ! 
+  !    +BG10496xxx
+  4----3 
+  !    +--Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.18042
+   5          NT03BL1349      0.40560
+   5             6            0.05969
+   6             2            0.74180
+   2             1            0.14880
+   1          BPUM_1106x      0.27138
+   1          NT03BL1346      0.43698
+   2          BH2192xxxx      0.54141
+   6          BPUM_1108x      0.55204
+   4             3            0.14174
+   3          BG10496xxx      0.00100
+   3          Bmo2056xxx      0.09387
+   4          BAM_011790      0.14013
+
+
+Data set # 8:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +-Bmo2056xxx
+  +--6 
+  !  +BG10496xxx
+  ! 
+  !    +------NT03BL1349
+  !    ! 
+  !    !                        +---------NT03BL1346
+  5----4                      +-1 
+  !    !  +-------------------2 +----BPUM_1106x
+  !    !  !                   ! 
+  !    +--3                   +---------BH2192xxxx
+  !       ! 
+  !       +--------BPUM_1108x
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.12652
+   6          Bmo2056xxx      0.09762
+   6          BG10496xxx      0.01269
+   5             4            0.25358
+   4          NT03BL1349      0.35191
+   4             3            0.16389
+   3             2            1.00802
+   2             1            0.10462
+   1          NT03BL1346      0.52243
+   1          BPUM_1106x      0.25632
+   2          BH2192xxxx      0.49655
+   3          BPUM_1108x      0.46310
+   5          BAM_011790      0.15693
+
+
+Data set # 9:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +BG10496xxx
+  +--6 
+  !  +-Bmo2056xxx
+  ! 
+  !            +------------BPUM_1108x
+  !            ! 
+  !      +-----3                           +-BPUM_1106x
+  !      !     !                  +--------1 
+  !      !     +------------------2        +----------------NT03BL1346
+  5------4                        ! 
+  !      !                        +------------BH2192xxxx
+  !      ! 
+  !      +---------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.10440
+   6          BG10496xxx      0.02055
+   6          Bmo2056xxx      0.06826
+   5             4            0.23790
+   4             3            0.19656
+   3          BPUM_1108x      0.42599
+   3             2            0.61769
+   2             1            0.27455
+   1          BPUM_1106x      0.08049
+   1          NT03BL1346      0.54906
+   2          BH2192xxxx      0.43834
+   4          NT03BL1349      0.33102
+   5          BAM_011790      0.14679
+
+
+Data set # 10:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+          +--------NT03BL1349
+          ! 
+          !                                   +-----BPUM_1106x
+  +-------4                             +-----1 
+  !       !    +------------------------2     +----------------NT03BL1346
+  !       !    !                        ! 
+  !       +----3                        +-------------BH2192xxxx
+  !            ! 
+  !            +-----------BPUM_1108x
+  ! 
+  !  +-Bmo2056xxx
+  6--5 
+  !  +BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.26312
+   4          NT03BL1349      0.28111
+   4             3            0.15854
+   3             2            0.82419
+   2             1            0.18829
+   1          BPUM_1106x      0.17430
+   1          NT03BL1346      0.54181
+   2          BH2192xxxx      0.45804
+   3          BPUM_1108x      0.39186
+   6             5            0.09179
+   5          Bmo2056xxx      0.05817
+   5          BG10496xxx      0.02432
+   6          BAM_011790      0.15616
+
+
+Data set # 11:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-Bmo2056xxx
+  +---6 
+  !   +BG10496xxx
+  ! 
+  !                              +--------------BH2192xxxx
+  !          +-------------------2 
+  !          !                   !       +-----BPUM_1106x
+  !    +-----3                   +-------1 
+  !    !     !                           +--------------NT03BL1346
+  5----4     ! 
+  !    !     +----------BPUM_1108x
+  !    ! 
+  !    +----------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.12937
+   6          Bmo2056xxx      0.06770
+   6          BG10496xxx      0.04124
+   5             4            0.14455
+   4             3            0.21147
+   3             2            0.64468
+   2          BH2192xxxx      0.50207
+   2             1            0.24639
+   1          BPUM_1106x      0.18765
+   1          NT03BL1346      0.49636
+   3          BPUM_1108x      0.34489
+   4          NT03BL1349      0.36267
+   5          BAM_011790      0.15578
+
+
+Data set # 12:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                 +-----------NT03BL1346
+                              +--1 
+       +----------------------2  +-----BPUM_1106x
+       !                      ! 
+    +--3                      +------------BH2192xxxx
+    !  ! 
+  +-6  +--------BPUM_1108x
+  ! ! 
+  ! +------NT03BL1349
+  ! 
+  !  +Bmo2056xxx
+  5--4 
+  !  +BG10496xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.10327
+   6             3            0.16758
+   3             2            1.15591
+   2             1            0.14762
+   1          NT03BL1346      0.59439
+   1          BPUM_1106x      0.30266
+   2          BH2192xxxx      0.64982
+   3          BPUM_1108x      0.43752
+   6          NT03BL1349      0.34055
+   5             4            0.14759
+   4          Bmo2056xxx      0.05184
+   4          BG10496xxx      0.04031
+   5          BAM_011790      0.14457
+
+
+Data set # 13:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +---Bmo2056xxx
+  +--6 
+  !  +BG10496xxx
+  ! 
+  !                                      +-----------------BH2192xxxx
+  !             +------------------------2 
+  !             !                        !   +---------------NT03BL1346
+  !      +------3                        +---1 
+  !      !      !                            +----BPUM_1106x
+  5------4      ! 
+  !      !      +--------BPUM_1108x
+  !      ! 
+  !      +------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.09962
+   6          Bmo2056xxx      0.11578
+   6          BG10496xxx      0.01468
+   5             4            0.21109
+   4             3            0.21616
+   3             2            0.82396
+   2          BH2192xxxx      0.57562
+   2             1            0.13910
+   1          NT03BL1346      0.50269
+   1          BPUM_1106x      0.15815
+   3          BPUM_1108x      0.28206
+   4          NT03BL1349      0.23162
+   5          BAM_011790      0.14678
+
+
+Data set # 14:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+            +------------------BPUM_1108x
+            ! 
+        +---6                    +---------------BH2192xxxx
+        !   !                +---1 
+        !   +----------------2   +---------------NT03BL1346
+  +-----5                    ! 
+  !     !                    +----------BPUM_1106x
+  !     ! 
+  !     +--------------NT03BL1349
+  ! 
+  !   +-Bmo2056xxx
+  4---3 
+  !   +BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.18744
+   5             6            0.12580
+   6          BPUM_1108x      0.63423
+   6             2            0.57565
+   2             1            0.12792
+   1          BH2192xxxx      0.53452
+   1          NT03BL1346      0.53008
+   2          BPUM_1106x      0.35489
+   5          NT03BL1349      0.48118
+   4             3            0.13214
+   3          Bmo2056xxx      0.06986
+   3          BG10496xxx      0.03661
+   4          BAM_011790      0.17302
+
+
+Data set # 15:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+          +-----------NT03BL1349
+          ! 
+          !                               +------------------NT03BL1346
+  +-------4                        +------1 
+  !       !      +-----------------2      +BPUM_1106x
+  !       !      !                 ! 
+  !       +------3                 +-------------BH2192xxxx
+  !              ! 
+  !              +---------BPUM_1108x
+  ! 
+  !    +-Bmo2056xxx
+  6----5 
+  !    +BG10496xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.27274
+   4          NT03BL1349      0.37725
+   4             3            0.20548
+   3             2            0.59806
+   2             1            0.24501
+   1          NT03BL1346      0.60415
+   1          BPUM_1106x     -0.00445
+   2          BH2192xxxx      0.46015
+   3          BPUM_1108x      0.33668
+   6             5            0.16033
+   5          Bmo2056xxx      0.08011
+   5          BG10496xxx      0.02724
+   6          BAM_011790      0.19695
+
+
+Data set # 16:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +BG10496xxx
+  +--6 
+  !  +--Bmo2056xxx
+  ! 
+  !          +-------------BPUM_1108x
+  !          ! 
+  !      +---3                        +--------------NT03BL1346
+  !      !   !                      +-1 
+  !      !   +----------------------2 +--------------BH2192xxxx
+  5------4                          ! 
+  !      !                          +---------BPUM_1106x
+  !      ! 
+  !      +-------NT03BL1349
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.08164
+   6          BG10496xxx      0.03164
+   6          Bmo2056xxx      0.08603
+   5             4            0.23116
+   4             3            0.11424
+   3          BPUM_1108x      0.46224
+   3             2            0.77363
+   2             1            0.05965
+   1          NT03BL1346      0.48079
+   1          BH2192xxxx      0.51248
+   2          BPUM_1106x      0.31937
+   4          NT03BL1349      0.24894
+   5          BAM_011790      0.13117
+
+
+Data set # 17:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +--Bmo2056xxx
+  +--6 
+  !  +BG10496xxx
+  ! 
+  !                                   +------------------------NT03BL1346
+  !                      +------------1 
+  !         +------------2            +--BPUM_1106x
+  !         !            ! 
+  !     +---3            +----------------BH2192xxxx
+  !     !   ! 
+  5-----4   +---------BPUM_1108x
+  !     ! 
+  !     +---------NT03BL1349
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.10793
+   6          Bmo2056xxx      0.07451
+   6          BG10496xxx      0.03328
+   5             4            0.20165
+   4             3            0.13797
+   3             2            0.43291
+   2             1            0.40265
+   1          NT03BL1346      0.81880
+   1          BPUM_1106x      0.09768
+   2          BH2192xxxx      0.54141
+   3          BPUM_1108x      0.31297
+   4          NT03BL1349      0.33097
+   5          BAM_011790      0.12101
+
+
+Data set # 18:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+         +---NT03BL1349
+         ! 
+         !                             +--------NT03BL1346
+  +------4                        +----1 
+  !      !      +-----------------2    +------------BH2192xxxx
+  !      !      !                 ! 
+  !      +------3                 +-BPUM_1106x
+  !             ! 
+  !             +-----BPUM_1108x
+  ! 
+  ! +-Bmo2056xxx
+  6-5 
+  ! +BG10496xxx
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.36638
+   4          NT03BL1349      0.19166
+   4             3            0.34440
+   3             2            0.88933
+   2             1            0.23478
+   1          NT03BL1346      0.44503
+   1          BH2192xxxx      0.66233
+   2          BPUM_1106x      0.11771
+   3          BPUM_1108x      0.30580
+   6             5            0.11765
+   5          Bmo2056xxx      0.08992
+   5          BG10496xxx      0.04736
+   6          BAM_011790      0.10274
+
+
+Data set # 19:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+       +------NT03BL1349
+       ! 
+  +----4               +--------------BH2192xxxx
+  !    ! +-------------2 
+  !    ! !             !      +BPUM_1106x
+  !    +-3             +------1 
+  !      !                    +------------NT03BL1346
+  !      ! 
+  !      +--------BPUM_1108x
+  ! 
+  ! +-Bmo2056xxx
+  5-6 
+  ! +BG10496xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             4            0.26415
+   4          NT03BL1349      0.33756
+   4             3            0.09504
+   3             2            0.72449
+   2          BH2192xxxx      0.75579
+   2             1            0.33779
+   1          BPUM_1106x      0.05911
+   1          NT03BL1346      0.64547
+   3          BPUM_1108x      0.43449
+   5             6            0.09460
+   6          Bmo2056xxx      0.10672
+   6          BG10496xxx      0.04659
+   5          BAM_011790      0.21339
+
+
+Data set # 20:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                             +---------------NT03BL1346
+                                  +----------1 
+           +----------------------2          +-----BPUM_1106x
+           !                      ! 
+         +-5                      +-----------------BH2192xxxx
+         ! ! 
+  +------6 +-----------BPUM_1108x
+  !      ! 
+  !      +----------NT03BL1349
+  ! 
+  !   +--Bmo2056xxx
+  4---3 
+  !   +BG10496xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.21989
+   6             5            0.04589
+   5             2            0.75122
+   2             1            0.35336
+   1          NT03BL1346      0.50973
+   1          BPUM_1106x      0.18052
+   2          BH2192xxxx      0.58855
+   5          BPUM_1108x      0.40198
+   6          NT03BL1349      0.35597
+   4             3            0.13084
+   3          Bmo2056xxx      0.07784
+   3          BG10496xxx     -0.00155
+   4          BAM_011790      0.12947
+
+
+Data set # 21:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                      +---BPUM_1106x
+                                 +----1 
+                +----------------2    +----------------NT03BL1346
+                !                ! 
+        +-------3                +-------------BH2192xxxx
+        !       ! 
+  +-----4       +-----------BPUM_1108x
+  !     ! 
+  !     +---------NT03BL1349
+  ! 
+  !    +-Bmo2056xxx
+  5----6 
+  !    +BG10496xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             4            0.19043
+   4             3            0.25210
+   3             2            0.56325
+   2             1            0.14544
+   1          BPUM_1106x      0.11683
+   1          NT03BL1346      0.55836
+   2          BH2192xxxx      0.46465
+   3          BPUM_1108x      0.40498
+   4          NT03BL1349      0.30973
+   5             6            0.14673
+   6          Bmo2056xxx      0.06633
+   6          BG10496xxx      0.03227
+   5          BAM_011790      0.19556
+
+
+Data set # 22:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                            +------------------BH2192xxxx
+         +------------------2 
+         !                  !   +---------------------NT03BL1346
+      +--5                  +---1 
+      !  !                      +------BPUM_1106x
+  +---6  ! 
+  !   !  +------------BPUM_1108x
+  !   ! 
+  !   +------------NT03BL1349
+  ! 
+  !   +BG10496xxx
+  4---3 
+  !   +Bmo2056xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.12233
+   6             5            0.09912
+   5             2            0.61828
+   2          BH2192xxxx      0.62869
+   2             1            0.13401
+   1          NT03BL1346      0.71454
+   1          BPUM_1106x      0.22348
+   5          BPUM_1108x      0.41064
+   6          NT03BL1349      0.41052
+   4             3            0.11448
+   3          BG10496xxx      0.02795
+   3          Bmo2056xxx      0.03542
+   4          BAM_011790      0.10071
+
+
+Data set # 23:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                       +--------BH2192xxxx
+         +-------------2 
+         !             !     +------------NT03BL1346
+       +-5             +-----1 
+       ! !                   +BPUM_1106x
+  +----6 ! 
+  !    ! +---------BPUM_1108x
+  !    ! 
+  !    +-----NT03BL1349
+  ! 
+  !  +-Bmo2056xxx
+  4--3 
+  !  +BG10496xxx
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.25917
+   6             5            0.10614
+   5             2            0.71709
+   2          BH2192xxxx      0.43959
+   2             1            0.29783
+   1          NT03BL1346      0.63861
+   1          BPUM_1106x      0.03982
+   5          BPUM_1108x      0.47959
+   6          NT03BL1349      0.32113
+   4             3            0.14906
+   3          Bmo2056xxx      0.08851
+   3          BG10496xxx      0.02928
+   4          BAM_011790      0.10089
+
+
+Data set # 24:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +--Bmo2056xxx
+  +--5 
+  !  +BG10496xxx
+  ! 
+  !                                   +----BPUM_1106x
+  !                             +-----1 
+  !          +------------------2     +-------------NT03BL1346
+  !          !                  ! 
+  !      +---3                  +------------------BH2192xxxx
+  !      !   ! 
+  6------4   +-----------------BPUM_1108x
+  !      ! 
+  !      +-------NT03BL1349
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             5            0.09314
+   5          Bmo2056xxx      0.10227
+   5          BG10496xxx      0.01330
+   6             4            0.24069
+   4             3            0.10869
+   3             2            0.63714
+   2             1            0.17564
+   1          BPUM_1106x      0.15650
+   1          NT03BL1346      0.47085
+   2          BH2192xxxx      0.60540
+   3          BPUM_1108x      0.60797
+   4          NT03BL1349      0.26338
+   6          BAM_011790      0.14145
+
+
+Data set # 25:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+       +------------BPUM_1108x
+       ! 
+       !                        +-BPUM_1106x
+  +----5                   +----1 
+  !    ! +-----------------2    +------------NT03BL1346
+  !    ! !                 ! 
+  !    +-6                 +------BH2192xxxx
+  !      ! 
+  !      +----NT03BL1349
+  ! 
+  ! +Bmo2056xxx
+  4-3 
+  ! +BG10496xxx
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.24107
+   5          BPUM_1108x      0.63182
+   5             6            0.01615
+   6             2            0.89418
+   2             1            0.25520
+   1          BPUM_1106x      0.06915
+   1          NT03BL1346      0.64558
+   2          BH2192xxxx      0.35840
+   6          NT03BL1349      0.25668
+   4             3            0.10909
+   3          Bmo2056xxx      0.05379
+   3          BG10496xxx      0.01615
+   4          BAM_011790      0.10289
+
+
+Data set # 26:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +BG10496xxx
+  +---3 
+  !   +-Bmo2056xxx
+  ! 
+  !                                  +---------------NT03BL1346
+  !                            +-----1 
+  !        +-------------------2     +----BPUM_1106x
+  !        !                   ! 
+  !     +--5                   +-----------------BH2192xxxx
+  !     !  ! 
+  4-----6  +------------BPUM_1108x
+  !     ! 
+  !     +----------NT03BL1349
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.11547
+   3          BG10496xxx      0.01441
+   3          Bmo2056xxx      0.05160
+   4             6            0.19514
+   6             5            0.08555
+   5             2            0.65421
+   2             1            0.18715
+   1          NT03BL1346      0.50872
+   1          BPUM_1106x      0.14278
+   2          BH2192xxxx      0.59571
+   5          BPUM_1108x      0.42275
+   6          NT03BL1349      0.36448
+   4          BAM_011790      0.13807
+
+
+Data set # 27:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+            +---------NT03BL1349
+            ! 
+  +---------5                       +------------------BH2192xxxx
+  !         ! +---------------------2 
+  !         ! !                     !  +----------------NT03BL1346
+  !         +-6                     +--1 
+  !           !                        +------BPUM_1106x
+  !           ! 
+  !           +------------BPUM_1108x
+  ! 
+  !    +BG10496xxx
+  4----3 
+  !    +-Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.32815
+   5          NT03BL1349      0.33055
+   5             6            0.07967
+   6             2            0.70850
+   2          BH2192xxxx      0.61120
+   2             1            0.10797
+   1          NT03BL1346      0.55936
+   1          BPUM_1106x      0.20312
+   6          BPUM_1108x      0.42903
+   4             3            0.16967
+   3          BG10496xxx      0.02975
+   3          Bmo2056xxx      0.06486
+   4          BAM_011790      0.10848
+
+
+Data set # 28:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                        +-------------NT03BL1346
+                                  +-----1 
+           +----------------------2     +---BPUM_1106x
+           !                      ! 
+         +-3                      +----------BH2192xxxx
+         ! ! 
+  +------4 +------BPUM_1108x
+  !      ! 
+  !      +-----NT03BL1349
+  ! 
+  ! +Bmo2056xxx
+  6-5 
+  ! +BG10496xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.34987
+   4             3            0.12416
+   3             2            1.14220
+   2             1            0.31432
+   1          NT03BL1346      0.68522
+   1          BPUM_1106x      0.19706
+   2          BH2192xxxx      0.55472
+   3          BPUM_1108x      0.35620
+   4          NT03BL1349      0.31385
+   6             5            0.05145
+   5          Bmo2056xxx      0.05560
+   5          BG10496xxx      0.06060
+   6          BAM_011790      0.27841
+
+
+Data set # 29:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---Bmo2056xxx
+  +---3 
+  !   +BG10496xxx
+  ! 
+  !     +----------NT03BL1349
+  !     ! 
+  4-----5                    +-------------BH2192xxxx
+  !     ! +------------------2 
+  !     ! !                  !    +--------------NT03BL1346
+  !     +-6                  +----1 
+  !       !                       +----BPUM_1106x
+  !       ! 
+  !       +-----------------BPUM_1108x
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.11894
+   3          Bmo2056xxx      0.10717
+   3          BG10496xxx      0.00963
+   4             5            0.19595
+   5          NT03BL1349      0.36585
+   5             6            0.05931
+   6             2            0.63177
+   2          BH2192xxxx      0.44005
+   2             1            0.16904
+   1          NT03BL1346      0.47155
+   1          BPUM_1106x      0.14702
+   6          BPUM_1108x      0.59582
+   4          BAM_011790      0.15891
+
+
+Data set # 30:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+              +-----------------BPUM_1108x
+              ! 
+           +--6                      +--------------NT03BL1346
+           !  !                  +---1 
+           !  +------------------2   +-------BPUM_1106x
+  +--------5                     ! 
+  !        !                     +-------------------BH2192xxxx
+  !        ! 
+  !        +----------NT03BL1349
+  ! 
+  !    +BG10496xxx
+  4----3 
+  !    +-Bmo2056xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.29238
+   5             6            0.09142
+   6          BPUM_1108x      0.58532
+   6             2            0.63526
+   2             1            0.12852
+   1          NT03BL1346      0.49872
+   1          BPUM_1106x      0.24996
+   2          BH2192xxxx      0.64542
+   5          NT03BL1349      0.38241
+   4             3            0.14754
+   3          BG10496xxx      0.01121
+   3          Bmo2056xxx      0.07726
+   4          BAM_011790      0.16605
+
+
+Data set # 31:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                 +----------BPUM_1108x
+           +-----3 
+           !     !                  +-------BPUM_1106x
+           !     +------------------2 
+  +--------4                        !  +-------------NT03BL1346
+  !        !                        +--1 
+  !        !                           +------------------BH2192xxxx
+  !        ! 
+  !        +-------NT03BL1349
+  ! 
+  ! +BG10496xxx
+  6-5 
+  ! +--Bmo2056xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.28789
+   4             3            0.19608
+   3          BPUM_1108x      0.37121
+   3             2            0.63488
+   2          BPUM_1106x      0.25480
+   2             1            0.09717
+   1          NT03BL1346      0.44865
+   1          BH2192xxxx      0.61017
+   4          NT03BL1349      0.25760
+   6             5            0.06847
+   5          BG10496xxx      0.01109
+   5          Bmo2056xxx      0.07917
+   6          BAM_011790      0.18068
+
+
+Data set # 32:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +BG10496xxx
+  +-6 
+  ! +-Bmo2056xxx
+  ! 
+  !      +-------BPUM_1108x
+  !      ! 
+  !    +-3                     +--------NT03BL1346
+  !    ! !                   +-1 
+  !    ! +-------------------2 +--------------BH2192xxxx
+  5----4                     ! 
+  !    !                     +-BPUM_1106x
+  !    ! 
+  !    +---NT03BL1349
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.08015
+   6          BG10496xxx      0.01332
+   6          Bmo2056xxx      0.10540
+   5             4            0.26171
+   4             3            0.12357
+   3          BPUM_1108x      0.40604
+   3             2            0.98546
+   2             1            0.10202
+   1          NT03BL1346      0.43668
+   1          BH2192xxxx      0.72547
+   2          BPUM_1106x      0.11496
+   4          NT03BL1349      0.22469
+   5          BAM_011790      0.13954
+
+
+Data set # 33:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                           +---------------BH2192xxxx
+        +------------------2 
+        !                  ! +----BPUM_1106x
+      +-3                  +-1 
+      ! !                    +-------NT03BL1346
+  +---4 ! 
+  !   ! +--------BPUM_1108x
+  !   ! 
+  !   +------NT03BL1349
+  ! 
+  ! +BG10496xxx
+  6-5 
+  ! +-Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.20835
+   4             3            0.12721
+   3             2            0.93035
+   2          BH2192xxxx      0.78774
+   2             1            0.11524
+   1          BPUM_1106x      0.25306
+   1          NT03BL1346      0.40071
+   3          BPUM_1108x      0.42612
+   4          NT03BL1349      0.36846
+   6             5            0.09344
+   5          BG10496xxx      0.03336
+   5          Bmo2056xxx      0.08500
+   6          BAM_011790      0.18186
+
+
+Data set # 34:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +--Bmo2056xxx
+  +--5 
+  !  +BG10496xxx
+  ! 
+  !             +----------BPUM_1108x
+  !             ! 
+  !      +------3                           +---------------NT03BL1346
+  !      !      !                  +--------1 
+  !      !      +------------------2        +------BPUM_1106x
+  6------4                         ! 
+  !      !                         +-----------------BH2192xxxx
+  !      ! 
+  !      +-------NT03BL1349
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             5            0.10201
+   5          Bmo2056xxx      0.10095
+   5          BG10496xxx      0.02709
+   6             4            0.24057
+   4             3            0.22579
+   3          BPUM_1108x      0.37446
+   3             2            0.64144
+   2             1            0.29069
+   1          NT03BL1346      0.52334
+   1          BPUM_1106x      0.23881
+   2          BH2192xxxx      0.59126
+   4          NT03BL1349      0.25851
+   6          BAM_011790      0.18383
+
+
+Data set # 35:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +Bmo2056xxx
+  +---6 
+  !   +BG10496xxx
+  ! 
+  !                                +------------------NT03BL1346
+  !                           +----1 
+  !         +-----------------2    +-----BPUM_1106x
+  !         !                 ! 
+  !    +----3                 +--------------BH2192xxxx
+  !    !    ! 
+  5----4    +------------BPUM_1108x
+  !    ! 
+  !    +-------NT03BL1349
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.12855
+   6          Bmo2056xxx      0.04052
+   6          BG10496xxx      0.04446
+   5             4            0.17109
+   4             3            0.15718
+   3             2            0.60254
+   2             1            0.15008
+   1          NT03BL1346      0.62737
+   1          BPUM_1106x      0.18556
+   2          BH2192xxxx      0.48491
+   3          BPUM_1108x      0.44275
+   4          NT03BL1349      0.25025
+   5          BAM_011790      0.13350
+
+
+Data set # 36:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +BG10496xxx
+  +-3 
+  ! +Bmo2056xxx
+  ! 
+  !    +------BPUM_1108x
+  !    ! 
+  4----5 +-----NT03BL1349
+  !    ! ! 
+  !    +-6                                   +BPUM_1106x
+  !      !                        +----------1 
+  !      +------------------------2          +-----------NT03BL1346
+  !                               ! 
+  !                               +-BH2192xxxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.12437
+   3          BG10496xxx      0.03561
+   3          Bmo2056xxx      0.06462
+   4             5            0.25796
+   5          BPUM_1108x      0.35632
+   5             6            0.06842
+   6          NT03BL1349      0.30155
+   6             2            1.25710
+   2             1            0.54710
+   1          BPUM_1106x      0.02733
+   1          NT03BL1346      0.58876
+   2          BH2192xxxx      0.12220
+   4          BAM_011790      0.12511
+
+
+Data set # 37:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                 +-------------NT03BL1346
+                               +-1 
+           +-------------------2 +---------------------BH2192xxxx
+           !                   ! 
+       +---5                   +------BPUM_1106x
+       !   ! 
+  +----6   +-------------BPUM_1108x
+  !    ! 
+  !    +--------NT03BL1349
+  ! 
+  !    +--Bmo2056xxx
+  4----3 
+  !    +BG10496xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.14863
+   6             5            0.11644
+   5             2            0.65388
+   2             1            0.03935
+   1          NT03BL1346      0.46213
+   1          BH2192xxxx      0.71127
+   2          BPUM_1106x      0.23512
+   5          BPUM_1108x      0.46223
+   6          NT03BL1349      0.28598
+   4             3            0.15617
+   3          Bmo2056xxx      0.07989
+   3          BG10496xxx      0.03011
+   4          BAM_011790      0.09374
+
+
+Data set # 38:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+          +----------NT03BL1349
+          ! 
+  +-------5                 +----------BH2192xxxx
+  !       ! +---------------2 
+  !       ! !               !    +--------------------NT03BL1346
+  !       +-6               +----1 
+  !         !                    +----BPUM_1106x
+  !         ! 
+  !         +-----------BPUM_1108x
+  ! 
+  !    +BG10496xxx
+  4----3 
+  !    +-Bmo2056xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.24417
+   5          NT03BL1349      0.36955
+   5             6            0.07857
+   6             2            0.50359
+   2          BH2192xxxx      0.35286
+   2             1            0.16574
+   1          NT03BL1346      0.70026
+   1          BPUM_1106x      0.16277
+   6          BPUM_1108x      0.37282
+   4             3            0.15456
+   3          BG10496xxx      0.01048
+   3          Bmo2056xxx      0.06328
+   4          BAM_011790      0.10801
+
+
+Data set # 39:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                              +------------NT03BL1346
+                         +----1 
+           +-------------2    +---BPUM_1106x
+           !             ! 
+        +--3             +-------BH2192xxxx
+        !  ! 
+  +-----4  +------BPUM_1108x
+  !     ! 
+  !     +-----NT03BL1349
+  ! 
+  ! +Bmo2056xxx
+  5-6 
+  ! +BG10496xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             4            0.28249
+   4             3            0.17560
+   3             2            0.69884
+   2             1            0.23036
+   1          NT03BL1346      0.64915
+   1          BPUM_1106x      0.20350
+   2          BH2192xxxx      0.40302
+   3          BPUM_1108x      0.34409
+   4          NT03BL1349      0.31295
+   5             6            0.10129
+   6          Bmo2056xxx      0.05250
+   6          BG10496xxx      0.00939
+   5          BAM_011790      0.14510
+
+
+Data set # 40:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                              +---------------BH2192xxxx
+             +----------------2 
+             !                !    +---BPUM_1106x
+         +---3                +----1 
+         !   !                     +-------------NT03BL1346
+  +------4   ! 
+  !      !   +---------BPUM_1108x
+  !      ! 
+  !      +-------NT03BL1349
+  ! 
+  !  +BG10496xxx
+  6--5 
+  !  +--Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.23495
+   4             3            0.13560
+   3             2            0.53807
+   2          BH2192xxxx      0.52155
+   2             1            0.16203
+   1          BPUM_1106x      0.12129
+   1          NT03BL1346      0.47060
+   3          BPUM_1108x      0.32159
+   4          NT03BL1349      0.27207
+   6             5            0.09151
+   5          BG10496xxx      0.01743
+   5          Bmo2056xxx      0.07639
+   6          BAM_011790      0.13858
+
+
+Data set # 41:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +-------------BPUM_1108x
+        ! 
+        !                          +-----BPUM_1106x
+  +-----5                       +--1 
+  !     ! +---------------------2  +------------------NT03BL1346
+  !     ! !                     ! 
+  !     +-6                     +---------------BH2192xxxx
+  !       ! 
+  !       +----------NT03BL1349
+  ! 
+  !   +-Bmo2056xxx
+  4---3 
+  !   +BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.20269
+   5          BPUM_1108x      0.43980
+   5             6            0.01239
+   6             2            0.73098
+   2             1            0.10294
+   1          BPUM_1106x      0.20214
+   1          NT03BL1346      0.63231
+   2          BH2192xxxx      0.53662
+   6          NT03BL1349      0.34428
+   4             3            0.11740
+   3          Bmo2056xxx      0.06121
+   3          BG10496xxx      0.02202
+   4          BAM_011790      0.14816
+
+
+Data set # 42:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+          +--------NT03BL1349
+          ! 
+  +-------5 +--------------BPUM_1108x
+  !       ! ! 
+  !       +-6                                 +--------------NT03BL1346
+  !         !                     +-----------1 
+  !         +---------------------2           +------BPUM_1106x
+  !                               ! 
+  !                               +---------BH2192xxxx
+  ! 
+  !     +--Bmo2056xxx
+  4-----3 
+  !     +-BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.26018
+   5          NT03BL1349      0.29106
+   5             6            0.06450
+   6          BPUM_1108x      0.48221
+   6             2            0.72849
+   2             1            0.37870
+   1          NT03BL1346      0.50579
+   1          BPUM_1106x      0.21064
+   2          BH2192xxxx      0.30914
+   4             3            0.19894
+   3          Bmo2056xxx      0.07809
+   3          BG10496xxx      0.04407
+   4          BAM_011790      0.14882
+
+
+Data set # 43:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                 +---NT03BL1346
+                               +-1 
+        +----------------------2 +-------------------BH2192xxxx
+        !                      ! 
+      +-5                      +--BPUM_1106x
+      ! ! 
+  +---6 +-------NT03BL1349
+  !   ! 
+  !   +----------BPUM_1108x
+  ! 
+  ! +BG10496xxx
+  4-3 
+  ! +Bmo2056xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.18120
+   6             5            0.01650
+   5             2            1.16753
+   2             1            0.10485
+   1          NT03BL1346      0.21794
+   1          BH2192xxxx      0.97220
+   2          BPUM_1106x      0.16343
+   5          NT03BL1349      0.39855
+   6          BPUM_1108x      0.56432
+   4             3            0.07034
+   3          BG10496xxx      0.02912
+   3          Bmo2056xxx      0.04069
+   4          BAM_011790      0.17227
+
+
+Data set # 44:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                    +----------------NT03BL1346
+                             +------1 
+               +-------------2      +-----BPUM_1106x
+               !             ! 
+         +-----3             +----------------BH2192xxxx
+         !     ! 
+  +------4     +------------BPUM_1108x
+  !      ! 
+  !      +--------NT03BL1349
+  ! 
+  !    +BG10496xxx
+  6----5 
+  !    +---Bmo2056xxx
+  ! 
+  +------BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.21779
+   4             3            0.17541
+   3             2            0.46454
+   2             1            0.20965
+   1          NT03BL1346      0.56646
+   1          BPUM_1106x      0.18386
+   2          BH2192xxxx      0.56621
+   3          BPUM_1108x      0.42640
+   4          NT03BL1349      0.29082
+   6             5            0.15772
+   5          BG10496xxx      0.01465
+   5          Bmo2056xxx      0.10439
+   6          BAM_011790      0.21723
+
+
+Data set # 45:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +--Bmo2056xxx
+  +-----3 
+  !     +-BG10496xxx
+  ! 
+  !                              +---------------------NT03BL1346
+  !                        +-----1 
+  !         +--------------2     +------BPUM_1106x
+  !         !              ! 
+  !    +----5              +----------------BH2192xxxx
+  !    !    ! 
+  4----6    +----------------BPUM_1108x
+  !    ! 
+  !    +-----------NT03BL1349
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.18824
+   3          Bmo2056xxx      0.08913
+   3          BG10496xxx      0.03872
+   4             6            0.17116
+   6             5            0.15083
+   5             2            0.47212
+   2             1            0.18336
+   1          NT03BL1346      0.72847
+   1          BPUM_1106x      0.21981
+   2          BH2192xxxx      0.55968
+   5          BPUM_1108x      0.56468
+   6          NT03BL1349      0.38343
+   4          BAM_011790      0.19587
+
+
+Data set # 46:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+          +--NT03BL1349
+          ! 
+       +--5                        +-------------NT03BL1346
+       !  !                  +-----1 
+       !  +------------------2     +-BPUM_1106x
+  +----6                     ! 
+  !    !                     +-----------BH2192xxxx
+  !    ! 
+  !    +----------BPUM_1108x
+  ! 
+  !  +BG10496xxx
+  4--3 
+  !  +-Bmo2056xxx
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.25139
+   6             5            0.13689
+   5          NT03BL1349      0.16060
+   5             2            0.92397
+   2             1            0.28368
+   1          NT03BL1346      0.70681
+   1          BPUM_1106x      0.11897
+   2          BH2192xxxx      0.58916
+   6          BPUM_1108x      0.55487
+   4             3            0.17077
+   3          BG10496xxx     -0.01048
+   3          Bmo2056xxx      0.11297
+   4          BAM_011790      0.11700
+
+
+Data set # 47:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-Bmo2056xxx
+  +---6 
+  !   +BG10496xxx
+  ! 
+  !    +-----------NT03BL1349
+  !    ! 
+  5----4      +--------BPUM_1108x
+  !    !      ! 
+  !    +------3                      +-------------NT03BL1346
+  !           !                 +----1 
+  !           +-----------------2    +----BPUM_1106x
+  !                             ! 
+  !                             +--------------BH2192xxxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.13296
+   6          Bmo2056xxx      0.06263
+   6          BG10496xxx      0.02962
+   5             4            0.17350
+   4          NT03BL1349      0.40014
+   4             3            0.22914
+   3          BPUM_1108x      0.28535
+   3             2            0.60275
+   2             1            0.15207
+   1          NT03BL1346      0.44951
+   1          BPUM_1106x      0.16610
+   2          BH2192xxxx      0.49939
+   5          BAM_011790      0.10050
+
+
+Data set # 48:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                       +-----BPUM_1106x
+                               +-------1 
+           +-------------------2       +------------NT03BL1346
+           !                   ! 
+       +---5                   +------------BH2192xxxx
+       !   ! 
+  +----6   +-------NT03BL1349
+  !    ! 
+  !    +--------------BPUM_1108x
+  ! 
+  !   +BG10496xxx
+  4---3 
+  !   +--Bmo2056xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.15080
+   6             5            0.11077
+   5             2            0.65527
+   2             1            0.25695
+   1          BPUM_1106x      0.19224
+   1          NT03BL1346      0.42023
+   2          BH2192xxxx      0.43681
+   5          NT03BL1349      0.27511
+   6          BPUM_1108x      0.48279
+   4             3            0.12257
+   3          BG10496xxx      0.01480
+   3          Bmo2056xxx      0.06989
+   4          BAM_011790      0.19634
+
+
+Data set # 49:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                     +-----------------BH2192xxxx
+                                  +--1 
+              +-------------------2  +-----------------NT03BL1346
+              !                   ! 
+        +-----3                   +------BPUM_1106x
+        !     ! 
+  +-----4     +--------------BPUM_1108x
+  !     ! 
+  !     +-------NT03BL1349
+  ! 
+  !  +-BG10496xxx
+  6--5 
+  !  +--Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.17788
+   4             3            0.20770
+   3             2            0.66303
+   2             1            0.10164
+   1          BH2192xxxx      0.58365
+   1          NT03BL1346      0.57721
+   2          BPUM_1106x      0.23815
+   3          BPUM_1108x      0.50498
+   4          NT03BL1349      0.27480
+   6             5            0.08706
+   5          BG10496xxx      0.04067
+   5          Bmo2056xxx      0.08679
+   6          BAM_011790      0.13283
+
+
+Data set # 50:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                +-------------BH2192xxxx
+         +----------------------2 
+         !                      !    +------BPUM_1106x
+     +---3                      +----1 
+     !   !                           +-------------NT03BL1346
+  +--5   ! 
+  !  !   +-------------BPUM_1108x
+  !  ! 
+  !  +-----------NT03BL1349
+  ! 
+  !   +BG10496xxx
+  6---4 
+  !   +-Bmo2056xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             5            0.09265
+   5             3            0.13433
+   3             2            0.75742
+   2          BH2192xxxx      0.44344
+   2             1            0.15024
+   1          BPUM_1106x      0.23672
+   1          NT03BL1346      0.45701
+   3          BPUM_1108x      0.48036
+   5          NT03BL1349      0.38388
+   6             4            0.11382
+   4          BG10496xxx      0.01565
+   4          Bmo2056xxx      0.07316
+   6          BAM_011790      0.19798
+
+
+Data set # 51:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+       +-Bmo2056xxx
+  +----6 
+  !    +BG10496xxx
+  ! 
+  !      +--------NT03BL1349
+  !      ! 
+  !      !                                   +-------------NT03BL1346
+  5------4                          +--------1 
+  !      !     +--------------------2        +------BPUM_1106x
+  !      !     !                    ! 
+  !      +-----3                    +-------------BH2192xxxx
+  !            ! 
+  !            +-----------BPUM_1108x
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.14619
+   6          Bmo2056xxx      0.05459
+   6          BG10496xxx      0.02140
+   5             4            0.21019
+   4          NT03BL1349      0.28944
+   4             3            0.21096
+   3             2            0.68263
+   2             1            0.29595
+   1          NT03BL1346      0.47324
+   1          BPUM_1106x      0.23176
+   2          BH2192xxxx      0.44438
+   3          BPUM_1108x      0.38968
+   5          BAM_011790      0.15004
+
+
+Data set # 52:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +---------NT03BL1349
+        ! 
+        !                     +---------------NT03BL1346
+  +-----4                 +---1 
+  !     !      +----------2   +------BPUM_1106x
+  !     !      !          ! 
+  !     +------3          +----------------BH2192xxxx
+  !            ! 
+  !            +---------BPUM_1108x
+  ! 
+  !  +--Bmo2056xxx
+  5--6 
+  !  +BG10496xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             4            0.20098
+   4          NT03BL1349      0.32628
+   4             3            0.22705
+   3             2            0.36333
+   2             1            0.10828
+   1          NT03BL1346      0.54006
+   1          BPUM_1106x      0.23331
+   2          BH2192xxxx      0.53706
+   3          BPUM_1108x      0.34392
+   5             6            0.08604
+   6          Bmo2056xxx      0.07694
+   6          BG10496xxx      0.03216
+   5          BAM_011790      0.14053
+
+
+Data set # 53:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +-Bmo2056xxx
+  +-5 
+  ! +BG10496xxx
+  ! 
+  !            +----BPUM_1108x
+  !            ! 
+  !    +-------3                            +----BPUM_1106x
+  !    !       !                       +----1 
+  !    !       +-----------------------2    +-----------NT03BL1346
+  6----4                               ! 
+  !    !                               +------BH2192xxxx
+  !    ! 
+  !    +------NT03BL1349
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             5            0.04465
+   5          Bmo2056xxx      0.08264
+   5          BG10496xxx      0.03409
+   6             4            0.22930
+   4             3            0.39481
+   3          BPUM_1108x      0.23012
+   3             2            1.17364
+   2             1            0.25610
+   1          BPUM_1106x      0.24407
+   1          NT03BL1346      0.57955
+   2          BH2192xxxx      0.35807
+   4          NT03BL1349      0.33754
+   6          BAM_011790      0.17275
+
+
+Data set # 54:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +BG10496xxx
+  +---3 
+  !   +-Bmo2056xxx
+  ! 
+  !                        +-------------BH2192xxxx
+  !          +-------------2 
+  !          !             !      +------BPUM_1106x
+  !          !             +------1 
+  4----------5                    +---------------NT03BL1346
+  !          ! 
+  !          ! +-----------NT03BL1349
+  !          +-6 
+  !            +---------------BPUM_1108x
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.13656
+   3          BG10496xxx      0.02568
+   3          Bmo2056xxx      0.06000
+   4             5            0.36643
+   5             2            0.46552
+   2          BH2192xxxx      0.45672
+   2             1            0.23165
+   1          BPUM_1106x      0.22869
+   1          NT03BL1346      0.52227
+   5             6            0.06126
+   6          NT03BL1349      0.38536
+   6          BPUM_1108x      0.54094
+   4          BAM_011790      0.15051
+
+
+Data set # 55:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +BG10496xxx
+  +-6 
+  ! +-Bmo2056xxx
+  ! 
+  !                             +---BPUM_1106x
+  !             +---------------2 
+  !             !               !   +----------NT03BL1346
+  !      +------3               +---1 
+  !      !      !                   +---------BH2192xxxx
+  5------4      ! 
+  !      !      +----BPUM_1108x
+  !      ! 
+  !      +-----NT03BL1349
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.11789
+   6          BG10496xxx      0.05892
+   6          Bmo2056xxx      0.09627
+   5             4            0.33217
+   4             3            0.35068
+   3             2            0.77712
+   2          BPUM_1106x      0.18186
+   2             1            0.19472
+   1          NT03BL1346      0.54002
+   1          BH2192xxxx      0.49328
+   3          BPUM_1108x      0.26032
+   4          NT03BL1349      0.29717
+   5          BAM_011790      0.15687
+
+
+Data set # 56:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                             +-------------NT03BL1346
+                                     +-------1 
+             +-----------------------2       +---BPUM_1106x
+             !                       ! 
+           +-5                       +---------------BH2192xxxx
+           ! ! 
+  +--------6 +-------------------BPUM_1108x
+  !        ! 
+  !        +-------NT03BL1349
+  ! 
+  !    +-Bmo2056xxx
+  4----3 
+  !    +BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.30174
+   6             5            0.02101
+   5             2            0.77215
+   2             1            0.26619
+   1          NT03BL1346      0.47432
+   1          BPUM_1106x      0.14254
+   2          BH2192xxxx      0.51579
+   5          BPUM_1108x      0.66364
+   6          NT03BL1349      0.24021
+   4             3            0.14753
+   3          Bmo2056xxx      0.05521
+   3          BG10496xxx      0.03467
+   4          BAM_011790      0.14231
+
+
+Data set # 57:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +-Bmo2056xxx
+  +-3 
+  ! +BG10496xxx
+  ! 
+  !       +---NT03BL1349
+  !       ! 
+  !     +-6                           +BPUM_1106x
+  !     ! !                    +------1 
+  !     ! +--------------------2      +-----------NT03BL1346
+  4-----5                      ! 
+  !     !                      +----------BH2192xxxx
+  !     ! 
+  !     +----------BPUM_1108x
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.06735
+   3          Bmo2056xxx      0.09410
+   3          BG10496xxx      0.02026
+   4             5            0.27946
+   5             6            0.03098
+   6          NT03BL1349      0.21696
+   6             2            1.07431
+   2             1            0.32535
+   1          BPUM_1106x      0.07835
+   1          NT03BL1346      0.60629
+   2          BH2192xxxx      0.55950
+   5          BPUM_1108x      0.53787
+   4          BAM_011790      0.10385
+
+
+Data set # 58:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +-----NT03BL1349
+  +-----6 
+  !     ! +-----BPUM_1108x
+  !     +-5 
+  !       !               +-----------BH2192xxxx
+  !       +---------------2 
+  !                       !  +--BPUM_1106x
+  !                       +--1 
+  !                          +------------NT03BL1346
+  ! 
+  !  +BG10496xxx
+  4--3 
+  !  +Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.30010
+   6          NT03BL1349      0.32374
+   6             5            0.11762
+   5          BPUM_1108x      0.27714
+   5             2            0.77567
+   2          BH2192xxxx      0.62682
+   2             1            0.16972
+   1          BPUM_1106x      0.13514
+   1          NT03BL1346      0.67820
+   4             3            0.15026
+   3          BG10496xxx      0.01173
+   3          Bmo2056xxx      0.07265
+   4          BAM_011790      0.19529
+
+
+Data set # 59:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                  +---------BH2192xxxx
+                  +---------------2 
+                  !               !          +--------------NT03BL1346
+            +-----3               +----------1 
+            !     !                          +-----BPUM_1106x
+  +---------4     ! 
+  !         !     +------------BPUM_1108x
+  !         ! 
+  !         +-----------NT03BL1349
+  ! 
+  !    +BG10496xxx
+  6----5 
+  !    +--Bmo2056xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.30890
+   4             3            0.18947
+   3             2            0.51212
+   2          BH2192xxxx      0.33757
+   2             1            0.37436
+   1          NT03BL1346      0.48148
+   1          BPUM_1106x      0.20146
+   3          BPUM_1108x      0.42411
+   4          NT03BL1349      0.39180
+   6             5            0.14231
+   5          BG10496xxx      0.03319
+   5          Bmo2056xxx      0.08506
+   6          BAM_011790      0.10400
+
+
+Data set # 60:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+         +---------NT03BL1349
+         ! 
+         !                                +-----------NT03BL1346
+  +------5                      +---------1 
+  !      !   +------------------2         +-------BPUM_1106x
+  !      !   !                  ! 
+  !      +---6                  +--------------------BH2192xxxx
+  !          ! 
+  !          +----------------BPUM_1108x
+  ! 
+  !    +BG10496xxx
+  4----3 
+  !    +--Bmo2056xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.22048
+   5          NT03BL1349      0.31483
+   5             6            0.10945
+   6             2            0.62726
+   2             1            0.32319
+   1          NT03BL1346      0.40031
+   1          BPUM_1106x      0.24576
+   2          BH2192xxxx      0.68986
+   6          BPUM_1108x      0.56134
+   4             3            0.14889
+   3          BG10496xxx      0.03060
+   3          Bmo2056xxx      0.09021
+   4          BAM_011790      0.16246
+
+
+Data set # 61:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +BG10496xxx
+  +-6 
+  ! +--Bmo2056xxx
+  ! 
+  !         +--------------BPUM_1108x
+  !    +----3 
+  !    !    !                             +-------------------BH2192xxxx
+  !    !    +-----------------------------2 
+  5----4                                  !     +-------BPUM_1106x
+  !    !                                  +-----1 
+  !    !                                        +-------------NT03BL1346
+  !    ! 
+  !    +-----------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.07296
+   6          BG10496xxx      0.01033
+   6          Bmo2056xxx      0.09449
+   5             4            0.15266
+   4             3            0.16905
+   3          BPUM_1108x      0.47023
+   3             2            0.98777
+   2          BH2192xxxx      0.65410
+   2             1            0.19782
+   1          BPUM_1106x      0.26462
+   1          NT03BL1346      0.44086
+   4          NT03BL1349      0.40025
+   5          BAM_011790      0.14428
+
+
+Data set # 62:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-Bmo2056xxx
+  +---5 
+  !   +BG10496xxx
+  ! 
+  !           +----------------BPUM_1108x
+  !           ! 
+  !     +-----3                        +------BPUM_1106x
+  !     !     !                    +---1 
+  !     !     +--------------------2   +---------------NT03BL1346
+  6-----4                          ! 
+  !     !                          +--------------BH2192xxxx
+  !     ! 
+  !     +--------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             5            0.10898
+   5          Bmo2056xxx      0.08074
+   5          BG10496xxx      0.04472
+   6             4            0.20408
+   4             3            0.18998
+   3          BPUM_1108x      0.54916
+   3             2            0.70386
+   2             1            0.11372
+   1          BPUM_1106x      0.22294
+   1          NT03BL1346      0.52869
+   2          BH2192xxxx      0.50500
+   4          NT03BL1349      0.28802
+   6          BAM_011790      0.14562
+
+
+Data set # 63:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                    +-------------BH2192xxxx
+        +---------------------------2 
+        !                           !            +-------NT03BL1346
+        !                           +------------1 
+  +-----6                                        +-------BPUM_1106x
+  !     ! 
+  !     ! +--------NT03BL1349
+  !     +-5 
+  !       +-----------------BPUM_1108x
+  ! 
+  !   +BG10496xxx
+  4---3 
+  !   +-Bmo2056xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.17782
+   6             2            0.94197
+   2          BH2192xxxx      0.45167
+   2             1            0.42400
+   1          NT03BL1346      0.26984
+   1          BPUM_1106x      0.25141
+   6             5            0.02825
+   5          NT03BL1349      0.27374
+   5          BPUM_1108x      0.59514
+   4             3            0.12721
+   3          BG10496xxx      0.02909
+   3          Bmo2056xxx      0.05316
+   4          BAM_011790      0.19238
+
+
+Data set # 64:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +BG10496xxx
+  +---6 
+  !   +-Bmo2056xxx
+  ! 
+  !                                         +--BPUM_1106x
+  !                                 +-------1 
+  !            +--------------------2       +-----------------NT03BL1346
+  !            !                    ! 
+  !        +---3                    +-----------------BH2192xxxx
+  !        !   ! 
+  5--------4   +-------------BPUM_1108x
+  !        ! 
+  !        +--------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.11699
+   6          BG10496xxx      0.01460
+   6          Bmo2056xxx      0.06511
+   5             4            0.29023
+   4             3            0.12999
+   3             2            0.70251
+   2             1            0.23671
+   1          BPUM_1106x      0.09897
+   1          NT03BL1346      0.60414
+   2          BH2192xxxx      0.58942
+   3          BPUM_1108x      0.46557
+   4          NT03BL1349      0.30064
+   5          BAM_011790      0.17283
+
+
+Data set # 65:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                              +BPUM_1106x
+                         +----1 
+           +-------------2    +--------------NT03BL1346
+           !             ! 
+         +-6             +------------BH2192xxxx
+         ! ! 
+  +------5 +---------BPUM_1108x
+  !      ! 
+  !      +-------NT03BL1349
+  ! 
+  !  +BG10496xxx
+  4--3 
+  !  +Bmo2056xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.32552
+   5             6            0.05047
+   6             2            0.71037
+   2             1            0.22279
+   1          BPUM_1106x      0.00776
+   1          NT03BL1346      0.75010
+   2          BH2192xxxx      0.63631
+   6          BPUM_1108x      0.52009
+   5          NT03BL1349      0.39518
+   4             3            0.14740
+   3          BG10496xxx      0.02907
+   3          Bmo2056xxx      0.05301
+   4          BAM_011790      0.23282
+
+
+Data set # 66:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+       +BG10496xxx
+  +----3 
+  !    +--Bmo2056xxx
+  ! 
+  !                     +-------------BH2192xxxx
+  !       +-------------2 
+  !       !             !       +-----------------NT03BL1346
+  !       !             +-------1 
+  4-------5                     +----BPUM_1106x
+  !       ! 
+  !       !  +-----------NT03BL1349
+  !       +--6 
+  !          +------------BPUM_1108x
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.17358
+   3          BG10496xxx      0.00845
+   3          Bmo2056xxx      0.09333
+   4             5            0.25429
+   5             2            0.46778
+   2          BH2192xxxx      0.46387
+   2             1            0.24308
+   1          NT03BL1346      0.58897
+   1          BPUM_1106x      0.15316
+   5             6            0.08177
+   6          NT03BL1349      0.40169
+   6          BPUM_1108x      0.43093
+   4          BAM_011790      0.06984
+
+
+Data set # 67:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +BG10496xxx
+  +---3 
+  !   +--Bmo2056xxx
+  ! 
+  !       +---------NT03BL1349
+  !       ! 
+  !     +-5                   +-----BPUM_1106x
+  !     ! !               +---1 
+  !     ! +---------------2   +-------------NT03BL1346
+  4-----6                 ! 
+  !     !                 +---------------BH2192xxxx
+  !     ! 
+  !     +---------------BPUM_1108x
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.13770
+   3          BG10496xxx      0.00102
+   3          Bmo2056xxx      0.07104
+   4             6            0.19576
+   6             5            0.05272
+   5          NT03BL1349      0.34268
+   5             2            0.53311
+   2             1            0.12662
+   1          BPUM_1106x      0.19662
+   1          NT03BL1346      0.45318
+   2          BH2192xxxx      0.52790
+   6          BPUM_1108x      0.52240
+   4          BAM_011790      0.17263
+
+
+Data set # 68:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+               +-------NT03BL1349
+           +---5 
+           !   !                 +-------------------BH2192xxxx
+           !   +-----------------2 
+  +--------6                     !        +--------------NT03BL1346
+  !        !                     +--------1 
+  !        !                              +------BPUM_1106x
+  !        ! 
+  !        +-------------BPUM_1108x
+  ! 
+  !   +BG10496xxx
+  4---3 
+  !   +-Bmo2056xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.28425
+   6             5            0.10785
+   5          NT03BL1349      0.27666
+   5             2            0.61071
+   2          BH2192xxxx      0.64476
+   2             1            0.27431
+   1          NT03BL1346      0.50892
+   1          BPUM_1106x      0.23045
+   6          BPUM_1108x      0.46163
+   4             3            0.13984
+   3          BG10496xxx      0.00677
+   3          Bmo2056xxx      0.05558
+   4          BAM_011790      0.14816
+
+
+Data set # 69:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +Bmo2056xxx
+  +--6 
+  !  +BG10496xxx
+  ! 
+  !                        +------------BH2192xxxx
+  !          +-------------2 
+  !          !             !    +-BPUM_1106x
+  !      +---3             +----1 
+  !      !   !                  +-----------NT03BL1346
+  5------4   ! 
+  !      !   +----BPUM_1108x
+  !      ! 
+  !      +---NT03BL1349
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.16928
+   6          Bmo2056xxx      0.07007
+   6          BG10496xxx      0.01591
+   5             4            0.33403
+   4             3            0.19573
+   3             2            0.72385
+   2          BH2192xxxx      0.62299
+   2             1            0.23038
+   1          BPUM_1106x      0.07823
+   1          NT03BL1346      0.62306
+   3          BPUM_1108x      0.27654
+   4          NT03BL1349      0.20173
+   5          BAM_011790      0.10603
+
+
+Data set # 70:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+        +-----------NT03BL1349
+        ! 
+  +-----4                    +---------BPUM_1106x
+  !     !    +---------------2 
+  !     !    !               !  +-------------NT03BL1346
+  !     +----3               +--1 
+  !          !                  +---------------BH2192xxxx
+  !          ! 
+  !          +-------------BPUM_1108x
+  ! 
+  !  +BG10496xxx
+  6--5 
+  !  +-Bmo2056xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.20643
+   4          NT03BL1349      0.38418
+   4             3            0.14492
+   3             2            0.53420
+   2          BPUM_1106x      0.33218
+   2             1            0.07614
+   1          NT03BL1346      0.45378
+   1          BH2192xxxx      0.51849
+   3          BPUM_1108x      0.46964
+   6             5            0.10492
+   5          BG10496xxx      0.03228
+   5          Bmo2056xxx      0.04625
+   6          BAM_011790      0.20122
+
+
+Data set # 71:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +BG10496xxx
+  +-3 
+  ! +-Bmo2056xxx
+  ! 
+  !     +-----NT03BL1349
+  !     ! 
+  !     !                         +-BPUM_1106x
+  4-----5                   +-----1 
+  !     ! +-----------------2     +-----------NT03BL1346
+  !     ! !                 ! 
+  !     +-6                 +--------BH2192xxxx
+  !       ! 
+  !       +-----------BPUM_1108x
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.11922
+   3          BG10496xxx      0.02917
+   3          Bmo2056xxx      0.08002
+   4             5            0.27991
+   5          NT03BL1349      0.30468
+   5             6            0.07658
+   6             2            0.90918
+   2             1            0.30421
+   1          BPUM_1106x      0.07187
+   1          NT03BL1346      0.62156
+   2          BH2192xxxx      0.46324
+   6          BPUM_1108x      0.59442
+   4          BAM_011790      0.13803
+
+
+Data set # 72:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                              +---------------------BH2192xxxx
+              +---------------2 
+              !               !    +-----BPUM_1106x
+        +-----3               +----1 
+        !     !                    +--------------NT03BL1346
+  +-----4     ! 
+  !     !     +----------------BPUM_1108x
+  !     ! 
+  !     +--------NT03BL1349
+  ! 
+  !   +-Bmo2056xxx
+  6---5 
+  !   +BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.18344
+   4             3            0.19640
+   3             2            0.52236
+   2          BH2192xxxx      0.70790
+   2             1            0.14215
+   1          BPUM_1106x      0.20357
+   1          NT03BL1346      0.49208
+   3          BPUM_1108x      0.57832
+   4          NT03BL1349      0.28318
+   6             5            0.11046
+   5          Bmo2056xxx      0.06350
+   5          BG10496xxx      0.03631
+   6          BAM_011790      0.14598
+
+
+Data set # 73:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +Bmo2056xxx
+  +-5 
+  ! +BG10496xxx
+  ! 
+  !      +--------BPUM_1108x
+  !      ! 
+  !   +--3                      +BPUM_1106x
+  !   !  !                +-----1 
+  !   !  +----------------2     +---------NT03BL1346
+  6---4                   ! 
+  !   !                   +-----------BH2192xxxx
+  !   ! 
+  !   +-----NT03BL1349
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             5            0.11276
+   5          Bmo2056xxx      0.04192
+   5          BG10496xxx      0.00747
+   6             4            0.21300
+   4             3            0.13842
+   3          BPUM_1108x      0.42582
+   3             2            0.84080
+   2             1            0.30149
+   1          BPUM_1106x      0.06403
+   1          NT03BL1346      0.53068
+   2          BH2192xxxx      0.62161
+   4          NT03BL1349      0.29867
+   6          BAM_011790      0.09528
+
+
+Data set # 74:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                    +-------------BH2192xxxx
+               +--------------------2 
+               !                    !           +-----------NT03BL1346
+            +--5                    +-----------1 
+            !  !                                +----BPUM_1106x
+  +---------6  ! 
+  !         !  +-----------BPUM_1108x
+  !         ! 
+  !         +-----------NT03BL1349
+  ! 
+  !     +-Bmo2056xxx
+  4-----3 
+  !     +BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.31367
+   6             5            0.09291
+   5             2            0.69136
+   2          BH2192xxxx      0.46739
+   2             1            0.39993
+   1          NT03BL1346      0.40753
+   1          BPUM_1106x      0.16468
+   5          BPUM_1108x      0.39166
+   6          NT03BL1349      0.38168
+   4             3            0.17573
+   3          Bmo2056xxx      0.06207
+   3          BG10496xxx      0.02476
+   4          BAM_011790      0.14692
+
+
+Data set # 75:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                              +-------BPUM_1106x
+                            +-1 
+           +----------------2 +---------------NT03BL1346
+           !                ! 
+        +--5                +-------------------------BH2192xxxx
+        !  ! 
+  +-----6  +--------------BPUM_1108x
+  !     ! 
+  !     +-------NT03BL1349
+  ! 
+  !   +-Bmo2056xxx
+  4---3 
+  !   +-BG10496xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.18173
+   6             5            0.08738
+   5             2            0.54369
+   2             1            0.03344
+   1          BPUM_1106x      0.26836
+   1          NT03BL1346      0.51367
+   2          BH2192xxxx      0.87464
+   5          BPUM_1108x      0.50147
+   6          NT03BL1349      0.26480
+   4             3            0.14044
+   3          Bmo2056xxx      0.05955
+   3          BG10496xxx      0.03926
+   4          BAM_011790      0.09781
+
+
+Data set # 76:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+          +---------------BPUM_1108x
+          ! 
+          !                             +----------------NT03BL1346
+  +-------5                       +-----1 
+  !       ! +---------------------2     +------BPUM_1106x
+  !       ! !                     ! 
+  !       +-6                     +-------------BH2192xxxx
+  !         ! 
+  !         +-------NT03BL1349
+  ! 
+  !     +BG10496xxx
+  4-----3 
+  !     +-Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.25100
+   5          BPUM_1108x      0.51065
+   5             6            0.04814
+   6             2            0.70977
+   2             1            0.21090
+   1          NT03BL1346      0.56449
+   1          BPUM_1106x      0.22803
+   2          BH2192xxxx      0.48115
+   6          NT03BL1349      0.27206
+   4             3            0.18427
+   3          BG10496xxx      0.01569
+   3          Bmo2056xxx      0.06632
+   4          BAM_011790      0.14124
+
+
+Data set # 77:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                     +---------NT03BL1346
+                                   +-1 
+           +-----------------------2 +-----------BH2192xxxx
+           !                       ! 
+         +-5                       +---BPUM_1106x
+         ! ! 
+  +------6 +-------NT03BL1349
+  !      ! 
+  !      +-----------BPUM_1108x
+  ! 
+  ! +BG10496xxx
+  4-3 
+  ! +Bmo2056xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.35862
+   6             5            0.04047
+   5             2            1.18301
+   2             1            0.09221
+   1          NT03BL1346      0.47293
+   1          BH2192xxxx      0.58088
+   2          BPUM_1106x      0.20907
+   5          NT03BL1349      0.41973
+   6          BPUM_1108x      0.60981
+   4             3            0.09910
+   3          BG10496xxx      0.05720
+   3          Bmo2056xxx      0.06122
+   4          BAM_011790      0.16936
+
+
+Data set # 78:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+          +---------NT03BL1349
+          ! 
+          !                                +----------------NT03BL1346
+  +-------5                             +--1 
+  !       ! +---------------------------2  +------------BH2192xxxx
+  !       ! !                           ! 
+  !       +-6                           +------BPUM_1106x
+  !         ! 
+  !         +-------------BPUM_1108x
+  ! 
+  !  +BG10496xxx
+  4--3 
+  !  +--Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.25705
+   5          NT03BL1349      0.30522
+   5             6            0.06760
+   6             2            0.90221
+   2             1            0.09872
+   1          NT03BL1346      0.57331
+   1          BH2192xxxx      0.42986
+   2          BPUM_1106x      0.22510
+   6          BPUM_1108x      0.45155
+   4             3            0.10645
+   3          BG10496xxx     -0.00363
+   3          Bmo2056xxx      0.07886
+   4          BAM_011790      0.11612
+
+
+Data set # 79:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                             +-------BPUM_1106x
+            +----------------2 
+            !                !  +-----------------NT03BL1346
+          +-5                +--1 
+          ! !                   +---------------BH2192xxxx
+  +-------6 ! 
+  !       ! +-------------BPUM_1108x
+  !       ! 
+  !       +---------NT03BL1349
+  ! 
+  !   +Bmo2056xxx
+  4---3 
+  !   +BG10496xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.26225
+   6             5            0.05098
+   5             2            0.56512
+   2          BPUM_1106x      0.26984
+   2             1            0.08195
+   1          NT03BL1346      0.58959
+   1          BH2192xxxx      0.52750
+   5          BPUM_1108x      0.47772
+   6          NT03BL1349      0.32968
+   4             3            0.12630
+   3          Bmo2056xxx      0.04257
+   3          BG10496xxx      0.00268
+   4          BAM_011790      0.09706
+
+
+Data set # 80:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                             +--------------BH2192xxxx
+        +--------------------2 
+        !                    ! +----BPUM_1106x
+     +--3                    +-1 
+     !  !                      +-------NT03BL1346
+  +--4  ! 
+  !  !  +------BPUM_1108x
+  !  ! 
+  !  +-----NT03BL1349
+  ! 
+  ! +BG10496xxx
+  6-5 
+  ! +-Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.16257
+   4             3            0.13039
+   3             2            1.04899
+   2          BH2192xxxx      0.77481
+   2             1            0.07557
+   1          BPUM_1106x      0.24808
+   1          NT03BL1346      0.41585
+   3          BPUM_1108x      0.36929
+   4          NT03BL1349      0.32909
+   6             5            0.12352
+   5          BG10496xxx      0.02370
+   5          Bmo2056xxx      0.07943
+   6          BAM_011790      0.20436
+
+
+Data set # 81:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+           +---------NT03BL1349
+           ! 
+           !                                +---------------NT03BL1346
+  +--------4                           +----1 
+  !        !  +------------------------2    +---BPUM_1106x
+  !        !  !                        ! 
+  !        +--3                        +-------------BH2192xxxx
+  !           ! 
+  !           +------------BPUM_1108x
+  ! 
+  !  +--Bmo2056xxx
+  5--6 
+  !  +BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             4            0.29279
+   4          NT03BL1349      0.32191
+   4             3            0.09345
+   3             2            0.80799
+   2             1            0.16573
+   1          NT03BL1346      0.52371
+   1          BPUM_1106x      0.12775
+   2          BH2192xxxx      0.47064
+   3          BPUM_1108x      0.42491
+   5             6            0.10034
+   6          Bmo2056xxx      0.07851
+   6          BG10496xxx      0.00471
+   5          BAM_011790      0.16549
+
+
+Data set # 82:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-BG10496xxx
+  +---3 
+  !   +-Bmo2056xxx
+  ! 
+  !                                      +--BPUM_1106x
+  !                                   +--1 
+  !      +----------------------------2  +------------NT03BL1346
+  !      !                            ! 
+  4------5                            +----------------BH2192xxxx
+  !      ! 
+  !      ! +--------NT03BL1349
+  !      +-6 
+  !        +-----------------BPUM_1108x
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.13172
+   3          BG10496xxx      0.04452
+   3          Bmo2056xxx      0.06227
+   4             5            0.21377
+   5             2            0.95829
+   2             1            0.09036
+   1          BPUM_1106x      0.10558
+   1          NT03BL1346      0.44038
+   2          BH2192xxxx      0.56791
+   5             6            0.00048
+   6          NT03BL1349      0.28317
+   6          BPUM_1108x      0.58208
+   4          BAM_011790      0.11465
+
+
+Data set # 83:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +BG10496xxx
+  +--3 
+  !  +-Bmo2056xxx
+  ! 
+  !   +-----NT03BL1349
+  !   ! 
+  !   !                          +-BPUM_1106x
+  4---5                  +-------1 
+  !   ! +----------------2       +--------------NT03BL1346
+  !   ! !                ! 
+  !   +-6                +---------BH2192xxxx
+  !     ! 
+  !     +--------BPUM_1108x
+  ! 
+  +-BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.13694
+   3          BG10496xxx      0.02479
+   3          Bmo2056xxx      0.08625
+   4             5            0.20924
+   5          NT03BL1349      0.32511
+   5             6            0.05947
+   6             2            0.84925
+   2             1            0.38316
+   1          BPUM_1106x      0.07650
+   1          NT03BL1346      0.76157
+   2          BH2192xxxx      0.51378
+   6          BPUM_1108x      0.46757
+   4          BAM_011790      0.11697
+
+
+Data set # 84:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                       +----------------NT03BL1346
+                               +-------1 
+                  +------------2       +-----BPUM_1106x
+                  !            ! 
+          +-------3            +------------BH2192xxxx
+          !       ! 
+  +-------4       +--------BPUM_1108x
+  !       ! 
+  !       +------NT03BL1349
+  ! 
+  !  +-BG10496xxx
+  6--5 
+  !  +--Bmo2056xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.25450
+   4             3            0.24630
+   3             2            0.42392
+   2             1            0.25322
+   1          NT03BL1346      0.55093
+   1          BPUM_1106x      0.21071
+   2          BH2192xxxx      0.42076
+   3          BPUM_1108x      0.28206
+   4          NT03BL1349      0.23099
+   6             5            0.07827
+   5          BG10496xxx      0.05044
+   5          Bmo2056xxx      0.08591
+   6          BAM_011790      0.18342
+
+
+Data set # 85:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+       +-Bmo2056xxx
+  +----3 
+  !    +BG10496xxx
+  ! 
+  !       +------------BPUM_1108x
+  !       ! 
+  !   +---4                     +----------------NT03BL1346
+  !   !   !             +-------1 
+  !   !   +-------------2       +-----BPUM_1106x
+  6---5                 ! 
+  !   !                 +--------------------BH2192xxxx
+  !   ! 
+  !   +-------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             3            0.15093
+   3          Bmo2056xxx      0.06804
+   3          BG10496xxx      0.02615
+   6             5            0.12597
+   5             4            0.13938
+   4          BPUM_1108x      0.42156
+   4             2            0.46640
+   2             1            0.24814
+   1          NT03BL1346      0.55742
+   1          BPUM_1106x      0.18685
+   2          BH2192xxxx      0.69106
+   5          NT03BL1349      0.25454
+   6          BAM_011790      0.17109
+
+
+Data set # 86:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +Bmo2056xxx
+  +--6 
+  !  +BG10496xxx
+  ! 
+  !                                     +--------------NT03BL1346
+  !                            +--------1 
+  !          +-----------------2        +BPUM_1106x
+  !          !                 ! 
+  !      +---3                 +-------BH2192xxxx
+  !      !   ! 
+  5------4   +-------BPUM_1108x
+  !      ! 
+  !      +----NT03BL1349
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.14842
+   6          Bmo2056xxx      0.07119
+   6          BG10496xxx      0.01030
+   5             4            0.37215
+   4             3            0.19351
+   3             2            0.88301
+   2             1            0.44023
+   1          NT03BL1346      0.75171
+   1          BPUM_1106x      0.04200
+   2          BH2192xxxx      0.39531
+   3          BPUM_1108x      0.39425
+   4          NT03BL1349      0.22904
+   5          BAM_011790      0.14361
+
+
+Data set # 87:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-------------NT03BL1349
+      ! 
+      !                                   +------------------NT03BL1346
+  +---5                             +-----1 
+  !   ! +---------------------------2     +----BPUM_1106x
+  !   ! !                           ! 
+  !   +-6                           +--------------BH2192xxxx
+  !     ! 
+  !     +-----------BPUM_1108x
+  ! 
+  !   +-BG10496xxx
+  4---3 
+  !   +Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.11581
+   5          NT03BL1349      0.44301
+   5             6            0.04284
+   6             2            0.94304
+   2             1            0.20281
+   1          NT03BL1346      0.63673
+   1          BPUM_1106x      0.15872
+   2          BH2192xxxx      0.48126
+   6          BPUM_1108x      0.41626
+   4             3            0.12835
+   3          BG10496xxx      0.06868
+   3          Bmo2056xxx      0.02264
+   4          BAM_011790      0.14075
+
+
+Data set # 88:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                  +--------BH2192xxxx
+            +---------------------2 
+            !                     !           +----BPUM_1106x
+         +--3                     +-----------1 
+         !  !                                 +---------------NT03BL1346
+  +------4  ! 
+  !      !  +------------------BPUM_1108x
+  !      ! 
+  !      +-----------NT03BL1349
+  ! 
+  ! +-Bmo2056xxx
+  6-5 
+  ! +BG10496xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.22432
+   4             3            0.09682
+   3             2            0.72816
+   2          BH2192xxxx      0.28699
+   2             1            0.38061
+   1          BPUM_1106x      0.15190
+   1          NT03BL1346      0.53243
+   3          BPUM_1108x      0.61399
+   4          NT03BL1349      0.39515
+   6             5            0.05741
+   5          Bmo2056xxx      0.03877
+   5          BG10496xxx      0.02553
+   6          BAM_011790      0.16062
+
+
+Data set # 89:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                        +------BPUM_1106x
+                              +---------1 
+            +-----------------2         +-------------------NT03BL1346
+            !                 ! 
+       +----3                 +-----------------BH2192xxxx
+       !    ! 
+  +----4    +-------------BPUM_1108x
+  !    ! 
+  !    +----------NT03BL1349
+  ! 
+  !   +BG10496xxx
+  6---5 
+  !   +--Bmo2056xxx
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.14564
+   4             3            0.16660
+   3             2            0.61038
+   2             1            0.31709
+   1          BPUM_1106x      0.22413
+   1          NT03BL1346      0.64924
+   2          BH2192xxxx      0.58127
+   3          BPUM_1108x      0.45824
+   4          NT03BL1349      0.35166
+   6             5            0.12939
+   5          BG10496xxx      0.03677
+   5          Bmo2056xxx      0.10239
+   6          BAM_011790      0.16770
+
+
+Data set # 90:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+           +----------------BPUM_1108x
+           ! 
+         +-5                                 +--------------NT03BL1346
+         ! !                          +------1 
+         ! +--------------------------2      +-----------BH2192xxxx
+  +------6                            ! 
+  !      !                            +---BPUM_1106x
+  !      ! 
+  !      +-----------NT03BL1349
+  ! 
+  !   +--Bmo2056xxx
+  4---3 
+  !   +BG10496xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.21733
+   6             5            0.06824
+   5          BPUM_1108x      0.55670
+   5             2            0.87285
+   2             1            0.22329
+   1          NT03BL1346      0.48410
+   1          BH2192xxxx      0.40961
+   2          BPUM_1106x      0.13774
+   6          NT03BL1349      0.37828
+   4             3            0.13520
+   3          Bmo2056xxx      0.08393
+   3          BG10496xxx      0.02166
+   4          BAM_011790      0.13904
+
+
+Data set # 91:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +---------------BPUM_1108x
+      ! 
+  +---5                             +-------------------BH2192xxxx
+  !   ! +---------------------------2 
+  !   ! !                           !    +BPUM_1106x
+  !   +-6                           +----1 
+  !     !                                +------------------NT03BL1346
+  !     ! 
+  !     +-----NT03BL1349
+  ! 
+  !  +-BG10496xxx
+  4--3 
+  !  +-Bmo2056xxx
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             5            0.12072
+   5          BPUM_1108x      0.53131
+   5             6            0.06362
+   6             2            0.91457
+   2          BH2192xxxx      0.65536
+   2             1            0.17378
+   1          BPUM_1106x      0.00606
+   1          NT03BL1346      0.61032
+   6          NT03BL1349      0.20677
+   4             3            0.09658
+   3          BG10496xxx      0.04915
+   3          Bmo2056xxx      0.05439
+   4          BAM_011790      0.11109
+
+
+Data set # 92:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +-Bmo2056xxx
+  +--6 
+  !  +BG10496xxx
+  ! 
+  !        +----------NT03BL1349
+  !        ! 
+  !        !                                   +-------------NT03BL1346
+  5--------4                       +-----------1 
+  !        !     +-----------------2           +------BPUM_1106x
+  !        !     !                 ! 
+  !        +-----3                 +---------------BH2192xxxx
+  !              ! 
+  !              +---------------BPUM_1108x
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.09591
+   6          Bmo2056xxx      0.07133
+   6          BG10496xxx      0.04513
+   5             4            0.29154
+   4          NT03BL1349      0.35038
+   4             3            0.18386
+   3             2            0.60285
+   2             1            0.38549
+   1          NT03BL1346      0.44488
+   1          BPUM_1106x      0.23395
+   2          BH2192xxxx      0.53059
+   3          BPUM_1108x      0.52857
+   5          BAM_011790      0.19294
+
+
+Data set # 93:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+       +-Bmo2056xxx
+  +----6 
+  !    +BG10496xxx
+  ! 
+  !                                    +---------------NT03BL1346
+  !                                  +-1 
+  !             +--------------------2 +---------BPUM_1106x
+  !             !                    ! 
+  !       +-----3                    +--------------BH2192xxxx
+  !       !     ! 
+  5-------4     +-----------BPUM_1108x
+  !       ! 
+  !       +---------NT03BL1349
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.15160
+   6          Bmo2056xxx      0.06011
+   6          BG10496xxx      0.02586
+   5             4            0.26056
+   4             3            0.18351
+   3             2            0.69959
+   2             1            0.07055
+   1          NT03BL1346      0.53834
+   1          BPUM_1106x      0.31275
+   2          BH2192xxxx      0.50608
+   3          BPUM_1108x      0.40173
+   4          NT03BL1349      0.32299
+   5          BAM_011790      0.11807
+
+
+Data set # 94:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-Bmo2056xxx
+  +---3 
+  !   +BG10496xxx
+  ! 
+  !                                   +--------------NT03BL1346
+  !                           +-------1 
+  !         +-----------------2       +---------BPUM_1106x
+  !         !                 ! 
+  !      +--5                 +--------------BH2192xxxx
+  !      !  ! 
+  4------6  +-------------------BPUM_1108x
+  !      ! 
+  !      +--------NT03BL1349
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             3            0.11192
+   3          Bmo2056xxx      0.06837
+   3          BG10496xxx      0.02013
+   4             6            0.21912
+   6             5            0.09136
+   5             2            0.60723
+   2             1            0.24373
+   1          NT03BL1346      0.48927
+   1          BPUM_1106x      0.33426
+   2          BH2192xxxx      0.47890
+   5          BPUM_1108x      0.65594
+   6          NT03BL1349      0.30491
+   4          BAM_011790      0.19553
+
+
+Data set # 95:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +-----------BPUM_1108x
+    ! 
+  +-5                                +---------NT03BL1346
+  ! !                         +------1 
+  ! +-------------------------2      +------BPUM_1106x
+  !                           ! 
+  !                           +---------------BH2192xxxx
+  ! 
+  !     +-BG10496xxx
+  ! +---3 
+  6-4   +-Bmo2056xxx
+  ! ! 
+  ! +-----------NT03BL1349
+  ! 
+  +----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             5            0.04932
+   5          BPUM_1108x      0.40594
+   5             2            0.85236
+   2             1            0.21799
+   1          NT03BL1346      0.33587
+   1          BPUM_1106x      0.21584
+   2          BH2192xxxx      0.51343
+   6             4            0.05559
+   4             3            0.12867
+   3          BG10496xxx      0.05921
+   3          Bmo2056xxx      0.05607
+   4          NT03BL1349      0.37117
+   6          BAM_011790      0.14552
+
+
+Data set # 96:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +BG10496xxx
+  +-6 
+  ! +Bmo2056xxx
+  ! 
+  !           +-----BPUM_1108x
+  !      +----3 
+  !      !    !             +------BH2192xxxx
+  !      !    +-------------2 
+  5------4                  !    +-BPUM_1106x
+  !      !                  +----1 
+  !      !                       +-----------NT03BL1346
+  !      ! 
+  !      +-----NT03BL1349
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.09828
+   6          BG10496xxx      0.02330
+   6          Bmo2056xxx      0.04896
+   5             4            0.33941
+   4             3            0.26567
+   3          BPUM_1108x      0.31040
+   3             2            0.68196
+   2          BH2192xxxx      0.35186
+   2             1            0.24425
+   1          BPUM_1106x      0.11629
+   1          NT03BL1346      0.59952
+   4          NT03BL1349      0.31710
+   5          BAM_011790      0.15486
+
+
+Data set # 97:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+     +BG10496xxx
+  +--6 
+  !  +-Bmo2056xxx
+  ! 
+  !                                              +-----BPUM_1106x
+  !                                        +-----1 
+  !             +--------------------------2     +-------------NT03BL1346
+  !             !                          ! 
+  !        +----3                          +------------BH2192xxxx
+  !        !    ! 
+  5--------4    +----------BPUM_1108x
+  !        ! 
+  !        +-------NT03BL1349
+  ! 
+  +---BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.08111
+   6          BG10496xxx      0.01853
+   6          Bmo2056xxx      0.06359
+   5             4            0.29058
+   4             3            0.13851
+   3             2            0.88359
+   2             1            0.18543
+   1          BPUM_1106x      0.19346
+   1          NT03BL1346      0.45250
+   2          BH2192xxxx      0.42880
+   3          BPUM_1108x      0.34639
+   4          NT03BL1349      0.24721
+   5          BAM_011790      0.12455
+
+
+Data set # 98:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+                                        +------------NT03BL1346
+                                   +----1 
+              +--------------------2    +------BH2192xxxx
+              !                    ! 
+         +----3                    +-BPUM_1106x
+         !    ! 
+  +------4    +---BPUM_1108x
+  !      ! 
+  !      +----NT03BL1349
+  ! 
+  ! +Bmo2056xxx
+  6-5 
+  ! +BG10496xxx
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   6             4            0.36415
+   4             3            0.27228
+   3             2            1.02287
+   2             1            0.25181
+   1          NT03BL1346      0.67804
+   1          BH2192xxxx      0.36684
+   2          BPUM_1106x      0.11840
+   3          BPUM_1108x      0.21477
+   4          NT03BL1349      0.25139
+   6             5            0.11038
+   5          Bmo2056xxx      0.04994
+   5          BG10496xxx      0.02470
+   6          BAM_011790      0.12855
+
+
+Data set # 99:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+      +-----------NT03BL1349
+      ! 
+  +---6                     +-----BPUM_1106x
+  !   ! +-------------------2 
+  !   ! !                   !  +---------------------BH2192xxxx
+  !   +-5                   +--1 
+  !     !                      +--------------NT03BL1346
+  !     ! 
+  !     +-------------BPUM_1108x
+  ! 
+  !    +BG10496xxx
+  4----3 
+  !    +-Bmo2056xxx
+  ! 
+  +-----BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   4             6            0.12663
+   6          NT03BL1349      0.39212
+   6             5            0.06157
+   5             2            0.64099
+   2          BPUM_1106x      0.20196
+   2             1            0.08314
+   1          BH2192xxxx      0.73743
+   1          NT03BL1346      0.50336
+   5          BPUM_1108x      0.45095
+   4             3            0.14232
+   3          BG10496xxx      0.02808
+   3          Bmo2056xxx      0.08096
+   4          BAM_011790      0.19940
+
+
+Data set # 100:
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+    +Bmo2056xxx
+  +-6 
+  ! +BG10496xxx
+  ! 
+  !       +------NT03BL1349
+  !       ! 
+  !       !                     +------NT03BL1346
+  5-------4                   +-1 
+  !       !   +---------------2 +----BPUM_1106x
+  !       !   !               ! 
+  !       +---3               +----------------BH2192xxxx
+  !           ! 
+  !           +------BPUM_1108x
+  ! 
+  +--BAM_011790
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   5             6            0.09602
+   6          Bmo2056xxx      0.05844
+   6          BG10496xxx      0.03054
+   5             4            0.37642
+   4          NT03BL1349      0.34756
+   4             3            0.19028
+   3             2            0.82114
+   2             1            0.10010
+   1          NT03BL1346      0.36092
+   1          BPUM_1106x      0.22287
+   2          BH2192xxxx      0.86883
+   3          BPUM_1108x      0.32988
+   5          BAM_011790      0.16044
+
+

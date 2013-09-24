@@ -1,0 +1,31 @@
+# BLASTP 2.2.13 [Nov-27-2005]
+# Iteration: 1
+# Query: BG11799 
+# Database: /home/hqin/coat.protein07/genomes/_bacilli.genomes.012710.faa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+BG11799	Bmo2454	97.56	82	2	0	1	82	20241	20322	4e-17	83.1
+BG11799	Bmo2454	8.05	87	67	4	1	81	2258	2337	1e-06	48.8
+BG11799	BG11799	100.00	82	0	0	1	82	1	82	4e-13	70.0
+BG11799	NT03BL1213	68.42	76	24	0	1	76	2	77	1e-12	68.4
+BG11799	RBAM_007240	86.11	72	10	0	1	72	1	72	5e-11	62.7
+BG11799	BcerKBAB4_0718	65.67	67	23	0	10	76	6	72	8e-10	58.8
+BG11799	BCE_0897	62.69	67	25	0	10	76	1	67	2e-09	57.3
+BG11799	BA_0805	68.66	67	21	0	10	76	5	71	5e-09	56.5
+BG11799	BCE33L0703	68.66	67	21	0	10	76	5	71	5e-09	56.5
+BG11799	NT02BT0851	68.66	67	21	0	10	76	5	71	5e-09	56.5
+BG11799	BC_0823	68.66	67	21	0	10	76	5	71	1e-08	55.0
+# BLASTP 2.2.13 [Nov-27-2005]
+# Iteration: 2
+# Query: BG11799 
+# Database: /home/hqin/coat.protein07/genomes/_bacilli.genomes.012710.faa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+BG11799	Bmo2454	97.56	82	2	0	1	82	20241	20322	4e-51	 195
+BG11799	BG11799	100.00	82	0	0	1	82	1	82	5e-34	 139
+BG11799	RBAM_007240	82.72	81	14	0	1	81	1	81	2e-30	 127
+BG11799	NT03BL1213	68.42	76	24	0	1	76	2	77	2e-28	 120
+BG11799	BcerKBAB4_0718	65.67	67	23	0	10	76	6	72	1e-24	 108
+BG11799	BCE_0897	62.69	67	25	0	10	76	1	67	4e-24	 106
+BG11799	BA_0805	68.66	67	21	0	10	76	5	71	7e-24	 105
+BG11799	BCE33L0703	68.66	67	21	0	10	76	5	71	7e-24	 105
+BG11799	NT02BT0851	68.66	67	21	0	10	76	5	71	7e-24	 105
+BG11799	BC_0823	68.66	67	21	0	10	76	5	71	9e-24	 105

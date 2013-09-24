@@ -1,0 +1,507 @@
+%!PS-Adobe-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%DocumentMedia: letter 612 792 0 () ()
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%Orientation: Portrait
+%%BoundingBox: 18 108 594 684
+%%EndComments
+%%BeginProlog
+/bp  { gs gs } def
+% begin .ps.prolog
+/gs  { gsave } def
+/gr  { grestore } def
+/ep  { showpage gr gr } def
+/m   { moveto } def
+/l  { rlineto } def
+/np  { newpath } def
+/cp  { closepath } def
+/f   { fill } def
+/o   { stroke } def
+/c   { newpath 0 360 arc } def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } def
+/p1  { stroke } def
+/p2  { gsave bg fill grestore newpath } def
+/p3  { gsave bg fill grestore stroke } def
+/t   { 6 -2 roll moveto gsave rotate
+       ps mul neg 0 2 1 roll rmoveto
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } def
+/rgb { setrgbcolor } def
+/s   { scalefont setfont } def
+% end   .ps.prolog
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+18.00 108.00 594.00 684.00 cl
+/ps 14 def /Font2 findfont 14 s
+0 setgray
+320.40 649.45 (BG12231 nj treedist=2) .5 0 0 t
+77.04 181.44 563.76 624.96 cl
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+95.07 197.87 m
+0 410.66 l
+o
+np
+118.86 269.73 m
+0 132.19 l
+o
+np
+152.52 238.93 m
+0 61.60 l
+o
+np
+159.21 280.00 m
+0 41.07 l
+o
+np
+283.02 362.13 m
+0 79.57 l
+o
+np
+450.85 403.20 m
+0 77.00 l
+o
+np
+465.84 444.27 m
+0 71.86 l
+o
+np
+467.22 485.33 m
+0 61.60 l
+o
+np
+467.71 526.40 m
+0 41.07 l
+o
+np
+95.07 197.87 m
+18.57 0 l
+o
+np
+152.52 238.93 m
+2.50 0 l
+o
+np
+159.21 280.00 m
+111.81 0 l
+o
+np
+159.21 321.07 m
+4.26 0 l
+o
+np
+283.02 362.13 m
+171.15 0 l
+o
+np
+450.85 403.20 m
+26.14 0 l
+o
+np
+465.84 444.27 m
+0.77 0 l
+o
+np
+467.22 485.33 m
+1.61 0 l
+o
+np
+467.71 526.40 m
+0.38 0 l
+o
+np
+467.71 567.47 m
+-0.08 0 l
+o
+np
+95.07 608.53 m
+8.83 0 l
+o
+np
+95.07 335.82 m
+23.79 0 l
+o
+np
+118.86 269.73 m
+33.66 0 l
+o
+np
+152.52 300.53 m
+6.69 0 l
+o
+np
+118.86 401.92 m
+164.16 0 l
+o
+np
+283.02 441.70 m
+167.83 0 l
+o
+np
+450.85 480.20 m
+14.99 0 l
+o
+np
+465.84 516.13 m
+1.38 0 l
+o
+np
+467.22 546.93 m
+0.49 0 l
+o
+/ps 12 def /Font3 findfont 12 s
+113.64 193.56 (BG12231xxx) 0 0 0 t
+155.02 234.63 (BC 0412xxx) 0 0 0 t
+271.02 275.69 (BC 2955xxx) 0 0 0 t
+163.47 316.87 (KBAB4 0351) 0 0 0 t
+454.17 357.94 (KBAB4 4899) 0 0 0 t
+476.99 399.01 (Bmo726xxxx) 0 0 0 t
+466.61 439.96 (BC 1297xxx) 0 0 0 t
+468.83 481.03 (KBAB4 1212) 0 0 0 t
+468.09 522.21 (BA 1309xxx) 0 0 0 t
+467.63 563.27 (NT02BT1332) 0 0 0 t
+103.90 604.34 (BAM 009070) 0 0 0 t
+ep
+%%Page: 2 2
+bp
+77.04 181.44 563.76 624.96 cl
+18.00 108.00 594.00 684.00 cl
+/ps 14 def /Font2 findfont 14 s
+0 setgray
+320.40 649.45 (BG12231 bootstrap treedist=2) .5 0 0 t
+77.04 181.44 563.76 624.96 cl
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+95.07 495.92 m
+0 112.61 l
+o
+np
+147.10 424.37 m
+0 143.10 l
+o
+np
+186.12 353.15 m
+0 142.45 l
+o
+np
+238.16 303.10 m
+0 100.10 l
+o
+np
+290.19 244.07 m
+0 118.06 l
+o
+np
+341.18 197.87 m
+0 92.40 l
+o
+np
+389.05 259.47 m
+0 61.60 l
+o
+np
+424.95 238.93 m
+0 41.07 l
+o
+np
+218.38 464.80 m
+0 61.60 l
+o
+np
+245.44 444.27 m
+0 41.06 l
+o
+np
+341.18 197.87 m
+52.03 0 l
+o
+np
+424.95 238.93 m
+52.04 0 l
+o
+np
+424.95 280.00 m
+52.04 0 l
+o
+np
+389.05 321.07 m
+52.03 0 l
+o
+np
+290.19 362.13 m
+52.03 0 l
+o
+np
+238.16 403.20 m
+52.03 0 l
+o
+np
+245.44 444.27 m
+52.03 0 l
+o
+np
+245.44 485.33 m
+52.03 0 l
+o
+np
+218.38 526.40 m
+52.04 0 l
+o
+np
+147.10 567.47 m
+52.03 0 l
+o
+np
+95.07 608.53 m
+52.03 0 l
+o
+np
+95.07 495.92 m
+52.03 0 l
+o
+np
+147.10 424.37 m
+39.02 0 l
+o
+np
+186.12 353.15 m
+52.04 0 l
+o
+np
+238.16 303.10 m
+52.03 0 l
+o
+np
+290.19 244.07 m
+50.99 0 l
+o
+np
+341.18 290.27 m
+47.87 0 l
+o
+np
+389.05 259.47 m
+35.90 0 l
+o
+np
+186.12 495.60 m
+32.26 0 l
+o
+np
+218.38 464.80 m
+27.06 0 l
+o
+/ps 12 def /Font3 findfont 12 s
+393.21 193.56 (BC 1297xxx) 0 0 0 t
+476.99 234.74 (NT02BT1332) 0 0 0 t
+476.99 275.81 (BA 1309xxx) 0 0 0 t
+441.08 316.76 (KBAB4 1212) 0 0 0 t
+342.22 357.94 (Bmo726xxxx) 0 0 0 t
+290.19 399.01 (KBAB4 4899) 0 0 0 t
+297.47 439.96 (BC 0412xxx) 0 0 0 t
+297.47 481.14 (KBAB4 0351) 0 0 0 t
+270.42 522.09 (BC 2955xxx) 0 0 0 t
+199.13 563.27 (BAM 009070) 0 0 0 t
+147.10 604.23 (BG12231xxx) 0 0 0 t
+ep
+%%Page: 3 3
+bp
+77.04 181.44 563.76 624.96 cl
+18.00 108.00 594.00 684.00 cl
+/ps 14 def /Font2 findfont 14 s
+0 setgray
+320.40 649.45 (BG12231 final treedist=2) .5 0 0 t
+77.04 181.44 563.76 624.96 cl
+0 setgray
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+95.07 466.08 m
+0 142.45 l
+o
+np
+133.26 395.50 m
+0 141.17 l
+o
+np
+247.84 346.73 m
+0 97.54 l
+o
+np
+286.03 290.27 m
+0 112.93 l
+o
+np
+324.22 238.93 m
+0 102.67 l
+o
+np
+400.60 197.87 m
+0 82.13 l
+o
+np
+438.80 321.07 m
+0 41.06 l
+o
+np
+400.60 505.87 m
+0 61.60 l
+o
+np
+438.80 485.33 m
+0 41.07 l
+o
+np
+400.60 197.87 m
+76.39 0 l
+o
+np
+400.60 238.93 m
+76.39 0 l
+o
+np
+400.60 280.00 m
+76.39 0 l
+o
+np
+438.80 321.07 m
+38.19 0 l
+o
+np
+438.80 362.13 m
+38.19 0 l
+o
+np
+286.03 403.20 m
+190.96 0 l
+o
+np
+247.84 444.27 m
+229.15 0 l
+o
+np
+438.80 485.33 m
+38.19 0 l
+o
+np
+438.80 526.40 m
+38.19 0 l
+o
+np
+400.60 567.47 m
+76.39 0 l
+o
+np
+95.07 608.53 m
+381.92 0 l
+o
+np
+95.07 466.08 m
+38.19 0 l
+o
+np
+133.26 395.50 m
+114.58 0 l
+o
+np
+247.84 346.73 m
+38.19 0 l
+o
+np
+286.03 290.27 m
+38.19 0 l
+o
+np
+324.22 238.93 m
+76.38 0 l
+o
+np
+324.22 341.60 m
+114.58 0 l
+o
+np
+133.26 536.67 m
+267.34 0 l
+o
+np
+400.60 505.87 m
+38.20 0 l
+o
+/ps 12 def /Font3 findfont 12 s
+476.99 193.67 (KBAB4 0351) 0 0 0 t
+476.99 234.63 (BC 2955xxx) 0 0 0 t
+476.99 275.69 (BC 0412xxx) 0 0 0 t
+476.99 316.87 (BAM 009070) 0 0 0 t
+476.99 357.83 (BG12231xxx) 0 0 0 t
+476.99 399.01 (KBAB4 4899) 0 0 0 t
+476.99 440.07 (Bmo726xxxx) 0 0 0 t
+476.99 481.14 (NT02BT1332) 0 0 0 t
+476.99 522.21 (BA 1309xxx) 0 0 0 t
+476.99 563.16 (KBAB4 1212) 0 0 0 t
+476.99 604.23 (BC 1297xxx) 0 0 0 t
+ep
+%%Trailer
+%%Pages: 3
+%%EOF

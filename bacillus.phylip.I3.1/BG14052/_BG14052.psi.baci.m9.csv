@@ -1,0 +1,20 @@
+# BLASTP 2.2.13 [Nov-27-2005]
+# Iteration: 1
+# Query: BG14052 
+# Database: /home/hqin/coat.protein07/genomes/_bacilli.genomes.012710.faa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+BG14052	BG14052	100.00	122	0	0	1	122	1	122	2e-48	 187
+BG14052	RBAM_028810	51.33	113	54	1	1	112	1	113	1e-41	 164
+BG14052	BPUM_2842	31.62	117	73	1	2	111	1	117	3e-35	 143
+BG14052	NT03BL3561	47.95	73	38	0	39	111	1	73	2e-24	 107
+BG14052	NT03BC0987	21.37	117	81	4	2	110	6	119	1e-10	61.8
+# BLASTP 2.2.13 [Nov-27-2005]
+# Iteration: 2
+# Query: BG14052 
+# Database: /home/hqin/coat.protein07/genomes/_bacilli.genomes.012710.faa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+BG14052	BG14052	100.00	122	0	0	1	122	1	122	1e-49	 191
+BG14052	RBAM_028810	51.33	113	54	1	1	112	1	113	9e-43	 168
+BG14052	NT03BC0987	21.37	117	81	4	2	110	6	119	1e-39	 157
+BG14052	BPUM_2842	31.62	117	73	1	2	111	1	117	1e-36	 147
+BG14052	NT03BL3561	47.95	73	38	0	39	111	1	73	4e-24	 106

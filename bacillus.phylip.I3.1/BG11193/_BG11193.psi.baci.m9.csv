@@ -1,0 +1,18 @@
+# BLASTP 2.2.13 [Nov-27-2005]
+# Iteration: 1
+# Query: BG11193 
+# Database: /home/hqin/coat.protein07/genomes/_bacilli.genomes.012710.faa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+BG11193	Bmo2951	90.23	133	13	0	1	133	2	134	3e-63	 236
+BG11193	BG11193	100.00	133	0	0	1	133	1	133	2e-62	 234
+BG11193	RBAM_019620	62.24	143	44	3	1	133	1	143	3e-49	 190
+BG11193	BPUM_1896	55.80	138	51	3	1	133	1	133	4e-49	 189
+# BLASTP 2.2.13 [Nov-27-2005]
+# Iteration: 2
+# Query: BG11193 
+# Database: /home/hqin/coat.protein07/genomes/_bacilli.genomes.012710.faa
+# Fields: Query id, Subject id, % identity, alignment length, mismatches, gap openings, q. start, q. end, s. start, s. end, e-value, bit score
+BG11193	Bmo2951	90.23	133	13	0	1	133	2	134	4e-63	 236
+BG11193	BG11193	100.00	133	0	0	1	133	1	133	1e-62	 234
+BG11193	BPUM_1896	55.80	138	51	3	1	133	1	133	2e-50	 194
+BG11193	RBAM_019620	62.24	143	44	3	1	133	1	143	2e-49	 190
