@@ -11,6 +11,8 @@ Folder online.supplementary.files contain the supplementary files for Qin & Drik
 
 Folder bacillus.species.tree  contains the workfing files for 16s rDNA and 34 essential genes. 
 
+Folder bacillus.phylip.I3.1 contains the ortholog identification working files. 
+
 Folder tree.test  contains the topology test using the highly conserved essential genes. 
 
 Folder compare.profiles is the working folder for orthologous profile analysis and heatmap generation. 

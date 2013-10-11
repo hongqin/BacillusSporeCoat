@@ -1,0 +1,178 @@
+# use only genes with treedist<= 2 for publication
+
+# LRT use 2 *(loglikelihood1 - loglikelihood2)
+
+rm(list=ls());
+ debug = 9;
+ pickSig = 'NO'; qcutoff=0.05; #'YES' will use qcutoff 
+ my.model = 'H2C1S1';    my.df = 2;  #for H0-H2 pchisq test
+ my.models = c('H1C1','H1S1','H2C1S1');    
+ my.dfs    = c(1,      1,        2);  
+
+ library(qvalue)
+
+# my @Hs = ( 'H0', 'H1C1','H1S1','H2C1S1','H2C2bwe','H3C2bweS1','H3C2S1');
+
+#my @Htres = ( 
+#"(Bha,(Bpu,(Bli,(Bam,Bsu))),(Bwe,(Bce,(Ban,Bth))));", #H0
+#"(Bha,(Bpu,(Bli,(Bam,Bsu))),(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);", #H1C1
+#"(Bha,(Bpu #1,(Bli #1,(Bam #1,Bsu #1)#1)#1)#1,(Bwe,(Bce,(Ban,Bth))));", #H1S1
+#"(Bha,(Bpu #2,(Bli #2,(Bam #2,Bsu #2)#2)#2)#2,(Bwe #1,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);", #H2C1S1
+#"(Bha,(Bpu ,(Bli ,(Bam ,Bsu ))),(Bwe #2,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);", #H2C2bwe
+#"(Bha,(Bpu #2,(Bli #2,(Bam #2,Bsu #2)#2)#2)#2,(Bwe #1,(Bce #1,(Ban #3,Bth #1)#1)#1)#1);", #H3C2S1
+#"(Bha,(Bpu #2,(Bli #2,(Bam #2,Bsu #2)#2)#2)#2,(Bwe #3,(Bce #1,(Ban #1,Bth #1)#1)#1)#1);", #H3C2bweS1
+#);
+
+### First, filter the old results
+ ## read the list of ids with treedist <= 2
+ filter = read.table( "_BGids.treedist.lessthan2.050409.csv", header=F);
+ names(filter) = c("id", "treedist");
+ filter$id = as.character( filter$id );
+
+ ## read old lnL 
+ tblnL = read.table( "out.all.Bha4sub4cereus.lnL.010509.csv", header=F );
+ tblnL[,1] = as.character( tblnL[,1] );
+ names(tblnL) = c("bg","model",NA,NA,NA,"lnL",NA);
+ tblnL.old = tblnL
+
+ ## filter old lnL table
+ #mt = match(filter$id, tblnL$bg)  #error, this gives only 1 record
+ #tblnL.filtered = tblnL[ mt, ]
+
+ tblnL$selected = 0;
+ for( i in 1:length(filter$id) ) {
+   currentID = filter$id[i]; 
+   tblnL$selected[ grep(currentID, tblnL$bg)] = 1
+ }
+
+ tblnL = tblnL[ tblnL$selected == 1, ]
+
+ x= intersect( filter$id, tblnL.old$bg );
+ y= intersect( filter$id, tblnL$bg );
+ identical(x,y) #[1] TRUE
+
+
+#### Now, do LRT
+ # parse the lnL results
+ tbH0     = tblnL[grep("H0",     tblnL[,2]), ]
+ tbH1C1     = tblnL[grep('H1C1',   tblnL[,2]), ] 
+ tbH1S1     = tblnL[grep('H1S1',   tblnL[,2]), ] 
+ tbH2C1S1   = tblnL[grep('H2C1S1', tblnL[,2]), ] 
+ 
+myLRT2 = function( tbHprime, tbHA, my.df, qcutoff, tag ) {
+ # LRT using 2 *(loglikelihood1 - loglikelihood2)
+ for( j in 1:length(tbHprime[,1]) ) {
+  # print(j);
+  my.bg = tbHprime[j,1];
+  lnLHA     = tbHA$lnL[tbHA$bg==my.bg];
+  lnLHprime = tbHprime$lnL[tbHprime$bg==my.bg]; 
+  deltalnL  = - lnLHA  + lnLHprime 
+  tbHprime$deltalnL[j] = deltalnL ;
+  tbHprime$p[j] = round( pchisq( 2* deltalnL, df=my.df,low=F), 4);
+ }
+
+ qobj = qvalue( tbHprime$p );
+ tbHprime$q = qobj$qvalues; 
+ tbHprime$sig = ifelse( tbHprime$q < qcutoff, tag, '' );
+ tbHprime;
+ return(tbHprime)
+}
+
+ # tbHprime$sig = ifelse( tbHprime$q < qcutoff, tag, '' );
+ tbH1C1   = myLRT2( tbH1C1,   tbH0, 1, 0.05, 'C' );
+ tbH1S1   = myLRT2( tbH1S1,   tbH0, 1, 0.05, 'S' );
+ tbH2C1S1 = myLRT2( tbH2C1S1, tbH0, 2, 0.05, 'CS' );
+
+ head(tbH1C1)
+ head(tbH1S1);
+ table( tbH1C1$sig );
+ table( tbH1S1$sig );
+ #table( tbH2C1S1$sig );#not meaningful
+
+ ## summarize the test resutls
+ tbH1C1$sigS1 = tbH1S1$sig[match(tbH1C1$bg, tbH1S1$bg)] 
+ for( j in 1:length(tbH1C1[,1]) ) {
+   tbH1C1$summary[j] = paste(tbH1C1$sig[j], tbH1C1$sigS1[j], sep='');  
+ }
+ table( tbH1C1$summary );
+
+####now, do H1-H2 test and update summary
+ for( j in 1:length(tbH1C1[,1]) ) {
+   my.bg = tbH1C1$bg[j];
+   tag = tbH1C1$summary[j]; 
+   if (tag == 'C' | tag=='CS' ) { #H1C1 vs H2C1S1
+    lnLHA     = tbH1C1$lnL[tbH1C1$bg==my.bg];
+    lnLHprime = tbH2C1S1$lnL[tbH2C1S1$bg==my.bg]; 
+    deltalnL  = - lnLHA  + lnLHprime 
+    tbH1C1$delCS2[j] = deltalnL[1] ;
+    tbH1C1$pCS2[j]   = round( pchisq( 2* deltalnL, df=1,low=F), 4);
+   } else if ( tag == 'S' ) { #H1S1 vs H2C1S1
+    lnLHA     = tbH1S1$lnL[tbH1S1$bg==my.bg];
+    lnLHprime = tbH2C1S1$lnL[tbH2C1S1$bg==my.bg]; 
+    deltalnL  = - lnLHA  + lnLHprime 
+    tbH1C1$delCS2[j] = deltalnL ;
+    tbH1C1$pCS2[j]   = round( pchisq( 2* deltalnL, df=1,low=F), 4);
+   } else {
+    tbH1C1$delCS2[j] = NA;
+    tbH1C1$pCS2[j]   = NA;
+   } 
+ }
+ x = tbH1C1[ ! is.na(tbH1C1$pCS2), ] 
+ qobj = qvalue( x$pCS2);
+ x$qCS2 = qobj$qvalues; 
+ tbH1C1$qCS2 = x$qCS2[match(tbH1C1$bg, x$bg)]
+ summary( x$qC2 );
+ summary( tbH1C1$qCS2 );
+ tbH1C1[!is.na(tbH1C1$qCS2),][1:10,]
+ 
+ qcutoff = 0.05; 
+ tbH1C1$sig2 = ifelse( tbH1C1$qCS2 < qcutoff  , 'CS2',  NA );
+ tbH1C1[!is.na(tbH1C1$sig2), ][1:10,]
+
+ table( tbH1C1$sig2 ); #86 H2C1S1 <0.05 fdr
+ 
+ out = tbH1C1[-c(2:4,6)]
+ # outfile = paste( "_", my.model, "LRT.all.Bha4sub4cer.010609.csv", sep='.');
+ outfile = paste( "_nest.LRT.Bha4sub4cer.050409.csv", sep='.');
+ write.csv(out, outfile , quote=F, row.names=F)
+ #I need put these summary report to manuscript and ppt. 
+#### End, do H1-H2 test and update summary
+ 
+### partition coat, noncoat, essential genes
+ ###essential bg
+ tbe = read.table( "BG.essential.Kobayashi03.tab", header=F  );
+ tbe[,1] = as.character( tbe[,1] );
+ bge = tbe[,1];
+ tbe$type = "essential";
+ rownames(tbe) = tbe[,1];
+
+ ###coat bg
+ tbc = read.csv( "_coat.profile.122908.csv", sep="\t");
+ tbc$id = as.character(tbc$id);
+ tbc$type = "coat";
+ rownames(tbc) = tbc$id;
+
+ #omega$coatflag  = tbc$type[match(omega$bg, tbc$id)]
+ #omega$essenflag = tbe$type[match(omega$bg, tbe[,1])]
+
+ tbH1C1$coatflag  = tbc$type[match(tbH1C1$bg, tbc$id)]
+ tbH1C1$essenflag = tbe$type[match(tbH1C1$bg, tbe[,1])]
+
+##### report for publications, Venn diagram
+ table(tbH1C1$summary) #1174
+ table(tbH1C1$sig2) #86
+ table(tbH1C1$coatflag) #19
+ table(tbH1C1$essenflag) #182
+
+ coat  = tbH1C1[ ! is.na(tbH1C1$coatflag), ]
+ essen = tbH1C1[ ! is.na(tbH1C1$essenflag), ]
+
+ table(coat$sig2) #3 coat genes H2
+ table(essen$sig2) #16 essential genes H2
+ 
+ table(coat$summary) #
+ table(essen$summary) 
+
+
+quit("yes");
+

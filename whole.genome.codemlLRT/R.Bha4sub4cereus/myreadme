@@ -1,0 +1,12 @@
+
+
+-----
+
+ grep lnL Bha4sub4cereus/BG1*/H*/resul* > out.Bha4sub4cereus/grep.lnL.txt
+
+ cut -f 2 -d '/' grep.lnL.txt > _tmp.txt
+ paste _tmp.txt grep.lnL.txt > out.all.Bha4sub4cereus.lnL.010509.csv
+
+
+
+
