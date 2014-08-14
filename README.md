@@ -1,9 +1,9 @@
 BacillusSporeCoat, by Hong Qin, 2013
 =================
 Supporting data and information for Bacillus coat project, as in Hong Qin and Adam Driks, , "Contrasting evolutionary patterns of spore coat proteins in two Bacillus species groups are linked to a difference in cellular structure", 
-2013, BMC Evolutionary Biology, 13:261  doi:10.1186/1471-2148-13-261
-http://www.biomedcentral.com/1471-2148/13/261
+2013, BMC Evolutionary Biology, 13:261  doi:10.1186/1471-2148-13-261. 
 
+URL:  http://www.biomedcentral.com/1471-2148/13/261
 
 All files are provided 'as is'. 
 
