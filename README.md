@@ -7,7 +7,7 @@ URL:  http://www.biomedcentral.com/1471-2148/13/261
 
 All files are provided 'as is'. 
 
-Working folders are simple 'dump' into this repository. Many links and path should be modified 
+Working folders are simply 'dumped' into this repository. Many links and path should be modified 
 in order for the scripts to run. 
 
 Folder online.supplementary.files contain the supplementary files for Qin & Driks2013
